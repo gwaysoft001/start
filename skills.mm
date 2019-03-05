@@ -16,8 +16,7 @@
       current version: CentOS-7-x86_64-DVD-1810.iso
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551771854883" ID="ID_1892302707" MODIFIED="1551771864166" TEXT="command">
 <node CREATED="1551771830995" ID="ID_1190437359" MODIFIED="1551772221556" TEXT="network">
 <node CREATED="1551771868059" ID="ID_825215649" MODIFIED="1551776228694" TEXT="ifconfig">
@@ -42,8 +41,7 @@
       yum install net-tools.x86_64
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551772241548" ID="ID_250064596" MODIFIED="1551772289972" TEXT="practice">
 <node CREATED="1551772289973" ID="ID_1420344602" MODIFIED="1551772298144" TEXT="ifconfig"/>
 </node>
@@ -100,8 +98,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -120,8 +117,7 @@
       ip addr show
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -182,14 +178,13 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node CREATED="1551779234683" ID="ID_151450836" MODIFIED="1551779239639" TEXT="common">
-<node CREATED="1551779241011" ID="ID_1279201537" MODIFIED="1551779324794" TEXT="mount">
+<node CREATED="1551779241011" ID="ID_1279201537" MODIFIED="1551779569035" TEXT="mount">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -237,8 +232,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551777020955" ID="ID_562102588" MODIFIED="1551778713437" TEXT="install">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -249,8 +243,7 @@
       download: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1551778700043" ID="ID_391807414" MODIFIED="1551778707004" TEXT="PuTTY"/>
 <node CREATED="1551777035891" ID="ID_880366157" MODIFIED="1551777611534" TEXT="pscp">
@@ -318,8 +311,7 @@
       website: https://www.vmware.com/products/workstation-pro.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551771276733" ID="ID_1728370365" MODIFIED="1551775637992" TEXT="install">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -336,8 +328,7 @@
       current version keys: ZC10K-8EF57-084QZ-VXYXE-ZF2XF
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1551771341644" ID="ID_890149336" MODIFIED="1551771370392" TEXT="CentOS7">
 <node CREATED="1551771640139" ID="ID_1708292391" MODIFIED="1551775460821" TEXT="network setting">
@@ -371,39 +362,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1551774056509" ID="ID_1154409754" MODIFIED="1551776644213" POSITION="right" TEXT="Java SE">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      website: https://www.oracle.com/technetwork/java/javase/overview/index.html
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1551774176363" ID="ID_1696620606" MODIFIED="1551777014450" TEXT="Java SE 8">
-<node CREATED="1551774224683" ID="ID_590944319" MODIFIED="1551777018132" TEXT="install by exe">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      download: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-    </p>
-    <p>
-      current version: jdk-8u201-windows-x64.exe
-    </p>
-  </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -427,8 +386,46 @@
       system requirement: Java Runtime Environment 1.6 or later.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1551779599393" POSITION="right" TEXT="collaboration">
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1551779833607" TEXT="git"/>
+<node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1551779840263" TEXT="github"/>
+</node>
+<node CREATED="1551779842099" ID="ID_431614420" MODIFIED="1551779846288" POSITION="left" TEXT="backup"/>
+<node CREATED="1551779927804" ID="ID_1056730351" MODIFIED="1551779942119" POSITION="right" TEXT="development">
+<node CREATED="1551779862540" ID="ID_1972565164" MODIFIED="1551779909767" TEXT="front end"/>
+<node CREATED="1551779913404" ID="ID_1616036032" MODIFIED="1551779924863" TEXT="back end">
+<node CREATED="1551774056509" ID="ID_1154409754" MODIFIED="1551776644213" TEXT="Java SE">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      website: https://www.oracle.com/technetwork/java/javase/overview/index.html
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1551774176363" ID="ID_1696620606" MODIFIED="1551777014450" TEXT="Java SE 8">
+<node CREATED="1551774224683" ID="ID_590944319" MODIFIED="1551777018132" TEXT="install by exe">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      download: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+    </p>
+    <p>
+      current version: jdk-8u201-windows-x64.exe
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
