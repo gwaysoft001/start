@@ -3,7 +3,7 @@
 <node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1551770997686" TEXT="skills">
 <node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1551770980745" POSITION="right" TEXT="Operating System">
 <node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1551771394807" TEXT="linux">
-<node CREATED="1551771403043" ID="ID_762738337" MODIFIED="1551775820973" TEXT="CentOS">
+<node CREATED="1551771403043" ID="ID_762738337" MODIFIED="1551947124164" TEXT="CentOS">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -181,6 +181,34 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1551947218805" ID="ID_511538169" MODIFIED="1551947223057" TEXT="install">
+<node CREATED="1551947223058" ID="ID_1622008792" MODIFIED="1551948112360" TEXT="net-tools">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      yum install net-tools.x86_64
+    </p>
+    <p>
+      ifconfig -&gt; ip a
+    </p>
+    <p>
+      netstat -&gt; ss
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1551947324457" ID="ID_481801861" MODIFIED="1551947341025" TEXT="ifconfig"/>
+<node CREATED="1551947342772" ID="ID_686771029" MODIFIED="1551947345166" TEXT="netstat"/>
+</node>
+<node CREATED="1551947246992" ID="ID_471487222" MODIFIED="1551948112939" TEXT="bind-utils">
+<node CREATED="1551947400212" ID="ID_1258464322" MODIFIED="1551947410153" TEXT="nslookup"/>
+<node CREATED="1551947411788" ID="ID_103194337" MODIFIED="1551947413175" TEXT="host"/>
+<node CREATED="1551947439896" ID="ID_1612171624" MODIFIED="1551947442114" TEXT="dig"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1551779234683" ID="ID_151450836" MODIFIED="1551779239639" TEXT="common">
@@ -206,8 +234,7 @@
       mount /dev/cdrom /media/cdrom
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -296,6 +323,33 @@
 </node>
 </node>
 <node CREATED="1551778882371" ID="ID_1405253464" MODIFIED="1551778888944" TEXT="SecureCRT"/>
+<node CREATED="1551949004491" ID="ID_156293368" MODIFIED="1551949709793" TEXT="Xshell">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      download: https://www.netsarang.com/en/free-for-home-school/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1551948235253" ID="ID_428878726" MODIFIED="1551948240709" TEXT="service">
+<node CREATED="1551945820801" ID="ID_408963751" MODIFIED="1551946080276" TEXT="bind">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Search IP: http://www.ip138.com/
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -330,7 +384,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1551771341644" ID="ID_890149336" MODIFIED="1551771370392" TEXT="CentOS7">
+<node CREATED="1551771341644" ID="ID_890149336" MODIFIED="1551948294297" TEXT="CentOS7">
 <node CREATED="1551771640139" ID="ID_1708292391" MODIFIED="1551775460821" TEXT="network setting">
 <richcontent TYPE="NOTE"><html>
   <head>
