@@ -133,9 +133,8 @@
 </node>
 </node>
 <node CREATED="1551776347099" ID="ID_1963052222" MODIFIED="1551776357504" TEXT="install">
-<node CREATED="1551773629156" ID="ID_371840669" MODIFIED="1551773632736" TEXT="yum">
-<node CREATED="1551776365091" ID="ID_757082662" MODIFIED="1551776372184" TEXT="resolve">
-<node CREATED="1551773686915" ID="ID_1620302082" MODIFIED="1551776581646" TEXT="revise CentOS-Base.repo">
+<node CREATED="1551773629156" ID="ID_371840669" MODIFIED="1552271539776" TEXT="yum">
+<node CREATED="1551947218805" ID="ID_511538169" MODIFIED="1552271525017" TEXT="config">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -143,6 +142,12 @@
   <body>
     <p>
       A
+    </p>
+    <p>
+      revise CentOS-Base.repo
+    </p>
+    <p>
+      Q
     </p>
     <p>
       cd /etc/yum.repos.d
@@ -171,48 +176,39 @@
     <p>
       
     </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-</node>
-<node CREATED="1551947218805" ID="ID_511538169" MODIFIED="1551947223057" TEXT="install">
-<node CREATED="1551947223058" ID="ID_1622008792" MODIFIED="1551948112360" TEXT="net-tools">
+<node CREATED="1552271544174" ID="ID_1360267149" MODIFIED="1552273787960" TEXT="command">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      yum install net-tools.x86_64
+      yum -h -- Show this help message and exit
     </p>
     <p>
-      ifconfig -&gt; ip a
+      yum list installed vim-- List a installed a package or groups of packages&#160;&#160;on your system
     </p>
     <p>
-      netstat -&gt; ss
+      yum clean all -- Remove cached data
+    </p>
+    <p>
+      yum search vim-- Search package detailed for the given string
+    </p>
+    <p>
+      yum install -- Install a package or packages on your system
     </p>
   </body>
 </html>
 </richcontent>
-<node CREATED="1551947324457" ID="ID_481801861" MODIFIED="1551947341025" TEXT="ifconfig"/>
-<node CREATED="1551947342772" ID="ID_686771029" MODIFIED="1551947345166" TEXT="netstat"/>
-</node>
-<node CREATED="1551947246992" ID="ID_471487222" MODIFIED="1551948112939" TEXT="bind-utils">
-<node CREATED="1551947400212" ID="ID_1258464322" MODIFIED="1551947410153" TEXT="nslookup"/>
-<node CREATED="1551947411788" ID="ID_103194337" MODIFIED="1551947413175" TEXT="host"/>
-<node CREATED="1551947439896" ID="ID_1612171624" MODIFIED="1551947442114" TEXT="dig"/>
-</node>
 </node>
 </node>
 </node>
 <node CREATED="1551779234683" ID="ID_151450836" MODIFIED="1551779239639" TEXT="common">
-<node CREATED="1551779241011" ID="ID_1279201537" MODIFIED="1551779569035" TEXT="mount">
+<node CREATED="1551779241011" ID="ID_1279201537" MODIFIED="1552271371554" TEXT="mount">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -233,8 +229,37 @@
     <p>
       mount /dev/cdrom /media/cdrom
     </p>
+    <p>
+      numount /media/cdrom
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mount /dev/sda1 /media/usb
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+<node CREATED="1552273870924" ID="ID_931416290" MODIFIED="1552274064478" TEXT="shutdown">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      shutdown -h now | init 0
+    </p>
+    <p>
+      shutdown -r | init 6
+    </p>
+    <p>
+      https://www.cnblogs.com/ningvsban/p/3663337.html
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -333,8 +358,7 @@
       download: https://www.netsarang.com/en/free-for-home-school/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -350,6 +374,31 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1551947246992" ID="ID_471487222" MODIFIED="1551948112939" TEXT="bind-utils">
+<node CREATED="1551947400212" ID="ID_1258464322" MODIFIED="1551947410153" TEXT="nslookup"/>
+<node CREATED="1551947411788" ID="ID_103194337" MODIFIED="1551947413175" TEXT="host"/>
+<node CREATED="1551947439896" ID="ID_1612171624" MODIFIED="1551947442114" TEXT="dig"/>
+</node>
+<node CREATED="1551947223058" ID="ID_1622008792" MODIFIED="1552271453948" TEXT="net-tools">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      yum install net-tools.x86_64
+    </p>
+    <p>
+      ifconfig -&gt; ip a
+    </p>
+    <p>
+      netstat -&gt; ss
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1551947324457" ID="ID_481801861" MODIFIED="1551947341025" TEXT="ifconfig"/>
+<node CREATED="1551947342772" ID="ID_686771029" MODIFIED="1551947345166" TEXT="netstat"/>
+</node>
 </node>
 </node>
 </node>
