@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1551770997686" TEXT="skills">
 <node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1551770980745" POSITION="right" TEXT="Operating System">
-<node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1551771394807" TEXT="linux">
+<node CREATED="1551771390235" FOLDED="true" ID="ID_1954920768" MODIFIED="1552883940815" TEXT="linux">
 <node CREATED="1551771403043" ID="ID_762738337" MODIFIED="1551947124164" TEXT="CentOS">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -131,6 +131,92 @@
 <node CREATED="1551773015877" ID="ID_571959361" MODIFIED="1551773024555" TEXT="service network restart"/>
 </node>
 </node>
+<node CREATED="1552638653710" ID="ID_1459699075" MODIFIED="1552638656026" TEXT="scan">
+<node CREATED="1552633381254" ID="ID_231236721" MODIFIED="1552633485622" TEXT="fping">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Q
+    </p>
+    <p>
+      install by source
+    </p>
+    <p>
+      A
+    </p>
+    <p>
+      down: http://fping.org/
+    </p>
+    <p>
+      tar, configuration, make, make install
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1552633485606" ID="ID_1459668501" MODIFIED="1552633796542" TEXT="command">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ping 172.16.31.143 172.16.31.150
+    </p>
+    <p>
+      # show targets that are alive
+    </p>
+    <p>
+      ping -a 172.16.31.143 172.16.31.150
+    </p>
+    <p>
+      # generate target list
+    </p>
+    <p>
+      ping -g 172.16.31.143 172.16.31.150
+    </p>
+    <p>
+      ping -g 172.16.30.1/24
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1552634898590" ID="ID_1668232786" MODIFIED="1552635066830" TEXT="hping">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      yum install libpcap-devel
+    </p>
+    <p>
+      down: http://hping.org/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1552639107927" ID="ID_544553562" MODIFIED="1552639112870" TEXT="traceroute"/>
+<node CREATED="1552639429933" ID="ID_1654365648" MODIFIED="1552639433109" TEXT="mtr"/>
+<node CREATED="1552639534397" ID="ID_415186139" MODIFIED="1552639541778" TEXT="nmap"/>
+<node CREATED="1552639551351" ID="ID_1812941323" MODIFIED="1552640217068" TEXT="nc">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ncat
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1551776347099" ID="ID_1963052222" MODIFIED="1551776357504" TEXT="install">
 <node CREATED="1551773629156" ID="ID_371840669" MODIFIED="1552271539776" TEXT="yum">
@@ -174,8 +260,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552271544174" ID="ID_1360267149" MODIFIED="1552273787960" TEXT="command">
 <richcontent TYPE="NOTE"><html>
@@ -201,6 +286,27 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1552632696645" ID="ID_290708277" MODIFIED="1552632893099" TEXT="rpm">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Q
+    </p>
+    <p>
+      View gcc package
+    </p>
+    <p>
+      A
+    </p>
+    <p>
+      rpm -aq | grep gcc
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1551779234683" ID="ID_151450836" MODIFIED="1551779239639" TEXT="common">
@@ -265,8 +371,7 @@
       source filename | . filename
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1552275206507" ID="ID_575303073" MODIFIED="1552275209843" TEXT="tools">
@@ -328,8 +433,7 @@
       vi /etc/vimrc | ~/.vimrc
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1552276484556" ID="ID_884884653" MODIFIED="1552289381794" TEXT="command mode">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -376,8 +480,7 @@
       nx -- delete n words
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552276495458" ID="ID_1230984381" MODIFIED="1552289377130" TEXT="insert mode">
 <richcontent TYPE="NOTE"><html>
@@ -395,6 +498,19 @@
 </html></richcontent>
 </node>
 </node>
+</node>
+<node CREATED="1552550426961" ID="ID_1309496620" MODIFIED="1552550430123" TEXT="ftp"/>
+<node CREATED="1552631661214" ID="ID_1674378147" MODIFIED="1552631684703" TEXT="tar">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      tar -xvf xxx.tar.gz
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1551773995387" ID="ID_721970981" MODIFIED="1551776902368" TEXT="tools">
@@ -450,7 +566,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1551778264292" ID="ID_130182963" MODIFIED="1551778688575" TEXT="psftp">
+<node CREATED="1551778264292" ID="ID_130182963" MODIFIED="1552631528314" TEXT="psftp">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -475,6 +591,12 @@
       psftp&gt; put source
     </p>
     <p>
+      e.g.
+    </p>
+    <p>
+      psftp&gt; put d:\tmp\fping-4.2.tar.gz
+    </p>
+    <p>
       command: https://blog.csdn.net/lawliet233/article/details/79430975
     </p>
   </body>
@@ -496,7 +618,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1551948235253" FOLDED="true" ID="ID_428878726" MODIFIED="1552275180420" TEXT="service">
+<node CREATED="1551948235253" ID="ID_428878726" MODIFIED="1552550435130" TEXT="service">
 <node CREATED="1551945820801" ID="ID_408963751" MODIFIED="1551946080276" TEXT="bind">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -534,6 +656,28 @@
 <node CREATED="1551947342772" ID="ID_686771029" MODIFIED="1551947345166" TEXT="netstat"/>
 </node>
 </node>
+<node CREATED="1552550437039" ID="ID_328495785" MODIFIED="1552550441535" TEXT="iptables"/>
+<node CREATED="1552631885388" ID="ID_940041888" MODIFIED="1552632921775" TEXT="gcc">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # c
+    </p>
+    <p>
+      yum -y install gcc
+    </p>
+    <p>
+      # c++
+    </p>
+    <p>
+      yum -y install gcc-c++
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1552291370894" ID="ID_1976790810" MODIFIED="1552292217998" TEXT="shell">
 <richcontent TYPE="NOTE"><html>
@@ -554,9 +698,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1552293625571" ID="ID_364845061" MODIFIED="1552293689841" TEXT="bracket">
+</html></richcontent>
+<node CREATED="1552293625571" ID="ID_364845061" MODIFIED="1552548458114" TEXT="bracket">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -566,8 +709,7 @@
       https://www.cnblogs.com/hanggegege/p/5928870.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -659,6 +801,105 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1552883796637" ID="ID_411135537" MODIFIED="1552883926695" TEXT="Visual Studio code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://code.visualstudio.com/
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1552883830985" TEXT="Shortcut">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ctrl + Shift + P -- Command Palette
+    </p>
+    <p>
+      Ctrl + Shift + X -- Extensions
+    </p>
+    <p>
+      Ctrl + Shift + E -- Explorer window
+    </p>
+    <p>
+      F11 -- All Screen
+    </p>
+    <p>
+      Ctrl + P --Quick Open
+    </p>
+    <p>
+      Ctrl + B -- Toggle Sidebar
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Editing hacks
+    </p>
+    <p>
+      Shift + Alt + Cursor -- Column
+    </p>
+    <p>
+      Shift + Alt + Up/Down -- Copy line up/down
+    </p>
+    <p>
+      Alt + Up/Down -- Move line up/down
+    </p>
+    <p>
+      Ctrl + Shift + Left/Right/Up/Down -- Shrink/expand selection
+    </p>
+    <p>
+      Ctrl + H -- Replace $\n (find \n)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Start Bar
+    </p>
+    <p>
+      Ctrl + Shift + M -- PROBLEMS
+    </p>
+    <p>
+      Ctrl + ` -- TERMINAL
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1552883942833" ID="ID_1403373899" MODIFIED="1552884266957" TEXT="Fix">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Q
+    </p>
+    <p>
+      Chinese mess code
+    </p>
+    <p>
+      A
+    </p>
+    <p>
+      Click [UTF-8] at bottom right
+    </p>
+    <p>
+      Select [Reopen with encoding], select relevant encoding
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1551779599393" POSITION="right" TEXT="collaboration">
