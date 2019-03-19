@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1551770997686" TEXT="skills">
 <node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1551770980745" POSITION="right" TEXT="Operating System">
-<node CREATED="1551771390235" FOLDED="true" ID="ID_1954920768" MODIFIED="1552883940815" TEXT="linux">
+<node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1552896729320" TEXT="linux">
 <node CREATED="1551771403043" ID="ID_762738337" MODIFIED="1551947124164" TEXT="CentOS">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -375,12 +375,15 @@
 </node>
 </node>
 <node CREATED="1552275206507" ID="ID_575303073" MODIFIED="1552275209843" TEXT="tools">
-<node CREATED="1552275209844" ID="ID_744986189" MODIFIED="1552290757274" TEXT="vi &amp; vim">
+<node CREATED="1552275209844" ID="ID_744986189" MODIFIED="1552901316285" TEXT="vi &amp; vim">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      yum install vim
+    </p>
     <p>
       Q<br />alias vi='vim'
     </p>
@@ -415,16 +418,7 @@
       temporary
     </p>
     <p>
-      : syntax on | off
-    </p>
-    <p>
-      : set number | nonumber
-    </p>
-    <p>
-      : set autoindent
-    </p>
-    <p>
-      : set cindent
+      :syntax on | off
     </p>
     <p>
       permanent
@@ -432,16 +426,490 @@
     <p>
       vi /etc/vimrc | ~/.vimrc
     </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
   </body>
-</html></richcontent>
-<node CREATED="1552276484556" ID="ID_884884653" MODIFIED="1552289381794" TEXT="command mode">
+</html>
+</richcontent>
+<node CREATED="1552901364679" ID="ID_1076795549" MODIFIED="1552982745104" TEXT="vimrc">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      ESC -- command mode
+      
+    </p>
+    <p>
+      ----set---------
+    </p>
+    <p>
+      :set number | nonumber (default)
+    </p>
+    <p>
+      :set hls | nohls
+    </p>
+    <p>
+      :set incsearch | onincsearch (default)
+    </p>
+    <p>
+      :set ruler (default) | noruler
+    </p>
+    <p>
+      :set ignorecase | noignorecase (default)
+    </p>
+    <p>
+      :set autoindent
+    </p>
+    <p>
+      :set smartindent (for C)
+    </p>
+    <p>
+      :set cindent
+    </p>
+    <p>
+      :set history?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      --map-----------------
+    </p>
+    <p>
+      ''i insert mode
+    </p>
+    <p>
+      ''&lt;cr&gt; enter
+    </p>
+    <p>
+      map &lt;F3&gt; i&lt;a&gt;&lt;cr&gt;&lt;space&gt;&lt;space&gt;map&lt;cr&gt;&lt;esc&gt;&lt;/a&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      --let-------------------------
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      -------add ~/.vimrc&#160;&#160;| source ~/.vimrc---------
+    </p>
+    <p>
+      set number
+    </p>
+    <p>
+      set autoindent
+    </p>
+    <p>
+      set cindent
+    </p>
+    <p>
+      set softtabstop=4&#160;&#160;5 set incsearch
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      autocmd BufNewFile *.sh exec &quot;:call SetTitle()&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      let $author_email=&quot;gwaysoft@outlook.com&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      func SetTitle()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;call setline(1,&quot;\##########################&quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;call append(line(&quot;.&quot;), &quot;\# Auther: &quot;.$author_name)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;call append(line(&quot;.&quot;)+1, &quot;\# Create Time: &quot;.strftime(&quot;%c&quot;))
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;call append(line(&quot;.&quot;)+2, &quot;\##########################&quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;call append(line(&quot;.&quot;)+3, &quot;\#!/bin/bash&quot;)
+    </p>
+    <p>
+      endfunc
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1552901387787" ID="ID_1998311433" MODIFIED="1552901391988" TEXT="mode">
+<node CREATED="1552901391989" ID="ID_1100860149" MODIFIED="1552983360767" TEXT="normal mode">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Press Esc -- Normal mode
+    </p>
+    <p>
+      [count] operation ([count motion])
+    </p>
+    <p>
+      ------control cursor------------
+    </p>
+    <p>
+      h,j,k,l -- left, down, up, right
+    </p>
+    <p>
+      0, ^ (Ctrl + 6) -- first in a line
+    </p>
+    <p>
+      $&#160;(Ctrl + 4)&#160;-- last in a line
+    </p>
+    <p>
+      gg -- first line
+    </p>
+    <p>
+      ng -- move to n line
+    </p>
+    <p>
+      G (Shift + g) (Ground)-- last line
+    </p>
+    <p>
+      Ctrl + f (front), b (back) -- a page
+    </p>
+    <p>
+      Ctrl + d,u -- a half of page
+    </p>
+    <p>
+      &lt;number&gt; + gg -- number line
+    </p>
+    <p>
+      w/W --&#160;&#160;start of word to right
+    </p>
+    <p>
+      nw -- move n words
+    </p>
+    <p>
+      b/B --&#160;&#160;start of word to left
+    </p>
+    <p>
+      e/E --&#160;&#160;end of word to right
+    </p>
+    <p>
+      ge --&#160;&#160;end of word to left
+    </p>
+    <p>
+      g + Ctrl + g -- view detailed information
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      --------shrink, expand lines-----
+    </p>
+    <p>
+      &gt;&gt; (Shift + .) -- expand
+    </p>
+    <p>
+      &lt;&lt;&#160;(Shift + ,) -- shrink
+    </p>
+    <p>
+      :m,n&gt; -- expand from m to n
+    </p>
+    <p>
+      :m,n&lt; -- shrink from m to n
+    </p>
+    <p>
+      :n&gt;3 -- expand 3 line from n
+    </p>
+    <p>
+      :n&lt;3 -- shrink 3 line from n
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ---yank (copy), delete (cut), put (paste)
+    </p>
+    <p>
+      yy -- copy current line
+    </p>
+    <p>
+      nyy -- copy n line
+    </p>
+    <p>
+      dx -- delete current word
+    </p>
+    <p>
+      ndx -- delete next n words
+    </p>
+    <p>
+      ndmx -- delete n times next m words
+    </p>
+    <p>
+      d{hjkl} -- delete left, down, up, right char
+    </p>
+    <p>
+      d{^$} -- delete from cursor to frist, end
+    </p>
+    <p>
+      dd -- delete current line
+    </p>
+    <p>
+      ndd -- cut n line
+    </p>
+    <p>
+      x -- delete current char
+    </p>
+    <p>
+      nx -- delete n chars
+    </p>
+    <p>
+      yw -- copy current word
+    </p>
+    <p>
+      y3w -- copy next 3 current word
+    </p>
+    <p>
+      p -- paste
+    </p>
+    <p>
+      u -- undo
+    </p>
+    <p>
+      Ctrl + r -- redo
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      --capital--------
+    </p>
+    <p>
+      g + ~ -- change current char
+    </p>
+    <p>
+      g + ~ + w -- change current word
+    </p>
+    <p>
+      g + ~ + {hjkl} -- change left, down, up, right words
+    </p>
+    <p>
+      g + ~ + {^$} -- change frist, end words
+    </p>
+    <p>
+      . -- repeated work
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      cw -- change word
+    </p>
+    <p>
+      cnw -- change n words
+    </p>
+    <p>
+      c + {^$} -- change first end line
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      -- find---------
+    </p>
+    <p>
+      f + char -- find next char
+    </p>
+    <p>
+      F + char -- find previous char
+    </p>
+    <p>
+      t + char -- find next char (exclude the char)
+    </p>
+    <p>
+      d + f + char -- delete find char
+    </p>
+    <p>
+      /xxxxx -- find xxxx
+    </p>
+    <p>
+      n -- find next
+    </p>
+    <p>
+      N (Shift + n) -- find previous
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ---substitute-----
+    </p>
+    <p>
+      [range]s[ubstitute]/{pattern}/{string}/[flags]
+    </p>
+    <p>
+      :s/going/rolling/g -- substitute from going to rolling for current lin
+    </p>
+    <p>
+      :%s/going/rolling/g -- substitute from going to rolling for all
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ---- register--------
+    </p>
+    <p>
+      :reg[isters]
+    </p>
+    <p>
+      :h reg
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1552901402747" ID="ID_1463552961" MODIFIED="1552902213403" TEXT="visual mode">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Press v -- Visual mode
+    </p>
+    <p>
+      cursor + up/down/left/right
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1552276495458" ID="ID_1230984381" MODIFIED="1552977353506" TEXT="insert mode">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Press i,a,o,O -- Insert mode
+    </p>
+    <p>
+      --- insert mode---
+    </p>
+    <p>
+      Shift + i -- insert at front line
+    </p>
+    <p>
+      Shift + a -- insert at end line
+    </p>
+    <p>
+      o -- insert next line
+    </p>
+    <p>
+      O (Shift + o) -- insert previous line
+    </p>
+    <p>
+      count -&gt; {iaoO} -&gt; word -&gt; Esc -- insert word 5 times
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1552276484556" ID="ID_884884653" MODIFIED="1552902621640" TEXT="command mode">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Esc&#160;-- command mode
     </p>
     <p>
       
@@ -450,52 +918,58 @@
       &#160;http://www.runoob.com/linux/linux-vim.html
     </p>
     <p>
-      h,j,k,l -- control cursor
+      :wq # quit and save
     </p>
     <p>
-      0,$ -- first, last in a line
+      :q! # quit and not save
     </p>
     <p>
-      Ctrl + f,b,d,u -- page
+      :h&#160;vim-modes-intro
     </p>
     <p>
-      gg -- first line
+      :e /etc/vimrc
     </p>
     <p>
-      Shift + g --last line
+      :version
+    </p>
+    <p>
+      :h vimrc
+    </p>
+    <p>
+      :h # help
     </p>
     <p>
       
     </p>
     <p>
-      ndd -- cut n line
+      
     </p>
     <p>
-      nyy -- copy n line
+      
     </p>
     <p>
-      p -- paste
-    </p>
-    <p>
-      nx -- delete n words
+      
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1552276495458" ID="ID_1230984381" MODIFIED="1552289377130" TEXT="insert mode">
+<node CREATED="1552982909613" ID="ID_1581981878" MODIFIED="1552983324747" TEXT="replace mode">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      :wq -- quit and save
+      Shift + r/R -- replace directly
     </p>
     <p>
-      :q! -- quit and not save
+      r + char -- replace char
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -812,8 +1286,7 @@
       https://code.visualstudio.com/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1552883830985" TEXT="Shortcut">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -872,10 +1345,9 @@
       Ctrl + ` -- TERMINAL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1552883942833" ID="ID_1403373899" MODIFIED="1552884266957" TEXT="Fix">
+<node CREATED="1552883942833" ID="ID_1403373899" MODIFIED="1552896724491" TEXT="Fix">
 <richcontent TYPE="NOTE"><html>
   <head>
     
