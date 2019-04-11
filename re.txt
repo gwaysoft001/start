@@ -1,6 +1,20 @@
-Start
-start01
-start02
-vscode00
-vscode01
-
+select        
+         'AUD'   AU01,
+         'BRL'   BR01,
+         'CHF'   CH01,
+         'CNY'   CN01,
+         'CNY'   CN04,
+         'CNY'   CN05,
+         'USD'   HK01,
+         'HKD'   HK02,
+         'HKD'   HK03,
+         'INR'   IN01,
+         'JPY'   JP01,
+         'JPY'   JP02,
+         'MYR'   MY01,       
+         'EUR'   NL01,
+         'SGD'   SG01,
+         'THB'   TH02,
+         'TWD'   TW01,
+         'TWD'   TW02,
+         'USD'   US01

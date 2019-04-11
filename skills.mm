@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1551770997686" TEXT="skills">
 <node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1551770980745" POSITION="right" TEXT="Operating System">
-<node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1552896729320" TEXT="linux">
+<node CREATED="1551771390235" FOLDED="true" ID="ID_1954920768" MODIFIED="1554963861473" TEXT="linux">
 <node CREATED="1551771403043" ID="ID_762738337" MODIFIED="1551947124164" TEXT="CentOS">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -436,9 +436,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1552901364679" ID="ID_1076795549" MODIFIED="1552982745104" TEXT="vimrc">
+</html></richcontent>
+<node CREATED="1552901364679" ID="ID_1076795549" MODIFIED="1553068764296" TEXT="vimrc">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -458,6 +457,9 @@
     </p>
     <p>
       :set incsearch | onincsearch (default)
+    </p>
+    <p>
+      :set hlsearch | onhlsearch (default)
     </p>
     <p>
       :set ruler (default) | noruler
@@ -517,7 +519,10 @@
       set cindent
     </p>
     <p>
-      set softtabstop=4&#160;&#160;5 set incsearch
+      set softtabstop=4&#160;&#160;
+    </p>
+    <p>
+      set incsearch
     </p>
     <p>
       
@@ -576,15 +581,11 @@
     <p>
       
     </p>
-    <p>
-      
-    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552901387787" ID="ID_1998311433" MODIFIED="1552901391988" TEXT="mode">
-<node CREATED="1552901391989" ID="ID_1100860149" MODIFIED="1552983360767" TEXT="normal mode">
+<node CREATED="1552901391989" ID="ID_1100860149" MODIFIED="1552985440557" TEXT="normal mode">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -612,7 +613,7 @@
       gg -- first line
     </p>
     <p>
-      ng -- move to n line
+      ngg -- move to n line
     </p>
     <p>
       G (Shift + g) (Ground)-- last line
@@ -836,28 +837,62 @@
     <p>
       
     </p>
-    <p>
-      
-    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1552901402747" ID="ID_1463552961" MODIFIED="1552902213403" TEXT="visual mode">
+<node CREATED="1552901402747" ID="ID_1463552961" MODIFIED="1553764627405" TEXT="visual mode">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p style="text-align: left">
+      v -- Visual mode for word
+    </p>
     <p>
-      Press v -- Visual mode
+      V (Shift + v) -- Visual Line
+    </p>
+    <p>
+      Ctrl + v -- Visual Block
+    </p>
+    <p>
+      gv -- previous selection
+    </p>
+    <p>
+      o -- cursor first or end
+    </p>
+    <p>
+      e -- selected end
+    </p>
+    <p>
+      $ -- line of end
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Shift + V -&gt; $ -&gt; a -&gt; input words -&gt; Esc -- write words at end of line
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
     </p>
     <p>
       cursor + up/down/left/right
     </p>
+    <p>
+      {operator}i{object} -- an object
+    </p>
+    <p>
+      {operator}a{object} -- inner object
+    </p>
+    <p>
+      vi{w|s|p} -- select word, sentence, paragraph
+    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552276495458" ID="ID_1230984381" MODIFIED="1552977353506" TEXT="insert mode">
 <richcontent TYPE="NOTE"><html>
@@ -899,8 +934,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552276484556" ID="ID_884884653" MODIFIED="1552902621640" TEXT="command mode">
 <richcontent TYPE="NOTE"><html>
@@ -951,8 +985,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552982909613" ID="ID_1581981878" MODIFIED="1552983324747" TEXT="replace mode">
 <richcontent TYPE="NOTE"><html>
@@ -967,9 +1000,95 @@
       r + char -- replace char
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+<node CREATED="1553069155092" ID="ID_260038252" MODIFIED="1553070365068" TEXT="buffers">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      :files
+    </p>
+    <p>
+      :buffers
+    </p>
+    <p>
+      :ls
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      :bp[revious]
+    </p>
+    <p>
+      :bn[ext] -- buffer next
+    </p>
+    <p>
+      :bf[irst]
+    </p>
+    <p>
+      :bl[ast]
+    </p>
+    <p>
+      :buffer Number : File_name
+    </p>
+    <p>
+      Ctrl + ^ -- latest file
+    </p>
+    <p>
+      :ball
+    </p>
+    <p>
+      :qall! -- quit all
+    </p>
+    <p>
+      :wall! -- write all
+    </p>
+    <p>
+      :badd xxx -- add new buffer xxx
+    </p>
+    <p>
+      :bd[delete] xxx -- delete xxx buffer
+    </p>
+    <p>
+      :n,mbd -- delete from n to m buffers
+    </p>
+    <p>
+      :%bd -- delete all of buffers
+    </p>
+    <p>
+      :bufdo {cmd}, bufdo set nonumber -- operation command to all of buffers
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1553070503367" ID="ID_558792264" MODIFIED="1553071555238" TEXT="tab page">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      vim -o/On xxx xxx -- split n (O: vertical; o: horizontal)
+    </p>
+    <p>
+      :sp xxx -- split xxx horizontally
+    </p>
+    <p>
+      :vsp xxx -- split xxx vertically
+    </p>
+    <p>
+      Ctrl + ww -- move cursor
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1369,17 +1488,43 @@
       Select [Reopen with encoding], select relevant encoding
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1553246255453" ID="ID_1015784503" MODIFIED="1553246270227" TEXT="postman">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      download: https://www.getpostman.com/downloads/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1551779833607" TEXT="git"/>
+<node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1554964218306" TEXT="github">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      username: gwaysoft@outlook.com | gwaysoft@icloud.com
+    </p>
+    <p>
+      password: 1*****S**
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
-</node>
-<node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1551779599393" POSITION="right" TEXT="collaboration">
-<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1551779833607" TEXT="git"/>
-<node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1551779840263" TEXT="github"/>
-</node>
 <node CREATED="1551779842099" ID="ID_431614420" MODIFIED="1551779846288" POSITION="left" TEXT="backup"/>
-<node CREATED="1551779927804" ID="ID_1056730351" MODIFIED="1551779942119" POSITION="right" TEXT="development">
+<node CREATED="1551779927804" FOLDED="true" ID="ID_1056730351" MODIFIED="1553154004596" POSITION="right" TEXT="development">
 <node CREATED="1551779862540" ID="ID_1972565164" MODIFIED="1551779909767" TEXT="front end"/>
 <node CREATED="1551779913404" ID="ID_1616036032" MODIFIED="1551779924863" TEXT="back end">
 <node CREATED="1551774056509" ID="ID_1154409754" MODIFIED="1551776644213" TEXT="Java SE">
@@ -1409,6 +1554,493 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1553240684757" ID="ID_695757736" MODIFIED="1553240697150" POSITION="left" TEXT="language">
+<node CREATED="1553240709701" ID="ID_1988523140" MODIFIED="1553240874348" TEXT="kotlin">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://kotlinlang.org/
+    </p>
+    <p>
+      Program language for JVM, Android, JS, Native
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1553245169042" POSITION="right" TEXT="java">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Java: https://www.oracle.com/technetwork/java/index.html
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1554125834273" TEXT="Spring">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://spring.io/
+    </p>
+    <p>
+      Spring Cloud Data Flow
+    </p>
+    <p>
+      Spring Cloud
+    </p>
+    <p>
+      Spring Boot
+    </p>
+    <p>
+      Spring Framework
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1553237818125" ID="ID_1081399870" MODIFIED="1553242396896" TEXT="Spring Boot 2.0">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Spring Boot 2.0
+    </p>
+    <p>
+      new features
+    </p>
+    <p>
+      Java SE 8+, Kotlin
+    </p>
+    <p>
+      Spring Framework 5.0.x
+    </p>
+    <p>
+      Web Flux: Java 8 Lambda, Reactive Streams, Servlet 3.1 or Asyc NIO
+    </p>
+    <p>
+      -------
+    </p>
+    <p>
+      Development Environment
+    </p>
+    <p>
+      Java SE 8+ (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+    </p>
+    <p>
+      Maven 3.2.5+ (http://maven.apache.org/download.cgi)
+    </p>
+    <p>
+      IDEA (https://www.jetbrains.com/idea/download/#section=windows)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Learning video
+    </p>
+    <p>
+      https://www.imooc.com/video/16347
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1553246655060" ID="ID_1613516602" MODIFIED="1553246669961" TEXT="Spring Initializr">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://start.spring.io/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1554951127203" ID="ID_386250949" MODIFIED="1554951254907" TEXT="Spring Framework">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      docs: https://spring.io/projects/spring-framework
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1554951207818" ID="ID_349730686" MODIFIED="1554951326156" TEXT="Spring WebFlux">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      docs: https://docs.spring.io/spring/docs/5.1.6.RELEASE/spring-framework-reference/web-reactive.html
+    </p>
+    <p>
+      run on non-blocking servers, such as Netty, Undertow, and Servlet 3.1+ containers
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1553242419797" ID="ID_1934962445" MODIFIED="1553242432549" TEXT="project management">
+<node CREATED="1553242432550" ID="ID_382062370" MODIFIED="1554258468317" TEXT="Maven">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      download: http://maven.apache.org/download.cgi
+    </p>
+    <p>
+      install: http://maven.apache.org/install.html
+    </p>
+    <p>
+      video: https://www.imooc.com/learn/443
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      src
+    </p>
+    <p>
+      &#160;&#160;|-main
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;|-java
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;|-package
+    </p>
+    <p>
+      &#160;&#160;|-test
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;|-java
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;|-package
+    </p>
+    <p>
+      &#160;&#160;|-resource
+    </p>
+    <p>
+      target
+    </p>
+    <p>
+      &#160;&#160;|-classes
+    </p>
+    <p>
+      &#160;&#160;|-test-classes
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1554175519008" ID="ID_324571848" MODIFIED="1554179098296" TEXT="plugins">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mvn -v
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      plugins:&#160;http://maven.apache.org/plugins/index.html
+    </p>
+    <p>
+      central repository: https://search.maven.org/
+    </p>
+    <p>
+      mvn clean
+    </p>
+    <p>
+      mvn compile
+    </p>
+    <p>
+      mvn test
+    </p>
+    <p>
+      mvn package
+    </p>
+    <p>
+      mvn install -- install the built artifact into local repository
+    </p>
+    <p>
+      mvn archetype:generate -- generate a skeleton project structure from an archetype
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1554186325500" ID="ID_738327077" MODIFIED="1554186462113" TEXT="lifecycle">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      clean: pre-clean, clean, post-clean
+    </p>
+    <p>
+      default: compile, test, package, install
+    </p>
+    <p>
+      sit: pre-sit, sit, post-sit, sit-deploy
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1554189752325" ID="ID_70783555" MODIFIED="1554189878839" TEXT="dependency scope">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Scope
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1554196666665" ID="ID_1034911906" MODIFIED="1554258487138" TEXT="nexus">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.sonatype.com/nexus-repository-oss
+    </p>
+    <p>
+      install local remote repository
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1554258490499" ID="ID_327587905" MODIFIED="1554372918019" TEXT="Gradle">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.gradle.org/current/userguide/userguide.html
+    </p>
+    <p>
+      install: https://docs.gradle.org/current/userguide/installation.html#installing_gradle
+    </p>
+    <p>
+      start: https://guides.gradle.org/creating-new-gradle-builds/
+    </p>
+    <p>
+      scan: https://docs.gradle.com/build-scan-plugin/
+    </p>
+    <p>
+      web: https://guides.gradle.org/building-java-web-applications/
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1554279879337" ID="ID_1935055964" MODIFIED="1554279983895" TEXT="task phase">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Initialization
+    </p>
+    <p>
+      Configuration
+    </p>
+    <p>
+      Execution
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1554280043510" ID="ID_1867265122" MODIFIED="1554364208554" TEXT="repository">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      local
+    </p>
+    <p>
+      &#160;&#160;mavenLocal
+    </p>
+    <p>
+      remote
+    </p>
+    <p>
+      &#160;&#160;mavenCentral -- https://search.maven.org/
+    </p>
+    <p>
+      &#160;&#160;jcenter -- https://mvnrepository.com/
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1553245155456" ID="ID_266897878" MODIFIED="1553245235012" TEXT="jdk">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      jdk: https://www.oracle.com/technetwork/java/javase/downloads/index.html
+    </p>
+    <p>
+      install: don't install common jre
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1554364223097" ID="ID_932147726" MODIFIED="1554364233229" TEXT="repository">
+<node CREATED="1554364233230" ID="ID_1348659729" MODIFIED="1554364411765" TEXT="logback">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://logback.qos.ch/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      gradle
+    </p>
+    <p>
+      &#160;&#160;compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 10.5pt"></pre>
+  </body>
+</html></richcontent>
+<node CREATED="1554364411749" ID="ID_1330852424" MODIFIED="1554364437576" TEXT="logback.xml">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+    </p>
+    <p>
+      &lt;configuration&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;!-- appender &#30340;&#37197;&#32622;&#34920;&#31034;&#25171;&#21360;&#21040;&#25511;&#21046;&#21488;&#12290; --&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;appender name=&quot;STDOUT&quot; class=&quot;ch.qos.logback.core.ConsoleAppender&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;!-- encoder &#40664;&#35748;&#37197;&#32622;&#20026; PatternLayoutEncoder --&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;encoder&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;pattern&gt;%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n&lt;/pattern&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/encoder&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/appender&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;appender name=&quot;FILE&quot; class=&quot;ch.qos.logback.core.FileAppender&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;File&gt;target/test.log&lt;/File&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;!-- encoders are assigned the type
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ch.qos.logback.classic.encoder.PatternLayoutEncoder by default --&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;encoder&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;Pattern&gt; %d {HH:mm:ss.SSS} %-5level %class{36}:%L %M - %msg%n&lt;/Pattern&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/encoder&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/appender&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;logger name=&quot;com.gwaysoft.gradle01.todo&quot; level=&quot;DEBUG&quot; additivity=&quot;false&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;appender-ref ref=&quot;STDOUT&quot;/&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/logger&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;root level=&quot;INFO&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;appender-ref ref=&quot;FILE&quot; /&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/root&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;/configuration&gt;
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
