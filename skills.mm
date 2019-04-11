@@ -1505,7 +1505,25 @@
 </node>
 </node>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
-<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1551779833607" TEXT="git"/>
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1554966842712" TEXT="git">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git commit -a -m &quot;update&quot;
+    </p>
+    <p>
+      git status
+    </p>
+    <p>
+      git push
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1554964218306" TEXT="github">
 <richcontent TYPE="NOTE"><html>
   <head>
