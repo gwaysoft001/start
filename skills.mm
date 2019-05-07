@@ -1505,7 +1505,7 @@
 </node>
 </node>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
-<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1554966842712" TEXT="git">
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1555058696675" TEXT="git">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1520,9 +1520,17 @@
     <p>
       git push
     </p>
+    <p>
+      git rm -fr xxx
+    </p>
+    <p>
+      git reset --hard xxxid
+    </p>
+    <p>
+      
+    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1554964218306" TEXT="github">
 <richcontent TYPE="NOTE"><html>
@@ -1537,12 +1545,11 @@
       password: 1*****S**
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1551779842099" ID="ID_431614420" MODIFIED="1551779846288" POSITION="left" TEXT="backup"/>
-<node CREATED="1551779927804" FOLDED="true" ID="ID_1056730351" MODIFIED="1553154004596" POSITION="right" TEXT="development">
+<node CREATED="1551779927804" ID="ID_1056730351" MODIFIED="1556158628226" POSITION="right" TEXT="development">
 <node CREATED="1551779862540" ID="ID_1972565164" MODIFIED="1551779909767" TEXT="front end"/>
 <node CREATED="1551779913404" ID="ID_1616036032" MODIFIED="1551779924863" TEXT="back end">
 <node CREATED="1551774056509" ID="ID_1154409754" MODIFIED="1551776644213" TEXT="Java SE">
@@ -1593,7 +1600,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1553245169042" POSITION="right" TEXT="java">
+<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1556182251595" POSITION="right" TEXT="java">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1604,7 +1611,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1554125834273" TEXT="Spring">
+<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1554974824275" TEXT="Spring">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1693,7 +1700,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1554951127203" ID="ID_386250949" MODIFIED="1554951254907" TEXT="Spring Framework">
+<node CREATED="1554951127203" ID="ID_386250949" MODIFIED="1557200436720" TEXT="Spring Framework">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1702,9 +1709,121 @@
     <p>
       docs: https://spring.io/projects/spring-framework
     </p>
+    <p>
+      api: https://docs.spring.io/spring/docs/5.1.6.RELEASE/javadoc-api/
+    </p>
   </body>
 </html></richcontent>
-<node CREATED="1554951207818" ID="ID_349730686" MODIFIED="1554951326156" TEXT="Spring WebFlux">
+<node CREATED="1554971653983" ID="ID_1379088333" MODIFIED="1554971660016" TEXT="Spring Web">
+<node CREATED="1554971671067" ID="ID_1701330888" MODIFIED="1554973094351" TEXT="Spring Web MVC">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Web MVC View: Thymeleaf/Freemaker/jsp&#160;
+    </p>
+    <p>
+      Web MVC REST
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      MVC process
+    </p>
+    <p>
+      DispatcherServlet
+    </p>
+    <p>
+      HandlerMapping
+    </p>
+    <p>
+      handlerAdapter
+    </p>
+    <p>
+      ViewResolver
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1554969439238" ID="ID_1680243551" MODIFIED="1554971691125" TEXT="Spring Web Servlet">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3 step for Servlet3.0
+    </p>
+    <p>
+      1. @WebServlet(urlPatterns = &quot;/my/servlet&quot;)
+    </p>
+    <p>
+      2. public class MyServlet extends HttpServlet
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3. @ServletComponentScan(basePackages = &quot;com.gwaysoft.firstappdemo.web.servlet&quot;) -- Enables scanning for Servlet components
+    </p>
+    <p>
+      &#160;&#160;&#160;public class FirstAppDemoApplication
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1554972373316" ID="ID_1558344027" MODIFIED="1554973098908" TEXT="Class">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ViewResolver
+    </p>
+    <p>
+      View
+    </p>
+    <p>
+      BasicErrorController
+    </p>
+    <p>
+      RequestMapping
+    </p>
+    <p>
+      @since 4.3
+    </p>
+    <p>
+      GetMapping
+    </p>
+    <p>
+      PostMapping
+    </p>
+    <p>
+      PutMapping
+    </p>
+    <p>
+      DeleteMapping
+    </p>
+    <p>
+      PatchMapping
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      CrossOrigin
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1554951207818" ID="ID_349730686" MODIFIED="1554973628384" TEXT="Spring Web Flux">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1716,12 +1835,975 @@
     <p>
       run on non-blocking servers, such as Netty, Undertow, and Servlet 3.1+ containers
     </p>
+    <p>
+      start from spring framework 5.0
+    </p>
+    <p>
+      reactor: Java Lambda (Java 9 Flow, RXJava), Mono, Flux
+    </p>
+    <p>
+      compatibility Spring Web MVC: @Controller, @RequestMapping, @ResponseBody
+    </p>
+    <p>
+      RouterFunction<br />
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1554974902385" ID="ID_497254714" MODIFIED="1556433801323" TEXT="Data Access">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/data-access.html
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556182280694" ID="ID_379281795" MODIFIED="1556182332477" TEXT="xml">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+    </p>
+    <p>
+      &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;xmlns:aop=&quot;http://www.springframework.org/schema/aop&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;xmlns:tx=&quot;http://www.springframework.org/schema/tx&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;xsi:schemaLocation=&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.springframework.org/schema/beans
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;https://www.springframework.org/schema/beans/spring-beans.xsd
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.springframework.org/schema/tx
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;https://www.springframework.org/schema/tx/spring-tx.xsd
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.springframework.org/schema/aop
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;https://www.springframework.org/schema/aop/spring-aop.xsd&quot;&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+    </p>
+    <p>
+      &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;xmlns:aop=&quot;http://www.springframework.org/schema/aop&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;xmlns:tx=&quot;http://www.springframework.org/schema/tx&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;xsi:schemaLocation=&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.springframework.org/schema/beans
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.springframework.org/schema/beans/spring-beans.xsd
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.springframework.org/schema/tx
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.springframework.org/schema/tx/spring-tx.xsd
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.springframework.org/schema/aop
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.springframework.org/schema/aop/spring-aop.xsd&quot;&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555055809245" ID="ID_1105476186" MODIFIED="1556092877637" TEXT="Transaction">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/data-access.html#transaction
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Transaction:
+    </p>
+    <p>
+      &#21407;&#23376;&#24615;
+    </p>
+    <p>
+      &#19968;&#33268;&#24615;
+    </p>
+    <p>
+      &#38548;&#31163;&#24615;
+    </p>
+    <p>
+      &#25345;&#20037;&#24615;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Transaction 3 interface
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      org.springframework.transaction.PlatformTransactionManager &#24179;&#21488;&#20107;&#21153;&#31649;&#29702;&#22120;
+    </p>
+    <p>
+      DataSourceTransactionManager
+    </p>
+    <p>
+      &#160;&#160;getTransaction(TransactionDefinition)
+    </p>
+    <p>
+      &#160;&#160;commit(TransactionStatus)
+    </p>
+    <p>
+      &#160;&#160;rollback(TransactionStatus)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      TransactionDefinition &#20107;&#29289;&#23450;&#20041;&#30340;&#20449;&#24687;&#65288;&#38548;&#31163;&#65292;&#20256;&#25773;&#65292;&#36229;&#26102;&#65292;&#21482;&#35835;&#65289;
+    </p>
+    <p>
+      &#160;&#160;getPropagationBehavior()
+    </p>
+    <p>
+      &#160;&#160;getIsolationLevel()
+    </p>
+    <p>
+      &#160;&#160;getTimeout()
+    </p>
+    <p>
+      &#160;&#160;isReadOnly()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      TransactionStatus &#20107;&#29289;&#36816;&#34892;&#29366;&#24577;
+    </p>
+    <p>
+      &#160;&#160;isNewTransaction()
+    </p>
+    <p>
+      &#160;&#160;hasSavepoint()
+    </p>
+    <p>
+      &#160;&#160;setRollbackOnly()
+    </p>
+    <p>
+      &#160;&#160;isCompleted()
+    </p>
+    <p>
+      &#160;&#160;flush()
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1555055851080" ID="ID_1543451968" MODIFIED="1555925122742">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      PlatformTransactionManager
+    </p>
+  </body>
+</html></richcontent>
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.spring.io/spring/docs/5.1.6.RELEASE/javadoc-api/org/springframework/transaction/PlatformTransactionManager.html
+    </p>
+    <p>
+      org.springframework.transaction
+    </p>
+    <p>
+      interface PlatformTransactionManager
+    </p>
+    <p>
+      Spring JDBC, iBatis&#160;&#160;&#160; org.springframework.jdbc.datasource.DataSourceTransactionManager
+    </p>
+    <p>
+      Hibernate3.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; org.springframework.orm.hibernate3.HibernateTransactionManager
+    </p>
+    <p>
+      JPA&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; org.springframework.orm.jpa.JpaTransactionManager
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555925002936" ID="ID_1698331923" MODIFIED="1555926026934" TEXT="TransactionDefinition">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.spring.io/spring/docs/5.1.6.RELEASE/javadoc-api/org/springframework/transaction/TransactionDefinition.html
+    </p>
+    <p>
+      org.springframework.transaction
+    </p>
+    <p>
+      Interface TransactionDefinition
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1555926009898" ID="ID_268461177" MODIFIED="1555926039102" TEXT="isolation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dirty read
+    </p>
+    <p>
+      non-repeatable read
+    </p>
+    <p>
+      phantom read
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ISOLATION_DEFAULT
+    </p>
+    <p>
+      Use the default isolation level of the underlying datastore.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ISOLATION_READ_UNCOMMITTED
+    </p>
+    <p>
+      Indicates that dirty reads, non-repeatable reads and phantom reads can occur.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ISOLATION_READ_COMMITTED (Oracle default)
+    </p>
+    <p>
+      Indicates that dirty reads are prevented; non-repeatable reads and phantom reads can occur.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ISOLATION_REPEATABLE_READ (MySQL default)
+    </p>
+    <p>
+      Indicates that dirty reads and non-repeatable reads are prevented; phantom reads can occur.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ISOLATION_SERIALIZABLE
+    </p>
+    <p>
+      Indicates that dirty reads, non-repeatable reads and phantom reads are prevented.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555926044169" ID="ID_591023132" MODIFIED="1556006019603" TEXT="propagation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3 categories, 7 items
+    </p>
+    <p>
+      <b>PROPAGATION_REQUIRED</b>
+    </p>
+    <p>
+      Support a current transaction; create a new one if none exists.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PROPAGATION_SUPPORTS
+    </p>
+    <p>
+      Support a current transaction; execute non-transactionally if none exists.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PROPAGATION_MANDATORY
+    </p>
+    <p>
+      Support a current transaction; throw an exception if no current transaction exists.
+    </p>
+    <p>
+      ---------------------------------------------------------
+    </p>
+    <p>
+      <b>PROPAGATION_REQUIRES_NEW</b>
+    </p>
+    <p>
+      Create a new transaction, suspending the current transaction if one exists.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PROPAGATION_NOT_SUPPORTED
+    </p>
+    <p>
+      Do not support a current transaction; rather always execute non-transactionally.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PROPAGATION_NEVER
+    </p>
+    <p>
+      Do not support a current transaction; throw an exception if a current transaction exists.
+    </p>
+    <p>
+      --------------------------------------------------
+    </p>
+    <p>
+      <b>PROPAGATION_NESTED</b>
+    </p>
+    <p>
+      Execute within a nested transaction if a current transaction exists, behave like PROPAGATION_REQUIRED otherwise.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555927332161" ID="ID_551303811" MODIFIED="1555927410219" TEXT="timeout">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      TIMEOUT_DEFAULT
+    </p>
+    <p>
+      Use the default timeout of the underlying transaction system, or none if timeouts are not supported.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      getTimeout()
+    </p>
+    <p>
+      Return the transaction timeout.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555927338962" ID="ID_1427626602" MODIFIED="1555927361984" TEXT="read-only">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      isReadOnly()
+    </p>
+    <p>
+      Return whether to optimize as a read-only transaction.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1555927164345" ID="ID_74133226" MODIFIED="1556006230432" TEXT="TransactionStatus">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      org.springframework.transaction
+    </p>
+    <p>
+      Interface TransactionStatus
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      hasSavePoint()
+    </p>
+    <p>
+      isCompleted()
+    </p>
+    <p>
+      isNewTransaction()
+    </p>
+    <p>
+      isRollbackOnly()
+    </p>
+    <p>
+      setRollbackOnly()
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556092400598" ID="ID_387381645" MODIFIED="1556092584644" TEXT="Transaction Management">
+<node CREATED="1556092590919" ID="ID_583678447" MODIFIED="1556095021374" TEXT="Declarative Transaction Management">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/data-access.html#transaction-declarative
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1556095001786" ID="ID_349592049" MODIFIED="1556097639718" TEXT="TransactionProxyFactoryBean">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      org.springframework.transaction.interceptor
+    </p>
+    <p>
+      Class TransactionProxyFactoryBean
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://docs.spring.io/spring/docs/5.1.6.RELEASE/javadoc-api/org/springframework/transaction/interceptor/TransactionProxyFactoryBean.html
+    </p>
+    <p>
+      https://www.imooc.com/video/9332
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      However, in Spring versions 2.0 and beyond, the functionality provided here is superseded by the more convenient tx: XML namespace.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556095021377" ID="ID_601084836" MODIFIED="1556097793032" TEXT="@Transactional">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      org.springframework.transaction.annotation
+    </p>
+    <p>
+      Annotation Type Transactional
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://docs.spring.io/spring/docs/5.1.6.RELEASE/javadoc-api/org/springframework/transaction/annotation/Transactional.html
+    </p>
+    <p>
+      https://www.imooc.com/video/9334
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556096535869" ID="ID_847380656" MODIFIED="1556097759661" TEXT="AspectJ XML">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.imooc.com/video/9333
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1556092542093" ID="ID_913143719" MODIFIED="1556093218652" TEXT="Programmatic Transaction Management">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/data-access.html#transaction-programmatic
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      TransactionTemplate
+    </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1553242419797" ID="ID_1934962445" MODIFIED="1553242432549" TEXT="project management">
+<node CREATED="1556433804352" ID="ID_200647266" MODIFIED="1556442352936" TEXT="Spring AOP">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#aop
+    </p>
+    <p>
+      video: https://www.imooc.com/learn/869
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1556439675093" ID="ID_291262858" MODIFIED="1556442378676" TEXT="AspectJ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      XML or annotation
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      annotation: @Aspect, @Pointcut (pointcut expression), advise (5)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1556442323652" ID="ID_313652875" MODIFIED="1556442338247" TEXT="@Aspect"/>
+<node CREATED="1556442341850" ID="ID_1030205092" MODIFIED="1556442381030" TEXT="@Pointcut">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pointcut expression: designators (execution() ...), wildcards (* .. +), operators (&amp;&amp; || !)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556442366963" ID="ID_221685220" MODIFIED="1556442462494" TEXT="Advise">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      5 Advice
+    </p>
+    <p>
+      @Before
+    </p>
+    <p>
+      @After(finally)
+    </p>
+    <p>
+      @AfterReturning
+    </p>
+    <p>
+      @AfterThrowing
+    </p>
+    <p>
+      @Around
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1556531048545" ID="ID_1005421313" MODIFIED="1556531129795" TEXT="principle">
+<node CREATED="1556531131172" ID="ID_151416468" MODIFIED="1556531180716" TEXT="pattern">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      proxy pattern
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556531188173" ID="ID_165254900" MODIFIED="1556531192521" TEXT="dynamic">
+<node CREATED="1556531193876" ID="ID_1338392050" MODIFIED="1556531340197" TEXT="jdk">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      java.lang.reflect.Proxy
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      InvocationHandler
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      interface
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Proxy.newProxyInstance
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      getProxyClass0-&gt;ProxyClassFactory-&gt;ProxyGenerator
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      newInstance
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556531356044" ID="ID_1267061065" MODIFIED="1556594795306" TEXT="Cglib">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      extends MethodInterceptor
+    </p>
+    <p>
+      methodProxy.invokeSuper()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Enhancer
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1556594943251" ID="ID_1519361390" MODIFIED="1556596771244" TEXT="Spring AOP">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      AbstractAutoProxyCreator (createProxy())-&amp;gt;ProxyFactory 
+      (createAopProxy())-&amp;gt;ProxyCreatorSupport&amp;#160;(createAopProxy())-&amp;gt;DefaultAopProxyFactory 
+      (createAopProxy())
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      https://docs.spring.io/spring/docs/5.1.6.RELEASE/javadoc-api/org/springframework/aop/framework/DefaultAopProxyFactory.html
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      Spring AOP jdk&amp;#21644;cglib&amp;#36873;&amp;#25321;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#22914;&amp;#26524;&amp;#30446;&amp;#30340;&amp;#23545;&amp;#35937;&amp;#23454;&amp;#29616;&amp;#20102;&amp;#25509;&amp;#21475;&amp;#65292;&amp;#40664;&amp;#35748;&amp;#36208;JDK&amp;#21160;&amp;#24577;&amp;#20195;&amp;#29702;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#22914;&amp;#26524;&amp;#30446;&amp;#30340;&amp;#23545;&amp;#35937;&amp;#27809;&amp;#26377;&amp;#23454;&amp;#29616;&amp;#20102;&amp;#25509;&amp;#21475;&amp;#65292;&amp;#40664;&amp;#35748;&amp;#36208;Cglib&amp;#21160;&amp;#24577;&amp;#20195;&amp;#29702;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#22914;&amp;#26524;&amp;#30446;&amp;#30340;&amp;#23545;&amp;#35937;&amp;#23454;&amp;#29616;&amp;#20102;&amp;#25509;&amp;#21475;&amp;#65292;&amp;#21487;&amp;#20197;&lt;content ename=&quot;content&quot;&gt;&amp;#24378;&amp;#21046;&amp;#35774;&amp;#32622;Cglib&amp;#20195;&amp;#29702;&amp;#65292;&amp;#36208;Cglib&amp;#21160;&amp;#24577;&amp;#20195;&amp;#29702;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      @SpringBootApplication
+    &lt;/p&gt;
+    &lt;p&gt;
+      @EnableAspectJAutoProxy(proxyTargetClass = true)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+</node>
+</node>
+<node CREATED="1556598944747" ID="ID_549846102" MODIFIED="1556598951567" TEXT="apply">
+<node CREATED="1556598952890" ID="ID_922120197" MODIFIED="1556613823884" TEXT="@Transactional">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DynamicAdvisedInterceptor-&gt;TransactionInterceptor.invoke()-&gt;TransactionAspectSupport.invokeWithinTransaction()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public class TransactionInterceptor extends TransactionAspectSupport implements MethodInterceptor, Serializable {
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556598981354" ID="ID_84261488" MODIFIED="1556615129753" TEXT="@PreAuthorize">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MethodSecurityInterceptor-&gt;AbstractSecurityInterceptor (decide)-&gt;AffirmativeBased (vote)-&gt;PreInvocationAuthorizationAdviceVoter (before)-&gt;ExpressBasedPreInvocationAdvice
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      public class MethodSecurityInterceptor extends AbstractSecurityInterceptor implements MethodInterceptor {
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556599011082" ID="ID_362184489" MODIFIED="1557040506801" TEXT="@Cacheable">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CglibAopProxy -&gt; AnnotationCacheAspect -&gt; CacheIntercepter -&gt; CashAspectSupport -&gt; AbstractCacheInvoker
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1557127197690" ID="ID_1096254824" MODIFIED="1557200581649" TEXT="the IoC Container">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Official documents: https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html
+    </p>
+    <p>
+      imooc video: https://www.imooc.com/learn/1108
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1554974566756" ID="ID_1860673593" MODIFIED="1555060510089" TEXT="Spring Data">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      learning: https://gitee.com/didispace/SpringBoot-Learning
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      AutoConfiguration
+    </p>
+    <p>
+      DataSourceAutoConfiguration
+    </p>
+    <p>
+      HibernateJpaAutoConfiguration
+    </p>
+    <p>
+      TransactionAutoConfiguration
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1554974587959" ID="ID_285187299" MODIFIED="1554974620078" TEXT="Spring Data JDBC"/>
+<node CREATED="1554974621649" ID="ID_248630971" MODIFIED="1555060574805" TEXT="Spring Data JPA">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Official guide: https://spring.io/guides/gs/accessing-data-jpa/
+    </p>
+    <p>
+      EntityManager -- CRUT
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1555054148638" ID="ID_910700905" MODIFIED="1555054165418" TEXT="Spring Cloud">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      learning: https://gitee.com/didispace/SpringCloud-Learning
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1557126739396" ID="ID_856393604" MODIFIED="1557200423141" TEXT="Java Web">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Java Web phase
+    </p>
+    <ol>
+      <li>
+        JavaBean+Servlet+JSP
+      </li>
+      <li>
+        EJB framework
+      </li>
+      <li>
+        SpringMVC/Struts+Spring+Hibernate/myBatis
+      </li>
+      <li>
+        SpringBoot
+      </li>
+      <li>
+        SOA microservice (Dubbo)
+      </li>
+      <li>
+        SpringCloud (microservice)
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1553242419797" FOLDED="true" ID="ID_1934962445" MODIFIED="1556433844109" TEXT="project management">
 <node CREATED="1553242432550" ID="ID_382062370" MODIFIED="1554258468317" TEXT="Maven">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1942,7 +3024,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1554364223097" ID="ID_932147726" MODIFIED="1554364233229" TEXT="repository">
+<node CREATED="1554364223097" ID="ID_932147726" MODIFIED="1557126683665" TEXT="repository">
 <node CREATED="1554364233230" ID="ID_1348659729" MODIFIED="1554364411765" TEXT="logback">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2061,6 +3143,670 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1556184142917" ID="ID_1641158766" MODIFIED="1556184155589" TEXT="junit"/>
+</node>
+<node CREATED="1554967927582" ID="ID_1040337483" MODIFIED="1554967937942" TEXT="IDE">
+<node CREATED="1554967937943" ID="ID_1913973629" MODIFIED="1554967945561" TEXT="IDEA">
+<node CREATED="1554967949036" ID="ID_1457863723" MODIFIED="1555494652510" TEXT="shortcut">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ctrl + Alt + a -- find shortcut for IDEA
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ---git-----
+    </p>
+    <p>
+      Ctrl + k -- commit
+    </p>
+    <p>
+      Ctrl + Shift + k -- push
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1555396836229" ID="ID_308778693" MODIFIED="1556596097969" TEXT="Navigation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ---Navigation---------
+    </p>
+    <p>
+      Alt + F1 -- select in
+    </p>
+    <p>
+      Alt + home -- navigation bar
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Double Shift -- search everywhere
+    </p>
+    <p>
+      Ctrl + n -- classes
+    </p>
+    <p>
+      Ctrl + Shift +n -- files
+    </p>
+    <p>
+      Ctrl + Shift + Alt + n -- Symbols, methods&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + Shift + f -- find in path
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + b -- declaration
+    </p>
+    <p>
+      Ctrl + Alt + b -- go to implementation (s)
+    </p>
+    <p>
+      Ctrl + Shift + b -- type declaration
+    </p>
+    <p>
+      Alt + f7 -- find usages
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + u -- superclass
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + g -- number line
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + Alt + left -- back
+    </p>
+    <p>
+      Ctrl + Alt + right -- forward
+    </p>
+    <p>
+      Ctrl + Shift + backspace -- last edit location
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Alt + down/up -- next/previous method
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + left/right -- move to next/previous word
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + Alt + Shift + up/down -- previous/next change
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + f12 -- file structure
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + H -- type hierarchy
+    </p>
+    <p>
+      Ctrl + Alt + H -- call hierarchy
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555396856108" ID="ID_367881060" MODIFIED="1555397346520" TEXT="View">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ----------view-----------
+    </p>
+    <p>
+      Alt + v -- open view menu
+    </p>
+    <p>
+      Alt + 4 -- run
+    </p>
+    <p>
+      Alt + 5 -- debug
+    </p>
+    <p>
+      Alt + 6 -- todo
+    </p>
+    <p>
+      Alt + 9 -- version control
+    </p>
+    <p>
+      Alt + F1 -- select in
+    </p>
+    <p>
+      Alt + F12 -- terminal
+    </p>
+    <p>
+      Ctrl + e -- recent files
+    </p>
+    <p>
+      Ctrl + Shift + e -- recent changed files
+    </p>
+    <p>
+      Alt + Shift + c -- recent changed
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555398498243" ID="ID_178777440" MODIFIED="1555398724942" TEXT="Window">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ----Window---------
+    </p>
+    <p>
+      Alt + w
+    </p>
+    <p>
+      Ctrl + Alt + [ -- next project window
+    </p>
+    <p>
+      Ctrl + Alt + ] -- previous project window
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555400665672" ID="ID_1951893127" MODIFIED="1555400822962" TEXT="favorite">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      --- book mark-------
+    </p>
+    <p>
+      F11 -- toggle bookmark
+    </p>
+    <p>
+      Shift + F11 -- show bookmarks
+    </p>
+    <p>
+      Ctrl + F11 -- set bookmark
+    </p>
+    <p>
+      Ctrl + 1,2 -- go to set bookmark
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ----favorite-----
+    </p>
+    <p>
+      Shift + Alt + f -- add to favorite (class or method favorite)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555483933059" ID="ID_1622066198" MODIFIED="1556089129511" TEXT="Edit">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ctrl + Shift + u -- toggle case
+    </p>
+    <p>
+      Ctrl + Alt + Shift +&#160;&#160;j -- select all Occurrences
+    </p>
+    <p>
+      Alt + Shift +&#160;&#160;j -- unselect all Occurrences
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + Alt + Shift + c -- copy reference
+    </p>
+    <p>
+      Ctrl + y -- delete line
+    </p>
+    <p>
+      Alt + Shift + up/down -- move line
+    </p>
+    <p>
+      Ctrl + Shift + up/down -- move/delete line
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555484851355" ID="ID_459573197" MODIFIED="1556007801404" TEXT="Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ctrl + Alt + l -- reformat code
+    </p>
+    <p>
+      Ctrl + Alt + o -- optimize imports
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555578845375" ID="ID_341966249" MODIFIED="1555581529652" TEXT="Refactor">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Shift + F6 -- rename
+    </p>
+    <p>
+      Ctrl + F6 -- change signature
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + Alt + v -- variable
+    </p>
+    <p>
+      Ctrl + Alt + c -- constant
+    </p>
+    <p>
+      Ctrl + Alt + f -- field
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + Alt&#160;&#160;+ m -- method
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555660405687" ID="ID_174795857" MODIFIED="1555660791322" TEXT="CVS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ------------git---------------
+    </p>
+    <p>
+      Annonate
+    </p>
+    <p>
+      Ctrl + Alt + z -- revert
+    </p>
+    <p>
+      -----------CVS-------------
+    </p>
+    <p>
+      show history
+    </p>
+    <p>
+      put label
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555664531113" ID="ID_489222825" MODIFIED="1555666834082" TEXT="Run">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Shift + f9 -- debug
+    </p>
+    <p>
+      Shift + f10 -- run
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl + f8 -- toggle line breakpoint
+    </p>
+    <p>
+      Ctrl + Shift + f8 -- view breakpoints
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      f8 -- step over
+    </p>
+    <p>
+      f9 -- resume program
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Alt + f8 - evaluate expression
+    </p>
+    <p>
+      Alt + f9 -- run to cursor
+    </p>
+    <p>
+      mute breakpoints
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1555401072627" ID="ID_1786769968" MODIFIED="1555482901583" TEXT="plugins">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ctrl + Shift + a -&gt; plugins -&gt; enter -- show plugins dialog
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      emacsIDEAs
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555485493301" ID="ID_303032221" MODIFIED="1555493274887" TEXT="Live Template">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Setting -&gt; live
+    </p>
+    <p>
+      souf -- System.out.println(&quot;&quot;);
+    </p>
+    <p>
+      psvm -- main
+    </p>
+    <p>
+      ps
+    </p>
+    <p>
+      pi
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555493094488" ID="ID_329258059" MODIFIED="1555493914567" TEXT="Postfix Completion">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Setting -&gt; post
+    </p>
+    <p>
+      100.fori
+    </p>
+    <p>
+      list.fori
+    </p>
+    <p>
+      .sout
+    </p>
+    <p>
+      .field
+    </p>
+    <p>
+      .return
+    </p>
+    <p>
+      .nn
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1555494665181" ID="ID_1456673584" MODIFIED="1555494667624" TEXT="Alt + Enter"/>
+<node CREATED="1555663377564" ID="ID_1770399946" MODIFIED="1557200396813" TEXT="Commercial">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Spring
+    </p>
+    <p>
+      Database
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1554969765995" ID="ID_158847953" MODIFIED="1554969772356" TEXT="container">
+<node CREATED="1554969796316" ID="ID_1039247228" MODIFIED="1554969844887" TEXT="Servlet container">
+<node CREATED="1554969772359" ID="ID_1949883971" MODIFIED="1554971628294" TEXT="Tomcat">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tomcat 9 support Servlet 3.0 (Asynchronous)
+    </p>
+    <p>
+      Tomcat 10 support Servlet 3.1 (Non-blocking)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1554969865692" ID="ID_1879214427" MODIFIED="1554969867503" TEXT="Jetty"/>
+</node>
+<node CREATED="1554969826396" ID="ID_1665465132" MODIFIED="1554969840689" TEXT="Reactive container">
+<node CREATED="1554969859771" ID="ID_1396174481" MODIFIED="1554969862672" TEXT="Netty"/>
+</node>
+</node>
+</node>
+<node CREATED="1556165010823" ID="ID_859775496" MODIFIED="1556165015344" POSITION="right" TEXT="database">
+<node CREATED="1556165016006" ID="ID_126031084" MODIFIED="1557117125457" TEXT="h2">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://www.h2database.com/html/main.html
+    </p>
+    <p>
+      https://www.cnblogs.com/zhuawang/p/4033538.html
+    </p>
+    <p>
+      ALTER USER sa SET { PASSWORD '123' }
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1556165033297" ID="ID_1089368725" MODIFIED="1556165048380" TEXT="springboot">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://blog.csdn.net/sanpic/article/details/80816379
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1557050221982" ID="ID_1515019759" MODIFIED="1557117303616" TEXT="mongodb">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      install with windows: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+    </p>
+    <p>
+      java driver: http://mongodb.github.io/mongo-java-driver/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      uncheck the Install MongoDB as a service
+    </p>
+    <p>
+      uncheck install MongoDB Compass
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mkdir D:\tmp\mongodb\db
+    </p>
+    <p>
+      ------------------------------------
+    </p>
+    <p>
+      bat
+    </p>
+    <p>
+      @echo off
+    </p>
+    <p>
+      echo Start MongoDB
+    </p>
+    <p>
+      ::echo Start MongoDB
+    </p>
+    <p>
+      C:
+    </p>
+    <p>
+      cd \Program Files\MongoDB\Server\4.0\bin
+    </p>
+    <p>
+      mongod --dbpath &quot;D:\tmp\mongodb\db&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1556185328211" ID="ID_245159936" MODIFIED="1556185442033" POSITION="left" TEXT="Programming Paradigms">
+<node CREATED="1556185373835" ID="ID_1167427477" MODIFIED="1556433987548" TEXT="oop">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      c++, java
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556185388207" ID="ID_1031854059" MODIFIED="1556434309097" TEXT="aop">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DRY Don&#8217;t Repeat Yourself
+    </p>
+    <p>
+      Soc Separation of Concerns
+    </p>
+    <p>
+      &#160;&#160;&#160;&#27700;&#24179;&#20998;&#31163;&#65306;&#23637;&#31034;&#23618;-&gt;&#26381;&#21153;&#23618;-&gt;&#25345;&#20037;&#23618;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#22402;&#30452;&#20998;&#31163;&#65306;&#27169;&#22359;&#21010;&#20998;&#65288;&#35746;&#21333;&#65292;&#24211;&#23384;&#31561;&#65289;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#20999;&#38754;&#20998;&#31163;&#65306;&#20998;&#31163;&#21151;&#33021;&#24615;&#21644;&#38750;&#21151;&#33021;&#24615;&#38656;&#27714;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556185394816" ID="ID_1159536533" MODIFIED="1556185397116" TEXT="fop"/>
+<node CREATED="1556185450530" ID="ID_791008235" MODIFIED="1556433972721" TEXT="opp">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      c, pascal
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1556185490903" ID="ID_35865693" MODIFIED="1556434014768" TEXT="edp">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Event-driven programming
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
