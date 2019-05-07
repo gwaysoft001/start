@@ -1505,12 +1505,15 @@
 </node>
 </node>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
-<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1555058696675" TEXT="git">
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1557201327905" TEXT="git">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      git add xxx.txt
+    </p>
     <p>
       git commit -a -m &quot;update&quot;
     </p>
@@ -1526,11 +1529,9 @@
     <p>
       git reset --hard xxxid
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1554964218306" TEXT="github">
 <richcontent TYPE="NOTE"><html>
@@ -1600,7 +1601,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1556182251595" POSITION="right" TEXT="java">
+<node CREATED="1553236621445" FOLDED="true" ID="ID_755254586" MODIFIED="1557201216399" POSITION="right" TEXT="java">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2711,8 +2712,7 @@
       imooc video: https://www.imooc.com/learn/1108
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1554974566756" ID="ID_1860673593" MODIFIED="1555060510089" TEXT="Spring Data">
@@ -3629,8 +3629,7 @@
       Database
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3675,8 +3674,7 @@
       ALTER USER sa SET { PASSWORD '123' }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1556165033297" ID="ID_1089368725" MODIFIED="1556165048380" TEXT="springboot">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3742,8 +3740,7 @@
       mongod --dbpath &quot;D:\tmp\mongodb\db&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1556185328211" ID="ID_245159936" MODIFIED="1556185442033" POSITION="left" TEXT="Programming Paradigms">
