@@ -1503,7 +1503,7 @@
 </node>
 </node>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
-<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1562555407544" TEXT="git">
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1565752911783" TEXT="git">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1528,7 +1528,8 @@
       git reset --hard xxxid
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1562555407553" TEXT="github">
 <richcontent TYPE="NOTE"><html>
@@ -9436,8 +9437,7 @@ configure { bind(My).to(MyImpl); }</pre>
       <a href="https://www.imooc.com/video/10820">https://www.imooc.com/video/10820</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1565331552904" ID="ID_1628538789" MODIFIED="1565331615893" TEXT=" Horizon &#xa0;- UI&#xa0;service"/>
 <node CREATED="1565331584424" ID="ID_58608670" MODIFIED="1565341708834" TEXT="Keystone - Auth service">
@@ -9524,8 +9524,7 @@ configure { bind(My).to(MyImpl); }</pre>
       flat, flat DHCP, VLAN
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1565331645122" ID="ID_925185317" MODIFIED="1565331647382" TEXT="Heat - orchestration service"/>
 <node CREATED="1565331653152" ID="ID_1375064007" MODIFIED="1565331655472" TEXT="ceilometer - metrics and monitor service"/>
@@ -9601,8 +9600,7 @@ configure { bind(My).to(MyImpl); }</pre>
       access vm with VNC
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
