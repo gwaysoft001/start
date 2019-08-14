@@ -16,8 +16,7 @@
       current version: CentOS-7-x86_64-DVD-1810.iso
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551771854883" ID="ID_1892302707" MODIFIED="1561109475547" TEXT="command">
 <node CREATED="1551771830995" ID="ID_1190437359" MODIFIED="1551772221556" TEXT="network">
 <node CREATED="1551771868059" ID="ID_825215649" MODIFIED="1562555406785" TEXT="ifconfig">
@@ -42,8 +41,7 @@
       yum install net-tools.x86_64
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551772241548" ID="ID_250064596" MODIFIED="1551772289972" TEXT="practice">
 <node CREATED="1551772289973" ID="ID_1420344602" MODIFIED="1551772298144" TEXT="ifconfig"/>
 </node>
@@ -97,8 +95,7 @@
       &#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -117,8 +114,7 @@
       ip addr show
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -155,8 +151,7 @@
       tar, configuration, make, make install
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1552633485606" ID="ID_1459668501" MODIFIED="1562555406852" TEXT="command">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -182,8 +177,7 @@
       ping -g 172.16.30.1/24
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1552634898590" ID="ID_1668232786" MODIFIED="1562555406865" TEXT="hping">
@@ -199,8 +193,7 @@
       down: http://hping.org/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552639107927" ID="ID_544553562" MODIFIED="1552639112870" TEXT="traceroute"/>
 <node CREATED="1552639429933" ID="ID_1654365648" MODIFIED="1552639433109" TEXT="mtr"/>
@@ -215,8 +208,7 @@
       ncat
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -259,8 +251,7 @@
       test: yum search ifconfig
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552271544174" ID="ID_1360267149" MODIFIED="1562555406977" TEXT="command">
 <richcontent TYPE="NOTE"><html>
@@ -287,8 +278,7 @@
       yum repolist -- Display the configured software repositories
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1552632696645" ID="ID_290708277" MODIFIED="1562555406990" TEXT="rpm">
@@ -301,8 +291,7 @@
       rpm -aq | grep gcc -- rpm -ivh rabbitmq-server-3.6.14-1.el7.noarch.rpm
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1551779234683" ID="ID_151450836" MODIFIED="1551779239639" TEXT="common">
@@ -337,8 +326,7 @@
       mount /dev/sda1 /media/usb
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552273870924" ID="ID_931416290" MODIFIED="1562555407022" TEXT="shutdown">
 <richcontent TYPE="NOTE"><html>
@@ -356,8 +344,7 @@
       https://www.cnblogs.com/ningvsban/p/3663337.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552276306091" ID="ID_1251203476" MODIFIED="1562555407035" TEXT="source">
 <richcontent TYPE="NOTE"><html>
@@ -369,8 +356,7 @@
       source filename | . filename
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1552275206507" ID="ID_575303073" MODIFIED="1552275209843" TEXT="tools">
@@ -432,8 +418,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1552901364679" ID="ID_1076795549" MODIFIED="1562555407099" TEXT="vimrc">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -576,8 +561,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552901387787" ID="ID_1998311433" MODIFIED="1552901391988" TEXT="mode">
 <node CREATED="1552901391989" ID="ID_1100860149" MODIFIED="1562555407146" TEXT="normal mode">
@@ -830,8 +814,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552901402747" ID="ID_1463552961" MODIFIED="1562555407161" TEXT="visual mode">
 <richcontent TYPE="NOTE"><html>
@@ -885,8 +868,7 @@
       vi{w|s|p} -- select word, sentence, paragraph
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552276495458" ID="ID_1230984381" MODIFIED="1562555407175" TEXT="insert mode">
 <richcontent TYPE="NOTE"><html>
@@ -925,8 +907,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552276484556" ID="ID_884884653" MODIFIED="1562555407193" TEXT="command mode">
 <richcontent TYPE="NOTE"><html>
@@ -974,8 +955,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552982909613" ID="ID_1581981878" MODIFIED="1562555407204" TEXT="replace mode">
 <richcontent TYPE="NOTE"><html>
@@ -990,8 +970,7 @@
       r + char -- replace char
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1553069155092" ID="ID_260038252" MODIFIED="1562555407223" TEXT="buffers">
@@ -1055,8 +1034,7 @@
       :bufdo {cmd}, bufdo set nonumber -- operation command to all of buffers
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1553070503367" ID="ID_558792264" MODIFIED="1562555407237" TEXT="tab page">
 <richcontent TYPE="NOTE"><html>
@@ -1077,8 +1055,7 @@
       Ctrl + ww -- move cursor
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1093,8 +1070,7 @@
       tar -xvf xxx.tar.gz
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1551773995387" ID="ID_721970981" MODIFIED="1551776902368" TEXT="tools">
@@ -1115,8 +1091,7 @@
       PSFTP (PuTTY SFTP client)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551777020955" ID="ID_562102588" MODIFIED="1562555407282" TEXT="install">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1127,8 +1102,7 @@
       download: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1551778700043" ID="ID_391807414" MODIFIED="1551778707004" TEXT="PuTTY"/>
 <node CREATED="1551777035891" ID="ID_880366157" MODIFIED="1562555407298" TEXT="pscp">
@@ -1147,8 +1121,7 @@
       pscp source user@host:target
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1551778264292" ID="ID_130182963" MODIFIED="1562555407311" TEXT="psftp">
 <richcontent TYPE="NOTE"><html>
@@ -1184,8 +1157,7 @@
       command: https://blog.csdn.net/lawliet233/article/details/79430975
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1551778882371" ID="ID_1405253464" MODIFIED="1551778888944" TEXT="SecureCRT"/>
@@ -1199,8 +1171,7 @@
       download: https://www.netsarang.com/en/free-for-home-school/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1215,8 +1186,7 @@
       Search IP: http://www.ip138.com/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551947246992" ID="ID_471487222" MODIFIED="1551948112939" TEXT="bind-utils">
 <node CREATED="1551947400212" ID="ID_1258464322" MODIFIED="1551947410153" TEXT="nslookup"/>
 <node CREATED="1551947411788" ID="ID_103194337" MODIFIED="1551947413175" TEXT="host"/>
@@ -1238,8 +1208,7 @@
       netstat -&gt; ss
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551947324457" ID="ID_481801861" MODIFIED="1551947341025" TEXT="ifconfig"/>
 <node CREATED="1551947342772" ID="ID_686771029" MODIFIED="1562555407387" TEXT="netstat">
 <richcontent TYPE="NOTE"><html>
@@ -1254,8 +1223,7 @@
       A: netstat -lntup
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1272,8 +1240,7 @@
       A: /sbin/iptables -I INPUT -p tcp --dport 6379 -j ACCEPT
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552631885388" ID="ID_940041888" MODIFIED="1562555407404" TEXT="gcc">
 <richcontent TYPE="NOTE"><html>
@@ -1294,8 +1261,7 @@
       yum -y install gcc-c++
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1559721071299" ID="ID_849317202" MODIFIED="1562555407413" TEXT="redis">
 <richcontent TYPE="NOTE"><html>
@@ -1307,8 +1273,7 @@
       install: https://redis.io/download
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1552291370894" ID="ID_1976790810" MODIFIED="1562555407426" TEXT="shell">
@@ -1327,8 +1292,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1552293625571" ID="ID_364845061" MODIFIED="1562555407436" TEXT="bracket">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1339,8 +1303,7 @@
       https://www.cnblogs.com/hanggegege/p/5928870.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1356,8 +1319,7 @@
       website: https://www.vmware.com/products/workstation-pro.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551771276733" ID="ID_1728370365" MODIFIED="1562555407456" TEXT="install">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1374,8 +1336,7 @@
       current version keys: ZC10K-8EF57-084QZ-VXYXE-ZF2XF
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1551771341644" ID="ID_890149336" MODIFIED="1551948294297" TEXT="CentOS7">
 <node CREATED="1551771640139" ID="ID_1708292391" MODIFIED="1562555407471" TEXT="network setting">
@@ -1406,8 +1367,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1431,8 +1391,7 @@
       system requirement: Java Runtime Environment 1.6 or later.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552883796637" ID="ID_411135537" MODIFIED="1562555407496" TEXT="Visual Studio code">
 <richcontent TYPE="NOTE"><html>
@@ -1444,8 +1403,7 @@
       https://code.visualstudio.com/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1562555407510" TEXT="Shortcut">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1504,8 +1462,7 @@
       Ctrl + ` -- TERMINAL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1552883942833" ID="ID_1403373899" MODIFIED="1562555407522" TEXT="Fix">
 <richcontent TYPE="NOTE"><html>
@@ -1529,8 +1486,7 @@
       Select [Reopen with encoding], select relevant encoding
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1553246255453" ID="ID_1015784503" MODIFIED="1562555407531" TEXT="postman">
@@ -1543,8 +1499,7 @@
       download: https://www.getpostman.com/downloads/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
@@ -1573,8 +1528,7 @@
       git reset --hard xxxid
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1562555407553" TEXT="github">
 <richcontent TYPE="NOTE"><html>
@@ -1589,8 +1543,7 @@
       password: 1*****S**
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1551779927804" ID="ID_1056730351" MODIFIED="1556158628226" POSITION="right" TEXT="development">
@@ -1606,8 +1559,7 @@
       website: https://www.oracle.com/technetwork/java/javase/overview/index.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551774176363" ID="ID_1696620606" MODIFIED="1551777014450" TEXT="Java SE 8">
 <node CREATED="1551774224683" ID="ID_590944319" MODIFIED="1562555407586" TEXT="install by exe">
 <richcontent TYPE="NOTE"><html>
@@ -1622,8 +1574,7 @@
       current version: jdk-8u201-windows-x64.exe
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1643,8 +1594,7 @@
       Program language for JVM, Android, JS, Native
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1562555407607" POSITION="right" TEXT="java">
@@ -1657,9 +1607,8 @@
       Java: https://www.oracle.com/technetwork/java/index.html
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1553236624064" FOLDED="true" ID="ID_1449402957" MODIFIED="1562555407620" TEXT="Spring">
+</html></richcontent>
+<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1563160124857" TEXT="Spring">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1687,84 +1636,60 @@
       https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1553237818125" FOLDED="true" ID="ID_1081399870" MODIFIED="1561107632988" TEXT="Spring Boot">
-<richcontent TYPE="NOTE">&lt;html&gt;
-  &lt;head&gt;
+</html></richcontent>
+<node CREATED="1553237818125" ID="ID_1081399870" MODIFIED="1563158667642" TEXT="Spring Boot">
+<richcontent TYPE="NOTE"><html>
+  <head>
     
-    
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p&gt;
+  </head>
+  <body>
+    <p>
       Official website: https://spring.io/projects/spring-boot
-    &lt;/p&gt;
-    &lt;p&gt;
+    </p>
+    <p>
       Demo: https://spring.io/guides/gs/spring-boot/
-    &lt;/p&gt;
-    &lt;p&gt;
+    </p>
+    <p>
       Video: https://www.imooc.com/learn/956
-    &lt;/p&gt;
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-    &lt;p&gt;
+    </p>
+    <p>
       Features
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#160;&amp;#160;Stand-alone Spring applications
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#160;&amp;#160;No need to deploy WAR files (embed Tomcat, Jetty or Undertow directly)
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#160;&amp;#160;Provide opinionated 'starter' dependencies to simplify your build 
-      configuration (https://start.spring.io/)
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#160;&amp;#160;Automatically configure Spring and 3rd party libraries whenever 
-      possible
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#160;&amp;#160;Provide production-ready features such as metrics, health checks and 
-      externalized configuration
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#160;&amp;#160;Absolutely no code generation and on requirement for XML configuration
-    &lt;/p&gt;
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-    &lt;p&gt;
+    </p>
+    <p>
+      &#160;&#160;Stand-alone Spring applications
+    </p>
+    <p>
+      &#160;&#160;No need to deploy WAR files (embed Tomcat, Jetty or Undertow directly)
+    </p>
+    <p>
+      &#160;&#160;Provide opinionated 'starter' dependencies to simplify your build configuration (https://start.spring.io/)
+    </p>
+    <p>
+      &#160;&#160;Automatically configure Spring and 3rd party libraries whenever possible
+    </p>
+    <p>
+      &#160;&#160;Provide production-ready features such as metrics, health checks and externalized configuration
+    </p>
+    <p>
+      &#160;&#160;Absolutely no code generation and on requirement for XML configuration
+    </p>
+    <p>
       -----------------------------
-    &lt;/p&gt;
-    &lt;p&gt;
+    </p>
+    <p>
       Micro Service: Spring Cloud, Dubbo
-    &lt;/p&gt;
-    &lt;p&gt;
-      Micro framework: with Spring 4, @RestController == @Controller + 
-      @ResponseBody
-    &lt;/p&gt;
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#20026;&amp;#24494;&amp;#26381;&amp;#21153;Spring Cloud&amp;#38138;&amp;#36335;&amp;#65292;SpringBoot&amp;#20063;&amp;#21487;&amp;#20197;&amp;#25972;&amp;#21512;&amp;#20854;&amp;#20182;&amp;#30340;&lt;content ename=&quot;content&quot;&gt;&amp;#26694;&amp;#26550;&amp;#26500;&amp;#24314;&amp;#24494;&amp;#26381;&amp;#21153;&amp;#65292;&amp;#22914;Dubbo&amp;#65292;Thrift&amp;#31561;
-    &lt;/p&gt;
-    &lt;p&gt;
-      Spring Boot&amp;#20351;&amp;#29992;&amp;#22330;&amp;#26223;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#160;&amp;#160;Spring
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#160;&amp;#160;JEE/web
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#160;&amp;#160;Mirco Service
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</richcontent>
+    </p>
+    <p>
+      Micro framework: with Spring 4, @RestController == @Controller + @ResponseBody
+    </p>
+    <p>
+      Spring Cloud&#160;&#160;SpringBoot
+    </p>
+    <p>
+      &lt;content ename=&quot;content&quot;&gt; Dubbo Thrift Spring Boot Spring JEE/web Mirco Service
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1553246655060" ID="ID_1613516602" MODIFIED="1559203735878" TEXT="Spring Initializr">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1825,6 +1750,47 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1559208946365" ID="ID_1512828801" MODIFIED="1563864233013" TEXT="starter">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @SpringBootApplication
+    </p>
+    <p>
+      &#160;&#160;@Configuration
+    </p>
+    <p>
+      &#160;&#160;@EnableAutoConfiguration
+    </p>
+    <p>
+      &#160;&#160;@ComponentScan
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1559286118666" ID="ID_869208342" MODIFIED="1563162552572" TEXT="spring-boot-devtools">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 10.5pt"><font color="#000000"><i>IDEA
+Setting-&gt;Build, ..-&gt;Compiler-&gt;Build&#160;&#160;project automatically
+Ctrl + Shift + Alt + / -&gt; registry -&gt; compiler.automake.allow.when.app.running
+------------------------------------------
+pom.xml
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-boot-devtools&lt;/artifactId&gt;
+            &lt;scope&gt;runtime&lt;/scope&gt;
+            &lt;optional&gt;true&lt;/optional&gt;
+        &lt;/dependency&gt;
+
+</i></font><i><font color="#808080"># devtools<br /></font></i><font color="#000080"><b>spring.devtools.remote.restart.enabled</b></font>=<font color="#000080"><b>true<br />spring.devtools.restart.additional-paths</b></font>=<font color="#008000"><b>src/main/java</b></font></pre>
+  </body>
+</html></richcontent>
 <node CREATED="1559196860004" ID="ID_972867303" MODIFIED="1559285637412" TEXT="Spring hot swapping">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1865,9 +1831,55 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1559208946365" ID="ID_1512828801" MODIFIED="1559529222632" TEXT="starter">
-<node CREATED="1559286118666" ID="ID_869208342" MODIFIED="1560150541352" TEXT="spring-boot-devtools"/>
-<node CREATED="1559286138498" ID="ID_1848557986" MODIFIED="1559286140309" TEXT="spring-boot-starter-web"/>
+</node>
+<node CREATED="1559286138498" ID="ID_1848557986" MODIFIED="1563162748352" TEXT="spring-boot-starter-web">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;dependency&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/dependency&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      @SpringBootApplication
+    </p>
+    <p>
+      public class SpringGuiceDemoApplication {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;public static void main(String[] args) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;SpringApplication.run(SpringGuiceDemoApplication.class, args);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1559286149482" ID="ID_107378843" MODIFIED="1559286150594" TEXT="spring-boot-starter-actuator"/>
 <node CREATED="1559286158394" ID="ID_389762271" MODIFIED="1559286160029" TEXT="spring-boot-starter-test"/>
 <node CREATED="1559528600397" ID="ID_1414293503" MODIFIED="1559528733353" TEXT="spring-boot-starter-freemarker">
@@ -1954,7 +1966,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1559208952252" ID="ID_1205284634" MODIFIED="1559528801744" TEXT="spring-boot-starter-logging">
+<node CREATED="1559208952252" ID="ID_1205284634" MODIFIED="1563161966090" TEXT="spring-boot-starter-logging">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1986,6 +1998,16 @@
     </p>
     <p>
       application.properties
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 10.5pt"><font color="#808080"><i># logging<br /></i></font><font color="#000080"><b>logging.level.com.gwaysoft.spring.guice.demo</b></font>=<font color="#008000"><b>debug<br /></b></font><b><font color="#000080">logging.pattern.console</font></b>=<font color="#008000"><b>%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %L - %msg%n<br /></b></font></pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      -----------------------------------
     </p>
     <p>
       #Spring Logging
@@ -2193,7 +2215,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1554951127203" FOLDED="true" ID="ID_386250949" MODIFIED="1561107623654" TEXT="Spring Framework">
+<node CREATED="1554951127203" FOLDED="true" ID="ID_386250949" MODIFIED="1563158380977" TEXT="Spring Framework">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4020,12 +4042,15 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1554974566756" ID="ID_1860673593" MODIFIED="1555060510089" TEXT="Spring Data">
+<node CREATED="1554974566756" ID="ID_1860673593" MODIFIED="1563158753276" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      Official Website: https://spring.io/projects/spring-data
+    </p>
     <p>
       learning: https://gitee.com/didispace/SpringBoot-Learning
     </p>
@@ -4064,72 +4089,15 @@
 </node>
 <node CREATED="1559553013894" ID="ID_482343757" MODIFIED="1559553355329" TEXT="mybatis"/>
 </node>
-<node CREATED="1555054148638" ID="ID_910700905" MODIFIED="1561350526942" TEXT="Spring Cloud">
-<richcontent TYPE="NOTE">&lt;html&gt;
-  &lt;head&gt;
+<node CREATED="1555054148638" FOLDED="true" ID="ID_910700905" MODIFIED="1563158384244" TEXT="Spring Cloud">
+<richcontent TYPE="NOTE"><html>
+  <head>
     
-    
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p&gt;
-      starter: https://blog.csdn.net/itanping/article/details/82429509
-    &lt;/p&gt;
-    &lt;p&gt;
-      learn: https://gitee.com/didispace/SpringCloud-Learning
-    &lt;/p&gt;
-    &lt;p&gt;
-      Spring Cloud&amp;#26159;&amp;#24212;&amp;#29992;Spring Boot&lt;content ename=&quot;content&quot;&gt;&amp;#24555;&amp;#36895;&amp;#25645;&amp;#24314;microservices&amp;#24212;&amp;#29992;
-    &lt;/p&gt;
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-    &lt;p&gt;
-      Spring Cloud (ecosystem)
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-service registration and discovery: eureka (Netflix), spring cloud 
-      consul, spring cloud zookeeper
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-routing (gateway): zuul (from netflix; netflix not maintain zuul 2.x) 
-      spring cloud gateway (from zuul 2.x)
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-service to service calls: openfeign (HTTP client)
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-load balance: ribbon (Netflix)
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-circuit breaker: hystirx
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-distributed tracing (monitor): actuctor, spring boot admin; linked 
-      monitor: sleuth, zipkin
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-distributed messaging: spring cloud stream (send and receive messages 
-      using apache kafka or rabbitMQ between spring boot apps) and spring 
-      cloud bus
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-configuration server: spring cloud config (git, svn, zookeeper)
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-Authentication: spring cloud security, oauth2, jwt (lightweight), 
-      spring cloud cloudfoundry
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-Cache: redis, mongodb
-    &lt;/p&gt;
-    &lt;p&gt;
-      |-document: swagger
-    &lt;/p&gt;
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</richcontent>
+  </head>
+  <body>
+    starter: https://blog.csdn.net/itanping/article/details/82429509 &#160;&#160;&#160;learn: https://gitee.com/didispace/SpringCloud-Learning &#160;Spring Cloud Spring Boot&lt;content ename=&quot;content&quot;&gt;&amp;#24555;&amp;#36895;&amp;#25645;&amp;#24314;microservices&amp;#24212;&amp;#29992; &lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt; Spring Cloud (ecosystem) &lt;/p&gt; &lt;p&gt; |-service registration and discovery: eureka (Netflix), spring cloud consul, spring cloud zookeeper &lt;/p&gt; &lt;p&gt; |-routing (gateway): zuul (from netflix; netflix not maintain zuul 2.x) spring cloud gateway (from zuul 2.x) &lt;/p&gt; &lt;p&gt; |-service to service calls: openfeign (HTTP client) &lt;/p&gt; &lt;p&gt; |-load balance: ribbon (Netflix) &lt;/p&gt; &lt;p&gt; |-circuit breaker: hystirx &lt;/p&gt; &lt;p&gt; |-distributed tracing (monitor): actuctor, spring boot admin; linked monitor: sleuth, zipkin &lt;/p&gt; &lt;p&gt; |-distributed messaging: spring cloud stream (send and receive messages using apache kafka or rabbitMQ between spring boot apps) and spring cloud bus &lt;/p&gt; &lt;p&gt; |-configuration server: spring cloud config (git, svn, zookeeper) &lt;/p&gt; &lt;p&gt; |-Authentication: spring cloud security, oauth2, jwt (lightweight), spring cloud cloudfoundry &lt;/p&gt; &lt;p&gt; |-Cache: redis, mongodb &lt;/p&gt; &lt;p&gt; |-document: swagger &lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;
+  </body>
+</html></richcontent>
 <node CREATED="1561107637430" ID="ID_1724981175" MODIFIED="1561350756625" TEXT="Spring Cloud Netflix">
 <node CREATED="1561107669324" ID="ID_1573750623" MODIFIED="1561350800199" TEXT="Service Discovery (Eureka)">
 <node CREATED="1561107702236" ID="ID_1644134909" MODIFIED="1561108215198" TEXT="Eureka Server">
@@ -4702,7 +4670,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1553245155456" ID="ID_266897878" MODIFIED="1562555407634" TEXT="jdk">
+<node CREATED="1553245155456" ID="ID_266897878" MODIFIED="1563520698947" TEXT="java SE">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4712,13 +4680,51 @@
       jdk: https://www.oracle.com/technetwork/java/javase/downloads/index.html
     </p>
     <p>
+      API doc: https://docs.oracle.com/en/java/javase/12/docs/api/index.html
+    </p>
+    <p>
+      https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html
+    </p>
+    <p>
+      &#160;&#160;|-https://docs.oracle.com/javase/tutorial/essential/index.html
+    </p>
+    <p>
       install: don't install common jre
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node CREATED="1563519941628" ID="ID_949097541" MODIFIED="1563520013238" TEXT="java.base">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Defines the foundational APIs of the Java SE platform
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1563520013227" ID="ID_357660433" MODIFIED="1563521628250" TEXT="java.io">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://docs.oracle.com/javase/tutorial/essential/io/index.html
+    </p>
+    <p>
+      Provides for system input and output through data streams, serialization and file system
+    </p>
+    <p>
+      A stream can represent many different kind of sources and destinations
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1554364223097" FOLDED="true" ID="ID_932147726" MODIFIED="1561972809368" TEXT="repository">
+</node>
+</node>
+<node CREATED="1554364223097" FOLDED="true" ID="ID_932147726" MODIFIED="1563519097699" TEXT="repository">
 <node CREATED="1554364233230" ID="ID_1348659729" MODIFIED="1554364411765" TEXT="logback">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5056,7 +5062,7 @@
 <node CREATED="1560925855208" ID="ID_533509382" MODIFIED="1560925864873" TEXT="jbpm"/>
 </node>
 </node>
-<node CREATED="1554967927582" ID="ID_1040337483" MODIFIED="1557304177817" TEXT="IDE">
+<node CREATED="1554967927582" FOLDED="true" ID="ID_1040337483" MODIFIED="1562575754064" TEXT="IDE">
 <node CREATED="1554967937943" ID="ID_1913973629" MODIFIED="1562555407651" TEXT="IDEA">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5088,8 +5094,7 @@
       * Open Help-&gt; register, select [License server] (show http://jetbrains-license-server), then click [Activate] button
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1554967949036" ID="ID_1457863723" MODIFIED="1562555407662" TEXT="shortcut">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5118,8 +5123,7 @@
       Ctrl + Shift + k -- push
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1555396836229" ID="ID_308778693" MODIFIED="1562555407681" TEXT="Navigation">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5229,8 +5233,7 @@
       Ctrl + Alt + H -- call hierarchy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555396856108" ID="ID_367881060" MODIFIED="1562555407692" TEXT="View">
 <richcontent TYPE="NOTE"><html>
@@ -5278,8 +5281,7 @@
       Ctrl + q -- quick documentation
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555398498243" ID="ID_178777440" MODIFIED="1562555407700" TEXT="Window">
 <richcontent TYPE="NOTE"><html>
@@ -5300,8 +5302,7 @@
       Ctrl + Alt + ] -- previous project window
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555400665672" ID="ID_1951893127" MODIFIED="1562555407709" TEXT="favorite">
 <richcontent TYPE="NOTE"><html>
@@ -5334,8 +5335,7 @@
       Shift + Alt + f -- add to favorite (class or method favorite)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555483933059" ID="ID_1622066198" MODIFIED="1562555407721" TEXT="Edit">
 <richcontent TYPE="NOTE"><html>
@@ -5368,8 +5368,7 @@
       Ctrl + Shift + up/down -- move/delete line
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555484851355" ID="ID_459573197" MODIFIED="1562555407731" TEXT="Code">
 <richcontent TYPE="NOTE"><html>
@@ -5384,8 +5383,7 @@
       Ctrl + Alt + o -- optimize imports
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555578845375" ID="ID_341966249" MODIFIED="1562555407751" TEXT="Refactor">
 <richcontent TYPE="NOTE"><html>
@@ -5421,8 +5419,7 @@
       Ctrl + Alt&#160;&#160;+ m -- method
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555660405687" ID="ID_174795857" MODIFIED="1562555407762" TEXT="CVS">
 <richcontent TYPE="NOTE"><html>
@@ -5449,8 +5446,7 @@
       put label
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555664531113" ID="ID_489222825" MODIFIED="1562555407776" TEXT="Run">
 <richcontent TYPE="NOTE"><html>
@@ -5495,8 +5491,7 @@
       mute breakpoints
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1555401072627" ID="ID_1786769968" MODIFIED="1562555407786" TEXT="plugins">
@@ -5515,8 +5510,7 @@
       emacsIDEAs
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555485493301" ID="ID_303032221" MODIFIED="1562555407796" TEXT="Live Template">
 <richcontent TYPE="NOTE"><html>
@@ -5540,8 +5534,7 @@
       pi
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555493094488" ID="ID_329258059" MODIFIED="1562555407807" TEXT="Postfix Completion">
 <richcontent TYPE="NOTE"><html>
@@ -5571,8 +5564,7 @@
       .nn
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1555494665181" ID="ID_1456673584" MODIFIED="1555494667624" TEXT="Alt + Enter"/>
 <node CREATED="1555663377564" ID="ID_1770399946" MODIFIED="1562555407825" TEXT="Commercial">
@@ -5588,8 +5580,7 @@
       Database
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1558342299490" ID="ID_1991775721" MODIFIED="1558342308705" TEXT="practice">
 <node CREATED="1558342320058" ID="ID_755861233" MODIFIED="1562555407840" TEXT="Tomcat">
@@ -5602,8 +5593,7 @@
       Run -&gt; Edit configurations
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1558342423810" ID="ID_308725280" MODIFIED="1562555407850" TEXT="Project setting">
 <richcontent TYPE="NOTE"><html>
@@ -5615,8 +5605,7 @@
       View -&gt; Open Module Settings (f4)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1559718450751" ID="ID_724983377" MODIFIED="1562555407861" TEXT="maven">
@@ -5629,12 +5618,11 @@
       if the &lt;dependency&gt; not update, please delete the ~/.m2/repository/xxxxx
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1557126739396" ID="ID_856393604" MODIFIED="1562555407882" TEXT="Java EE">
+<node CREATED="1557126739396" ID="ID_856393604" MODIFIED="1563519089289" TEXT="Java EE">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5664,8 +5652,7 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1558517278543" ID="ID_1157878983" MODIFIED="1558517318227" TEXT="Java Servlet Technology">
 <node CREATED="1559028281227" ID="ID_579463396" MODIFIED="1562555407901" TEXT="web.xml">
 <richcontent TYPE="NOTE"><html>
@@ -5710,8 +5697,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1554969765995" ID="ID_158847953" MODIFIED="1560410217437" TEXT="container">
@@ -5729,8 +5715,7 @@
       Tomcat 10 support Servlet 3.1 (Non-blocking)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1554969865692" ID="ID_1879214427" MODIFIED="1554969867503" TEXT="Jetty"/>
 </node>
@@ -5751,8 +5736,7 @@
       c++, java
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1556185388207" ID="ID_1031854059" MODIFIED="1562555407948" TEXT="aop">
 <richcontent TYPE="NOTE"><html>
@@ -5776,8 +5760,7 @@
       &#160;&#160;&#160;&#20999;&#38754;&#20998;&#31163;&#65306;&#20998;&#31163;&#21151;&#33021;&#24615;&#21644;&#38750;&#21151;&#33021;&#24615;&#38656;&#27714;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1556185394816" ID="ID_1159536533" MODIFIED="1556185397116" TEXT="fop"/>
 <node CREATED="1556185450530" ID="ID_791008235" MODIFIED="1562555407960" TEXT="opp">
@@ -5790,8 +5773,7 @@
       c, pascal
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1556185490903" ID="ID_35865693" MODIFIED="1562555407970" TEXT="edp">
 <richcontent TYPE="NOTE"><html>
@@ -5803,12 +5785,11 @@
       Event-driven programming
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1559014427843" ID="ID_56563147" MODIFIED="1561969806811" POSITION="right" TEXT="tech">
-<node CREATED="1559014436369" ID="ID_150121026" MODIFIED="1562555407988" TEXT="OAuth 2.0">
+<node CREATED="1559014427843" ID="ID_56563147" MODIFIED="1564389688316" POSITION="right" TEXT="tech">
+<node CREATED="1559014436369" FOLDED="true" ID="ID_150121026" MODIFIED="1564557778115" TEXT="OAuth 2.0">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5848,8 +5829,7 @@
       &#160;&#160;Refresh Token&#21047;&#26032;Access Token
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1559015139021" ID="ID_212267496" MODIFIED="1562555407998" TEXT="history">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5863,8 +5843,7 @@
       OAuth 2.0 2010&#21021;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1559015286952" ID="ID_1059618306" MODIFIED="1562555408006" TEXT="scenario">
 <richcontent TYPE="NOTE"><html>
@@ -5882,8 +5861,7 @@
       &#160;&#160;&#25480;&#26435;&#21518;&#65292;&#22312;&#26435;&#38480;&#35268;&#21017;&#19979;&#20351;&#29992;API
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1559015581143" ID="ID_670945724" MODIFIED="1562555408019" TEXT="3 workflows">
 <richcontent TYPE="NOTE"><html>
@@ -5893,8 +5871,7 @@
   <body>
     &lt;html&gt; &lt;head&gt; &lt;/head&gt; &lt;body&gt; &lt;p&gt; 1. &amp;#35831;&amp;#27714;OAuth&amp;#30331;&amp;#24405;&amp;#39029;&amp;#38754;: Request Token URL - &amp;#26410;&amp;#25480;&amp;#26435;&amp;#30340;&amp;#20196;&amp;#29260;&amp;#35831;&amp;#27714;&amp;#22320;&amp;#22336; &amp;#65288;&amp;#29305;&amp;#23450;&amp;#21442;&amp;#25968;&amp;#30340;URL client_id, redirect_uri&amp;#65289; &lt;/p&gt; &lt;p&gt; 2. &amp;#36755;&amp;#20837;username&amp;#21644;password&amp;#22312;&amp;#30331;&amp;#24405;&amp;#39029;&amp;#38754;&amp;#24182;&amp;#25480;&amp;#26435;, Callback URL &amp;#65288;callback?code=xxxxxx&amp;#65289;code&amp;#26159;&amp;#29983;&amp;#21629;&amp;#21608;&amp;#26399;&amp;#20869;&amp;#20165;&amp;#20351;&amp;#29992;&amp;#19968;&amp;#27425;&amp;#30340;&amp;#23383;&amp;#31526;&amp;#20018; &lt;/p&gt; &lt;p&gt; 3. &amp;#36820;&amp;#22238;&amp;#30331;&amp;#24405;&amp;#32467;&amp;#26524;: &lt;/p&gt; &lt;p&gt; &amp;#160;&amp;#160;&amp;#35831;&amp;#27714;&amp;#65306;User Authorization URL - &amp;#29992;&amp;#25143;&amp;#24050;&amp;#25480;&amp;#26435;&amp;#30340;&amp;#20196;&amp;#29260;&amp;#35831;&amp;#27714;&lt;content ename=&quot;content&quot;&gt;&amp;#22320;&amp;#22336; &amp;#65288;&amp;#29305;&amp;#23450;&amp;#21442;&amp;#25968;&amp;#30340;URL client_id, client_secret, code (10 seconds)&amp;#65289; &lt;/p&gt; &lt;p&gt; &amp;#160;&amp;#160;&amp;#36820;&amp;#22238;&amp;#65306;AccessToken - &amp;#29992;&amp;#25143;&amp;#36890;&amp;#36807;&amp;#31532;&amp;#19977;&amp;#26041;&amp;#24212;&amp;#29992;&amp;#35775;&amp;#38382;OAuth&amp;#25509;&amp;#21475;&amp;#30340;&amp;#20196;&amp;#29260; &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1559016969552" ID="ID_773582537" MODIFIED="1562555408035" TEXT="AccessToken, RefreshToken">
 <richcontent TYPE="NOTE"><html>
@@ -5933,8 +5910,7 @@
       &#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1559023569817" ID="ID_1574156306" MODIFIED="1562555408049" TEXT="demo">
 <richcontent TYPE="NOTE"><html>
@@ -5963,10 +5939,10 @@
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+<node CREATED="1564976244023" ID="ID_1349072004" MODIFIED="1564976261849" TEXT="network">
 <node CREATED="1559801702535" ID="ID_369667712" MODIFIED="1562555408059" TEXT="HTTP">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5977,10 +5953,48 @@
       https://developer.mozilla.org/en-US/docs/Web/HTTP
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+<node CREATED="1564473235226" ID="ID_662955255" MODIFIED="1564473251952" TEXT="SEO">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Search Engine Optimization
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1560235533570" ID="ID_368434903" MODIFIED="1562555408076" TEXT="RBAC">
+<node CREATED="1564475185136" ID="ID_493502888" MODIFIED="1564475341337" TEXT="Let&apos;s Encrypt">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://letsencrypt.org/">https://letsencrypt.org/</a>
+    </p>
+    <p>
+      <a href="https://www.cnblogs.com/esofar/p/9291685.html">https://www.cnblogs.com/esofar/p/9291685.html</a>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564639763825" ID="ID_1962650852" MODIFIED="1564639978340" TEXT="web framework">
+<node CREATED="1564639771745" ID="ID_1242723730" MODIFIED="1564639890222" TEXT="flask - python"/>
+<node CREATED="1564639784723" ID="ID_589121955" MODIFIED="1564639906646" TEXT="Laravel - php"/>
+<node CREATED="1564639795329" ID="ID_1196702480" MODIFIED="1564639800414" TEXT="asp.net"/>
+<node CREATED="1564639808026" ID="ID_564352131" MODIFIED="1564639950446" TEXT="django - python"/>
+<node CREATED="1564639818177" ID="ID_191490741" MODIFIED="1564639820950" TEXT="spring"/>
+<node CREATED="1564639828354" ID="ID_1547392741" MODIFIED="1564639831262" TEXT="node express"/>
+</node>
+</node>
+<node CREATED="1564976263110" ID="ID_325752060" MODIFIED="1564976266375" TEXT="tools">
+<node CREATED="1564976266375" ID="ID_1722480150" MODIFIED="1564976268643" TEXT="ngrok"/>
+</node>
+</node>
+<node CREATED="1560235533570" ID="ID_368434903" MODIFIED="1564976249209" TEXT="RBAC">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6050,29 +6064,27 @@
       spring security
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1561011669045" ID="ID_1840559842" MODIFIED="1562555408088" TEXT="Microservices">
+<node CREATED="1561011669045" FOLDED="true" ID="ID_1840559842" MODIFIED="1564976247990" TEXT="Microservices">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      video: https://www.imooc.com/learn/1134
+      https://www.imooc.com/learn/785
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1561011681474" ID="ID_517679901" MODIFIED="1562555408102" TEXT="history">
+</html></richcontent>
+<node CREATED="1561011681474" ID="ID_517679901" MODIFIED="1564368840143" TEXT="history">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      stand along-&gt;SOA (Service-Oriented Architecture) (service registry, service provide, service consumer)-&gt;Microservices (docker, k8s deployment)-&gt; Service Mesh
+      stand along-&gt;SOA (Service-Oriented Architecture) (service registry, service provide, service consumer)(2006,2007)-&gt;Microservices (docker, k8s deployment)-&gt; Service Mesh
     </p>
     <p>
       features:
@@ -6087,13 +6099,96 @@
       Service Mesh: cloudy native
     </p>
     <p>
+      
+    </p>
+    <p>
       <br />
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1561013206018" ID="ID_971910422" MODIFIED="1562555408110" TEXT="java for miroservices">
+<node CREATED="1563521724116" ID="ID_1627744791" MODIFIED="1564368796246" TEXT="features">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      In short, the microservice architectural style is an approach to 
+      developing a single application as (1) &lt;b&gt;a suite of small services&lt;/b&gt;, 
+      each (2) &lt;b&gt;running in its own process&lt;/b&gt;&amp;#160;and communicating with 
+      lightweight mechanisms, often an HTTP resource API. These service are 
+      (3) &lt;b&gt;built around business capabilities&lt;/b&gt;&amp;#160;and&lt;b&gt;&amp;#160;&lt;/b&gt;(4) &lt;b&gt;independently 
+      deployable&lt;/b&gt;&amp;#160;by fully automated deployment machinery. There is a (5) &lt;b&gt;bare 
+      minimum of centralization management&amp;#160;&lt;/b&gt;of there services, which 
+      may be written in different programming languages and use different data 
+      storage technologies. -- James Lewis and Martin Fowler
+    &lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;
+        &amp;#24494;&amp;#26381;&amp;#21153;&amp;#31890;&amp;#24230;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &amp;#29420;&amp;#31435;&amp;#36827;&amp;#31243;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &amp;#22260;&amp;#32469;&amp;#19994;&amp;#21153;&amp;#24615;&amp;#33021;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &amp;#29420;&amp;#31435;&amp;#37096;&amp;#32626;&amp;#65292;&amp;#36731;&amp;#37327;&amp;#21270;&amp;#36890;&amp;#20449;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &amp;#21435;&amp;#20013;&amp;#24515;&amp;#21270;&amp;#31649;&amp;#29702;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;p&gt;
+      &amp;#31995;&amp;#32479;&amp;#39640;&amp;#21487;&amp;#29992;&amp;#65292;&amp;#31995;&amp;#32479;&amp;#39640;&amp;#25193;&amp;#23637;&amp;#24615;&amp;#65292;&amp;#24555;&amp;#36895;&amp;#36845;&amp;#20195;&amp;#65292;&lt;content ename=&quot;content&quot;&gt;&amp;#25345;&amp;#32493;&amp;#20132;&amp;#20184;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#25972;&amp;#20307;&amp;#35774;&amp;#35745;&amp;#65306;&amp;#25216;&amp;#26415;&amp;#27700;&amp;#24179;&amp;#20998;&amp;#23618;&amp;#65307;&amp;#22402;&amp;#30452;&amp;#19994;&amp;#21153;&amp;#25286;&amp;#20998;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#27599;&amp;#23618;&amp;#35774;&amp;#35745;&amp;#65306;&amp;#24494;&amp;#26381;&amp;#21153;&amp;#65292;&amp;#19994;&amp;#21153;&amp;#21333;&amp;#20803;&amp;#22402;&amp;#30452;&amp;#25286;&amp;#20998;&amp;#65307;&amp;#26080;&amp;#29366;&amp;#24577;&amp;#65307;&amp;#29420;&amp;#31435;&amp;#36827;&amp;#31243;&amp;#65292;&amp;#37096;&amp;#32626;&amp;#65292;&amp;#36816;&amp;#32500;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#39640;&amp;#21487;&amp;#29992;&amp;#65306;&amp;#20887;&amp;#20313;&amp;#65307;&amp;#33258;&amp;#21160;&amp;#24674;&amp;#22797;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#25216;&amp;#26415;&amp;#27700;&amp;#24179;&amp;#20998;&amp;#23618;&amp;#65306;&amp;#24494;&amp;#26381;&amp;#21153;&amp;#32593;&amp;#20851;&amp;#23618;&amp;#65288;&amp;#35831;&amp;#27714;&amp;#25509;&amp;#25910;&amp;#21644;&amp;#36716;&amp;#21457;&amp;#65292;&amp;#36523;&amp;#20221;&amp;#39564;&amp;#35777;&amp;#65292;session&amp;#31649;&amp;#29702;&amp;#65289;&amp;#65307;&amp;#24494;&amp;#26381;&amp;#21153;&amp;#32858;&amp;#21512;&amp;#23618;&amp;#65288;&amp;#19994;&amp;#21153;&amp;#25286;&amp;#20998;&amp;#25104;&amp;#24494;&amp;#26381;&amp;#21153;&amp;#21407;&amp;#23376;&amp;#23618;&amp;#65292;&amp;#26159;&amp;#19994;&amp;#21153;&amp;#36923;&amp;#36753;&amp;#23618;&amp;#65289;&amp;#65307;&amp;#24494;&amp;#26381;&amp;#21153;&lt;content ename=&quot;content&quot;&gt;&amp;#21407;&amp;#23376;&amp;#23618;&amp;#65288;CRUD&amp;#65289;&amp;#65307;&amp;#24494;&amp;#26381;&amp;#21153;&amp;#25968;&amp;#25454;&amp;#23618;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#36731;&amp;#37327;&amp;#32423;&amp;#36890;&amp;#20449;&amp;#65306;RESTful&amp;#160;http;HAL Restful;rpc&amp;#65292;thrift (apache), gRpc (google), dubbo 
+      (ali);message queue (asynchronization)
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#24494;&amp;#26381;&amp;#21153;&amp;#27880;&amp;#20876;&amp;#65306;host;port:config
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#24494;&amp;#26381;&amp;#21153;&amp;#21457;&amp;#29616;&amp;#65306;&amp;#19979;&amp;#28216;&amp;#21457;&amp;#29616;&amp;#65307;&amp;#36127;&amp;#36733;&amp;#24179;&amp;#34913;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#26580;&amp;#24615;&amp;#21487;&amp;#29992;&amp;#65292;&amp;#26381;&amp;#21153;&amp;#38477;&amp;#32423;&amp;#65292;&amp;#31995;&amp;#32479;&amp;#38477;&amp;#32423;&amp;#65288;&amp;#25298;&amp;#32477;&amp;#37096;&amp;#20998;&amp;#32769;&amp;#35831;&amp;#27714;&amp;#65292;&amp;#20248;&amp;#20808;&amp;#32423;&amp;#35831;&amp;#27714;&amp;#26041;&amp;#24335;&amp;#65292;&amp;#38543;&amp;#26426;&amp;#25298;&amp;#32477;&amp;#26041;&amp;#24335;&amp;#65289;&amp;#65292;&amp;#25968;&amp;#25454;&amp;#23618;&amp;#38477;&amp;#32423;&amp;#65288;&amp;#38431;&amp;#21015;&amp;#25345;&amp;#20037;&amp;#21270;&amp;#65289;&amp;#65307;&amp;#25298;&amp;#32477;&amp;#37096;&amp;#20998;&amp;#35831;&amp;#27714;&amp;#65292;&amp;#20851;&amp;#38381;&amp;#37096;&amp;#20998;&amp;#26381;&amp;#21153;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#26381;&amp;#21153;&amp;#27835;&amp;#29702;&amp;#65292;&amp;#30417;&amp;#25511;&amp;#26426;&amp;#22120;&amp;#36164;&amp;#28304;&amp;#65292;&amp;#36827;&amp;#31243;&amp;#29366;&amp;#24577;&amp;#65292;open-falcon
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+</node>
+<node CREATED="1561013206018" ID="ID_971910422" MODIFIED="1563521813501" TEXT="java for miroservices">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6102,9 +6197,11 @@
     <p>
       Spring Cloud vs DubboX (SOA)
     </p>
+    <p>
+      video: https://www.imooc.com/learn/1134
+    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561018808642" ID="ID_1564805541" MODIFIED="1561101489538" TEXT="API Gateway">
 <node CREATED="1561101343925" ID="ID_186492762" MODIFIED="1562555408122" TEXT="classic gateway">
@@ -6117,8 +6214,7 @@
       gateway: nginx, HAproxy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561101443349" ID="ID_1356090722" MODIFIED="1562555408132" TEXT="zuul 1.x">
 <richcontent TYPE="NOTE"><html>
@@ -6130,8 +6226,7 @@
       zuul 1.x (block, synchronization): request -&gt; zuul servlet -&gt;pre filter -&gt; rounting filter&#160;&#160;-&gt; origin -&gt; post filter -&gt; servlet -&gt; response
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561101463835" ID="ID_1262237345" MODIFIED="1562555408142" TEXT="spring cloud gateway (zuul 2.x)">
 <richcontent TYPE="NOTE"><html>
@@ -6146,11 +6241,10 @@
       zuul 2.x (deprecated), spring cloud gateway (non-block, asynchronization) request -&gt; netty server -&gt; filter chain (RxJava asynch) -&gt; netty client -&gt; origin -&gt; netty client -&gt; filter chain -&gt; netty server -&gt; response
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1561088117096" ID="ID_1818126882" MODIFIED="1562555408155" TEXT="Service Registration and Discovery">
+<node CREATED="1561088117096" ID="ID_1818126882" MODIFIED="1563521729670" TEXT="Service Registration and Discovery">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6171,12 +6265,8 @@
     <p>
       
     </p>
-    <p>
-      
-    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1561099380098" ID="ID_965084375" MODIFIED="1562555408165" TEXT="Eureka">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6187,8 +6277,7 @@
       Eureka (Nexflix) (Eureka Server and Eureka client with java)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561099389568" ID="ID_507037592" MODIFIED="1562555408175" TEXT="Zookeeper">
 <richcontent TYPE="NOTE"><html>
@@ -6221,8 +6310,7 @@
       client: spring-cloud-zookeeper-discovery
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561099402239" ID="ID_189532218" MODIFIED="1562555408186" TEXT="Consul">
 <richcontent TYPE="NOTE"><html>
@@ -6252,8 +6340,7 @@
       &#160;&#160;spring-cloud-stater-consul-discovery
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561099430971" ID="ID_643090414" MODIFIED="1562555408193" TEXT="other">
 <richcontent TYPE="NOTE"><html>
@@ -6265,11 +6352,10 @@
       etcd (container)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1561100708659" ID="ID_1889751730" MODIFIED="1562555408203" TEXT="CAP">
+<node CREATED="1561100708659" ID="ID_1889751730" MODIFIED="1563521728882" TEXT="CAP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6285,32 +6371,10 @@
       Partition Tolerance
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1561351414434" ID="ID_1933963380" MODIFIED="1561351446679" TEXT="Container Orchestration">
-<node CREATED="1561351461028" ID="ID_1468920946" MODIFIED="1562555408214" TEXT="Google Kubernetes">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://kubernetes.io
-    </p>
-    <p>
-      https://rancher.com
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1561351562498" ID="ID_841323912" MODIFIED="1561351574233" TEXT="Docker Swarm"/>
-<node CREATED="1561351590451" ID="ID_909102625" MODIFIED="1561351604191" TEXT="Apache Mesos"/>
-<node CREATED="1561351666322" ID="ID_1039970426" MODIFIED="1561351696607" TEXT="Amazon Elastic Container Service (ECS)"/>
-</node>
-<node CREATED="1561347494088" ID="ID_532413174" MODIFIED="1562555408234" TEXT="Message Broker">
+<node CREATED="1561347494088" FOLDED="true" ID="ID_532413174" MODIFIED="1564976247437" TEXT="Message Broker">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6320,8 +6384,7 @@
       https://www.imooc.com/learn/856
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1561347533370" ID="ID_259078942" MODIFIED="1562555408246" TEXT="RabbitMQ">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6359,8 +6422,7 @@
       QOS, ACK, TTL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1561348655284" ID="ID_736853659" MODIFIED="1562555408261" TEXT="AMQP Protocol">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6407,8 +6469,7 @@
       Queue: Message Queue, consumer client listen Queue to get Message
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561367013249" ID="ID_1185459478" MODIFIED="1562555418976" TEXT="SpringAMQP">
 <richcontent TYPE="NOTE"><html>
@@ -6436,8 +6497,7 @@
 
 </b></font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1561450986907" ID="ID_689582737" MODIFIED="1562555408324" TEXT="producer">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6449,8 +6509,7 @@
 
 @Autowired<br /></font><font color="#000080"><b>private </b></font>RabbitTemplate <font color="#660e7a"><b>rabbitTemplate</b></font>;<br /><br /><font color="#000080"><b>public void </b></font>send(Order order) <font color="#000080"><b>throws </b></font>Exception {<br />&#160;&#160;&#160;&#160;CorrelationData correlationData = <font color="#000080"><b>new </b></font>CorrelationData();<br />&#160;&#160;&#160; correlationData.setId(order.getMessageId());<br />&#160;&#160;&#160; <font color="#660e7a"><b>rabbitTemplate</b></font>.convertAndSend(<font color="#008000"><b>&quot;order-exchange&quot;</b></font>, <font color="#008000"><b>&quot;order.abcd&quot;</b></font>, order, correlationData);<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561626452290" ID="ID_1056065301" MODIFIED="1562555408357" TEXT="consumer">
 <richcontent TYPE="NOTE"><html>
@@ -6467,8 +6526,7 @@
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 10.5pt"><font color="#808000">@Component<br /></font><font color="#000080"><b>public class </b></font>OrderReceiver {<br /><br />    <font color="#808000">@RabbitListener</font>(bindings = <font color="#808000">@QueueBinding</font>(value = <font color="#808000">@Queue</font>(value = <font color="#008000"><b>&quot;order-queue&quot;</b></font>, durable = <font color="#008000"><b>&quot;true&quot;</b></font>),<br />            exchange = <font color="#808000">@Exchange</font>(name = <font color="#008000"><b>&quot;order-exchange&quot;</b></font>, durable = <font color="#008000"><b>&quot;true&quot;</b></font>, type = <font color="#008000"><b>&quot;topic&quot;</b></font>),<br />            key = <font color="#008000"><b>&quot;order.#&quot;</b></font>))<br />    <font color="#808000">@RabbitHandler<br />    </font><font color="#000080"><b>public void </b></font>onOrderMessage(<font color="#808000">@Payload </font>Order order,<br />                               <font color="#808000">@Headers </font>Map&lt;String, Object&gt; headers,<br />                               Channel channel <font color="#808080"><i>//cknowledge-mode=manual<br />    </i></font>) <font color="#000080"><b>throws </b></font>Exception {<br />        System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;--------consumer start-----------&quot;</b></font>);<br />        System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;Order: &quot; </b></font>+ order.getId());<br /><br />        Long deliverTag = (Long) headers.get(AmqpHeaders.<font color="#660e7a"><b><i>DELIVERY_TAG</i></b></font>);<br />        <font color="#808080"><i>//ACK<br />        </i></font>channel.basicAck(deliverTag, <font color="#000080"><b>false</b></font>);<br />    }<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1561434253387" ID="ID_737905819" MODIFIED="1562555408370" TEXT="yum install CentOS">
@@ -6490,8 +6548,7 @@
       rpm -ivh rabbitmq-server-3.6.14-1.el7.noarch.rpm
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1561434263763" ID="ID_727916503" MODIFIED="1562555408382" TEXT="epel">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6529,8 +6586,7 @@
       yum repolist -- Display the configured software repositories
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561434318170" ID="ID_385120724" MODIFIED="1562555408393" TEXT="erlang">
 <richcontent TYPE="NOTE"><html>
@@ -6542,8 +6598,7 @@
       yum install erlang
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561435777919" ID="ID_1595678287" MODIFIED="1562555408410" TEXT="RabbitMQ">
 <richcontent TYPE="NOTE"><html>
@@ -6585,8 +6640,7 @@
       rpm -aq | grep rabbitmq or wheresi rabbitmq
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1561438560131" ID="ID_1507946810" MODIFIED="1562555408426" TEXT="start">
 <richcontent TYPE="NOTE"><html>
@@ -6646,16 +6700,3021 @@
       password:guest
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1561348701554" ID="ID_1437754738" MODIFIED="1561348711243" TEXT="cluster"/>
 </node>
 <node CREATED="1561347540993" ID="ID_108234001" MODIFIED="1561365694139" TEXT="Kafka"/>
 </node>
-<node CREATED="1556165010823" ID="ID_859775496" MODIFIED="1556165015344" TEXT="database">
-<node CREATED="1556165016006" ID="ID_126031084" MODIFIED="1562555408445" TEXT="h2">
+<node CREATED="1561969817758" FOLDED="true" ID="ID_627938863" MODIFIED="1564557783513" TEXT="dependency injection">
+<node CREATED="1561969833571" FOLDED="true" ID="ID_936147457" MODIFIED="1564557781375" TEXT="google guice">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://github.com/google/guice
+    </p>
+    <p>
+      https://github.com/google/guice/wiki/Motivation
+    </p>
+    <p>
+      https://github.com/google/guice/wiki/ExternalDocumentation
+    </p>
+    <p>
+      troubleshooting: stackoverflow
+    </p>
+    <p>
+      video: https://www.imooc.com/view/901
+    </p>
+    <p>
+      --------------------------------------------------------
+    </p>
+    <p>
+      Dependency Injection
+    </p>
+    <p>
+      &#160;&#160;Injection
+    </p>
+    <p>
+      &#160;&#160;Binding
+    </p>
+    <p>
+      &#160;&#160;Scope
+    </p>
+    <p>
+      Guice AOP
+    </p>
+    <p>
+      Guice and Spring Boot start a sample web application
+    </p>
+    <p>
+      Guice vs Spring framework
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1561970300038" ID="ID_426012168" MODIFIED="1562555408509" TEXT="compare with Spring">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cancel xml, bean
+    </p>
+    <p>
+      use constructor for injection
+    </p>
+    <p>
+      support generic natively (spring use qualify, not support generic natively)
+    </p>
+    <p>
+      focus on Dependency Injection
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1561970754695" ID="ID_630104217" MODIFIED="1563162253779" TEXT="Hello World">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 10.5pt">        &lt;dependency&gt;
+            &lt;groupId&gt;com.google.inject&lt;/groupId&gt;
+            &lt;artifactId&gt;guice&lt;/artifactId&gt;
+            &lt;version&gt;4.2.2&lt;/version&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;com.google.inject.extensions&lt;/groupId&gt;
+            &lt;artifactId&gt;guice-multibindings&lt;/artifactId&gt;
+            &lt;version&gt;4.2.2&lt;/version&gt;
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/dependency&gt;
+
+---------------------
+@Inject at constructor
+Add the MyModule extends AbstractModule 
+configure { bind(My).to(MyImpl); }</pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562133139306" ID="ID_818715517" MODIFIED="1562555408539" TEXT="Injection">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usage:
+    </p>
+    <p>
+      &#160;&#160;bind (module) -&gt; google guice (black box) -&gt; @inject (at constructor or field (not recommended or test))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562136820974" ID="ID_707646091" MODIFIED="1562555408548" TEXT="constructor">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      constructor injection
+    </p>
+    <p>
+      &#160;&#160;dependencies add final to fields
+    </p>
+    <p>
+      &#160;&#160;do not think bind and implements
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562136841900" ID="ID_1287601180" MODIFIED="1562555408557" TEXT="field">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      field injection
+    </p>
+    <p>
+      &#160;&#160;test scenario
+    </p>
+    <p>
+      &#160;&#160;Guice...injectMembers(this)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562136853759" ID="ID_70379308" MODIFIED="1562555408568" TEXT="provider">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Guice provides Provider, not DIY
+    </p>
+    <p>
+      public interface Provider&lt;T&gt; {
+    </p>
+    <p>
+      &#160;&#160;T get();
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      usage scenario
+    </p>
+    <p>
+      &#160;&#160;Lazy loading
+    </p>
+    <p>
+      &#160;&#160;- databaseConnectionProvider.get();
+    </p>
+    <p>
+      &#160;&#160;mutil instance
+    </p>
+    <p>
+      &#160;&#160;- logEntryProvider.get();
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562139484043" ID="ID_69071062" MODIFIED="1562555408579" TEXT="name">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @Inject @MyName
+    </p>
+    <p>
+      @Inject @Named(&quot;xxx&quot;)
+    </p>
+    <p>
+      ------------
+    </p>
+    <p>
+      Module
+    </p>
+    <p>
+      @Provides @MyName
+    </p>
+    <p>
+      @Provides @Named(&quot;xxx&quot;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562145480804" ID="ID_962411817" MODIFIED="1562555408590" TEXT="bind">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Module
+    </p>
+    <p>
+      configure(){
+    </p>
+    <p>
+      &#160;&#160;install();
+    </p>
+    <p>
+      &#160;&#160;bind().to();
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      -----------------------------------
+    </p>
+    <p>
+      Practice-
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Guice.createInjector(new MyModule0(), new MyModule1() ...)
+    </p>
+    <p>
+      Provider
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562230136552" ID="ID_116487830" MODIFIED="1562555408600" TEXT="class">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      class: bind().to();
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562230147600" ID="ID_776985114" MODIFIED="1562555408609" TEXT="instance">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      instance: bind().toInstance()
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562230172598" ID="ID_687231927" MODIFIED="1562555408619" TEXT="provider">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @bind().toProvider()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      @Provides
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562230261495" ID="ID_1618733908" MODIFIED="1562555408630" TEXT="generic">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      bind(new TypeLiteral&lt;List&lt;String&gt;&gt;(){}).to(New TypeLiteral&lt;MyList&lt;String&gt;&gt;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562230379775" ID="ID_1785863765" MODIFIED="1562555408641" TEXT="annotation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @bind().annotatedWith(Names.name(&quot;xxx&quot;))
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      @Provides
+    </p>
+    <p>
+      @Named(&quot;xxx&quot;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562230467238" ID="ID_660138823" MODIFIED="1562555408648" TEXT="MultiBinder MapBinder">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for giant project
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562295784129" ID="ID_438054348" MODIFIED="1562297470553" TEXT="module">
+<node CREATED="1562297448606" ID="ID_1954577180" MODIFIED="1562297459465" TEXT="relationship">
+<node CREATED="1562296014012" ID="ID_256960292" MODIFIED="1562555408659" TEXT="parallel">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Guice.createInjector(module1, module2, ...)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562296034014" ID="ID_610321781" MODIFIED="1562555408666" TEXT="nest">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      configure(){install(module1) .. }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562296049605" ID="ID_648906071" MODIFIED="1562555408673" TEXT="override">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Guice.createInjector(Modules.override(module1).with(module2))
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562297472437" ID="ID_700429014" MODIFIED="1562555737397" TEXT="initialize">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Module Guice.createInjector() Configuration Time - injector.getInstance(xxx.class) (Injector injector = Guice.createInjector(new MainModule()))
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562824934084" ID="ID_983459188" MODIFIED="1562824939013" TEXT="scope">
+<node CREATED="1562828238865" ID="ID_1216169378" MODIFIED="1562828345384" TEXT="stateless">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      new an instance
+    </p>
+    <p>
+      e.g. Parser, PriceCalculator
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562828248623" ID="ID_488794150" MODIFIED="1562828499649" TEXT="singleton">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Stateful
+    </p>
+    <p>
+      thread safety
+    </p>
+    <p>
+      database connection, network connection
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562828254975" ID="ID_1601462503" MODIFIED="1562828556984" TEXT="session/request">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      session - user stateful
+    </p>
+    <p>
+      request
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562836387664" ID="ID_1005953221" MODIFIED="1562836465301" TEXT="aop">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Aspect Oriented Programming
+    </p>
+    <p>
+      Aspect scenario: transaction, log, security ...
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562836527367" ID="ID_1997022190" MODIFIED="1562836639716" TEXT="principal">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AOPAlliance: MethodInterceptor interface
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562838758618" ID="ID_590495806" MODIFIED="1562838907013" TEXT="practice">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      bind MethodInterceptor-&gt;@Annotation
+    </p>
+    <p>
+      create MethodInterceptor-&gt;invoke-&gt;invocatoin
+    </p>
+    <p>
+      inject Dependency in MethodInterceptor
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562915612254" ID="ID_696363777" MODIFIED="1562915647691" TEXT="integrate with Spring Boot"/>
+</node>
+<node CREATED="1561969841313" ID="ID_598528523" MODIFIED="1561969850340" TEXT="spring framework"/>
+</node>
+<node CREATED="1562555803264" ID="ID_1227079054" MODIFIED="1564976246349" TEXT="cloud native">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      operation experience
+    </p>
+    <p>
+      technology skills
+    </p>
+    <p>
+      requirement
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562555806150" ID="ID_456416985" MODIFIED="1564648857534" TEXT="aws">
+<node CREATED="1562555992229" ID="ID_272454844" MODIFIED="1562561454270" TEXT="registry">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      china: only for enterprise
+    </p>
+    <p>
+      international: personal (email and credit card) and enterprise, and choose Japan
+    </p>
+    <p>
+      Region
+    </p>
+    <p>
+      AZ: availability zone
+    </p>
+    <p>
+      CLi: command line interface
+    </p>
+    <p>
+      TLS: transport layer security
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://aws.amazon.com/ec2/getting-started/#tutorials
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563957868017" ID="ID_11286202" MODIFIED="1564479396317" TEXT="aws marketplace">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://aws.amazon.com/marketplace/">https://aws.amazon.com/marketplace/</a>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562556957133" ID="ID_1244450542" MODIFIED="1565075947973" TEXT="Products">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      infrastructure is code
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562557102453" ID="ID_744551971" MODIFIED="1563872461759" TEXT="Feature Service">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Amazon EC2
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563872427618" ID="ID_811898226" MODIFIED="1563872465846" TEXT="Analytics">
+<node CREATED="1563873172443" ID="ID_1161652973" MODIFIED="1563873266081" TEXT="Amazon Athena">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Query data in S3 using SQL
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563864703646" ID="ID_207128525" MODIFIED="1564390723314" TEXT="Amazon EMR">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hosted Hadoop framework
+    </p>
+    <p>
+      https://aws.amazon.com/emr/?nc=sn&amp;loc=0
+    </p>
+    <p>
+      Easily Run and Scale Apache Spark, Hadoop, HBase, Presto, Hive and other Big Data Frameworks
+    </p>
+    <p>
+      ----------------------
+    </p>
+    <p>
+      Feature
+    </p>
+    <p>
+      Directly access data in S3
+    </p>
+    <p>
+      Scale out to thousands of nodes
+    </p>
+    <p>
+      Open data formats
+    </p>
+    <p>
+      Popular big data framework
+    </p>
+    <p>
+      Anything you can dream up and code
+    </p>
+    <p>
+      ------------------
+    </p>
+    <p>
+      AWS EMR Apache Kylin
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564557708314" ID="ID_129645449" MODIFIED="1564557790189" TEXT="Amazon Elasticsearch Service">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Run and scale Elastricsearch clusters
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563874061623" ID="ID_1428215119" MODIFIED="1564557789667" TEXT="Amazon Kinesis">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Analyze real-time video and data stream
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563872479771" ID="ID_1609739977" MODIFIED="1564557793036" TEXT="AWS Glue">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Simple, flexible, and cost-effective ETL
+    </p>
+    <p>
+      AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564479129279" ID="ID_1147282898" MODIFIED="1564479142485" TEXT="Application Integration">
+<node CREATED="1564479146876" ID="ID_34847075" MODIFIED="1564479186648" TEXT="AWS Step Functions">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Coordination for distributed applications
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564479734061" ID="ID_1449479666" MODIFIED="1564479780190" TEXT="Amazon EventBridge">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Serverless event bus for SaaS apps &amp; AWS services
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564479523658" ID="ID_988153152" MODIFIED="1564479579685" TEXT="Amazon Simple Notification Service (SNS)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Managed message topics for pub/sub
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564554928751" ID="ID_822891597" MODIFIED="1564554996535" TEXT="Amazon Simple Queue Service (SQS)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Managed message queues
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564554997978" ID="ID_1641626560" MODIFIED="1564974922208" TEXT="Amazon AppSync">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Power your apps with the right data from many sources, at scale
+    </p>
+    <p>
+      Building robust GraphQL APIs with AWS Amplify and AWS AppSync
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564479427337" ID="ID_695777406" MODIFIED="1564479455799" TEXT="Business Applications">
+<node CREATED="1564479457944" ID="ID_1164223029" MODIFIED="1564479522293" TEXT="Alexa for Business">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Empower your organization with Alexa
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562556964519" ID="ID_827237883" MODIFIED="1562557078666" TEXT="Compute">
+<node CREATED="1562556997510" ID="ID_1940215387" MODIFIED="1562558954366" TEXT="Amazon EC2">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://aws.amazon.com/ec2/?nc2=h_m1
+    </p>
+    <p>
+      Amazon EC2 (Elastic Compute Cloud) is a web service that provided secure, resizable compute capacity in the cloud.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562557031397" ID="ID_1840943853" MODIFIED="1562562201330" TEXT="Amazon EC2 Auto Scaling">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://aws.amazon.com/ec2/autoscaling/?nc2=h_m1
+    </p>
+    <p>
+      Amazon EC2&#160;&#160;Auto Scaling
+    </p>
+    <p>
+      Add and remove compute capacity to meet changes in demand
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563961426261" ID="ID_1643100595" MODIFIED="1563961484921" TEXT="Amazon EC2 Container Regisry (ECR)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Store and retrieve docker images
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563960585440" ID="ID_1957288150" MODIFIED="1564734852942" TEXT="Amazon Elastic Container Service (ECS)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Run and manage docker containers
+    </p>
+    <p>
+      ---------
+    </p>
+    <p>
+      Scaling (monitor by CloudWatch)
+    </p>
+    <p>
+      ALB (Application Load Balance)
+    </p>
+    <p>
+      Service Discovery (registry container to Route 53)
+    </p>
+    <p>
+      monitoring and logging (CloudWatch log agent)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564731616544" ID="ID_857849443" MODIFIED="1564732832262" TEXT="Amazon Elastic Kubernetes Service (EKS)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Provision an EKS cluster (EKS automatically deploys kubernetes masters) -&gt; Deploy worker nodes (Add worker nodes to your EKS cluster) -&gt; Connect to EKS (Point your favorite kubernetes tools at your EKS cluster) -&gt; Run Kubernetes apps (Deploy your kubernetes applications to your EKS cluster)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564632338917" ID="ID_717670059" MODIFIED="1564632404015" TEXT="Amazon Lightsail">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Launch and manage virtual private servers
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563873357120" ID="ID_1924529014" MODIFIED="1564640553785" TEXT="Amazon Lambda">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      serverless service from 2014
+    </p>
+    <p>
+      high availability, set overtime
+    </p>
+    <p>
+      Run code without thinking about servers (serverless)
+    </p>
+    <p>
+      event driving-&gt;lambda (handler)-&gt;service (callback)
+    </p>
+    <p>
+      code package lambda function =&gt; choose run environment&#160;&#160;(container) =&gt; update code package =&gt; bind driving event to execute Lambda function
+    </p>
+    <p>
+      Lambda code store
+    </p>
+    <p>
+      AWS Serverless Java Container
+    </p>
+    <p>
+      -------------------
+    </p>
+    <p>
+      Lambda Function version $LATEST (or Alise)
+    </p>
+    <p>
+      ------------
+    </p>
+    <p>
+      response:
+    </p>
+    <p>
+      synchronization: from Amazon API Gateway (429 too many requests)
+    </p>
+    <p>
+      asynchronization: S3, SNS, SQS; create a DLQ to deal (Dead Letter Queue DLQ)
+    </p>
+    <p>
+      --------------
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564542675497" ID="ID_647325455" MODIFIED="1564542821074" TEXT="Lambda@Edge">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Run your code closer to your users
+    </p>
+    <p>
+      Lambda@Edge is a feature of Amazon CloudFront that lets you run code closer to users of you application, which improve performance and reduces latency.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564640977193" ID="ID_1432201860" MODIFIED="1564642210037" TEXT="Lambda (web framework to serverless)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      HTTP(s) request -&gt; Amazon API Gateway -&gt; Lambda (web framework)
+    </p>
+    <p>
+      stateless
+    </p>
+    <p>
+      -----------------
+    </p>
+    <p>
+      proxy from Amazon API Gateway to web framework
+    </p>
+    <p>
+      serverless java container
+    </p>
+    <p>
+      serverless php
+    </p>
+    <p>
+      AWS Lambda for .NET Core
+    </p>
+    <p>
+      AWS Lambda Express
+    </p>
+    <p>
+      Zappa (flask, django) - python
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564372118391" ID="ID_870931376" MODIFIED="1564632348674" TEXT="AWS Elastic BeanStalk">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Run and manage web app
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564542913518" ID="ID_1792152846" MODIFIED="1564732293457" TEXT="AWS Fargate">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Run containers without managing servers and clusters
+    </p>
+    <p>
+      Build a container images -&gt; Choose Orchestrator (Choose a container orchestration solution) -&gt; Define application (Define your containers application requirements) -&gt; Launch containers (AWS Fargate launches your containers) -&gt; Run containers (AWS Fargate manages all the underlying container infrastructure)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565317889603" ID="ID_972826941" MODIFIED="1565318046270" TEXT="VMWare Cloud on AWS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Build a hybird cloud without custom hardware
+    </p>
+    <p>
+      <a href="https://www.imooc.com/video/16172">https://www.imooc.com/video/16172</a>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562557289310" ID="ID_788769819" MODIFIED="1562557292889" TEXT="Database">
+<node CREATED="1564543409753" ID="ID_1834213462" MODIFIED="1564543618627" TEXT="Amazon Aurora">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      High performance managed relational database
+    </p>
+    <p>
+      MySQL and PostgreSQL-compatible relational database built for the cloud. Performance and availability of commercial-grade databases at 1/10th the cost.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563873940534" ID="ID_167453441" MODIFIED="1565081653794" TEXT="Amazon DynamoDB">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dynamo: Amazon's Highly Available Key-value Store is released in 2007
+    </p>
+    <p>
+      from 201201
+    </p>
+    <p>
+      Managed No-SQL database
+    </p>
+    <p>
+      key-value
+    </p>
+    <p>
+      auto scaling
+    </p>
+    <p>
+      DynamoDB Accelerator (DAX)
+    </p>
+    <p>
+      ---------------
+    </p>
+    <p>
+      table: items (partition key, sort key), attributes
+    </p>
+    <p>
+      DynamoDB Streams API: ListStreams, DescribeStream, GetShardIterator, GetRecords
+    </p>
+    <p>
+      GSI (Global Secondary Index), DynamoDB Table, LSI (Local Secondary Index)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562557294397" ID="ID_1602294789" MODIFIED="1564543421063" TEXT="Amazon RDS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://aws.amazon.com/rds/?nc2=h_m1
+    </p>
+    <p>
+      Amazon Relational Database Service (RDS)
+    </p>
+    <p>
+      Set up, operate and scale a relational database in the cloud with just a few clicks.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562557478469" ID="ID_1788327479" MODIFIED="1564543420525" TEXT="Amazon ElastiCache">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://aws.amazon.com/elasticache/?nc2=h_m1
+    </p>
+    <p>
+      Amazon ElastiCache
+    </p>
+    <p>
+      Managed, Redis and Memcached-compatible in-memory data store
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563865124571" ID="ID_1087465967" MODIFIED="1564543419792" TEXT="Amazon Redshift">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://aws.amazon.com/redshift/?nc2=h_m1
+    </p>
+    <p>
+      The most and fastest growing cloud data and warehouse
+    </p>
+    <p>
+      Feature
+    </p>
+    <p>
+      Super-fast local disc performance
+    </p>
+    <p>
+      Sophisticated query optimization
+    </p>
+    <p>
+      Join-optimized data formats
+    </p>
+    <p>
+      Query using standard SQL
+    </p>
+    <p>
+      Optimized for data warehoursing
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1563869063507" ID="ID_1765883531" MODIFIED="1564640973753" TEXT="Amazon Redshift Spectrum">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Amazon Redshift Spectrum is a component of Amazon Redshift
+    </p>
+    <p>
+      --------------------------------
+    </p>
+    <p>
+      Amazon Redshift Spectrum is fast
+    </p>
+    <p>
+      Leverages Amazon Redshift's advanced cost-based optimizer
+    </p>
+    <p>
+      Pushes down projections, filters, aggregations and join reduction
+    </p>
+    <p>
+      Dynamic partition pruning to minimize data processed
+    </p>
+    <p>
+      Automatic parallelization of query execution against S3 data
+    </p>
+    <p>
+      Efficient join processing within the Amazon Redshift cluster
+    </p>
+    <p>
+      --------------------------
+    </p>
+    <p>
+      Amazon Redshift Spectrum is secure
+    </p>
+    <p>
+      End-to-end data encryption
+    </p>
+    <p>
+      Virtual private cloud
+    </p>
+    <p>
+      Alerts &amp; notifications
+    </p>
+    <p>
+      Audit logging
+    </p>
+    <p>
+      Certifications &amp; compliance
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1563959663739" ID="ID_803594899" MODIFIED="1564479452016" TEXT="Developer Tools">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Developer Tools: code management
+    </p>
+    <p>
+      Developers -&gt;&#160;AWS CodeCommit (develop) (revision management) -&gt; AWS CodeBuild (build) (CI continuous integration) -&gt; X-Ray (test) (continuous test) -&gt; AWS CodeDeploy (deploy) (CD continuous deployment) -&gt; Application Servers
+    </p>
+    <p>
+      AWS CodePipeline: AWS CodeCommit (develop) -&gt; AWS CodeBuild (build) -&gt; X-Ray (test) -&gt; AWS CodeDeploy (deploy)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1563959717078" ID="ID_687360204" MODIFIED="1564370914442" TEXT="AWS CodeCommit">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Store code in private Git repositories
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563959687629" ID="ID_1835700166" MODIFIED="1563959714718" TEXT="AWS CodeBuild">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Build and test code
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563959776908" ID="ID_1385904778" MODIFIED="1564374397150" TEXT="AWS CodeDeploy">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Automate code deployments (continuous deployment)
+    </p>
+    <p>
+      coordinate automated deployments, just like Amazon
+    </p>
+    <p>
+      application revisions =&gt; CodeDeploy =&gt; deployment groups (Dev, Test, Production)
+    </p>
+    <p>
+      ------------------
+    </p>
+    <p>
+      How to use AWS CodeDeploy?
+    </p>
+    <ol>
+      <li>
+        What to deploy
+      </li>
+      <li>
+        How to deploy
+      </li>
+      <li>
+        where to deploy
+      </li>
+    </ol>
+    <p>
+      ---------------------
+    </p>
+    <p>
+      Rolling update - deploy without downtime
+    </p>
+    <p>
+      health tracking - catch deployment problems
+    </p>
+    <p>
+      -------------
+    </p>
+    <p>
+      benefit
+    </p>
+    <p>
+      automates deployments:
+    </p>
+    <p>
+      &#160;&#160;deploy any application and reuse existing setup code
+    </p>
+    <p>
+      &#160;&#160;consistently deploy applications across development, testing and production environments
+    </p>
+    <p>
+      &#160;&#160;integrate with Auto Scaling
+    </p>
+    <p>
+      &#160;&#160;Scales with your infrastructure: deploy to one EC2 instance or thousands
+    </p>
+    <p>
+      minimize downtime:
+    </p>
+    <p>
+      &#160;&#160;performs rolling updates across EC2 instances
+    </p>
+    <p>
+      &#160;&#160;track application deployment health
+    </p>
+    <p>
+      &#160;&#160;deployments can be stopped and rolled back
+    </p>
+    <p>
+      centralized control
+    </p>
+    <p>
+      &#160;&#160;launch, control and monitor deployments from the AWS Management Console, CLI, SDKs and APIs
+    </p>
+    <p>
+      &#160;&#160;organize your staging and production environment into Deployment Groups
+    </p>
+    <p>
+      &#160;&#160;track and view deployment history
+    </p>
+    <p>
+      &#160;&#160;inspect change history and success rates
+    </p>
+    <p>
+      east to adopt
+    </p>
+    <p>
+      ------------------------
+    </p>
+    <p>
+      features
+    </p>
+    <p>
+      Scale from one instance to thousands
+    </p>
+    <p>
+      depoly to any server: AWS or on-premises (hybird cloud)
+    </p>
+    <p>
+      centrally control and monitor
+    </p>
+    <p>
+      --------------------------
+    </p>
+    <p>
+      deployment config - choose speed: one at a time, half at a time, all at once, and custom
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563959805027" ID="ID_1242050459" MODIFIED="1564631825340" TEXT="AWS CodePipeline">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Release software using continuous delivery
+    </p>
+    <ol>
+      <li>
+        commit code to repository
+      </li>
+      <li>
+        AWS CloudBulid, package, test
+      </li>
+      <li>
+        CreateChangeSet: AWS CloudFormation; UpdateChangeSet: AWS CloudFormation (use AWS SAM)
+      </li>
+      <li>
+        Set parameter file to Lambda
+      </li>
+      <li>
+        Test
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564371274790" ID="ID_879486213" MODIFIED="1564371459215" TEXT="AWS CodeStar">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      develop and deploy AWS applications
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564371077615" ID="ID_662277279" MODIFIED="1564371128639" TEXT="AWS X-Ray">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      analyze and debug your application
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564478895326" ID="ID_1619056552" MODIFIED="1564478922462" TEXT="Internet of Things"/>
+<node CREATED="1563874456189" ID="ID_1928370240" MODIFIED="1564479451470" TEXT="Management &amp; Governance">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Management &amp; Covernance: resource management
+    </p>
+    <p>
+      AWS CloudFormation (setup) -&gt; AWS CloudTrail&amp;AWS CloudWatch (monitor)&#160;&#160;-&gt; AWS CloudWatch (maintenance)
+    </p>
+    <p>
+      AWS OpsWorks: AWS CloudFormation (setup) -&gt; AWS CloudTrail&amp;AWS CloudWatch (monitor)&#160;&#160;-&gt; AWS CloudWatch (maintenance)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1563874478704" ID="ID_1593834094" MODIFIED="1564565239866" TEXT="Amazon CloudWatch">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Monitor resources and applications
+    </p>
+    <p>
+      Complete visibility of your cloud resources and applications
+    </p>
+    <p>
+      Amazon CloudWatch is a monitoring and management service built for developers, system operators, site reliability engineers (SRE)
+    </p>
+    <p>
+      CloudWatch Events (Schedule)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563962165524" ID="ID_1472515082" MODIFIED="1563962229543" TEXT="AWS Auto Scaling">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Scale multiple resources to meet demand
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563962126314" ID="ID_1900384407" MODIFIED="1564540571992" TEXT="AWS CloudFormation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://aws.amazon.com/cloudformation/?nc2=h_m1
+    </p>
+    <p>
+      Create and manage resources with templates (yaml, json)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564371873086" ID="ID_573256663" MODIFIED="1564372082841" TEXT="AWS CloudTrail">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Track user activity and API usage
+    </p>
+    <p>
+      AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564729012940" ID="ID_1247802673" MODIFIED="1564729093499" TEXT="AWS Config">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Track resource inventory and changes
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564371490974" ID="ID_1429485343" MODIFIED="1564371646720" TEXT="AWS OpsWorks">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Automate operations with Chef and Puppet
+    </p>
+    <p>
+      AWS OpsWork is a configuration service that provides managed instance of with Chef and Puppet
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565081749413" ID="ID_1851969864" MODIFIED="1565081786733" TEXT="AWS Organization">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Central governance and management across AWS accounts
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564540937269" ID="ID_397093862" MODIFIED="1564631934987" TEXT="AWS Serverless Application Model (SAM)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://aws.amazon.com/serverless/sam/">https://aws.amazon.com/serverless/sam/</a>
+    </p>
+    <p>
+      Build serverless applications in simple and clean syntax
+    </p>
+    <p>
+      The AWS Serverless Application Model (SAM) is an open-source framework for building serverless applications.
+    </p>
+    <p>
+      support all of CloudFormation
+    </p>
+    <p>
+      Cloud and local test
+    </p>
+    <p>
+      ----------------------
+    </p>
+    <p>
+      practice
+    </p>
+    <p>
+      AWS command - Package &amp; Deploy
+    </p>
+    <p>
+      Package
+    </p>
+    <p>
+      &#160;&#160;create or update *.zip
+    </p>
+    <p>
+      &#160;&#160;upload and deploy to Amazon S3
+    </p>
+    <p>
+      &#160;&#160;add S3 URL to CodeUri
+    </p>
+    <p>
+      Deploy
+    </p>
+    <p>
+      &#160;&#160;call CloudFormation 'CreateChangeSet' API
+    </p>
+    <p>
+      &#160;&#160;call CloudFormation 'ExecuteChangeSet' API
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564729094801" ID="ID_1592773544" MODIFIED="1565081758933" TEXT="AWS Systems Manager">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Gain operational insights and take action
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1563961610439" ID="ID_1545905551" MODIFIED="1563961630029" TEXT="Mobile">
+<node CREATED="1563961618599" ID="ID_878313017" MODIFIED="1563961724948" TEXT="AWS Device Farm">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Test Android, iOS and web apps on real devices in the AWS cloud
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562557198598" ID="ID_1561675502" MODIFIED="1564476120532" TEXT="Network &amp; Content Delivery">
+<node CREATED="1562557237149" ID="ID_1513821759" MODIFIED="1562557787788" TEXT="Amazon VPC">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://aws.amazon.com/vpc/?nc2=h_m1
+    </p>
+    <p>
+      Amazon Virtual Private Cloud
+    </p>
+    <p>
+      Provision a logically isolated section of Amazon Web Service (AWS) Cloud where you can launch AWS resources in a virtual network that you define
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563874162632" ID="ID_1831241945" MODIFIED="1564644606817" TEXT="Amazon API Gateway">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Build, deploy, and manage APIs, like managed RESTful API
+    </p>
+    <p>
+      API Gateway Stages (version): dev stage, test stage, uat stage, pro stage
+    </p>
+    <p>
+      stage variables
+    </p>
+    <p>
+      Throttling
+    </p>
+    <p>
+      Quota
+    </p>
+    <p>
+      -----------
+    </p>
+    <p>
+      security, cache
+    </p>
+    <p>
+      ----------------
+    </p>
+    <p>
+      HTTP(s) request -&gt; API Gateway -&gt; Lambda (web framework)<br />
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564388468255" ID="ID_196729879" MODIFIED="1564388552848" TEXT="AWS CloudFront">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Global content delivery network
+    </p>
+    <p>
+      Fast, highly secure and programmable content delivery network (CDN)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565253345436" ID="ID_1132392946" MODIFIED="1565255098111" TEXT="AWS Direct Connect">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://www.imooc.com/video/16171">https://www.imooc.com/video/16171</a>
+    </p>
+    <p>
+      Dedicated network connection to AWS
+    </p>
+    <p>
+      AWS VPC &lt;=&gt; AWS Direct Connect (DX Location)&lt;=&gt; SP/Parter Network
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564476125595" ID="ID_1335272908" MODIFIED="1565253474765" TEXT="AWS Global Accelerator">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Improve application availability and performance
+    </p>
+    <p>
+      dedicated network
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564475866622" ID="ID_1607736000" MODIFIED="1565253369636" TEXT="AWS Rount 53">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      scalable domain name system (DNS)
+    </p>
+    <p>
+      health check
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562557537037" ID="ID_1844672489" MODIFIED="1565253367666" TEXT="Elastic Load Balancing (ELB)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://aws.amazon.com/elasticloadbalancing/?nc2=h_m1
+    </p>
+    <p>
+      Elastic Load Balancing
+    </p>
+    <p>
+      Achieve fault tolerance for any application by ensuring scalability, performance, and security.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564470757184" ID="ID_1382222138" MODIFIED="1564470808913" TEXT="Security, Identity, &amp; Compliance">
+<node CREATED="1564556654512" ID="ID_851868613" MODIFIED="1564556752430" TEXT="AWS Identity and Acess Management">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Manage user access and encryption keys
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564470810943" ID="ID_1533904785" MODIFIED="1564478784591" TEXT="Amazon Cloud Directory">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create flexible cloud-native directories (LDAP)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564478736669" ID="ID_1358206167" MODIFIED="1564556670652" TEXT="Amazon Cognito">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Identity management for your apps
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564472575120" ID="ID_763671448" MODIFIED="1564556669832" TEXT="Amazon Certificate Manager">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Provision, manage, and deploy SSL/TLS certificates for use with AWS services and your internal connected resources
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565319730821" ID="ID_1361932445" MODIFIED="1565321266234" TEXT="AWS Shield">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DDos protection
+    </p>
+    <p>
+      AWS Shield Standard (for free, AWS WAF (charge)), AWS Shield Advanced (charge)
+    </p>
+    <p>
+      <a href="https://www.imooc.com/video/16173">https://www.imooc.com/video/16173</a>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565319771830" ID="ID_1832001003" MODIFIED="1565319856880" TEXT="AWS Web Application Firewall (WAF)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Filter malicious web traffic
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562558955477" ID="ID_1735584110" MODIFIED="1562558960654" TEXT="Storage">
+<node CREATED="1562558960654" ID="ID_691307941" MODIFIED="1563866957292" TEXT="Amazon Simple Storage Service (S3)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Object storage built to store and retrieve any amount of data from anywhere
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563954416665" ID="ID_545210589" MODIFIED="1563960127544" TEXT="Amazon Elastic Block Store (EBS)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      EC2 block store volume
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563960097204" ID="ID_386282500" MODIFIED="1563960146504" TEXT="Amazon Elastic File System (EFS)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fully managed file system for EC2
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565253996550" ID="ID_262187425" MODIFIED="1565254117858" TEXT="Amazon S3 Glacier">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Low-cost archive storage in the cloud
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564479629050" ID="ID_1139656242" MODIFIED="1564479642872" TEXT="Customer Engagement">
+<node CREATED="1564479664548" ID="ID_1285036812" MODIFIED="1564479681724" TEXT="Amazon Simple Email Service (SES)"/>
+</node>
+<node CREATED="1564540933798" ID="ID_1358107056" MODIFIED="1564540937254" TEXT="others"/>
+</node>
+<node CREATED="1564540295711" FOLDED="true" ID="ID_888946428" MODIFIED="1564975519635" TEXT="Solutions">
+<node CREATED="1564540373905" ID="ID_1556785972" MODIFIED="1564632094519" TEXT="By Use Case">
+<node CREATED="1564731683273" ID="ID_924719683" MODIFIED="1564733572184" TEXT="Containers">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fully managed services for every workload
+    </p>
+    <p>
+      AWS deploy containers cluster
+    </p>
+    <ol>
+      <li>
+        AWS ECS
+      </li>
+      <li>
+        AWS Fargate
+      </li>
+      <li>
+        AWS EKS
+      </li>
+      <li>
+        use Kops
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564732359306" ID="ID_883890137" MODIFIED="1564732368856" TEXT="ECS"/>
+<node CREATED="1564732370366" ID="ID_556202143" MODIFIED="1564732373556" TEXT="Fargate"/>
+<node CREATED="1564732375936" ID="ID_1495574950" MODIFIED="1564732628264" TEXT="Kops">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      setup Kops -&gt; demain (Route 53 or local zone) -&gt; synchronize status (create S3 bucket, store kubernetes cluster status information) -&gt; configure parameters (export ...)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564732383876" ID="ID_276498824" MODIFIED="1564732386606" TEXT="EKS"/>
+</node>
+<node CREATED="1564540381697" ID="ID_1757294746" MODIFIED="1564632003124" TEXT="Serverless Computing">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://aws.amazon.com/serverless/?nc2=h_m2">https://aws.amazon.com/serverless/?nc2=h_m2</a>
+    </p>
+    <p>
+      Build and run application without thinking about servers
+    </p>
+    <p>
+      flexible, high availability, CI/CD
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564542503036" ID="ID_605932627" MODIFIED="1564542508488" TEXT="Compute">
+<node CREATED="1564542508503" ID="ID_913294283" MODIFIED="1564542517037" TEXT="AWS Lambda"/>
+<node CREATED="1564542853342" ID="ID_1346179417" MODIFIED="1564542865994" TEXT="Lambda@Edge"/>
+<node CREATED="1564543002685" ID="ID_617578050" MODIFIED="1564543010812" TEXT="AWS Fargate"/>
+</node>
+<node CREATED="1564543052035" ID="ID_1919519397" MODIFIED="1564543079919" TEXT="Storage">
+<node CREATED="1564543080894" ID="ID_725522471" MODIFIED="1564543102188" TEXT="Amazon Simple Storage Service (S3)"/>
+<node CREATED="1564543203491" ID="ID_1371073295" MODIFIED="1564543217905" TEXT="Amazon Elastic File System (EFS)"/>
+</node>
+<node CREATED="1564543226259" ID="ID_768190049" MODIFIED="1564543231578" TEXT="Data Stores">
+<node CREATED="1564543232787" ID="ID_1192661907" MODIFIED="1564543260508" TEXT="Amazon DynamoDB"/>
+<node CREATED="1564543361733" ID="ID_546911537" MODIFIED="1564543374350" TEXT="Amazon Aurora Serverless"/>
+</node>
+<node CREATED="1564543639352" ID="ID_1941878573" MODIFIED="1564543651020" TEXT="API Proxy">
+<node CREATED="1564543658469" ID="ID_356330179" MODIFIED="1564543711236" TEXT="Amazon API Gateway"/>
+</node>
+<node CREATED="1564543848860" ID="ID_87705880" MODIFIED="1564543862027" TEXT="Application Integration">
+<node CREATED="1564543863314" ID="ID_613359108" MODIFIED="1564543924808" TEXT="Amazon SNS"/>
+<node CREATED="1564555067764" ID="ID_210192654" MODIFIED="1564555075673" TEXT="Amazon SQS"/>
+<node CREATED="1564555077257" ID="ID_1769697734" MODIFIED="1564555083528" TEXT="AWS AppSync"/>
+<node CREATED="1564555213349" ID="ID_1359625265" MODIFIED="1564555224939" TEXT="Amazon EventBridge"/>
+</node>
+<node CREATED="1564555244665" ID="ID_1591187761" MODIFIED="1564555251404" TEXT="Orchestration">
+<node CREATED="1564555252535" ID="ID_508715718" MODIFIED="1564555263939" TEXT="AWS Step Functions"/>
+</node>
+<node CREATED="1564555350211" ID="ID_484149212" MODIFIED="1564555355761" TEXT="Analytics">
+<node CREATED="1564555357851" ID="ID_1653144144" MODIFIED="1564555369111" TEXT="Amazon Kinesis"/>
+<node CREATED="1564555388011" ID="ID_268906227" MODIFIED="1564555398581" TEXT="Amazon Athena"/>
+</node>
+<node CREATED="1564555445885" ID="ID_8924554" MODIFIED="1564555459983" TEXT="Developer tooling"/>
+</node>
+<node CREATED="1564725535286" ID="ID_1604849942" MODIFIED="1564734314757" TEXT="DevOpe">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://aws.amazon.com/devops/?nc2=h_m2">https://aws.amazon.com/devops/?nc2=h_m2 </a>
+    </p>
+    <p>
+      <a href="https://www.imooc.com/video/18217">https://www.imooc.com/video/18217</a>
+    </p>
+    <p>
+      Rapidly and reliably build and deliver products using DevOps practices
+    </p>
+    <p>
+      ----------------------
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; Infrastructure Provisioning -&gt; Container Cluster
+    </p>
+    <p>
+      Developers -&gt;Version Control Repository -&gt; Test &amp; Deployment Manager&#160;&#160;&#160;&#160; &#160;&#160;|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;^
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;| &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/|\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt;Image Build Service -&gt; Image Repository
+    </p>
+    <p>
+      ------------------
+    </p>
+    <p>
+      use AWS Service to CI/CD pipeline
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS CloudFormation -&gt; Amazon ECS
+    </p>
+    <p>
+      Developers -&gt; AWS CodeCommit -&gt; AWS Pipeline
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS CodeBuild (image) -&gt; Amazon ECR
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS Lambda -&gt; Kubernetes
+    </p>
+    <p>
+      Developers -&gt; AWS CodeCommit -&gt; AWS Pipeline
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS CodeBuild (image) -&gt; Amazon ECR
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ------------------
+    </p>
+    <p>
+      use Jenkins to CI/CD pipeline
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; Infrastructure Provisioning -&gt; Container Cluster (Amazon ECS or Kubernetes)
+    </p>
+    <p>
+      Developers -&gt; Github -&gt; Jenkins server
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; Image Build Service -&gt; Jenkins Slaves
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564725967281" ID="ID_1123956298" MODIFIED="1564726017241" TEXT="Continuous Integration and Continuous Delivery">
+<node CREATED="1564726032831" ID="ID_1799781827" MODIFIED="1564726310238" TEXT="Software Release Workflows - AWS CodePipeline">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CodePipeline builds, tests, and deploys your code every time there is a code change, based on the release process models you define.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564726312888" ID="ID_1832010470" MODIFIED="1564726466171" TEXT="Build and Test Code - AWS CodeBuild">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS CodeBuild is&#160;&#160;a fully managed build service that compiled source code, runs tests, and produces software packages that are ready to deploy.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564726479821" ID="ID_101993645" MODIFIED="1564726625480" TEXT="Deployment Automation- AWS CodeDeploy">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS CodeDeploy automates code deployments to any instance, including Amazon EC2 instances and on-premises servers.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564728162076" ID="ID_1483986338" MODIFIED="1564728187146" TEXT="Unified CI/CD Projects - AWS CodeStar"/>
+</node>
+<node CREATED="1564728234796" ID="ID_572996170" MODIFIED="1564728357994" TEXT="Microservices">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Build and deploy a microservices architecture using containers and serverless computing
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564728344615" ID="ID_1737792476" MODIFIED="1564728403294" TEXT="Production Docker Platform - Amazon Elastic Container Service"/>
+<node CREATED="1564728476773" ID="ID_1175119942" MODIFIED="1564728497583" TEXT="Serverless Computing - AWS Lambda"/>
+</node>
+<node CREATED="1564728538193" ID="ID_132955525" MODIFIED="1564730135866" TEXT="Infrastructure as Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Provision, configure, and manage your AWS infrastructure resources using code and template. Monitor and enforce infrastructure compliance.
+    </p>
+    <p>
+      Provision infrastructure from AWS CloudFormation templates, invoke AWS Systems Manager to track your software inventory or to configure your instances, and auto-remediate any configuration drifts with AWS Config.
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564728725551" ID="ID_313839376" MODIFIED="1564728776850" TEXT="Templated Infrastructure Provisioning - AWS CloudFormation"/>
+<node CREATED="1564728846198" ID="ID_1269440371" MODIFIED="1564728868412" TEXT="Chef Configuration Management - AWS OpsWorks"/>
+<node CREATED="1564729239483" ID="ID_1180845963" MODIFIED="1564729261861" TEXT="Configuration Management - AWS Systems Manager"/>
+<node CREATED="1564729345855" ID="ID_1816169654" MODIFIED="1564729360245" TEXT="Policy as Code - AWS Config"/>
+</node>
+<node CREATED="1564730140257" ID="ID_1655736322" MODIFIED="1564730455950" TEXT="Monitoring and Logging">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Record logs and monitor application and infrastructure performance in near real-time
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564730457315" ID="ID_944408910" MODIFIED="1564730485434" TEXT="Cloud and Network Monitoring - AWS CouldWatch"/>
+<node CREATED="1564730519886" ID="ID_572133957" MODIFIED="1564730539058" TEXT="Distributed Tracing - AWS X-Ray"/>
+<node CREATED="1564730595974" ID="ID_1467696262" MODIFIED="1564730735906" TEXT="Activity @ API Usage Tracking - AWS CloudTrail">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS CloudTrail is a web service that records AWS API Calls for your account and delivers log files to you.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564730764916" ID="ID_970719831" MODIFIED="1564730855925" TEXT="Platform as a Service">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Deploy web applications without needing to provision and manage the infrastructure and application stack.
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564730952634" ID="ID_397190095" MODIFIED="1564730984363" TEXT="Run and Manage Web Apps - AWS Elastic Beanstalk"/>
+</node>
+<node CREATED="1564731179006" ID="ID_224104426" MODIFIED="1564731223256" TEXT="Version Control">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Host secure, highly scalable Git repositories in the cloud
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564731226136" ID="ID_204397386" MODIFIED="1564731343274" TEXT="Private Git Hosting - AWS CodeCommit">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1564632094519" ID="ID_1482328457" MODIFIED="1564632324838" TEXT="Website">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Reliable, high scalable, and low cost website and web application hosting
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564628987331" ID="ID_1932327890" MODIFIED="1564629010482" TEXT="By Industry">
+<node CREATED="1564629018601" ID="ID_1569069674" MODIFIED="1564629746488" TEXT="Automotive">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://aws.amazon.com/automotive/?nc2=h_m2">https://aws.amazon.com/automotive/?nc2=h_m2</a>
+    </p>
+    <p>
+      Build intelligent connected experiences and accelerate time to market for every touchpoint of the consumer journey
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1561351414434" FOLDED="true" ID="ID_1933963380" MODIFIED="1565318596659" TEXT="Container Orchestration">
+<node CREATED="1562567573433" ID="ID_1086079662" MODIFIED="1562569125635" TEXT="application deployment history">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      physical machine -&gt; virtualization (virtual machine) -&gt; container -&gt; cloud native
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      physical machine (~ 2000): IBM, Sun; application will set up, deploy and run the physical machine directly
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      virtualization 1 (2001 ~ 2009)
+    </p>
+    <p>
+      &#160;&#160;VMware: 2001
+    </p>
+    <p>
+      &#160;&#160;Xen: 2003
+    </p>
+    <p>
+      &#160;&#160;KVM (kernel-based virtual machine): 2007
+    </p>
+    <p>
+      &#160;&#160;Iaas (Infrastructure-as-a-service): AWS: 2006, GCE (google): 2008
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Virtualization 2 (2010 ~ now)
+    </p>
+    <p>
+      &#160;&#160;openstack (private cloud): 2010
+    </p>
+    <p>
+      &#160;&#160;Iaas, Paas (heroku 2009), Saas
+    </p>
+    <p>
+      &#160;&#160;AWS, Azure, Aliyun, GCE: 2015 ~ 2017 (public cloud)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      container (2013 ~ now)
+    </p>
+    <p>
+      &#160;&#160;Docker (2013)
+    </p>
+    <p>
+      &#160;&#160;VM -&gt; container
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      cloud native 1 (2015 ~ now)
+    </p>
+    <p>
+      &#160;&#160;CNCF, kubernetes: 2015
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1561351461028" ID="ID_1468920946" MODIFIED="1564971219607" TEXT="Kubernetes">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://kubernetes.io
+    </p>
+    <p>
+      https://rancher.com
+    </p>
+    <p>
+      a production-grade container orchestration platform; automated container deployment, scaling, and management of contained applications
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      google k8s engine, red hat openshift, microsoft azure container service, ibm cloud container service
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      kubernetes for cloud native is like linux for OS
+    </p>
+    <p>
+      ------------------
+    </p>
+    <p>
+      kubernetes is like cluster operating system
+    </p>
+    <p>
+      from minikube
+    </p>
+    <p>
+      ---------------
+    </p>
+    <p>
+      kubernetes managed tools is kupos, kubeadm, kubespray, kube-aws, tectonic, etc.
+    </p>
+    <p>
+      dependency gcr.io (private repository)
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562566953123" ID="ID_245104352" MODIFIED="1562567281517" TEXT="history">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      from google borg
+    </p>
+    <p>
+      2014, google open source for kubernetes
+    </p>
+    <p>
+      2015, donate to CNCF
+    </p>
+    <p>
+      2017, kubernetes is NO1, win Swarm and Mesos
+    </p>
+    <p>
+      2018, CNCF releases kubernetes
+    </p>
+    <p>
+      &#160;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562571196993" ID="ID_171818616" MODIFIED="1562575584174" TEXT="concepts">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
+    </p>
+    <p>
+      Pod: the smallest deployable object in the Kubernetes object module
+    </p>
+    <p>
+      Service: an abstract way to expose an application running on a set of Pods as a network service.
+    </p>
+    <p>
+      Nodes: a node may be a VM or physical machine, depending on the cluster
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562577603432" ID="ID_475480826" MODIFIED="1562578333787" TEXT="kubernetes objects">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      .yaml format
+    </p>
+    <p>
+      api/kubectl manage kubernates objects
+    </p>
+    <p>
+      object.yaml: kind, metadata: [name, UID, namespace, label, annotations], spec (static field)
+    </p>
+    <p>
+      api/kubectl: operation (method)
+    </p>
+    <p>
+      etcd: status (field)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562578469424" ID="ID_1126089121" MODIFIED="1562578917314" TEXT="kubernetes object category">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      workload, discovery &amp; load balancing, config &amp; storage, cluster
+    </p>
+    <p>
+      workload: pod, controllers (deployment, statefulset, daemonset, job)
+    </p>
+    <p>
+      discovery &amp; load balancing: service, endpoint, ingress
+    </p>
+    <p>
+      config &amp; storage: configmap, secret, volume, PersistentVolumnClaim
+    </p>
+    <p>
+      cluster: node/namespace, persistentVolume, clusterRole/clusterRoleBinding, resourceQuota
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562579224322" ID="ID_737036818" MODIFIED="1562579241080" TEXT="pod, service, controller"/>
+</node>
+<node CREATED="1562573461745" ID="ID_1576349476" MODIFIED="1562574264161" TEXT="kubernetes cluster">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      kuberctl get nodes
+    </p>
+    <p>
+      kuberctl create -f hello-service.yaml --record=true
+    </p>
+    <p>
+      kuberctl ger svc|grep hello-service
+    </p>
+    <p>
+      kuberctl describe svc/hellp-service
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      v1.7.3
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562575464480" ID="ID_928431815" MODIFIED="1564972617968" TEXT="kubernetes architecture">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://kubernetes.io/docs/concepts/architecture/cloud-controller/
+    </p>
+    <p>
+      all of kubernetes objects' access uses IP
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564972140063" ID="ID_1447546248" MODIFIED="1564972252793" TEXT="API">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UI (User Interface) or CLI (Commend Line Interface) calls API to interact with Kubernetes Master
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1562576260088" ID="ID_1311478561" MODIFIED="1562576419573" TEXT="master">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      apiserver, controller manager, scheduler, etcd
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564972412265" ID="ID_901437049" MODIFIED="1564977870629" TEXT="API Server">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ingress only, and provide restful api for kubernetes cluster
+    </p>
+    <p>
+      center for inter interaction
+    </p>
+    <p>
+      provide rbac, authentication
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564972426815" ID="ID_1284516722" MODIFIED="1564977945936" TEXT="Scheduler">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      monitor and create Pod through Watch interface of API Server
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564972434857" ID="ID_447367099" MODIFIED="1564978016884" TEXT="Controller Manager">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      manage the controller
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564972440107" ID="ID_1061394551" MODIFIED="1564972780692" TEXT="etcd">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      etcd cluster (key - value pool) persist kubernetes state
+    </p>
+    <p>
+      etcd daemon
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1562576751304" ID="ID_1034119988" MODIFIED="1564972172688" TEXT="node">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      image registry
+    </p>
+    <p>
+      kubelet, kube-proxy, pod
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564972484045" ID="ID_323126583" MODIFIED="1564972488495" TEXT="Pod"/>
+<node CREATED="1564972490428" ID="ID_1776721946" MODIFIED="1564972498087" TEXT="Docker"/>
+<node CREATED="1564972499593" ID="ID_1918913854" MODIFIED="1564972506067" TEXT="kubelet"/>
+<node CREATED="1564972508836" ID="ID_43639756" MODIFIED="1564972665490" TEXT="kube-proxy">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ip nat demain for external access
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564972515131" ID="ID_1592464967" MODIFIED="1564972529779" TEXT="fluentd"/>
+</node>
+<node CREATED="1564972536854" ID="ID_1838779372" MODIFIED="1564972542767" TEXT="image registry"/>
+</node>
+<node CREATED="1564646504935" ID="ID_470828634" MODIFIED="1564646533244" TEXT="OpenShift - redhat"/>
+<node CREATED="1564970882407" ID="ID_1057845087" MODIFIED="1564975255243" TEXT="Trident">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      K8s cluster = Trident (state)
+    </p>
+    <p>
+      React: UI = f (state)
+    </p>
+    <p>
+      -------------
+    </p>
+    <p>
+      Trident uses open source
+    </p>
+    <p>
+      Terraform: VPC, iam roles, security group, subnet, ec2 instances, etc.
+    </p>
+    <p>
+      Ansible, deploy and manage K8s components
+    </p>
+    <p>
+      Makefile, write scrips
+    </p>
+    <p>
+      cfssl, certification management
+    </p>
+    <p>
+      ----------
+    </p>
+    <p>
+      aws
+    </p>
+    <p>
+      cluster = terraform (state), simpler then CloudFormation
+    </p>
+    <p>
+      AWS, Google Cloud, Bare Metal, etc
+    </p>
+    <p>
+      -------------------------
+    </p>
+    <p>
+      GraphQL (RESTFul) is like AWS AppSync
+    </p>
+    <p>
+      Lambda Auth function
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564972815635" ID="ID_598036851" MODIFIED="1564972900705" TEXT="contained OS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CoreOS
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564973106455" ID="ID_1191837721" MODIFIED="1564973123813" TEXT="RBAC"/>
+<node CREATED="1564973143285" ID="ID_1328968502" MODIFIED="1564973342336" TEXT="kubernetes Add-ons">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dashboard UI
+    </p>
+    <p>
+      Logging with EFK / ELK
+    </p>
+    <p>
+      Monitoring with Prometheus
+    </p>
+    <p>
+      Traefik Ingress Controller
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ALB Ingress Controller
+    </p>
+    <p>
+      Storage with EFS / GlusterFS
+    </p>
+    <p>
+      Port helm to China
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1561351562498" ID="ID_841323912" MODIFIED="1561351574233" TEXT="Docker Swarm"/>
+<node CREATED="1561351590451" ID="ID_909102625" MODIFIED="1561351604191" TEXT="Apache Mesos"/>
+<node CREATED="1561351666322" ID="ID_1039970426" MODIFIED="1561351696607" TEXT="Amazon Elastic Container Service (ECS)"/>
+</node>
+<node CREATED="1565318802555" ID="ID_359112863" MODIFIED="1565318855386" TEXT="private cloud">
+<node CREATED="1565318855396" ID="ID_97260758" MODIFIED="1565331682222" TEXT="OpenStack">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://www.imooc.com/learn/497">https://www.imooc.com/learn/497</a>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1565331530235" ID="ID_1879986651" MODIFIED="1565331543574" TEXT="history">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rackspace (SWIFT), NASA (Nova)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565331547104" ID="ID_1506363572" MODIFIED="1565580479689" STYLE="fork" TEXT="architecture">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://www.imooc.com/video/10820">https://www.imooc.com/video/10820</a>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1565331552904" ID="ID_1628538789" MODIFIED="1565331615893" TEXT=" Horizon &#xa0;- UI&#xa0;service"/>
+<node CREATED="1565331584424" ID="ID_58608670" MODIFIED="1565341708834" TEXT="Keystone - Auth service">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      User, Tenent, role; Service, as Nova, Glance, Swift to be registried at KeyStone; Endpoint; Token
+    </p>
+    <p>
+      Identity; Token; Catalog; Policy
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565331602773" ID="ID_566852398" MODIFIED="1565332791072" TEXT="Nova - compute service">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      functions
+    </p>
+    <ol>
+      <li>
+        instance (vm, container, docker and etc.) lifecycle management (setup, start, shutdown)
+      </li>
+      <li>
+        compute management
+      </li>
+      <li>
+        Rest API
+      </li>
+    </ol>
+    <p>
+      components: nove-api =&gt; nova-scheduler =&gt; nova-compute (cteate vm) (communicate with rabbit MQ)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565331618133" ID="ID_816778359" MODIFIED="1565333822824" TEXT="Glance - image service">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      web portal | CLi &lt;=&gt; Glance-api &lt;=&gt; glance-registry &lt;=&gt;. database
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|- &lt;=&gt; image store (S3, swift, ceph, gluster)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565331623963" ID="ID_826182669" MODIFIED="1565341573774" TEXT="Cinder/Swift - storage service">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      swift: account =&gt; container =&gt; object
+    </p>
+    <p>
+      cinder: block; cinder request =&gt; cinder-api =&gt; rabbit MQ =&gt; cinder-scheduler (create vm) =&gt; cinder-volume
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565331633043" ID="ID_702674363" MODIFIED="1565580419130" TEXT="Neutron - network service">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      independent network for each tenent
+    </p>
+    <p>
+      flat, flat DHCP, VLAN
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1565331645122" ID="ID_925185317" MODIFIED="1565331647382" TEXT="Heat - orchestration service"/>
+<node CREATED="1565331653152" ID="ID_1375064007" MODIFIED="1565331655472" TEXT="ceilometer - metrics and monitor service"/>
+</node>
+</node>
+<node CREATED="1565318862296" ID="ID_1397331885" MODIFIED="1565318866366" TEXT="cloudstack"/>
+<node CREATED="1565319118661" ID="ID_1427174914" MODIFIED="1565319125001" TEXT="VMWare"/>
+<node CREATED="1565319128351" ID="ID_967555682" MODIFIED="1565319140580" TEXT="FusionSphere"/>
+<node CREATED="1565581010715" ID="ID_1054289733" MODIFIED="1565581014474" TEXT="KVM">
+<node CREATED="1565582631395" ID="ID_1269611610" MODIFIED="1565582638375" TEXT="catalog">
+<node CREATED="1565582358181" ID="ID_1388876121" MODIFIED="1565582513698" TEXT="Full virtualization / Software-based virtualization">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      VMWare (1998)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565582431893" ID="ID_1311165027" MODIFIED="1565582508609" TEXT="Paravirtualization / OS-assistant virtualization">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Xen (2004)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565582523038" ID="ID_903595287" MODIFIED="1565582609339" TEXT="Native virtualization / Hardware-assistant virtualization">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      KVM (2007)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1565582743494" ID="ID_545250008" MODIFIED="1565583036691" TEXT="Kernal Virtual Machine (KVM)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      kvm.ko
+    </p>
+    <p>
+      kvm_intel.ko or kvm_amd.ko
+    </p>
+    <p>
+      qemu-kvm
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      image
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      access vm with VNC
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1564389751365" ID="ID_1223734200" MODIFIED="1564976246207" TEXT="Big Data">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OLTP: On-Line Transaction Processing
+    </p>
+    <p>
+      OLAP: On-Line Analytical Processing
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564389878997" ID="ID_1756161249" MODIFIED="1564471819786" TEXT="Apache Kylin">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Extreme OLAP engine for Big Data (Hadoop, Spark)
+    </p>
+    <p>
+      https://www.imooc.com/video/16298
+    </p>
+    <p>
+      commercial: www.kyligence.io
+    </p>
+    <p>
+      Apache Kylin: Fetch source from Hive/Kafka -&gt; Build cube with MR/Spark -&gt; Store cube in HBase -&gt; Serve with ANSI SQL (BI Tools, Web App)
+    </p>
+    <p>
+      case: 60 HBase region server, 100 cubes (faster 10000 times&#160;&#160;than Hive )
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564391751373" ID="ID_1026176146" MODIFIED="1564391915053" TEXT="OLAP Cube">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cuboid = one combination of dimensions
+    </p>
+    <p>
+      cube = all combination of dimensions (all cuboids)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564469604639" ID="ID_1528783495" MODIFIED="1564471099730" TEXT="with aws">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      solution 1: EC2 =&gt; Hadoop =&gt; Kylin
+    </p>
+    <p>
+      setup hadoop (HDSF, MR, Hive, HBase) cluster in EC2 instances of a VPC
+    </p>
+    <p>
+      Kylin is a client of hadoop
+    </p>
+    <p>
+      ----------------
+    </p>
+    <p>
+      solution 2: EMR =&gt; Kylin
+    </p>
+    <p>
+      at Amazon S3 (key - value) bucket
+    </p>
+    <p>
+      EMR (hadoop at aws)
+    </p>
+    <p>
+      -------------
+    </p>
+    <p>
+      solution 3: Kyligence Cloud Beta (Managed Kylin Service)
+    </p>
+    <p>
+      manage EMR cluster and Kylin cluster lifecycle
+    </p>
+    <p>
+      2 EMR cluster: computing cluster (write), query cluster (read)<br />
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1556165010823" ID="ID_859775496" MODIFIED="1565075923884" TEXT="database">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Unstructured data will account for more than 80% of the data collected by organizations
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1565075832405" ID="ID_705222363" MODIFIED="1565075837375" TEXT="SQL">
+<node CREATED="1556165016006" FOLDED="true" ID="ID_126031084" MODIFIED="1564389733835" TEXT="h2">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6689,8 +9748,7 @@
       modfiy the password: ALTER USER sa SET { PASSWORD '123' }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1556165033297" ID="ID_1089368725" MODIFIED="1562555408454" TEXT="springboot">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6701,11 +9759,12 @@
       https://blog.csdn.net/sanpic/article/details/80816379
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1557050221982" ID="ID_1515019759" MODIFIED="1562555408467" TEXT="mongodb">
+</node>
+<node CREATED="1565075846324" ID="ID_759479613" MODIFIED="1565075873364" TEXT="NoSQL">
+<node CREATED="1557050221982" ID="ID_1515019759" MODIFIED="1565075841224" TEXT="mongodb">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6757,10 +9816,9 @@
       mongod --dbpath &quot;D:\tmp\mongodb\db&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1559718831718" ID="ID_1990702601" MODIFIED="1562555408483" TEXT="redis">
+<node CREATED="1559718831718" ID="ID_1990702601" MODIFIED="1565075853574" TEXT="redis">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6815,419 +9873,173 @@
       A: /sbin/iptables -I INPUT -p tcp --dport 6379 -j ACCEPT
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1561969817758" ID="ID_627938863" MODIFIED="1561969872948" TEXT="dependency injection">
-<node CREATED="1561969833571" ID="ID_936147457" MODIFIED="1562555408499" TEXT="google guice">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://github.com/google/guice
-    </p>
-    <p>
-      https://github.com/google/guice/wiki/Motivation
-    </p>
-    <p>
-      https://github.com/google/guice/wiki/ExternalDocumentation
-    </p>
-    <p>
-      troubleshooting: stackoverflow
-    </p>
-    <p>
-      --------------------------------------------------------
-    </p>
-    <p>
-      Dependency Injection
-    </p>
-    <p>
-      &#160;&#160;Injection
-    </p>
-    <p>
-      &#160;&#160;Binding
-    </p>
-    <p>
-      &#160;&#160;Scope
-    </p>
-    <p>
-      Guice AOP
-    </p>
-    <p>
-      Guice and Spring Boot start a sample web application
-    </p>
-    <p>
-      Guice vs Spring framework
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1561970300038" ID="ID_426012168" MODIFIED="1562555408509" TEXT="compare with Spring">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      cancel xml, bean
-    </p>
-    <p>
-      use constructor for injection
-    </p>
-    <p>
-      support generic natively (spring use qualify, not support generic natively)
-    </p>
-    <p>
-      focus on Dependency Injection
-    </p>
-  </body>
-</html>
-</richcontent>
 </node>
-<node CREATED="1561970754695" ID="ID_630104217" MODIFIED="1562555408525" TEXT="Hello World">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 10.5pt">&lt;<font color="#000080"><b>dependency</b></font>&gt;<br />&#160;&#160;&#160;&#160;&lt;<font color="#000080"><b>groupId</b></font>&gt;com.google.inject&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />&#160;&#160;&#160;&#160;&lt;<font color="#000080"><b>artifactId</b></font>&gt;guice&lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />&#160;&#160;&#160;&#160;&lt;<font color="#000080"><b>version</b></font>&gt;4.2.2&lt;/<font color="#000080"><b>version</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependency</b></font>&gt;<br /><br />&lt;<font color="#000080"><b>dependency</b></font>&gt;<br />&#160;&#160;&#160;&#160;&lt;<font color="#000080"><b>groupId</b></font>&gt;com.google.inject.extensions&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />&#160;&#160;&#160;&#160;&lt;<font color="#000080"><b>artifactId</b></font>&gt;guice-multibindings&lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />&#160;&#160;&#160;&#160;&lt;<font color="#000080"><b>version</b></font>&gt;4.2.2&lt;/<font color="#000080"><b>version</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependency</b></font>&gt;
----------------------
-@Inject at constructor
-Add the MyModule extends AbstractModule 
-configure { bind(My).to(MyImpl); }</pre>
-  </body>
-</html>
-</richcontent>
+<node CREATED="1564975436846" ID="ID_990734313" MODIFIED="1564975439030" TEXT="tools">
+<node CREATED="1564975440114" ID="ID_1832704200" MODIFIED="1564975447399" TEXT="GraphQL"/>
 </node>
-<node CREATED="1562133139306" ID="ID_818715517" MODIFIED="1562555408539" TEXT="Injection">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      usage:
-    </p>
-    <p>
-      &#160;&#160;bind (module) -&gt; google guice (black box) -&gt; @inject (at constructor or field (not recommended or test))
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1562136820974" ID="ID_707646091" MODIFIED="1562555408548" TEXT="constructor">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      constructor injection
-    </p>
-    <p>
-      &#160;&#160;dependencies add final to fields
-    </p>
-    <p>
-      &#160;&#160;do not think bind and implements
-    </p>
-  </body>
-</html>
-</richcontent>
 </node>
-<node CREATED="1562136841900" ID="ID_1287601180" MODIFIED="1562555408557" TEXT="field">
+<node CREATED="1563960155384" ID="ID_757443178" MODIFIED="1564646593924" TEXT="other">
+<node CREATED="1563959128594" ID="ID_1128198440" MODIFIED="1564370123619" TEXT="DevOps">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      field injection
+      software development lifecycle
     </p>
     <p>
-      &#160;&#160;test scenario
+      developers =&gt;Build -&gt; Test -&gt; Release=&gt;customers -&gt; Monitor -&gt; Plan=&gt;developers
     </p>
     <p>
-      &#160;&#160;Guice...injectMembers(this)
+      delivery pipeline: Build -&gt; Test -&gt; Release
+    </p>
+    <p>
+      feedback loop: Monitor -&gt; Plan
+    </p>
+    <p>
+      DevOps = efficiencies that speed up this lifecycle
+    </p>
+    <p>
+      Continuous Integration (CI)
+    </p>
+    <p>
+      Continuous Delivery &amp; Deployment (CD)
+    </p>
+    <p>
+      GitHub -&gt; Test
+    </p>
+    <p>
+      ---------------
+    </p>
+    <p>
+      amazon devops: two-pizza teams, full ownership, full accountability, aligned incentives
+    </p>
+    <p>
+      self-service, technology agnostic, encourage best practises, single-purpose services
+    </p>
+    <p>
+      apollo: deployment service, no downtown deployments, health checking, versioned artifacts an rollbacks
+    </p>
+    <p>
+      pipeline: continuous delivery, from check-in to production, automated actions and transitions, &gt;90% of teams
     </p>
   </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1562136853759" ID="ID_70379308" MODIFIED="1562555408568" TEXT="provider">
-<richcontent TYPE="NOTE"><html>
-  <head>
+</html></richcontent>
+<node CREATED="1563959144854" ID="ID_149343561" MODIFIED="1563961055425" TEXT="Jenkins">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
     
-  </head>
-  <body>
-    <p>
-      Guice provides Provider, not DIY
-    </p>
-    <p>
-      public interface Provider&lt;T&gt; {
-    </p>
-    <p>
-      &#160;&#160;T get();
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      usage scenario
-    </p>
-    <p>
-      &#160;&#160;Lazy loading
-    </p>
-    <p>
-      &#160;&#160;- databaseConnectionProvider.get();
-    </p>
-    <p>
-      &#160;&#160;mutil instance
-    </p>
-    <p>
-      &#160;&#160;- logEntryProvider.get();
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1562139484043" ID="ID_69071062" MODIFIED="1562555408579" TEXT="name">
-<richcontent TYPE="NOTE"><html>
-  <head>
     
-  </head>
-  <body>
-    <p>
-      @Inject @MyName
-    </p>
-    <p>
-      @Inject @Named(&quot;xxx&quot;)
-    </p>
-    <p>
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      deploy jenkins on EC2
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#21333;&amp;#33410;&amp;#28857;&amp;#37096;&amp;#32626;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160; &lt;content ename=&quot;content&quot;&gt;single master multiple workers
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;multiple masters multiple workers
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;master &amp;#33410;&amp;#28857;&amp;#30340;&amp;#39640;&amp;#21487;&amp;#29992; &amp;#65288;$JENKINS_HOME, EFS, EBS, auto scaling group&amp;#65289;
+    &lt;/p&gt;
+    &lt;p&gt;
       ------------
-    </p>
-    <p>
-      Module
-    </p>
-    <p>
-      @Provides @MyName
-    </p>
-    <p>
-      @Provides @Named(&quot;xxx&quot;)
-    </p>
-  </body>
-</html>
-</richcontent>
+    &lt;/p&gt;
+    &lt;p&gt;
+      deploy jenkins on ECS
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#27599;&amp;#27425;&amp;#21551;&amp;#21160;&amp;#26032;&amp;#30340;worker&amp;#23481;&amp;#22120;&amp;#36816;&amp;#34892;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#33258;&amp;#21160;&amp;#25193;&amp;#23637;
+    &lt;/p&gt;
+    &lt;p&gt;
+      -----------
+    &lt;/p&gt;
+    &lt;p&gt;
+      integrate jenkins and AWS CodeBuild
+    &lt;/p&gt;
+    &lt;p&gt;
+      Developer -&amp;gt; AWS CodeCommit -&amp;gt; Jenkins (EC2 instance) -&amp;gt; AWS CodeBuild 
+      &amp;lt;-&amp;gt; Amazon S3 (result)
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
 </node>
+<node CREATED="1564648589265" ID="ID_117682305" MODIFIED="1564648604465" TEXT="Prometheus"/>
+<node CREATED="1564648776373" ID="ID_864094497" MODIFIED="1564648794235" TEXT="Graylog"/>
 </node>
-<node CREATED="1562145480804" ID="ID_962411817" MODIFIED="1562555408590" TEXT="bind">
+<node CREATED="1564374774335" ID="ID_1787680923" MODIFIED="1564374791562" TEXT="Data Protection">
+<node CREATED="1564374795477" ID="ID_853457093" MODIFIED="1564374912103" TEXT="Moving to cloud">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Module
+      from 2006
     </p>
     <p>
-      configure(){
+      Data security
     </p>
     <p>
-      &#160;&#160;install();
+      regulatory compliance (data residency, GDPR)
     </p>
     <p>
-      &#160;&#160;bind().to();
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      -----------------------------------
-    </p>
-    <p>
-      Practice-
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Guice.createInjector(new MyModule0(), new MyModule1() ...)
-    </p>
-    <p>
-      Provider
+      best practices: key management (on premises or cloud), access control(user), FIPS140
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1562230136552" ID="ID_116487830" MODIFIED="1562555408600" TEXT="class">
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564732918491" ID="ID_1848551295" MODIFIED="1564732957930" TEXT="CI/CD Pipeline">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      class: bind().to();
+      Source -&gt; Build -&gt; Test -&gt; Production
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1562230147600" ID="ID_776985114" MODIFIED="1562555408609" TEXT="instance">
+<node CREATED="1564971799318" ID="ID_414420124" MODIFIED="1564971812487" TEXT="cluster managed tools">
+<node CREATED="1564971812503" ID="ID_934702439" MODIFIED="1564971817541" TEXT="Terraform"/>
+<node CREATED="1564971819374" ID="ID_1292853221" MODIFIED="1564971822978" TEXT="Ansible"/>
+</node>
+<node CREATED="1564975535203" ID="ID_1196710047" MODIFIED="1564975626530" TEXT="Deeping Learning">
+<node CREATED="1564975616157" ID="ID_1697281936" MODIFIED="1564975649162" TEXT="skin">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      instance: bind().toInstance()
+      face alignment
+    </p>
+    <p>
+      segmentation
+    </p>
+    <p>
+      classification
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1562230172598" ID="ID_687231927" MODIFIED="1562555408619" TEXT="provider">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      @bind().toProvider()
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      @Provides
-    </p>
-  </body>
-</html>
-</richcontent>
+<node CREATED="1564976078433" ID="ID_614058198" MODIFIED="1564976086351" TEXT="TensorFlow"/>
+<node CREATED="1564976337814" ID="ID_735827200" MODIFIED="1564976349341" TEXT="Core ML"/>
 </node>
-<node CREATED="1562230261495" ID="ID_1618733908" MODIFIED="1562555408630" TEXT="generic">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      bind(new TypeLiteral&lt;List&lt;String&gt;&gt;(){}).to(New TypeLiteral&lt;MyList&lt;String&gt;&gt;)
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1562230379775" ID="ID_1785863765" MODIFIED="1562555408641" TEXT="annotation">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      @bind().annotatedWith(Names.name(&quot;xxx&quot;))
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      @Provides
-    </p>
-    <p>
-      @Named(&quot;xxx&quot;)
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1562230467238" ID="ID_660138823" MODIFIED="1562555408648" TEXT="MultiBinder MapBinder">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      for giant project
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1562295784129" ID="ID_438054348" MODIFIED="1562297470553" TEXT="module">
-<node CREATED="1562297448606" ID="ID_1954577180" MODIFIED="1562297459465" TEXT="relationship">
-<node CREATED="1562296014012" ID="ID_256960292" MODIFIED="1562555408659" TEXT="parallel">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Guice.createInjector(module1, module2, ...)
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1562296034014" ID="ID_610321781" MODIFIED="1562555408666" TEXT="nest">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      configure(){install(module1) .. }
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1562296049605" ID="ID_648906071" MODIFIED="1562555408673" TEXT="override">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Guice.createInjector(Modules.override(module1).with(module2))
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1562297472437" ID="ID_700429014" MODIFIED="1562555737397" TEXT="initialize">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    Module Guice.createInjector() Configuration Time - injector.getInstance(xxx.class) (Injector injector = Guice.createInjector(new MainModule()))
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1561969841313" ID="ID_598528523" MODIFIED="1561969850340" TEXT="spring framework"/>
-</node>
-<node CREATED="1562555803264" ID="ID_1227079054" MODIFIED="1562555805106" TEXT="cloud">
-<node CREATED="1562555806150" ID="ID_456416985" MODIFIED="1562555810090" TEXT="aws"/>
 </node>
 </node>
 <node CREATED="1560237195359" ID="ID_1673637275" MODIFIED="1560237201323" POSITION="left" TEXT="UI">
@@ -7242,6 +10054,128 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1563955926720" ID="ID_1513707389" MODIFIED="1563955930933" POSITION="right" TEXT="company">
+<node CREATED="1563955938928" ID="ID_1971597608" MODIFIED="1565318608489" TEXT="Tableau">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tableau Software
+    </p>
+    <p>
+      Tableau Online | Tableau Seriver on Cloud | Tableau Server On-Premise
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564471927944" ID="ID_212309056" MODIFIED="1564473934382" TEXT="strikingly">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://www.strikingly.com/">https://www.strikingly.com/ </a>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564473917905" ID="ID_1757645795" MODIFIED="1564475796915" TEXT="AWS solution">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS solution
+    </p>
+    <p>
+      EC2 + ELB + ASG (autoscaling group)
+    </p>
+    <p>
+      RDS + Multi-AZ Replication + S3 backup
+    </p>
+    <p>
+      API Gateway + Lambda
+    </p>
+    <p>
+      S3 + Lambda
+    </p>
+    <p>
+      ECS + Amazon Global Backbone
+    </p>
+    <p>
+      Route 53
+    </p>
+    <p>
+      CloudFront&#160;&#160;+ AWS Certificate Manager
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      server-side rendering (lambda)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564473934376" ID="ID_679270622" MODIFIED="1564474032997" TEXT="JS runtime">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Server-side Rendering
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564475185136" ID="ID_151074152" MODIFIED="1564475341337" TEXT="Let&apos;s Encrypt">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://letsencrypt.org/">https://letsencrypt.org/</a>
+    </p>
+    <p>
+      <a href="https://www.cnblogs.com/esofar/p/9291685.html">https://www.cnblogs.com/esofar/p/9291685.html</a>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1565318601129" ID="ID_1737101650" MODIFIED="1565318603689" TEXT="cloud">
+<node CREATED="1563955932128" ID="ID_282501127" MODIFIED="1563955936093" TEXT="NetApp"/>
+<node CREATED="1565318611398" ID="ID_664442662" MODIFIED="1565318627098" TEXT="EasyStack"/>
+<node CREATED="1565318628438" ID="ID_1881422928" MODIFIED="1565318634558" TEXT="AWCloud"/>
+<node CREATED="1565318643498" ID="ID_772535442" MODIFIED="1565318647858" TEXT="Fit2Cloud"/>
+</node>
+<node CREATED="1565318923255" ID="ID_1596838363" MODIFIED="1565318927465" TEXT="network">
+<node CREATED="1565317425495" ID="ID_1351868226" MODIFIED="1565317431948" TEXT="paloalto"/>
+</node>
+<node CREATED="1565318943064" ID="ID_1687223727" MODIFIED="1565318946274" TEXT="storage">
+<node CREATED="1565318946274" ID="ID_143913953" MODIFIED="1565319062912" TEXT="Zadara">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zadara Cloud &lt;=&gt; AWS Direct Connect &lt;=&gt; AWS Region
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565319095021" ID="ID_388789237" MODIFIED="1565319099631" TEXT="XSky"/>
 </node>
 </node>
 </node>
