@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1559014426486" TEXT="skills">
+<node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1569308975073" TEXT="skills">
 <node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1562555793637" POSITION="right" TEXT="Operating System">
 <node CREATED="1551771390235" FOLDED="true" ID="ID_1954920768" MODIFIED="1562555797413" TEXT="linux">
 <node CREATED="1551771403043" ID="ID_762738337" MODIFIED="1562555406772" TEXT="CentOS">
@@ -1503,12 +1503,18 @@
 </node>
 </node>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
-<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1565752911783" TEXT="git">
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1583719805722" TEXT="git">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      https://git-scm.com/
+    </p>
+    <p>
+      
+    </p>
     <p>
       git add xxx.txt
     </p>
@@ -1527,9 +1533,108 @@
     <p>
       git reset --hard xxxid
     </p>
+    <p>
+      
+    </p>
+    <p>
+      --------create a new repository on the command line at local folder--------------
+    </p>
+    <p>
+      echo &quot;# ev3&quot; &gt;&gt; README.md
+    </p>
+    <p>
+      git init
+    </p>
+    <p>
+      git add README.md
+    </p>
+    <p>
+      git commit -m &quot;first commit&quot;
+    </p>
+    <p>
+      git remote add origin git@github.com:gwaysoft/ev3.git
+    </p>
+    <p>
+      git push -u origin master
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Q: failed to push some refs to git
+    </p>
+    <p>
+      A: git pull --rebase origin master
+    </p>
   </body>
 </html>
 </richcontent>
+<node CREATED="1579234270162" ID="ID_1055318134" MODIFIED="1579234279265" TEXT="git clean">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="line number1 index0 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash comments" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 130, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 130, 0) !important">#&#160;&#21024;&#38500;&#160;untracked&#160;files</font></code>
+    </div>
+    <div class="line number2 index1 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-f</font></code>
+    </div>
+    <div class="line number3 index2 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      &#160;
+    </div>
+    <div class="line number4 index3 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash comments" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 130, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 130, 0) !important">#&#160;&#36830;&#160;untracked&#160;&#30340;&#30446;&#24405;&#20063;&#19968;&#36215;&#21024;&#25481;</font></code>
+    </div>
+    <div class="line number5 index4 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-fd</font></code>
+    </div>
+    <div class="line number6 index5 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      &#160;
+    </div>
+    <div class="line number7 index6 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash comments" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 130, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 130, 0) !important">#&#160;&#36830;&#160;gitignore&#160;&#30340;untrack&#160;&#25991;&#20214;/&#30446;&#24405;&#20063;&#19968;&#36215;&#21024;&#25481;&#160;&#65288;&#24910;&#29992;&#65292;&#19968;&#33324;&#36825;&#20010;&#26159;&#29992;&#26469;&#21024;&#25481;&#32534;&#35793;&#20986;&#26469;&#30340;&#160;.o&#20043;&#31867;&#30340;&#25991;&#20214;&#29992;&#30340;&#65289;</font></code>
+    </div>
+    <div class="line number8 index7 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-xfd</font></code>
+    </div>
+    <div class="line number9 index8 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      &#160;
+    </div>
+    <div class="line number10 index9 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash comments" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 130, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 130, 0) !important">#&#160;&#22312;&#29992;&#19978;&#36848;&#160;git&#160;clean&#160;&#21069;&#65292;&#22681;&#35010;&#24314;&#35758;&#21152;&#19978;&#160;-n&#160;&#21442;&#25968;&#26469;&#20808;&#30475;&#30475;&#20250;&#21024;&#25481;&#21738;&#20123;&#25991;&#20214;&#65292;&#38450;&#27490;&#37325;&#35201;&#25991;&#20214;&#34987;&#35823;&#21024;</font></code>
+    </div>
+    <div class="line number11 index10 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-nxfd</font></code>
+    </div>
+    <div class="line number12 index11 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-nf</font></code>
+    </div>
+    <div class="line number13 index12 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-nfd</font></code>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1579234314029" ID="ID_321079830" MODIFIED="1583377652708" TEXT="git remote | git push">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      --------push an existing repository from the command line at local folder--------------
+    </p>
+    <p>
+      git remote add origin git@github.com:gwaysoft/ev3.git
+    </p>
+    <p>
+      git push -u origin master
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1562555407553" TEXT="github">
 <richcontent TYPE="NOTE"><html>
@@ -1562,7 +1667,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1551774176363" ID="ID_1696620606" MODIFIED="1551777014450" TEXT="Java SE 8">
-<node CREATED="1551774224683" ID="ID_590944319" MODIFIED="1562555407586" TEXT="install by exe">
+<node CREATED="1551774224683" ID="ID_590944319" MODIFIED="1574153945840" TEXT="install by exe">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1573,6 +1678,15 @@
     </p>
     <p>
       current version: jdk-8u201-windows-x64.exe
+    </p>
+    <p>
+      add Environment Variable
+    </p>
+    <p>
+      &#160;&#160;JAVA_HOME=D:\program\java\jdk1.8.0_201
+    </p>
+    <p>
+      &#160;&#160;Path+=%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
     </p>
   </body>
 </html></richcontent>
@@ -1598,7 +1712,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1562555407607" POSITION="right" TEXT="java">
+<node CREATED="1553236621445" FOLDED="true" ID="ID_755254586" MODIFIED="1583371257134" POSITION="right" TEXT="java">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1609,7 +1723,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1563160124857" TEXT="Spring">
+<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1569404012110" TEXT="Spring">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1771,7 +1885,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1559286118666" ID="ID_869208342" MODIFIED="1563162552572" TEXT="spring-boot-devtools">
+<node CREATED="1559286118666" ID="ID_869208342" MODIFIED="1582618952703" TEXT="spring-boot-devtools">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1792,7 +1906,7 @@ pom.xml
 </i></font><i><font color="#808080"># devtools<br /></font></i><font color="#000080"><b>spring.devtools.remote.restart.enabled</b></font>=<font color="#000080"><b>true<br />spring.devtools.restart.additional-paths</b></font>=<font color="#008000"><b>src/main/java</b></font></pre>
   </body>
 </html></richcontent>
-<node CREATED="1559196860004" ID="ID_972867303" MODIFIED="1559285637412" TEXT="Spring hot swapping">
+<node CREATED="1559196860004" ID="ID_972867303" MODIFIED="1582618912427" TEXT="Spring hot swapping">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1812,25 +1926,6 @@ pom.xml
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1559285648896" ID="ID_456797027" MODIFIED="1559285678249" TEXT="spring-boot-devtools"/>
-<node CREATED="1559285699852" ID="ID_1059158204" MODIFIED="1559285903186" TEXT="springloaded">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      IDEA
-    </p>
-    <p>
-      Setting-&gt;Build, ..-&gt;Compiler-&gt;Build&#160;&#160;project automatically
-    </p>
-    <p>
-      Ctrl + Shift + Alt + / -&gt; registry -&gt; compiler.automake.allow.when.app.running
-    </p>
-  </body>
-</html></richcontent>
-</node>
 </node>
 </node>
 <node CREATED="1559286138498" ID="ID_1848557986" MODIFIED="1563162748352" TEXT="spring-boot-starter-web">
@@ -2216,7 +2311,7 @@ pom.xml
 </node>
 </node>
 </node>
-<node CREATED="1554951127203" FOLDED="true" ID="ID_386250949" MODIFIED="1563158380977" TEXT="Spring Framework">
+<node CREATED="1554951127203" FOLDED="true" ID="ID_386250949" MODIFIED="1574232507961" TEXT="Spring Framework">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4090,13 +4185,93 @@ pom.xml
 </node>
 <node CREATED="1559553013894" ID="ID_482343757" MODIFIED="1559553355329" TEXT="mybatis"/>
 </node>
-<node CREATED="1555054148638" FOLDED="true" ID="ID_910700905" MODIFIED="1563158384244" TEXT="Spring Cloud">
+<node CREATED="1555054148638" FOLDED="true" ID="ID_910700905" MODIFIED="1569404112433" TEXT="Spring Cloud">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    starter: https://blog.csdn.net/itanping/article/details/82429509 &#160;&#160;&#160;learn: https://gitee.com/didispace/SpringCloud-Learning &#160;Spring Cloud Spring Boot&lt;content ename=&quot;content&quot;&gt;&amp;#24555;&amp;#36895;&amp;#25645;&amp;#24314;microservices&amp;#24212;&amp;#29992; &lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt; Spring Cloud (ecosystem) &lt;/p&gt; &lt;p&gt; |-service registration and discovery: eureka (Netflix), spring cloud consul, spring cloud zookeeper &lt;/p&gt; &lt;p&gt; |-routing (gateway): zuul (from netflix; netflix not maintain zuul 2.x) spring cloud gateway (from zuul 2.x) &lt;/p&gt; &lt;p&gt; |-service to service calls: openfeign (HTTP client) &lt;/p&gt; &lt;p&gt; |-load balance: ribbon (Netflix) &lt;/p&gt; &lt;p&gt; |-circuit breaker: hystirx &lt;/p&gt; &lt;p&gt; |-distributed tracing (monitor): actuctor, spring boot admin; linked monitor: sleuth, zipkin &lt;/p&gt; &lt;p&gt; |-distributed messaging: spring cloud stream (send and receive messages using apache kafka or rabbitMQ between spring boot apps) and spring cloud bus &lt;/p&gt; &lt;p&gt; |-configuration server: spring cloud config (git, svn, zookeeper) &lt;/p&gt; &lt;p&gt; |-Authentication: spring cloud security, oauth2, jwt (lightweight), spring cloud cloudfoundry &lt;/p&gt; &lt;p&gt; |-Cache: redis, mongodb &lt;/p&gt; &lt;p&gt; |-document: swagger &lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;
+    <p>
+      starter: https://blog.csdn.net/itanping/article/details/82429509
+    </p>
+    <p>
+      learn: https://gitee.com/didispace/SpringCloud-Learning &#32893;Spring Cloud Spring Boot&#24555;&#36895;&#25645;&#24314;microservices&#24212;&#29992;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Spring Cloud (ecosystem)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-service registration and discovery: eureka (Netflix), spring cloud consul, spring cloud zookeeper
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-routing (gateway): zuul (from netflix; netflix not maintain zuul 2.x) spring cloud gateway (from zuul 2.x)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-service to service calls: openfeign (HTTP client)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-load balance: ribbon (Netflix)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-circuit breaker: hystirx
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-distributed tracing (monitor): actuctor, spring boot admin; linked monitor: sleuth, zipkin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-distributed messaging: spring cloud stream (send and receive messages using apache kafka or rabbitMQ between spring boot apps) and spring cloud bus
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-configuration server: spring cloud config (git, svn, zookeeper)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-Authentication: spring cloud security, oauth2, jwt (lightweight), spring cloud cloudfoundry
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-Cache: redis, mongodb
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      |-document: swagger
+    </p>
   </body>
 </html></richcontent>
 <node CREATED="1561107637430" ID="ID_1724981175" MODIFIED="1561350756625" TEXT="Spring Cloud Netflix">
@@ -5063,39 +5238,8 @@ pom.xml
 <node CREATED="1560925855208" ID="ID_533509382" MODIFIED="1560925864873" TEXT="jbpm"/>
 </node>
 </node>
-<node CREATED="1554967927582" FOLDED="true" ID="ID_1040337483" MODIFIED="1562575754064" TEXT="IDE">
-<node CREATED="1554967937943" ID="ID_1913973629" MODIFIED="1562555407651" TEXT="IDEA">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Activate Ultimate 2019.1
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      * Extract ideaIU-2019.1-jbr11.win to D:\program\
-    </p>
-    <p>
-      * Cope JetbrainsCrack.jar to D:\program\ideaIU-2019.1-jbr11.win\JetbrainsCrack.jar
-    </p>
-    <p>
-      * Double click {installation home}/bin/idea64.exe
-    </p>
-    <p>
-      * Open Help-&gt;[Edit Custom VM Options] (the file is from ${user.home}/.IntelliJIdea2019.1/config/idea64.exe.vmoptions)
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;* Add [-javaagent:D:\program\ideaIU-2019.1-jbr11.win\JetbrainsCrack.jar]&#160;at last line for idea64.exe.vmoptions
-    </p>
-    <p>
-      * Open Help-&gt; register, select [License server] (show http://jetbrains-license-server), then click [Activate] button
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1554967927582" ID="ID_1040337483" MODIFIED="1579919969264" TEXT="IDE">
+<node CREATED="1554967937943" ID="ID_1913973629" MODIFIED="1582618624598" TEXT="IDEA">
 <node CREATED="1554967949036" ID="ID_1457863723" MODIFIED="1562555407662" TEXT="shortcut">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5621,6 +5765,53 @@ pom.xml
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1579919985198" ID="ID_1711586060" MODIFIED="1582610861433" TEXT="Troubleshooting">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Q: yml and properties prompt message
+    </p>
+    <p>
+      A: File -&gt; Project Structure -&gt; Modules -&gt; Spring -&gt; Configuration Files, show the leaf
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1582618625859" ID="ID_1053043017" MODIFIED="1582618837830" TEXT="Setup">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Download from official website
+      </li>
+      <li>
+        Unzip
+      </li>
+      <li>
+        Input activation code
+      </li>
+      <li>
+        include JDK and Maven
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      305279277739389705
+    </p>
+    <p>
+      http://www.100c1.com/portal/page/index/id/2.html
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1557126739396" ID="ID_856393604" MODIFIED="1563519089289" TEXT="Java EE">
@@ -5789,7 +5980,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1559014427843" ID="ID_56563147" MODIFIED="1564389688316" POSITION="right" TEXT="tech">
+<node CREATED="1559014427843" ID="ID_56563147" MODIFIED="1574232522297" POSITION="right" TEXT="tech">
 <node CREATED="1559014436369" FOLDED="true" ID="ID_150121026" MODIFIED="1564557778115" TEXT="OAuth 2.0">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5995,79 +6186,7 @@ pom.xml
 <node CREATED="1564976266375" ID="ID_1722480150" MODIFIED="1564976268643" TEXT="ngrok"/>
 </node>
 </node>
-<node CREATED="1560235533570" ID="ID_368434903" MODIFIED="1564976249209" TEXT="RBAC">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      video: https://www.imooc.com/learn/584
-    </p>
-    <p>
-      Role-Based Access Control (&#22522;&#20110;&#35282;&#33394;&#30340;&#26435;&#38480;&#25511;&#21046;)
-    </p>
-    <p>
-      associate authorisation and rule&#160;&#160;(&#26435;&#38480;&#21644;&#35282;&#33394;&#20851;&#32852;)
-    </p>
-    <p>
-      associate user and rule (&#29992;&#25143;&#21644;&#35282;&#33394;&#31649;&#32852;)
-    </p>
-    <p>
-      user &lt;=&gt; rule &lt;=&gt; manipulation (menu and/or function)
-    </p>
-    <p>
-      --------------------
-    </p>
-    <p>
-      &#24212;&#29992;URL&#23454;&#29616;&#31243;&#24207;&#26435;&#38480;&#25511;&#21046;
-    </p>
-    <p>
-      &#160;&#160;&#23454;&#29616;&#26041;&#24335;
-    </p>
-    <p>
-      &#160;&#160;- URL
-    </p>
-    <p>
-      &#160;&#160;&#24212;&#29992;&#33539;&#22260;
-    </p>
-    <p>
-      &#160;&#160;- Web&#24212;&#29992;&#65288;&#21508;&#31181;&#31649;&#29702;&#31995;&#32479;&#65289;
-    </p>
-    <p>
-      &#160;&#160;- Rest&#25509;&#21475;&#65288;&#22522;&#20110;http&#21327;&#35758;&#65292;&#20351;&#29992;get, put, delete, post&#26041;&#27861;&#36827;&#34892;&#25968;&#25454;&#20132;&#20114;&#30340;&#32467;&#26500;&#35268;&#33539;&#65289;&#160;
-    </p>
-    <p>
-      &#24212;&#29992;Code&#23454;&#29616;&#31243;&#24207;&#26435;&#38480;&#25511;&#21046; (apache shrio)
-    </p>
-    <p>
-      &#160;&#160;&#23454;&#29616;&#26041;&#24335;
-    </p>
-    <p>
-      &#160;&#160;- &#27880;&#35299;&#25110;&#32534;&#30721;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#24212;&#29992;&#33539;&#22260;
-    </p>
-    <p>
-      &#160;&#160;- Web&#24212;&#29992;&#65288;&#21508;&#31181;&#31649;&#29702;&#31995;&#32479;&#65289;
-    </p>
-    <p>
-      &#160;&#160;- Rest&#25509;&#21475;&#65288;&#22522;&#20110;http&#21327;&#35758;&#65292;&#20351;&#29992;get, put, delete, post&#26041;&#27861;&#36827;&#34892;&#25968;&#25454;&#20132;&#20114;&#30340;&#32467;&#26500;&#35268;&#33539;&#65289;&#160;
-    </p>
-    <p>
-      &#160;&#160;- &#38750;Rest&#25509;&#21475;&#65288;RMI, Socket&#65289;
-    </p>
-    <p>
-      &#160;&#160;-Web&#26381;&#21153; &#65288;WebService&#25509;&#21475;&#65289;
-    </p>
-    <p>
-      spring security
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1561011669045" FOLDED="true" ID="ID_1840559842" MODIFIED="1564976247990" TEXT="Microservices">
+<node CREATED="1561011669045" FOLDED="true" ID="ID_1840559842" MODIFIED="1579234224587" TEXT="Microservices">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6205,7 +6324,7 @@ pom.xml
 </html></richcontent>
 </node>
 <node CREATED="1561018808642" ID="ID_1564805541" MODIFIED="1561101489538" TEXT="API Gateway">
-<node CREATED="1561101343925" ID="ID_186492762" MODIFIED="1562555408122" TEXT="classic gateway">
+<node CREATED="1561101343925" ID="ID_186492762" MODIFIED="1568014602673" TEXT="classic gateway">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -7206,7 +7325,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </node>
 <node CREATED="1561969841313" ID="ID_598528523" MODIFIED="1561969850340" TEXT="spring framework"/>
 </node>
-<node CREATED="1562555803264" ID="ID_1227079054" MODIFIED="1564976246349" TEXT="cloud native">
+<node CREATED="1562555803264" FOLDED="true" ID="ID_1227079054" MODIFIED="1579919947577" TEXT="cloud native">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -7223,7 +7342,17 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1562555806150" ID="ID_456416985" MODIFIED="1564648857534" TEXT="aws">
+<node CREATED="1562555806150" ID="ID_456416985" MODIFIED="1567063204558" TEXT="aws">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS China from 2013
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1562555992229" ID="ID_272454844" MODIFIED="1562561454270" TEXT="registry">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -7269,7 +7398,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1562556957133" ID="ID_1244450542" MODIFIED="1565075947973" TEXT="Products">
+<node CREATED="1562556957133" ID="ID_1244450542" MODIFIED="1568796579507" TEXT="Products">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -7913,19 +8042,19 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1563959717078" ID="ID_687360204" MODIFIED="1564370914442" TEXT="AWS CodeCommit">
+<node CREATED="1568797323699" ID="ID_1464056935" MODIFIED="1572229756745" TEXT="Amazon Corretto">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Store code in private Git repositories
+      Production-ready distribution of OpenJDK
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1563959687629" ID="ID_1835700166" MODIFIED="1563959714718" TEXT="AWS CodeBuild">
+<node CREATED="1563959687629" ID="ID_1835700166" MODIFIED="1568797316141" TEXT="AWS CodeBuild">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -7937,7 +8066,19 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1563959776908" ID="ID_1385904778" MODIFIED="1564374397150" TEXT="AWS CodeDeploy">
+<node CREATED="1563959717078" ID="ID_687360204" MODIFIED="1579234242683" TEXT="AWS CodeCommit">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Store code in private Git repositories
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563959776908" ID="ID_1385904778" MODIFIED="1568797316156" TEXT="AWS CodeDeploy">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8053,7 +8194,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1563959805027" ID="ID_1242050459" MODIFIED="1564631825340" TEXT="AWS CodePipeline">
+<node CREATED="1563959805027" ID="ID_1242050459" MODIFIED="1568797365405" TEXT="AWS CodePipeline">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8082,7 +8223,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1564371274790" ID="ID_879486213" MODIFIED="1564371459215" TEXT="AWS CodeStar">
+<node CREATED="1564371274790" ID="ID_879486213" MODIFIED="1568797365288" TEXT="AWS CodeStar">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8094,7 +8235,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1564371077615" ID="ID_662277279" MODIFIED="1564371128639" TEXT="AWS X-Ray">
+<node CREATED="1564371077615" ID="ID_662277279" MODIFIED="1568797365187" TEXT="AWS X-Ray">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8106,9 +8247,169 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1568796777732" ID="ID_1063211331" MODIFIED="1568796867462" TEXT="AWS Cloud Development Kit">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Model cloud infrastructure using code
+    </p>
+    <p>
+      AWS Management Console -&gt; AWS CloudFormation -&gt; AWS Cloud Development Kit
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1564478895326" ID="ID_1619056552" MODIFIED="1564478922462" TEXT="Internet of Things"/>
-<node CREATED="1563874456189" ID="ID_1928370240" MODIFIED="1564479451470" TEXT="Management &amp; Governance">
+</node>
+<node CREATED="1564478895326" ID="ID_1619056552" MODIFIED="1564478922462" TEXT="Internet of Things">
+<node CREATED="1569314282932" ID="ID_1803395331" MODIFIED="1570608813665" TEXT="AWS IoT GreenGrass">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Local compute, messaging, and sync for devices
+    </p>
+    <p>
+      Local Message Broker
+    </p>
+    <p>
+      Lambda
+    </p>
+    <p>
+      Device Shadows
+    </p>
+    <p>
+      AWS Security
+    </p>
+    <p>
+      OTA
+    </p>
+    <p>
+      AWS Secrets Manager
+    </p>
+    <p>
+      AI
+    </p>
+    <p>
+      Greengrass call
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1570612405604" ID="ID_1101309158" MODIFIED="1570612500767" TEXT="AWS IoT Analytics">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Analytics for IoT devices
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1570611985661" ID="ID_1795825049" MODIFIED="1570612018270" TEXT="AWS IoT Core">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Connect devices to the cloud
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1570612583572" ID="ID_1591728890" MODIFIED="1570612746858" TEXT="AWS IoT Device Defender">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Onboard, organize, and remotely manage IoT devices
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1570612048565" ID="ID_1762154614" MODIFIED="1570612077238" TEXT="AWS IoT SiteWise">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      IoT data collector and interpreter
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1570612468469" ID="ID_154645621" MODIFIED="1570612491934" TEXT="AWS IoT Things Graph">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Easily connect devices and web services
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1568021998778" ID="ID_960026979" MODIFIED="1568022012701" TEXT="Machine Learning">
+<node CREATED="1570609099984" ID="ID_1445674896" MODIFIED="1570612760037" TEXT="Amazon SageMaker">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Build, train, and delploy machine learning models at scale
+    </p>
+    <p>
+      Ground Truth
+    </p>
+    <p>
+      Algorithm from MarketPlace
+    </p>
+    <p>
+      Neo is a compiler
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1568022013941" ID="ID_320102949" MODIFIED="1570612760033" TEXT="Amazon Lex">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Build voice and text chatbots
+    </p>
+    <p>
+      <font color="rgb(35, 47, 62)" face="AmazonEmberLight, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif">automatic speech recognition (ASR)&#160;</font>
+    </p>
+    <p>
+      <font color="rgb(35, 47, 62)" face="AmazonEmberLight, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif">natural language understanding (NLU) </font>
+    </p>
+    <p>
+      Intent Slots Utterance Prompts Fulfillment
+    </p>
+    <p>
+      User &lt;=&gt; Lex &lt;=&gt; Lambda Function
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1568796263462" ID="ID_194289847" MODIFIED="1568796274538" TEXT="Amazon Translate"/>
+</node>
+<node CREATED="1563874456189" ID="ID_1928370240" MODIFIED="1568796579538" TEXT="Management &amp; Governance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8125,7 +8426,7 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1563874478704" ID="ID_1593834094" MODIFIED="1564565239866" TEXT="Amazon CloudWatch">
+<node CREATED="1563874478704" ID="ID_1593834094" MODIFIED="1570613707743" TEXT="Amazon CloudWatch">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8142,6 +8443,9 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
     <p>
       CloudWatch Events (Schedule)
+    </p>
+    <p>
+      CloudWatch Logs
     </p>
   </body>
 </html></richcontent>
@@ -8173,7 +8477,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1564371873086" ID="ID_573256663" MODIFIED="1564372082841" TEXT="AWS CloudTrail">
+<node CREATED="1564371873086" ID="ID_573256663" MODIFIED="1570613959158" TEXT="AWS CloudTrail">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8184,6 +8488,9 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
     <p>
       AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account
+    </p>
+    <p>
+      Console (AWS Management Console)/SDK/AWS CLI -&gt; AWS Services -&gt; CloudTrail -&gt; S3 Bucket
     </p>
   </body>
 </html></richcontent>
@@ -8200,6 +8507,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1568796581012" ID="ID_139282081" MODIFIED="1568796595847" TEXT="AWS Management Console"/>
 <node CREATED="1564371490974" ID="ID_1429485343" MODIFIED="1564371646720" TEXT="AWS OpsWorks">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -8215,7 +8523,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1565081749413" ID="ID_1851969864" MODIFIED="1565081786733" TEXT="AWS Organization">
+<node CREATED="1565081749413" ID="ID_1851969864" MODIFIED="1568796595847" TEXT="AWS Organization">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8227,7 +8535,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1564540937269" ID="ID_397093862" MODIFIED="1564631934987" TEXT="AWS Serverless Application Model (SAM)">
+<node CREATED="1564540937269" ID="ID_397093862" MODIFIED="1568796593000" TEXT="AWS Serverless Application Model (SAM)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8281,7 +8589,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1564729094801" ID="ID_1592773544" MODIFIED="1565081758933" TEXT="AWS Systems Manager">
+<node CREATED="1564729094801" ID="ID_1592773544" MODIFIED="1568796592033" TEXT="AWS Systems Manager">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8308,8 +8616,21 @@ configure { bind(My).to(MyImpl); }</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1562557198598" ID="ID_1561675502" MODIFIED="1564476120532" TEXT="Network &amp; Content Delivery">
-<node CREATED="1562557237149" ID="ID_1513821759" MODIFIED="1562557787788" TEXT="Amazon VPC">
+<node CREATED="1562557198598" ID="ID_1561675502" MODIFIED="1568015197035" TEXT="Network &amp; Content Delivery">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cost
+    </p>
+    <p>
+      CNY 0.28 per GB Amazon VPC to AWS Direct Connect data transfer OUT
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1562557237149" ID="ID_1513821759" MODIFIED="1570613615432" TEXT="Amazon VPC">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8323,6 +8644,9 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
     <p>
       Provision a logically isolated section of Amazon Web Service (AWS) Cloud where you can launch AWS resources in a virtual network that you define
+    </p>
+    <p>
+      Amazon VPC Flow Logs
     </p>
   </body>
 </html></richcontent>
@@ -8381,7 +8705,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1565253345436" ID="ID_1132392946" MODIFIED="1565255098111" TEXT="AWS Direct Connect">
+<node CREATED="1565253345436" ID="ID_1132392946" MODIFIED="1568016310527" TEXT="AWS Direct Connect">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8395,6 +8719,39 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
     <p>
       AWS VPC &lt;=&gt; AWS Direct Connect (DX Location)&lt;=&gt; SP/Parter Network
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Telstra Cloud Gateway
+    </p>
+    <p>
+      <a href="https://www.imooc.com/video/16079">https://www.imooc.com/video/16079 </a>
+    </p>
+    <p>
+      AWS Regin, Other public cloud network &lt;=&gt; AWS Direct Connect &lt;=&gt; Telstra Network (Telstra Cloud Gateway) &lt;=&gt; Data Center / office / private cloud
+    </p>
+    <p>
+      2 Layer: MSTP / Ethernet SDH / DPLC / IPLC / EIPL
+    </p>
+    <p>
+      3 Layer: MPLSVPN / EVPN / IPSec-VPN / SSL VPN
+    </p>
+    <p>
+      COS/QOS (6 Class of Service)
+    </p>
+    <p>
+      SD - WAN
+    </p>
+    <p>
+      SDN / PEN
+    </p>
+    <p>
+      IPV6
+    </p>
+    <p>
+      3G/4G APN
     </p>
   </body>
 </html></richcontent>
@@ -8414,7 +8771,19 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1564475866622" ID="ID_1607736000" MODIFIED="1565253369636" TEXT="AWS Rount 53">
+<node CREATED="1567063781578" ID="ID_1335258203" MODIFIED="1567063820687" TEXT="AWS VPN">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Securely access your network resources
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564475866622" ID="ID_1607736000" MODIFIED="1567063799713" TEXT="AWS Rount 53">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8429,7 +8798,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1562557537037" ID="ID_1844672489" MODIFIED="1565253367666" TEXT="Elastic Load Balancing (ELB)">
+<node CREATED="1562557537037" ID="ID_1844672489" MODIFIED="1567063789214" TEXT="Elastic Load Balancing (ELB)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8449,7 +8818,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </node>
 </node>
 <node CREATED="1564470757184" ID="ID_1382222138" MODIFIED="1564470808913" TEXT="Security, Identity, &amp; Compliance">
-<node CREATED="1564556654512" ID="ID_851868613" MODIFIED="1564556752430" TEXT="AWS Identity and Acess Management">
+<node CREATED="1564556654512" ID="ID_851868613" MODIFIED="1567063459977" TEXT="AWS Identity and Acess Management (IAM)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8457,6 +8826,18 @@ configure { bind(My).to(MyImpl); }</pre>
   <body>
     <p>
       Manage user access and encryption keys
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564472575120" ID="ID_763671448" MODIFIED="1570614664064" TEXT="Amazon Certificate Manager">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Provision, manage, and deploy SSL/TLS certificates for use with AWS services and your internal connected resources
     </p>
   </body>
 </html></richcontent>
@@ -8473,7 +8854,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1564478736669" ID="ID_1358206167" MODIFIED="1564556670652" TEXT="Amazon Cognito">
+<node CREATED="1564478736669" ID="ID_1358206167" MODIFIED="1570614664068" TEXT="Amazon Cognito">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8485,19 +8866,64 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1564472575120" ID="ID_763671448" MODIFIED="1564556669832" TEXT="Amazon Certificate Manager">
+<node CREATED="1570614587044" ID="ID_1576288211" MODIFIED="1570614615888" TEXT="Amazon GuardDuty">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Provision, manage, and deploy SSL/TLS certificates for use with AWS services and your internal connected resources
+      Managed threat detection service
     </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1565319730821" ID="ID_1361932445" MODIFIED="1565321266234" TEXT="AWS Shield">
+<node CREATED="1570614624332" ID="ID_1084642429" MODIFIED="1570614656514" TEXT="Amazon Macie">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Discover, classify, and protect your data
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1569307848818" ID="ID_1396625962" MODIFIED="1570614615891" TEXT="AWS App Mesh">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Monitor and control microservices
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1567065104212" ID="ID_946886596" MODIFIED="1570614615622" TEXT="AWS Key Management Services">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Managed creation and control of encryption keys
+    </p>
+    <p>
+      data classification: public, confidential, restricted, crown jewel
+    </p>
+    <p>
+      not to be available in china
+    </p>
+    <p>
+      Default is a good start, maybe not the best choice
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1565319730821" ID="ID_1361932445" MODIFIED="1570614615292" TEXT="AWS Shield">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8515,7 +8941,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1565319771830" ID="ID_1832001003" MODIFIED="1565319856880" TEXT="AWS Web Application Firewall (WAF)">
+<node CREATED="1565319771830" ID="ID_1832001003" MODIFIED="1570614614612" TEXT="AWS Web Application Firewall (WAF)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8527,9 +8953,21 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1571389630878" ID="ID_1353278018" MODIFIED="1571389661651" TEXT="Amazon Inspector">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Analyze application security
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1562558955477" ID="ID_1735584110" MODIFIED="1562558960654" TEXT="Storage">
-<node CREATED="1562558960654" ID="ID_691307941" MODIFIED="1563866957292" TEXT="Amazon Simple Storage Service (S3)">
+<node CREATED="1562558960654" ID="ID_691307941" MODIFIED="1574335727787" TEXT="Amazon Simple Storage Service (S3)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8537,6 +8975,9 @@ configure { bind(My).to(MyImpl); }</pre>
   <body>
     <p>
       Object storage built to store and retrieve any amount of data from anywhere
+    </p>
+    <p>
+      e.g. backup MySQL to S3 (clacier) with lifecycle
     </p>
   </body>
 </html></richcontent>
@@ -8579,11 +9020,39 @@ configure { bind(My).to(MyImpl); }</pre>
 </node>
 </node>
 <node CREATED="1564479629050" ID="ID_1139656242" MODIFIED="1564479642872" TEXT="Customer Engagement">
+<node CREATED="1569402466050" ID="ID_1345003123" MODIFIED="1569402539291" TEXT="Amazon PinPoint">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Personalized user engagement across channels
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1564479664548" ID="ID_1285036812" MODIFIED="1564479681724" TEXT="Amazon Simple Email Service (SES)"/>
 </node>
-<node CREATED="1564540933798" ID="ID_1358107056" MODIFIED="1564540937254" TEXT="others"/>
+<node CREATED="1564540933798" ID="ID_1358107056" MODIFIED="1568014666861" TEXT="others">
+<node CREATED="1568014666856" ID="ID_912838944" MODIFIED="1568014795896" TEXT="HAProxy on AWS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://www.imooc.com/video/16078">https://www.imooc.com/video/16078</a>
+    </p>
+    <p>
+      HAproxy keepalived scripts HAproxy
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1564540295711" FOLDED="true" ID="ID_888946428" MODIFIED="1564975519635" TEXT="Solutions">
+</node>
+</node>
+<node CREATED="1564540295711" FOLDED="true" ID="ID_888946428" MODIFIED="1569315542488" TEXT="Solutions">
 <node CREATED="1564540373905" ID="ID_1556785972" MODIFIED="1564632094519" TEXT="By Use Case">
 <node CREATED="1564731683273" ID="ID_924719683" MODIFIED="1564733572184" TEXT="Containers">
 <richcontent TYPE="NOTE"><html>
@@ -8680,7 +9149,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </node>
 <node CREATED="1564555445885" ID="ID_8924554" MODIFIED="1564555459983" TEXT="Developer tooling"/>
 </node>
-<node CREATED="1564725535286" ID="ID_1604849942" MODIFIED="1564734314757" TEXT="DevOpe">
+<node CREATED="1564725535286" ID="ID_1604849942" MODIFIED="1569314449730" TEXT="DevOpe">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -8893,7 +9362,19 @@ configure { bind(My).to(MyImpl); }</pre>
 </node>
 </node>
 </node>
-<node CREATED="1564632094519" ID="ID_1482328457" MODIFIED="1564632324838" TEXT="Website">
+<node CREATED="1569314437944" ID="ID_1576854417" MODIFIED="1569314511138" TEXT="Internet of Things">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Easily scale to billions of devices and trillions of messages
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564632094519" ID="ID_1482328457" MODIFIED="1569314448435" TEXT="Website">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -9403,7 +9884,7 @@ configure { bind(My).to(MyImpl); }</pre>
 <node CREATED="1561351590451" ID="ID_909102625" MODIFIED="1561351604191" TEXT="Apache Mesos"/>
 <node CREATED="1561351666322" ID="ID_1039970426" MODIFIED="1561351696607" TEXT="Amazon Elastic Container Service (ECS)"/>
 </node>
-<node CREATED="1565318802555" ID="ID_359112863" MODIFIED="1565318855386" TEXT="private cloud">
+<node CREATED="1565318802555" FOLDED="true" ID="ID_359112863" MODIFIED="1568014644852" TEXT="private cloud">
 <node CREATED="1565318855396" ID="ID_97260758" MODIFIED="1565331682222" TEXT="OpenStack">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -9533,9 +10014,19 @@ configure { bind(My).to(MyImpl); }</pre>
 <node CREATED="1565318862296" ID="ID_1397331885" MODIFIED="1565318866366" TEXT="cloudstack"/>
 <node CREATED="1565319118661" ID="ID_1427174914" MODIFIED="1565319125001" TEXT="VMWare"/>
 <node CREATED="1565319128351" ID="ID_967555682" MODIFIED="1565319140580" TEXT="FusionSphere"/>
-<node CREATED="1565581010715" ID="ID_1054289733" MODIFIED="1565581014474" TEXT="KVM">
+<node CREATED="1565581010715" ID="ID_1054289733" MODIFIED="1566467541998" TEXT="KVM">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://www.imooc.com/learn/708">https://www.imooc.com/learn/708</a>
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1565582631395" ID="ID_1269611610" MODIFIED="1565582638375" TEXT="catalog">
-<node CREATED="1565582358181" ID="ID_1388876121" MODIFIED="1565582513698" TEXT="Full virtualization / Software-based virtualization">
+<node CREATED="1565582358181" ID="ID_1388876121" MODIFIED="1566464316394" TEXT="Full virtualization / Software-based virtualization">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -9572,40 +10063,102 @@ configure { bind(My).to(MyImpl); }</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1565582743494" ID="ID_545250008" MODIFIED="1565583036691" TEXT="Kernal Virtual Machine (KVM)">
+<node CREATED="1565582743494" ID="ID_545250008" MODIFIED="1566461908375" TEXT="Kernal Virtual Machine (KVM)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        core: kvm.ko, kvm_intel.ko or kvm_amd.ko
+      </li>
+      <li>
+        app: qemu-kvm (centos)
+      </li>
+      <li>
+        image
+      </li>
+      <li>
+        access vm with VNC
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1566462272203" ID="ID_1198287672" MODIFIED="1566467302808" TEXT="x86 cpu">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      kvm.ko
+      Ring0 (OS Kernel) ~ Ring3 (Application)
     </p>
     <p>
-      kvm_intel.ko or kvm_amd.ko
+      Shadow Page Table
     </p>
     <p>
-      qemu-kvm
+      Second Level Address Translation
+    </p>
+    <p>
+      Intel EPT (Extended Page Tables)
+    </p>
+    <p>
+      AMD NPT Nested Page Tables
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1566464279315" ID="ID_606935667" MODIFIED="1566464312775" TEXT="Binary Translation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      VMWare (1998)
+    </p>
+    <p>
+      Microsoft Virtual PC
     </p>
     <p>
       
     </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1566464317260" ID="ID_66968878" MODIFIED="1566464386656" TEXT="Intel VT-X / AMD v">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
     <p>
-      image
+      VMX non-root: VM-Entry, VM-Exit
     </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1566467070936" ID="ID_727192909" MODIFIED="1566467070936" TEXT=""/>
+</node>
+</node>
+</node>
+<node CREATED="1569403904448" ID="ID_1846511433" MODIFIED="1569403906664" TEXT="tech">
+<node CREATED="1569403907779" ID="ID_1025005554" MODIFIED="1569403915899" TEXT="gRPC">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
     <p>
-      
-    </p>
-    <p>
-      access vm with VNC
+      <a href="https://www.grpc.io/">https://www.grpc.io/</a>
     </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1564389751365" ID="ID_1223734200" MODIFIED="1564976246207" TEXT="Big Data">
+<node CREATED="1564389751365" FOLDED="true" ID="ID_1223734200" MODIFIED="1579919949602" TEXT="Big Data">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -9700,7 +10253,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1556165010823" ID="ID_859775496" MODIFIED="1565075923884" TEXT="database">
+<node CREATED="1556165010823" ID="ID_859775496" MODIFIED="1569308983224" TEXT="database">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -9815,6 +10368,40 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1569310397504" ID="ID_1819387154" MODIFIED="1569310455909" TEXT="MongDB Atlas">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      maintenance:
+    </p>
+    <p>
+      standardization
+    </p>
+    <p>
+      deployment
+    </p>
+    <p>
+      security
+    </p>
+    <p>
+      monitoring
+    </p>
+    <p>
+      backup
+    </p>
+    <p>
+      migration
+    </p>
+    <p>
+      support
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1569311395245" ID="ID_766018517" MODIFIED="1569311406785" TEXT="MongoDB Stitch"/>
 </node>
 <node CREATED="1559718831718" ID="ID_1990702601" MODIFIED="1565075853574" TEXT="redis">
 <richcontent TYPE="NOTE"><html>
@@ -9879,7 +10466,7 @@ configure { bind(My).to(MyImpl); }</pre>
 <node CREATED="1564975440114" ID="ID_1832704200" MODIFIED="1564975447399" TEXT="GraphQL"/>
 </node>
 </node>
-<node CREATED="1563960155384" ID="ID_757443178" MODIFIED="1564646593924" TEXT="other">
+<node CREATED="1563960155384" ID="ID_757443178" MODIFIED="1570609219172" TEXT="other">
 <node CREATED="1563959128594" ID="ID_1128198440" MODIFIED="1564370123619" TEXT="DevOps">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -10017,6 +10604,10 @@ configure { bind(My).to(MyImpl); }</pre>
 <node CREATED="1564971819374" ID="ID_1292853221" MODIFIED="1564971822978" TEXT="Ansible"/>
 </node>
 <node CREATED="1564975535203" ID="ID_1196710047" MODIFIED="1564975626530" TEXT="Deeping Learning">
+<node CREATED="1570609248995" ID="ID_372932423" MODIFIED="1570609262145" TEXT="framework">
+<node CREATED="1570609230877" ID="ID_932327565" MODIFIED="1570609236889" TEXT="MXNet"/>
+<node CREATED="1564976337814" ID="ID_735827200" MODIFIED="1564976349341" TEXT="Core ML"/>
+<node CREATED="1564976078433" ID="ID_614058198" MODIFIED="1564976086351" TEXT="TensorFlow"/>
 <node CREATED="1564975616157" ID="ID_1697281936" MODIFIED="1564975649162" TEXT="skin">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -10035,8 +10626,254 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1564976078433" ID="ID_614058198" MODIFIED="1564976086351" TEXT="TensorFlow"/>
-<node CREATED="1564976337814" ID="ID_735827200" MODIFIED="1564976349341" TEXT="Core ML"/>
+<node CREATED="1570609276630" ID="ID_1964607135" MODIFIED="1570609281060" TEXT="Chainer"/>
+<node CREATED="1570611014660" ID="ID_693039145" MODIFIED="1570611018089" TEXT="PYTORCH"/>
+</node>
+<node CREATED="1570609284141" ID="ID_234347778" MODIFIED="1570609290896" TEXT="hardware">
+<node CREATED="1570609291886" ID="ID_1030692748" MODIFIED="1570609301028" TEXT="Intel Apollo Lake"/>
+<node CREATED="1570609303687" ID="ID_1535013684" MODIFIED="1570609314014" TEXT="Nvidia Jetson TX2"/>
+<node CREATED="1570609319389" ID="ID_687678170" MODIFIED="1570609330558" TEXT="Raspberry Pi"/>
+</node>
+<node CREATED="1570609527125" ID="ID_1736776990" MODIFIED="1570610215279" TEXT="process">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25968;&#25454;&#20934;&#22791;-&gt;&#36873;&#25321;&#26426;&#22120;&#23398;&#20064;&#31639;&#27861;-&gt;&#20248;&#21270;&#31639;&#27861;-&gt;&#35774;&#32622;&#21644;&#31649;&#29702;&#35757;&#32451;&#29615;&#22659;-&gt;&#35757;&#32451;&#27169;&#22411;&#24182;&#20248;&#21270;-&gt;&#37096;&#32626;&#27169;&#22411;&#21040;&#29983;&#20135;&#29615;&#22659;-&gt;&#25193;&#23637;&#21644;&#31649;&#29702;&#29983;&#20135;&#29615;&#22659;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1560235533570" ID="ID_368434903" MODIFIED="1564976249209" TEXT="RBAC">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      video: https://www.imooc.com/learn/584
+    </p>
+    <p>
+      Role-Based Access Control (&#22522;&#20110;&#35282;&#33394;&#30340;&#26435;&#38480;&#25511;&#21046;)
+    </p>
+    <p>
+      associate authorisation and rule&#160;&#160;(&#26435;&#38480;&#21644;&#35282;&#33394;&#20851;&#32852;)
+    </p>
+    <p>
+      associate user and rule (&#29992;&#25143;&#21644;&#35282;&#33394;&#31649;&#32852;)
+    </p>
+    <p>
+      user &lt;=&gt; rule &lt;=&gt; manipulation (menu and/or function)
+    </p>
+    <p>
+      --------------------
+    </p>
+    <p>
+      &#24212;&#29992;URL&#23454;&#29616;&#31243;&#24207;&#26435;&#38480;&#25511;&#21046;
+    </p>
+    <p>
+      &#160;&#160;&#23454;&#29616;&#26041;&#24335;
+    </p>
+    <p>
+      &#160;&#160;- URL
+    </p>
+    <p>
+      &#160;&#160;&#24212;&#29992;&#33539;&#22260;
+    </p>
+    <p>
+      &#160;&#160;- Web&#24212;&#29992;&#65288;&#21508;&#31181;&#31649;&#29702;&#31995;&#32479;&#65289;
+    </p>
+    <p>
+      &#160;&#160;- Rest&#25509;&#21475;&#65288;&#22522;&#20110;http&#21327;&#35758;&#65292;&#20351;&#29992;get, put, delete, post&#26041;&#27861;&#36827;&#34892;&#25968;&#25454;&#20132;&#20114;&#30340;&#32467;&#26500;&#35268;&#33539;&#65289;&#160;
+    </p>
+    <p>
+      &#24212;&#29992;Code&#23454;&#29616;&#31243;&#24207;&#26435;&#38480;&#25511;&#21046; (apache shrio)
+    </p>
+    <p>
+      &#160;&#160;&#23454;&#29616;&#26041;&#24335;
+    </p>
+    <p>
+      &#160;&#160;- &#27880;&#35299;&#25110;&#32534;&#30721;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#24212;&#29992;&#33539;&#22260;
+    </p>
+    <p>
+      &#160;&#160;- Web&#24212;&#29992;&#65288;&#21508;&#31181;&#31649;&#29702;&#31995;&#32479;&#65289;
+    </p>
+    <p>
+      &#160;&#160;- Rest&#25509;&#21475;&#65288;&#22522;&#20110;http&#21327;&#35758;&#65292;&#20351;&#29992;get, put, delete, post&#26041;&#27861;&#36827;&#34892;&#25968;&#25454;&#20132;&#20114;&#30340;&#32467;&#26500;&#35268;&#33539;&#65289;&#160;
+    </p>
+    <p>
+      &#160;&#160;- &#38750;Rest&#25509;&#21475;&#65288;RMI, Socket&#65289;
+    </p>
+    <p>
+      &#160;&#160;-Web&#26381;&#21153; &#65288;WebService&#25509;&#21475;&#65289;
+    </p>
+    <p>
+      spring security
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1566800135075" ID="ID_1347957668" MODIFIED="1566805070971" TEXT="Transaction">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://www.imooc.com/learn/272">https://www.imooc.com/learn/272</a>
+    </p>
+    <p>
+      &#23481;&#26131;&#29702;&#35299;&#30340;&#27169;&#22411;&#24615;&#33021;&#37117;&#19981;&#22909;
+    </p>
+    <p>
+      &#24615;&#33021;&#22909;&#30340;&#27169;&#22411;&#37117;&#19981;&#23481;&#26131;&#29702;&#35299;
+    </p>
+    <p>
+      &#20107;&#21153;&#21333;&#20803;&#20043;&#38388;&#30340;Happen-before&#20851;&#31995;&#65306;&#35835;&#20889;&#65292;&#20889;&#35835;&#65292;&#35835;&#35835;&#65292;&#20889;&#20889;
+    </p>
+    <p>
+      &#25490;&#38431;&#27861;&#65288;&#24207;&#21015;&#21495;&#65289;&#65292;&#25490;&#20182;&#38145;&#65292;&#20889;&#35835;&#38145;&#65292;MVCC &#65288;copy on write&#65289;(main database)
+    </p>
+    <p>
+      &#20107;&#21153;&#22788;&#29702;(&#36923;&#36753;&#26102;&#38388;&#25139;)&#65306;SCN&#65288;oracle&#65289;&#65292;Trx_id(innodb)(MySQL)
+    </p>
+    <p>
+      rollback
+    </p>
+    <p>
+      &#27515;&#38145;&#65306;&#23613;&#21487;&#33021;&#19981;&#27515;&#38145;&#65292;&#30896;&#25758;&#26816;&#27979;&#65288;&#22823;&#37096;&#20998;&#35299;&#20915;&#26041;&#26696;&#65289;&#65292;&#31561;&#38145;&#36229;&#26102;
+    </p>
+    <p>
+      google spanner
+    </p>
+    <p>
+      DRDS/TDDL
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1566800658864" ID="ID_1807854823" MODIFIED="1566800674364" TEXT="Lock and Concurrency"/>
+<node CREATED="1566800640734" ID="ID_730953013" MODIFIED="1566893834669" TEXT="ACID">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      ACID
+    &lt;/p&gt;
+    &lt;p&gt;
+      A&amp;#21407;&amp;#23376;&amp;#24615;&amp;#65306;&lt;content ename=&quot;content&quot;&gt;&amp;#19968;&amp;#20010;&amp;#20107;&amp;#21153;&amp;#35201;&amp;#20040;&amp;#21516;&amp;#26102;&amp;#25104;&amp;#21151;&amp;#65292;&amp;#35201;&amp;#20040;&amp;#21516;&amp;#26102;&amp;#22833;&amp;#36133; &amp;#65288;undo&amp;#26085;&amp;#24535;&amp;#65292;&lt;content ename=&quot;content&quot;&gt;&amp;#22238;&amp;#28378;&amp;#21040;&amp;#20043;&amp;#21069;&amp;#30340;&amp;#29256;&amp;#26412;&amp;#65289;
+    &lt;/p&gt;
+    &lt;p&gt;
+      C&amp;#19968;&amp;#33268;&amp;#24615;&amp;#65306;Can&amp;#65288;happen before&amp;#65289;&amp;#65292;&amp;#20445;&amp;#35777;&amp;#26356;&amp;#25913;&amp;#20043;&amp;#23436;&amp;#65292;&amp;#25165;&amp;#21487;&amp;#35265;&amp;#12290;&amp;#65288;&amp;#25928;&amp;#29575;&amp;#21313;&amp;#20998;&amp;#30340;&amp;#20302;&amp;#65292;&amp;#25165;&amp;#20986;&amp;#29616;&amp;#20102;&amp;#38548;&amp;#31163;&amp;#24615;&amp;#65289;
+    &lt;/p&gt;
+    &lt;p&gt;
+      I&amp;#38548;&amp;#31163;&amp;#24615;&amp;#65306;&amp;#23601;&amp;#26159;&amp;#20197;&amp;#24615;&amp;#33021;&amp;#20026;&amp;#29702;&amp;#30001;&amp;#65292;&amp;#23545;&amp;#19968;&amp;#33268;&amp;#24615;&amp;#30340;&amp;#30772;&amp;#22351;&amp;#65307;4&amp;#20010;&amp;#38548;&amp;#31163;&amp;#32423;&amp;#21035;&amp;#65288;SQL 92&amp;#65289; 1.&amp;#31995;&amp;#21015;&amp;#21270;&amp;#35835;&amp;#20889;&amp;#65288;serializable&amp;#65289;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#25490;&amp;#23427;&amp;#38145;&amp;#65292;&amp;#21516;&amp;#26102;&amp;#21482;&amp;#26377;&amp;#19968;&amp;#20010;&amp;#36827;&amp;#26469;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#35835;&amp;#20889;&amp;#38145;&amp;#65292;2.&amp;#21487;&amp;#37325;&amp;#22797;&amp;#35835;&amp;#65288;repeatable read&amp;#65289;&amp;#65292;3.&amp;#35835;&amp;#24050;&amp;#25552;&amp;#20132;&amp;#65288;read committed&amp;#65289;&amp;#65292;4.&amp;#35835;&amp;#26410;&amp;#25552;&amp;#20132;(read 
+      uncommitted)
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#38548;&amp;#31163;&amp;#24615;&amp;#25193;&amp;#23637;(SQL 92 &amp;#26080;&amp;#23450;&amp;#20041;)&amp;#65306;5.&amp;#24555;&amp;#29031;&amp;#65288;snapshot isolation&amp;#65289;&amp;#22810;&amp;#29256;&amp;#26412;&amp;#24182;&amp;#21457;&amp;#25511;&amp;#21046;&amp;#65288;MVCC&amp;#65289;&amp;#65288;almost 
+      database&amp;#65289;&amp;#65288;97&amp;#24180; snapshot -&amp;gt; serializable&amp;#65289;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;Copy on write, &amp;#26080;&amp;#38145;&amp;#32534;&amp;#31243;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#20107;&amp;#21153;&amp;#30340;&amp;#23450;&amp;#20041;&amp;#28382;&amp;#21518;&amp;#20110;&amp;#20107;&amp;#29289;&amp;#30340;&amp;#21457;&amp;#23637; &amp;#26631;&amp;#20934;&amp;#19981;&amp;#19968;&amp;#23450;&amp;#26159;&amp;#23545;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#19994;&amp;#21153;&amp;#24212;&amp;#29992;&amp;#30340;&amp;#21457;&amp;#23637;&amp;#24050;&amp;#32463;&amp;#36828;&amp;#36828;&amp;#36229;&amp;#36807;&amp;#23545;&amp;#20256;&amp;#32479;&amp;#24847;&amp;#20041;&amp;#19978;&amp;#20107;&amp;#29289;&amp;#30340;&amp;#35748;&amp;#30693;
+    &lt;/p&gt;
+    &lt;p&gt;
+      D&amp;#25345;&amp;#20037;&amp;#24615;&amp;#65306;&amp;#20107;&amp;#21153;&amp;#23436;&amp;#25104;&amp;#20043;&amp;#21518;&amp;#65292;&amp;#35813;&amp;#20107;&amp;#21153;&amp;#23545;&amp;#25968;&amp;#25454;&amp;#24211;&amp;#25152;&amp;#20570;&amp;#30340;&amp;#26356;&amp;#25913;&amp;#20415;&amp;#25345;&amp;#20037;&amp;#30340;&amp;#20445;&amp;#23384;&amp;#22312;&amp;#25968;&amp;#25454;&amp;#24211;&amp;#20043;&amp;#20013;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;RAID Controller(&amp;#25345;&amp;#20037;&amp;#24615;&amp;#20445;&amp;#35777;&amp;#31574;&amp;#30053;)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+</node>
+<node CREATED="1566805119852" ID="ID_1138144223" MODIFIED="1566976309974" TEXT="single machine transaction">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &amp;#20107;&amp;#21153;&amp;#20248;&amp;#21270;&amp;#65292;&amp;#19981;&amp;#24433;&amp;#21709;&amp;#19994;&amp;#21153;&amp;#24212;&amp;#29992;&amp;#30340;&amp;#21069;&amp;#25552;&amp;#19979;&amp;#65292;&amp;#20943;&amp;#23567;&amp;#38145;&amp;#30340;&amp;#33539;&amp;#22260;&amp;#65292;Myisam&amp;#34920;&amp;#38145; -&amp;gt; Innodb&amp;#34892;&amp;#38145;&amp;#65307;&amp;#21407;&amp;#20301;&amp;#38145;-&amp;gt;MVCC&amp;#22810;&amp;#29256;&amp;#26412;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#22686;&amp;#21152;&amp;#38145;&amp;#19978;&amp;#21487;&amp;#24182;&amp;#34892;&amp;#30340;&amp;#32447;&amp;#31243;&amp;#25968;&amp;#65292;&amp;#35835;&amp;#38145;&amp;#20889;&amp;#38145;&amp;#20998;&amp;#31163;&amp;#12289;&amp;#20801;&amp;#35768;&amp;#24182;&amp;#34892;&amp;#35835;&amp;#21462;&amp;#25968;&amp;#25454;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#36873;&amp;#25321;&amp;#27491;&amp;#30830;&amp;#38145;&amp;#30340;&amp;#31867;&amp;#22411;&amp;#65306;&amp;#24754;&amp;#35266;&amp;#38145;&amp;#65288;&amp;#20351;&amp;#32447;&amp;#31243;&amp;#21040;blocking&amp;#29366;&amp;#24577;&amp;#65292;&amp;#36890;&amp;#30693;&amp;#20449;&amp;#24687;OK&amp;#30340;&amp;#29366;&amp;#24577;&amp;#20999;&amp;#25442;&amp;#22238;&amp;#31561;&amp;#24453;&lt;content ename=&quot;content&quot;&gt;&amp;#29366;&amp;#24577;&amp;#65292;&amp;#25442;&amp;#20837;&amp;#25442;&amp;#20986;&amp;#65289;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#20048;&amp;#35266;&amp;#38145;&amp;#65288;&amp;#24182;&amp;#21457;&amp;#20105;&amp;#25250;&amp;#19981;&amp;#22826;&amp;#20005;&amp;#37325;&amp;#30340;&amp;#22330;&amp;#26223;&amp;#65289;
+    &lt;/p&gt;
+    &lt;p&gt;
+      Two Phase Lock (2pl)
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#27515;&amp;#38145;&amp;#25193;&amp;#23637; - U&amp;#38145; (&amp;#35835;&amp;#38145;&amp;#30003;&amp;#35831;&amp;#20026;&amp;#20889;&amp;#38145;)
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+</node>
+<node CREATED="1566978373413" ID="ID_199224255" MODIFIED="1566983122510" TEXT="distributed transaction">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &amp;#20998;&amp;#24067;&amp;#24335;&amp;#20107;&amp;#21153;&amp;#65292;&amp;#20687;&amp;#20256;&amp;#32479;&lt;content ename=&quot;content&quot;&gt;&amp;#21333;&amp;#26426;&amp;#20107;&amp;#21153;&amp;#19968;&amp;#26679;&amp;#30340;&amp;#25805;&amp;#20316;&amp;#26041;&amp;#24335;&amp;#65292;&amp;#25353;&amp;#38656;&amp;#35201;&amp;#26080;&amp;#38480;&amp;#25193;&amp;#23637;
+    &lt;/p&gt;
+    &lt;p&gt;
+      2PL -&amp;gt; 2PC
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#22270;&amp;#28789;&amp;#26426;&amp;#65306;&amp;#36755;&amp;#20837;&amp;#21442;&amp;#25968;&amp;#65292;&amp;#32463;&amp;#36807;&amp;#31639;&amp;#27861;&amp;#65292;&amp;#36820;&amp;#22238;&amp;#32467;&amp;#26524;&amp;#30340;&amp;#36807;&amp;#31243;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#20160;&amp;#20040;&amp;#26159;&amp;#20107;&amp;#21153;&amp;#65306;&amp;#30475;&amp;#36215;&amp;#26469;&amp;#25353;&amp;#29031;&amp;#39034;&amp;#24207;&amp;#20381;&amp;#27425;&amp;#25191;&amp;#34892;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#32593;&amp;#32476;&amp;#22909;&amp;#22788;&amp;#65288;&amp;#21435;&amp;#20013;&amp;#24515;&amp;#21270;&amp;#65289;&amp;#65306;&amp;#26080;&amp;#38480;&amp;#25193;&amp;#23637;&amp;#65292;&amp;#26080;&amp;#38480;&amp;#23433;&amp;#20840;&amp;#65292;&amp;#26080;&amp;#38480;&amp;#36816;&amp;#36716;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#32593;&amp;#32476;&amp;#22833;&amp;#21435;&amp;#30340;&amp;#65306;&amp;#20849;&amp;#20139;&amp;#25968;&amp;#25454;&amp;#21464;&amp;#24471;&amp;#22256;&amp;#38590;-&amp;gt;&amp;#28040;&amp;#24687;&amp;#20256;&amp;#36882;&amp;#65292;&amp;#26356;&amp;#22810;&amp;#24310;&amp;#36831;&amp;#65292;&amp;#27491;&amp;#30830;&amp;#24615;&amp;#20007;&amp;#22833;&amp;#65288;&amp;#28040;&amp;#24687;&amp;#19981;&amp;#21487;&amp;#36798;&amp;#65289;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -10054,7 +10891,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1563955926720" ID="ID_1513707389" MODIFIED="1563955930933" POSITION="right" TEXT="company">
+<node CREATED="1563955926720" FOLDED="true" ID="ID_1513707389" MODIFIED="1574153789884" POSITION="right" TEXT="company">
 <node CREATED="1563955938928" ID="ID_1971597608" MODIFIED="1565318608489" TEXT="Tableau">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -10156,6 +10993,88 @@ configure { bind(My).to(MyImpl); }</pre>
 <node CREATED="1565318611398" ID="ID_664442662" MODIFIED="1565318627098" TEXT="EasyStack"/>
 <node CREATED="1565318628438" ID="ID_1881422928" MODIFIED="1565318634558" TEXT="AWCloud"/>
 <node CREATED="1565318643498" ID="ID_772535442" MODIFIED="1565318647858" TEXT="Fit2Cloud"/>
+<node CREATED="1567067710848" ID="ID_699747030" MODIFIED="1567068879454" TEXT="veritas">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      found in 1989
+    </p>
+    <p>
+      &#22791;&#20221;&#21644;&#23481;&#28798;
+    </p>
+    <p>
+      <a href="https://www.imooc.com/video/16077">https://www.imooc.com/video/16077</a>
+    </p>
+    <p>
+      &#20113;&#22791;&#20221;/&#23384;&#20648; -&gt; &#28151;&#21512;&#20113; -&gt; &#19994;&#21153;&#39640;&#21487;&#29992; -&gt; &#26356;&#22810;&#20225;&#19994;&#20113;&#26381;&#21153;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1567068994464" ID="ID_1662624856" MODIFIED="1567069648515" TEXT="NetBackup">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      D2C: &#26412;&#22320;&#25968;&#25454;&#22791;&#20221;&#19978;&#20113; (S3, S3 Glacier)
+    </p>
+    <p>
+      C2C: &#20445;&#25252;&#20256;&#35828;&#22312;&#20113;&#31471;(EC2)&#30340;&#25968;&#25454;
+    </p>
+    <p>
+      &#23545;&#35937;&#23384;&#20648;&#65292;&#33258;&#21160;&#36801;&#31227;&#65288;&#24402;&#26723;&#25968;&#25454;&#65289;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#32479;&#19968;&#23384;&#20648;&#31649;&#29702; (Access)
+    </p>
+    <p>
+      SAN (Storage Area Network), DAS (Direct Access Storage), NAS (Network Attached Storage) --access--&gt; EBS, S3, Glacier
+    </p>
+    <p>
+      &#28151;&#21512;&#20113;&#25968;&#25454;&#24402;&#26723;
+    </p>
+    <p>
+      &#20844;&#26377;&#20113;&#25968;&#25454;&#24402;&#26723;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1567069737045" ID="ID_1170370478" MODIFIED="1567070114708" TEXT="VRP">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &amp;#31169;&amp;#26377;&amp;#20113;&amp;#21040;AWS&amp;#36801;&amp;#31227;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#26500;&amp;#24314;&amp;#31169;&amp;#26377;&amp;#20113;&amp;#21644;AWS&amp;#36164;&amp;#28304;&amp;#27744;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#22522;&amp;#20110;&amp;#34394;&amp;#25311;&amp;#21270;&amp;#30340;&amp;#19994;&amp;#21153;&amp;#23481;&amp;#28798;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#25903;&amp;#25345;VMWare&lt;content ename=&quot;content&quot;&gt;&amp;#21644;Hyper-V
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    &lt;p&gt;
+      &amp;#20113;&amp;#23481;&amp;#28798;&amp;#65288;infoScale&amp;#65289;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1565318923255" ID="ID_1596838363" MODIFIED="1565318927465" TEXT="network">
 <node CREATED="1565317425495" ID="ID_1351868226" MODIFIED="1565317431948" TEXT="paloalto"/>
@@ -10174,6 +11093,69 @@ configure { bind(My).to(MyImpl); }</pre>
 </html></richcontent>
 </node>
 <node CREATED="1565319095021" ID="ID_388789237" MODIFIED="1565319099631" TEXT="XSky"/>
+</node>
+<node CREATED="1568015413240" ID="ID_1155095495" MODIFIED="1568015517133" TEXT="carrier">
+<node CREATED="1568015520089" ID="ID_380201378" MODIFIED="1568015693611" TEXT="Telstra">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Telstra PBS
+    </p>
+    <p>
+      AWS Advanced technology partner
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1568021258996" ID="ID_478961299" MODIFIED="1568021292488" TEXT="airline">
+<node CREATED="1568021302987" ID="ID_324750303" MODIFIED="1568021319467" TEXT="HNA"/>
+</node>
+<node CREATED="1568098704467" ID="ID_910554334" MODIFIED="1568098787157" TEXT="big data">
+<node CREATED="1568098707207" ID="ID_1494288950" MODIFIED="1568100126179" TEXT="Splunk &gt;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      from 2004
+    </p>
+    <p>
+      Machine Data: any location, type, volumn; answer any question
+    </p>
+    <p>
+      schema on the read (fly)
+    </p>
+    <p>
+      Splunk on ITOA
+    </p>
+    <p>
+      Reserve Instance
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1568103563906" ID="ID_675917665" MODIFIED="1568103566006" TEXT="3D">
+<node CREATED="1568103570616" ID="ID_1483701256" MODIFIED="1568103579442" TEXT="Dassault Systems"/>
+</node>
+<node CREATED="1569294097668" ID="ID_847519786" MODIFIED="1569294099922" TEXT="game">
+<node CREATED="1569294099922" ID="ID_251875401" MODIFIED="1569294117178" TEXT="funplus"/>
+</node>
+<node CREATED="1569315550811" ID="ID_1813464842" MODIFIED="1569315803830" TEXT="mining">
+<node CREATED="1569315673372" ID="ID_1649663243" MODIFIED="1569315678021" TEXT="Rio Tinto"/>
+</node>
+<node CREATED="1569400438642" ID="ID_628172675" MODIFIED="1569400470081" TEXT="energy">
+<node CREATED="1569400471329" ID="ID_689477274" MODIFIED="1569400482454" TEXT="&#x8fdc;&#x5149;&#x8f6f;&#x4ef6;"/>
+<node CREATED="1569402041994" ID="ID_731015710" MODIFIED="1569402046664" TEXT="sengled"/>
+</node>
+<node CREATED="1570610914676" ID="ID_170660030" MODIFIED="1570610940089" TEXT="chip">
+<node CREATED="1570610941118" ID="ID_697142983" MODIFIED="1570610948097" TEXT="XILINX"/>
+<node CREATED="1570610949700" ID="ID_1960801558" MODIFIED="1570610955345" TEXT="cadence"/>
 </node>
 </node>
 </node>
