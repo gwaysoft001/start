@@ -1372,7 +1372,8 @@
 </node>
 </node>
 <node CREATED="1551775055923" ID="ID_1618162390" MODIFIED="1551775061544" POSITION="left" TEXT="tools">
-<node CREATED="1551775063659" ID="ID_1384244475" MODIFIED="1562555407486" TEXT="freemind">
+<node CREATED="1551775063659" ID="ID_1384244475" MODIFIED="1583927938474" TEXT="freemind">
+<node CREATED="1583927842675" ID="ID_136939698" MODIFIED="1583927941735" TEXT="prerequisite">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1393,6 +1394,25 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1583927600610" ID="ID_1434703448" MODIFIED="1583927760643" TEXT="setup">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      regedit
+    </p>
+    <p>
+      HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+    </p>
+    <p>
+      javahome=E:\project\java\jdk-8u201
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1552883796637" ID="ID_411135537" MODIFIED="1562555407496" TEXT="Visual Studio code">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1404,15 +1424,12 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1562555407510" TEXT="Shortcut">
+<node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1583982069747" TEXT="Shortcut">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    <p>
-      Ctrl + Shift + P -- Command Palette
-    </p>
     <p>
       Ctrl + Shift + X -- Extensions
     </p>
@@ -1435,16 +1452,19 @@
       Editing hacks
     </p>
     <p>
-      Shift + Alt + Cursor -- Column
+      Shift + Alt + Cursor -- Select Column
+    </p>
+    <p>
+      Alt + Up/Down -- Move Current line up/down
     </p>
     <p>
       Shift + Alt + Up/Down -- Copy line up/down
     </p>
     <p>
-      Alt + Up/Down -- Move line up/down
+      Shift&#160;&#160;+ Left/Right/Up/Down -- Select
     </p>
     <p>
-      Ctrl + Shift + Left/Right/Up/Down -- Shrink/expand selection
+      Ctrl + Up/Down -- Move up/down
     </p>
     <p>
       Ctrl + H -- Replace $\n (find \n)
@@ -1462,7 +1482,15 @@
       Ctrl + ` -- TERMINAL
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<node CREATED="1583981807374" ID="ID_1013040154" MODIFIED="1583981875200" TEXT="Show All Commands: Ctrl + Shift + P">
+<node CREATED="1583981881597" ID="ID_761932736" MODIFIED="1583982043386" TEXT="Color Theme: High Contrast"/>
+</node>
+<node CREATED="1583982071522" ID="ID_1974436939" MODIFIED="1583982075462" TEXT="File">
+<node CREATED="1583982076689" ID="ID_687817725" MODIFIED="1583982089646" TEXT="Close Window: Ctrl + w"/>
+</node>
+<node CREATED="1583982194084" ID="ID_946154541" MODIFIED="1583982197154" TEXT="Selection"/>
 </node>
 <node CREATED="1552883942833" ID="ID_1403373899" MODIFIED="1562555407522" TEXT="Fix">
 <richcontent TYPE="NOTE"><html>
@@ -1567,8 +1595,7 @@
       A: git pull --rebase origin master
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1579234270162" ID="ID_1055318134" MODIFIED="1579234279265" TEXT="git clean">
 <richcontent TYPE="NOTE"><html>
   <head>
