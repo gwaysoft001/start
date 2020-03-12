@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1569308975073" TEXT="skills">
+<node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1583935560794" TEXT="skills">
 <node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1562555793637" POSITION="right" TEXT="Operating System">
 <node CREATED="1551771390235" FOLDED="true" ID="ID_1954920768" MODIFIED="1562555797413" TEXT="linux">
 <node CREATED="1551771403043" ID="ID_762738337" MODIFIED="1562555406772" TEXT="CentOS">
@@ -1503,7 +1503,7 @@
 </node>
 </node>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
-<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1583719805722" TEXT="git">
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1583933993241" TEXT="git">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1636,7 +1636,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1562555407553" TEXT="github">
+<node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1583935572017" TEXT="github">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1649,7 +1649,8 @@
       password: 1*****S**
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1551779927804" ID="ID_1056730351" MODIFIED="1556158628226" POSITION="right" TEXT="development">
