@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1583935560794" TEXT="skills">
 <node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1562555793637" POSITION="right" TEXT="Operating System">
-<node CREATED="1551771390235" FOLDED="true" ID="ID_1954920768" MODIFIED="1562555797413" TEXT="linux">
+<node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1584410884141" TEXT="linux">
 <node CREATED="1551771403043" ID="ID_762738337" MODIFIED="1562555406772" TEXT="CentOS">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1072,6 +1072,10 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1584410937864" ID="ID_1356933717" MODIFIED="1584410945204" TEXT="file">
+<node CREATED="1584410945205" ID="ID_274731653" MODIFIED="1584410965959" TEXT="$ rm -f -r &lt;file&gt; &lt;file&gt;"/>
+<node CREATED="1584411051625" ID="ID_1326025018" MODIFIED="1584411051625" TEXT=""/>
+</node>
 </node>
 <node CREATED="1551773995387" ID="ID_721970981" MODIFIED="1551776902368" TEXT="tools">
 <node CREATED="1551774000531" ID="ID_1832416529" MODIFIED="1551776917656" TEXT="ssh">
@@ -1641,8 +1645,7 @@
       <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-nfd</font></code>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1579234314029" ID="ID_321079830" MODIFIED="1583377652708" TEXT="git remote | git push">
 <richcontent TYPE="NOTE"><html>
@@ -6161,7 +6164,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1564976244023" ID="ID_1349072004" MODIFIED="1564976261849" TEXT="network">
+<node CREATED="1564976244023" FOLDED="true" ID="ID_1349072004" MODIFIED="1584410880730" TEXT="network">
 <node CREATED="1559801702535" ID="ID_369667712" MODIFIED="1562555408059" TEXT="HTTP">
 <richcontent TYPE="NOTE"><html>
   <head>
