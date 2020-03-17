@@ -1073,7 +1073,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1584410937864" ID="ID_1356933717" MODIFIED="1584410945204" TEXT="file">
-<node CREATED="1584410945205" ID="ID_274731653" MODIFIED="1584410965959" TEXT="$ rm -f -r &lt;file&gt; &lt;file&gt;"/>
+<node CREATED="1584410945205" ID="ID_274731653" MODIFIED="1584414903577" TEXT="remove file or directory: $ rm -f -r &lt;file&gt; &lt;file&gt;"/>
 <node CREATED="1584411051625" ID="ID_1326025018" MODIFIED="1584411072496" TEXT="rename: $ mv &lt;file&gt; &lt;file&gt;"/>
 </node>
 </node>
@@ -1685,8 +1685,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584000468678" ID="ID_1049121041" MODIFIED="1584000557532" TEXT="$ git config user.name &apos;xxxxx&apos;">
 <richcontent TYPE="NOTE"><html>
@@ -1707,8 +1706,7 @@
       $ git config user.name
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584000560647" ID="ID_463835181" MODIFIED="1584000611696" TEXT="$ git config user.email &apos;xxxx&apos;">
 <richcontent TYPE="NOTE"><html>
@@ -1720,8 +1718,7 @@
       # the same as $ git config user.name
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584000613216" ID="ID_833703063" MODIFIED="1584000946466" TEXT="$ git config --config -e">
 <richcontent TYPE="NOTE"><html>
@@ -1736,8 +1733,7 @@
       cat ~/.gitconfig
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584001135991" ID="ID_54180637" MODIFIED="1584001194311" TEXT="$ git config --system -e">
 <richcontent TYPE="NOTE"><html>
@@ -1752,8 +1748,7 @@
       %GIT-HOME%/etc/gitconfig
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
