@@ -1073,7 +1073,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1584410937864" ID="ID_1356933717" MODIFIED="1584410945204" TEXT="file">
-<node CREATED="1584410945205" ID="ID_274731653" MODIFIED="1584410965959" TEXT="$ rm -f -r &lt;file&gt; &lt;file&gt;"/>
+<node CREATED="1584410945205" ID="ID_274731653" MODIFIED="1584414903577" TEXT="remove file or directory: $ rm -f -r &lt;file&gt; &lt;file&gt;"/>
 <node CREATED="1584411051625" ID="ID_1326025018" MODIFIED="1584411072496" TEXT="rename: $ mv &lt;file&gt; &lt;file&gt;"/>
 </node>
 </node>
@@ -1599,7 +1599,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1579234270162" ID="ID_1055318134" MODIFIED="1584326417275" TEXT="git clean">
+<node CREATED="1579234270162" ID="ID_1055318134" MODIFIED="1579234279265" TEXT="git clean">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1664,6 +1664,92 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1584000375912" ID="ID_1555484916" MODIFIED="1584000383474" TEXT="$ git config">
+<node CREATED="1584000385066" ID="ID_1844338847" MODIFIED="1584000510238" TEXT="$ git config --system credential.helper store (~/.git-credentials(default) | --file ~/.my-credentials )">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # auto push
+    </p>
+    <p>
+      $ cat ~/.git-credentials
+    </p>
+    <p>
+      https://gwaysoft001:111111Say@github.com
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584000468678" ID="ID_1049121041" MODIFIED="1584000557532" TEXT="$ git config user.name &apos;xxxxx&apos;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # configure username
+    </p>
+    <p>
+      $ git config user.name 'xxxxx'
+    </p>
+    <p>
+      # show username
+    </p>
+    <p>
+      $ git config user.name
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584000560647" ID="ID_463835181" MODIFIED="1584000611696" TEXT="$ git config user.email &apos;xxxx&apos;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # the same as $ git config user.name
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584000613216" ID="ID_833703063" MODIFIED="1584000946466" TEXT="$ git config --config -e">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # file
+    </p>
+    <p>
+      cat ~/.gitconfig
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1584001135991" ID="ID_54180637" MODIFIED="1584001194311" TEXT="$ git config --system -e">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # file
+    </p>
+    <p>
+      %GIT-HOME%/etc/gitconfig
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1583935572017" TEXT="github">
@@ -6010,7 +6096,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1559014427843" ID="ID_56563147" MODIFIED="1574232522297" POSITION="right" TEXT="tech">
+<node CREATED="1559014427843" FOLDED="true" ID="ID_56563147" MODIFIED="1584000658635" POSITION="right" TEXT="tech">
 <node CREATED="1559014436369" FOLDED="true" ID="ID_150121026" MODIFIED="1564557778115" TEXT="OAuth 2.0">
 <richcontent TYPE="NOTE"><html>
   <head>
