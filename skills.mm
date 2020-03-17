@@ -1482,8 +1482,7 @@
       Ctrl + ` -- TERMINAL
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1583981807374" ID="ID_1013040154" MODIFIED="1583981875200" TEXT="Show All Commands: Ctrl + Shift + P">
 <node CREATED="1583981881597" ID="ID_761932736" MODIFIED="1583982043386" TEXT="Color Theme: High Contrast"/>
 </node>
@@ -1596,7 +1595,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1579234270162" ID="ID_1055318134" MODIFIED="1579234279265" TEXT="git clean">
+<node CREATED="1579234270162" ID="ID_1055318134" MODIFIED="1584326417275" TEXT="git clean">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1642,7 +1641,8 @@
       <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-nfd</font></code>
     </div>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1579234314029" ID="ID_321079830" MODIFIED="1583377652708" TEXT="git remote | git push">
 <richcontent TYPE="NOTE"><html>
@@ -1676,8 +1676,7 @@
       password: 1*****S**
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1551779927804" ID="ID_1056730351" MODIFIED="1556158628226" POSITION="right" TEXT="development">
