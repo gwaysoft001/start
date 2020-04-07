@@ -1428,7 +1428,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1583982069747" TEXT="Shortcut">
+<node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1585195073675" TEXT="Shortcut">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1841,8 +1841,7 @@
       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1584511323252" ID="ID_1779464135" MODIFIED="1584511327871" TEXT="jQuery">
 <node CREATED="1584511329219" ID="ID_50483906" MODIFIED="1584511336974" TEXT="reference">
@@ -1855,8 +1854,7 @@
       <a href="https://api.jquery.com/">https://api.jquery.com/</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
