@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1583935560794" TEXT="skills">
-<node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1562555793637" POSITION="right" TEXT="Operating System">
+<node CREATED="1551770960822" FOLDED="true" ID="ID_1189609215" MODIFIED="1584507577023" POSITION="right" TEXT="Operating System">
 <node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1584410884141" TEXT="linux">
 <node CREATED="1551771403043" ID="ID_762738337" MODIFIED="1562555406772" TEXT="CentOS">
 <richcontent TYPE="NOTE"><html>
@@ -1428,7 +1428,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1583982069747" TEXT="Shortcut">
+<node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1585195073675" TEXT="Shortcut">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1518,6 +1518,9 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1584434434345" ID="ID_1452032690" MODIFIED="1584434532832" TEXT="Extensions">
+<node CREATED="1584434441065" ID="ID_277771903" MODIFIED="1584434451766" TEXT="Live Server"/>
 </node>
 </node>
 <node CREATED="1553246255453" ID="ID_1015784503" MODIFIED="1562555407531" TEXT="postman">
@@ -1827,8 +1830,36 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1584507585473" ID="ID_1340655192" MODIFIED="1584507590406" TEXT="javascript">
+<node CREATED="1584507592153" ID="ID_1573057519" MODIFIED="1584507599862" TEXT="reference">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference</a>
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1553236621445" FOLDED="true" ID="ID_755254586" MODIFIED="1583371257134" POSITION="right" TEXT="java">
+<node CREATED="1584511323252" ID="ID_1779464135" MODIFIED="1584511327871" TEXT="jQuery">
+<node CREATED="1584511329219" ID="ID_50483906" MODIFIED="1584511336974" TEXT="reference">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://api.jquery.com/">https://api.jquery.com/</a>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1584511355858" POSITION="right" TEXT="java">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4962,7 +4993,7 @@ pom.xml
 </node>
 </node>
 </node>
-<node CREATED="1553245155456" ID="ID_266897878" MODIFIED="1563520698947" TEXT="java SE">
+<node CREATED="1553245155456" FOLDED="true" ID="ID_266897878" MODIFIED="1584511358241" TEXT="java SE">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5016,7 +5047,7 @@ pom.xml
 </node>
 </node>
 </node>
-<node CREATED="1554364223097" FOLDED="true" ID="ID_932147726" MODIFIED="1563519097699" TEXT="repository">
+<node CREATED="1554364223097" FOLDED="true" ID="ID_932147726" MODIFIED="1584511361475" TEXT="repository">
 <node CREATED="1554364233230" ID="ID_1348659729" MODIFIED="1554364411765" TEXT="logback">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5354,7 +5385,7 @@ pom.xml
 <node CREATED="1560925855208" ID="ID_533509382" MODIFIED="1560925864873" TEXT="jbpm"/>
 </node>
 </node>
-<node CREATED="1554967927582" ID="ID_1040337483" MODIFIED="1579919969264" TEXT="IDE">
+<node CREATED="1554967927582" FOLDED="true" ID="ID_1040337483" MODIFIED="1584511366089" TEXT="IDE">
 <node CREATED="1554967937943" ID="ID_1913973629" MODIFIED="1582618624598" TEXT="IDEA">
 <node CREATED="1554967949036" ID="ID_1457863723" MODIFIED="1562555407662" TEXT="shortcut">
 <richcontent TYPE="NOTE"><html>
@@ -6096,7 +6127,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1559014427843" FOLDED="true" ID="ID_56563147" MODIFIED="1584000658635" POSITION="right" TEXT="tech">
+<node CREATED="1559014427843" ID="ID_56563147" MODIFIED="1584507564426" POSITION="right" TEXT="tech">
 <node CREATED="1559014436369" FOLDED="true" ID="ID_150121026" MODIFIED="1564557778115" TEXT="OAuth 2.0">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -10582,7 +10613,7 @@ configure { bind(My).to(MyImpl); }</pre>
 <node CREATED="1564975440114" ID="ID_1832704200" MODIFIED="1564975447399" TEXT="GraphQL"/>
 </node>
 </node>
-<node CREATED="1563960155384" ID="ID_757443178" MODIFIED="1570609219172" TEXT="other">
+<node CREATED="1563960155384" FOLDED="true" ID="ID_757443178" MODIFIED="1584507567387" TEXT="other">
 <node CREATED="1563959128594" ID="ID_1128198440" MODIFIED="1564370123619" TEXT="DevOps">
 <richcontent TYPE="NOTE"><html>
   <head>
