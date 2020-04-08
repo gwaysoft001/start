@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1584415818354" ID="ID_1551822725" MODIFIED="1584929619736" TEXT="imooc.com">
-<node CREATED="1584415853896" ID="ID_1247640474" MODIFIED="1584415856544" POSITION="right" TEXT="tools">
+<node CREATED="1584415853896" ID="ID_1247640474" MODIFIED="1584415856544" POSITION="left" TEXT="tools">
 <node CREATED="1584415857422" ID="ID_797150199" MODIFIED="1585279720733" TEXT="Chrome">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -13,7 +13,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1584415865464" ID="ID_1067673793" MODIFIED="1585279720731" TEXT="DevTools">
+<node CREATED="1584415865464" FOLDED="true" ID="ID_1067673793" MODIFIED="1586337585688" TEXT="DevTools">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -344,9 +344,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1584929620951" ID="ID_1553774550" MODIFIED="1584929628863" POSITION="left" TEXT="front end">
+<node CREATED="1584929620951" ID="ID_1553774550" MODIFIED="1584929628863" POSITION="right" TEXT="front end">
 <node CREATED="1584929695453" ID="ID_1305313691" MODIFIED="1584929698144" TEXT="javascript">
-<node CREATED="1584943937587" ID="ID_1477034044" MODIFIED="1585279720728" TEXT="JavaScript&#x6df1;&#x5165;&#x6d45;&#x51fa;">
+<node CREATED="1584943937587" FOLDED="true" ID="ID_1477034044" MODIFIED="1586337571079" TEXT="JavaScript&#x6df1;&#x5165;&#x6d45;&#x51fa;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -357,7 +357,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1586239061775" FOLDED="true" ID="ID_1308931031" MODIFIED="1586240166610" TEXT="basic">
+<node CREATED="1586239061775" ID="ID_1308931031" MODIFIED="1586328562316" TEXT="basic">
 <node CREATED="1584945246312" ID="ID_883073737" MODIFIED="1586238885406" TEXT="&#x6570;&#x636e;&#x7c7b;&#x578b;">
 <node CREATED="1584944371553" FOLDED="true" ID="ID_838305588" MODIFIED="1586238885407" TEXT="type 6">
 <node CREATED="1584944235840" FOLDED="true" ID="ID_573419116" MODIFIED="1586238885407" TEXT="primary">
@@ -745,7 +745,7 @@
 <node CREATED="1585106282603" ID="ID_1317833764" MODIFIED="1585106298008" TEXT="c?a:b;"/>
 </node>
 </node>
-<node CREATED="1585106398246" FOLDED="true" ID="ID_132031545" MODIFIED="1586238885421" TEXT="&#x7279;&#x6b8a;&#x8fd0;&#x7b97;&#x7b26;">
+<node CREATED="1585106398246" ID="ID_132031545" MODIFIED="1586328569044" TEXT="&#x7279;&#x6b8a;&#x8fd0;&#x7b97;&#x7b26;">
 <node CREATED="1585106416695" ID="ID_467430029" MODIFIED="1585106843711" TEXT="delete obj.x;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -782,20 +782,37 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1585187862953" ID="ID_993072196" MODIFIED="1585796617848" TEXT="instanceof typeof">
+<node CREATED="1585187862953" ID="ID_993072196" MODIFIED="1586328780751" TEXT="instanceof">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      {} instanceof Object // prototype chain
+      {} instanceof Object // &#24038;&#36793;&#26159;&#23545;&#35937;&#65292;&#21491;&#36793;&#26159;&#20989;&#25968;&#23545;&#35937;&#65292;&#30475;&#21491;&#36793;&#30340;&#26500;&#36896;&#22120;&#30340;prototype&#23646;&#24615;&#26159;&#21542;&#22312;&#21491;&#36793;&#23545;&#35937;&#30340;&#21407;&#22411;&#38142;&#19978;&#65288;prototype&#160;&#160;chain&#65289;
     </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586328767157" ID="ID_831551026" MODIFIED="1586328787125" TEXT="typeof">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
     <p>
       typeof 100 === 'number'
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1585188200745" ID="ID_866990312" MODIFIED="1585188362358" TEXT="new">
 <richcontent TYPE="NOTE"><html>
@@ -833,7 +850,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1585188363343" ID="ID_233522453" MODIFIED="1585188367894" TEXT="this">
+<node CREATED="1585188363343" ID="ID_233522453" MODIFIED="1586328787129" TEXT="this">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -855,9 +872,10 @@
       &#160;{func: &#402;}
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1585188488956" ID="ID_944639742" MODIFIED="1585188501078" TEXT="void: return undefined">
+<node CREATED="1585188488956" ID="ID_944639742" MODIFIED="1586328785641" TEXT="void: return undefined">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -876,7 +894,8 @@
       &#160;undefined
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1585188527987" ID="ID_653520552" MODIFIED="1585188535291" TEXT="&#x4f18;&#x5148;&#x7ea7;"/>
@@ -1344,7 +1363,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1585194563793" ID="ID_23938414" MODIFIED="1586242032252" TEXT="Object">
+<node CREATED="1585194563793" ID="ID_23938414" MODIFIED="1586325284885" TEXT="Object">
 <node CREATED="1585194919052" ID="ID_1468446712" MODIFIED="1585194932757" TEXT="&#x5bf9;&#x8c61;&#x6982;&#x8ff0;">
 <richcontent TYPE="NOTE">&lt;html&gt;
   &lt;head&gt;
@@ -1578,7 +1597,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1585277529527" ID="ID_1650627282" MODIFIED="1585277958706" TEXT="Object.create()">
+<node CREATED="1585277529527" ID="ID_1650627282" MODIFIED="1586325833048" TEXT="Object.create()">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1586,29 +1605,26 @@
   <body>
     <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
       <div>
-        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">obj</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">create</font><font color="#ffffff">({</font><font color="#9cdcfe">x:</font><font color="#b5cea8">1</font><font color="#ffffff">});&#160;</font><font color="#7ca668">//&#160;obj&#160;-&gt;&#160;{x:1}&#160;-&gt;&#160;Object.prototype</font>
+        
       </div>
+    </div>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
       <div>
-        <font color="#9cdcfe">obj</font><font color="#ffffff">.</font><font color="#9cdcfe">x</font><font color="#ffffff">;</font>
+        <font color="#7ca668">//&#160;&#21019;&#24314;&#19968;&#20010;&#26032;&#30340;&#31354;&#23545;&#35937;&#65292;&#31354;&#23545;&#35937;&#30340;&#21407;&#22411;&#36171;&#20540;&#25351;&#21521;&#21442;&#25968;</font>
       </div>
+    </div>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
       <div>
-        <font color="#569cd6">typeof</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">obj</font><font color="#ffffff">.</font><font color="#dcdcaa">toString</font><font color="#ffffff">();&#160;</font><font color="#7ca668">//&#160;&quot;function&quot;</font>
-      </div>
-      <div>
-        <font color="#9cdcfe">obj</font><font color="#ffffff">.</font><font color="#dcdcaa">hasOwnProperty</font><font color="#ffffff">(</font><font color="#ce9178">&quot;x&quot;</font><font color="#ffffff">);&#160;</font><font color="#7ca668">//&#160;false</font>
-      </div>
-      <br />
-      
+        var f = {}; var o = Object.create(f);
 
-      <div>
-        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">obj</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">create</font><font color="#ffffff">(</font><font color="#569cd6">null</font><font color="#ffffff">);&#160;</font><font color="#7ca668">//&#160;obj&#160;-&gt;&#160;null</font>
-      </div>
-      <div>
-        <font color="#9cdcfe">obj</font><font color="#ffffff">.</font><font color="#dcdcaa">toString</font><font color="#ffffff">();&#160;</font><font color="#7ca668">//&#160;undefined</font>
+        <p>
+          o.__proto__ === f // true
+        </p>
       </div>
     </div>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1585283311987" FOLDED="true" ID="ID_521339164" MODIFIED="1585536095860" TEXT="&#x5c5e;&#x6027;&#x64cd;&#x4f5c;">
@@ -2451,8 +2467,16 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1586325286876" ID="ID_541660601" MODIFIED="1586325390147" TEXT="Object &#x51fd;&#x6570;&#x5bf9;&#x8c61;&#x65b9;&#x6cd5;">
+<node CREATED="1586325322672" ID="ID_42959965" MODIFIED="1586325386334" TEXT="Object.getPrototypeOf({});">
+<node CREATED="1586325647561" ID="ID_1674976455" MODIFIED="1586325650029" TEXT="Object.getPrototypeOf({}) === Object.prototype"/>
 </node>
-<node CREATED="1586239002993" FOLDED="true" ID="ID_1770845449" MODIFIED="1586240162317" TEXT="&#x51fd;&#x6570;&#x4e0e;&#x4f5c;&#x7528;&#x57df;&#xff08;&#x91cd;&#x70b9;&#xff09;">
+<node CREATED="1586325390147" ID="ID_1891154779" MODIFIED="1586325429928" TEXT="Object.keys({x:1});"/>
+<node CREATED="1586325485027" ID="ID_1593018480" MODIFIED="1586325494893" TEXT="var o = {x:1}; Object.getOwnPropertyDescriptor(o,&quot;x&quot;);"/>
+<node CREATED="1586325558240" ID="ID_1751733463" MODIFIED="1586326715188" TEXT="Object.defineProperty(o,&quot;y&quot;,{value:100}); // ES5"/>
+</node>
+</node>
+<node CREATED="1586239002993" FOLDED="true" ID="ID_1770845449" MODIFIED="1586328557875" TEXT="&#x51fd;&#x6570;&#x4e0e;&#x4f5c;&#x7528;&#x57df;&#xff08;&#x91cd;&#x70b9;&#xff09;">
 <node CREATED="1585539667131" ID="ID_1224977526" MODIFIED="1586237636946" TEXT="Function">
 <node CREATED="1585540342485" FOLDED="true" ID="ID_92160376" MODIFIED="1585645016908" TEXT="&#x6982;&#x5ff5;">
 <richcontent TYPE="NOTE"><html>
@@ -4408,26 +4432,898 @@
 <node CREATED="1586237598060" ID="ID_1431954074" MODIFIED="1586237607533" TEXT="&#x603b;&#x7ed3;"/>
 </node>
 </node>
-<node CREATED="1586239095161" ID="ID_451370333" MODIFIED="1586240651108" TEXT="OOP">
-<richcontent TYPE="NOTE">&lt;html&gt;
-  &lt;head&gt;
+<node CREATED="1586239095161" ID="ID_451370333" MODIFIED="1586310675750" TEXT="OOP">
+<node CREATED="1586310550319" ID="ID_1864943922" MODIFIED="1586310741350" TEXT="&#x6982;&#x5ff5;">
+<richcontent TYPE="NOTE"><html>
+  <head>
     
-    
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p&gt;
-      Object-oriented programming, OOP&amp;#26159;&amp;#19968;&amp;#31181;&amp;#31243;&amp;#24207;&amp;#35774;&amp;#35745;&amp;#33539;&amp;#22411;&amp;#65292;&amp;#21516;&amp;#26102;&amp;#20063;&amp;#26159;&amp;#24320;&amp;#21457;&amp;#31243;&amp;#24207;&amp;#30340;&amp;#26041;&amp;#27861;&amp;#65292;&amp;#23545;&amp;#35937;&amp;#25351;&amp;#30340;&amp;#26159;&amp;#31867;&amp;#30340;&amp;#23454;&amp;#20363;&amp;#12290;
-    &lt;/p&gt;
-    &lt;p&gt;
-      OOP&amp;#23558;&amp;#23545;&amp;#35937;&amp;#20316;&amp;#20026;&amp;#31243;&amp;#24207;&amp;#30340;&amp;#22522;&amp;#26412;&amp;#21333;&amp;#20803;&amp;#65292;&amp;#23558;&amp;#31243;&amp;#24207;&amp;#21644;&amp;#25968;&amp;#25454;&amp;#36827;&amp;#34892;&amp;#23553;&amp;#35013;&amp;#65292;&amp;#25552;&amp;#39640;&amp;#36719;&amp;#20214;&amp;#30340;&amp;#37325;&amp;#29992;&amp;#24615;&amp;#65292;&amp;#28789;&amp;#27963;&amp;#24615;&amp;#21644;&amp;#25193;&amp;#23637;&amp;#24615;&amp;#12290;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &amp;#32487;&amp;#25215;&amp;#65292;&amp;#23553;&amp;#35013;&amp;#65292;&lt;content ename=&quot;content&quot;&gt;&amp;#22810;&amp;#24577;&amp;#65292;&amp;#25277;&amp;#35937;
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
+  </head>
+  <body>
+    <p style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      Object-oriented programming, OOP&#26159;&#19968;&#31181;&#31243;&#24207;&#35774;&#35745;&#33539;&#22411;&#65292;&#21516;&#26102;&#20063;&#26159;&#24320;&#21457;&#31243;&#24207;&#30340;&#26041;&#27861;&#65292;&#23545;&#35937;&#25351;&#30340;&#26159;&#31867;&#30340;&#23454;&#20363;&#12290;
+    </p>
+    <p style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      OOP&#23558;&#23545;&#35937;&#20316;&#20026;&#31243;&#24207;&#30340;&#22522;&#26412;&#21333;&#20803;&#65292;&#23558;&#31243;&#24207;&#21644;&#25968;&#25454;&#36827;&#34892;&#23553;&#35013;&#65292;&#25552;&#39640;&#36719;&#20214;&#30340;&#37325;&#29992;&#24615;&#65292;&#28789;&#27963;&#24615;&#21644;&#25193;&#23637;&#24615;&#12290;
+    </p>
+    <p style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      &#32487;&#25215;&#65292;&#23553;&#35013;&#65292;<content ename="content">&#22810;&#24577;&#65292;&#25277;&#35937;</content>
+    </p>
+    <p style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      JS&#26159;&#24590;&#26679;&#23454;&#29616;&#26041;&#27861;&#35770;&#30340;
+    </p>
+  </body>
+</html>
 </richcontent>
-<node CREATED="1586240707677" ID="ID_383556150" MODIFIED="1586240740621" TEXT="&#x57fa;&#x4e8e;&#x539f;&#x578b;&#x7684;&#x7ee7;&#x627f;"/>
+</node>
+<node CREATED="1586311028995" ID="ID_1112000079" MODIFIED="1586311050819" TEXT="&#x7ee7;&#x627f;">
+<node CREATED="1586240707677" ID="ID_383556150" MODIFIED="1586240740621" TEXT="&#x57fa;&#x4e8e;&#x539f;&#x578b;&#x7684;&#x7ee7;&#x627f;">
+<node CREATED="1586311590971" ID="ID_572066252" MODIFIED="1586316043615" TEXT="prototype&#x5c5e;&#x6027;&#x4e0e;&#x539f;&#x578b;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">Foo</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">y</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#569cd6">typeof</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Foo</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;prototype&#160;&#26159;Foo&#20854;&#20013;&#19968;&#20010;&#23646;&#24615;&#65292;&#31867;&#22411;&#26159;&quot;object&quot;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#7ca668">/**</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;Foo&#30340;prototype&#23646;&#24615;&#26377;&#20004;&#20010;&#40664;&#35748;&#30340;&#23646;&#24615;constructor&#21644;__proto__</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;constructor&#40664;&#35748;&#25351;&#21521;Foo&#20989;&#25968;</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;__proto__&#26159;&#19968;&#20010;&#29305;&#27530;&#30340;&#23646;&#24615;&#65292;&#25351;&#21521;Object.prototype</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*/</font>
+      </div>
+      <div>
+        <font color="#4ec9b0">Foo</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#ffffff">{</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;constructor:&#160;</font><font color="#9cdcfe">&#402;</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">Foo</font><font color="#ffffff">()</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;__proto__:&#160;</font><font color="#4ec9b0">Object</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;y:&#160;</font><font color="#b5cea8">2</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#4ec9b0">Foo</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#9cdcfe">__proto__</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;true;&#160;prototype&#160;chain</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586311622025" ID="ID_325070263" MODIFIED="1586312779765" TEXT="new &#x6784;&#x9020;&#x5668;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">foo</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Foo</font><font color="#ffffff">();&#160;</font><font color="#7ca668">//&#160;&#26500;&#36896;&#26041;&#27861;&#21019;&#24314;&#23454;&#20363;&#65292;foo.__proto__&#25351;&#21521;Foo.prototype;&#160;__proto__&#26159;Chrome&#26292;&#38706;&#30340;&#19968;&#20010;&#25351;&#38024;&#23646;&#24615;&#65292;&#19981;&#26159;&#19968;&#20010;&#26631;&#20934;&#30340;&#23646;&#24615;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">foo</font><font color="#ffffff">.</font><font color="#9cdcfe">__proto__</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Foo</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586312761939" ID="ID_714254208" MODIFIED="1586313680645" TEXT="Object.create(); ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">o</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Foo</font><font color="#ffffff">();&#160;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">o</font><font color="#ffffff">.</font><font color="#9cdcfe">__proto__</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Foo</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+      <div>
+        <font color="#7ca668">/**</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;&#21019;&#24314;&#19968;&#20010;&#31354;&#23545;&#35937;foo</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;&#23545;&#35937;foo&#30340;&#21407;&#22411;&#25351;&#38024;__proto___,&#160;&#25351;&#21521;o&#23545;&#35937;</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;&#23545;&#35937;o&#30340;&#21407;&#22411;&#25351;&#38024;__proto___,&#160;&#25351;&#21521;&#20989;&#25968;&#23545;&#35937;Foo&#30340;prototype</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*/</font>
+      </div>
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">foo</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">create</font><font color="#ffffff">(</font><font color="#9cdcfe">o</font><font color="#ffffff">);&#160;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">foo</font><font color="#ffffff">.</font><font color="#9cdcfe">__proto__</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">o</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">foo</font><font color="#ffffff">.</font><font color="#9cdcfe">__proto__</font><font color="#ffffff">.</font><font color="#9cdcfe">__proto__</font><font color="#d4d4d4">===</font><font color="#4ec9b0">Foo</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586313529433" ID="ID_568706458" MODIFIED="1586313927992" TEXT="var foo = o;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">foo</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Foo</font><font color="#ffffff">();&#160;</font><font color="#7ca668">//&#160;&#26500;&#36896;&#26041;&#27861;&#21019;&#24314;&#23454;&#20363;&#65292;foo.__proto__&#25351;&#21521;Foo.prototype;&#160;__proto__&#26159;Chrome&#26292;&#38706;&#30340;&#19968;&#20010;&#25351;&#38024;&#23646;&#24615;&#65292;&#19981;&#26159;&#19968;&#20010;&#26631;&#20934;&#30340;&#23646;&#24615;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">foo</font><font color="#ffffff">.</font><font color="#9cdcfe">__proto__</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Foo</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">o</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Foo</font><font color="#ffffff">();&#160;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">o</font><font color="#ffffff">.</font><font color="#9cdcfe">__proto__</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Foo</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+      <div>
+        <font color="#7ca668">/**</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;&#21019;&#24314;&#19968;&#20010;&#31354;&#23545;&#35937;foo</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;&#23545;&#35937;foo&#30340;&#21407;&#22411;&#25351;&#38024;__proto___,&#160;&#25351;&#21521;o&#23545;&#35937;</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;&#23545;&#35937;o&#30340;&#21407;&#22411;&#25351;&#38024;__proto___,&#160;&#25351;&#21521;&#20989;&#25968;&#23545;&#35937;Foo&#30340;prototype</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*/</font>
+      </div>
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">foo</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">o</font><font color="#ffffff">;&#160;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">foo</font><font color="#ffffff">.</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">o</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">foo</font><font color="#ffffff">.</font><font color="#9cdcfe">__proto__</font><font color="#d4d4d4">===</font><font color="#4ec9b0">Foo</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586249945790" FOLDED="true" ID="ID_1613031421" MODIFIED="1586316055758" TEXT="Object">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var o = new Object();
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1586313062396" ID="ID_470379206" MODIFIED="1586313068010" TEXT="Object.prototype">
+<node CREATED="1586249997655" ID="ID_211258717" MODIFIED="1586250013932" TEXT="Object.prototype === Object.__proto__.__proto__ // true"/>
+<node CREATED="1586249954715" ID="ID_662260035" MODIFIED="1586249965370" TEXT="Object.prototype.__proto__ // null"/>
+<node CREATED="1586250073823" ID="ID_686104740" MODIFIED="1586250075337" TEXT="Object.prototype.__proto__ === Object.__proto__.__proto__.__proto__ === null"/>
+</node>
+<node CREATED="1586313078290" ID="ID_1159319961" MODIFIED="1586313096090" TEXT="&#x521b;&#x5efa;&#x5bf9;&#x8c61;&#x7684;&#x65b9;&#x6cd5;">
+<node CREATED="1586250275697" ID="ID_1846810270" MODIFIED="1586250283614" TEXT="var o = new Object();">
+<node CREATED="1586250293633" ID="ID_1698735461" MODIFIED="1586250295030" TEXT="o.__proto__ === Object.prototype // true"/>
+<node CREATED="1586252319276" ID="ID_1265797395" MODIFIED="1586252325748" TEXT="o.__proto__ === (new Object()).__proto__ // true"/>
+</node>
+<node CREATED="1586250353202" ID="ID_22133474" MODIFIED="1586250371270" TEXT="var o = {};">
+<node CREATED="1586250358966" ID="ID_410677290" MODIFIED="1586250368796" TEXT="o.__proto__ === Object.prototype // true"/>
+<node CREATED="1586252421099" ID="ID_810777602" MODIFIED="1586252422529" TEXT="o.__proto__ === ({}).__proto__"/>
+</node>
+<node CREATED="1586250306722" ID="ID_1905191098" MODIFIED="1586250307661" TEXT="var o = Object.create({});">
+<node CREATED="1586250320395" ID="ID_409708884" MODIFIED="1586250326515" TEXT="o.__proto__.__proto__ === Object.prototype // true"/>
+<node CREATED="1586250633052" ID="ID_139179688" MODIFIED="1586253464590" TEXT="var f = {}; var o = Object.create(f);">
+<node CREATED="1586250651616" ID="ID_184077322" MODIFIED="1586253477539" TEXT="o.__proto__ === f // true"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1586314890037" ID="ID_1143279779" MODIFIED="1586314896953" TEXT="Foo.__proto__ === Object.__proto__ // true"/>
+</node>
+<node CREATED="1586311056716" ID="ID_1346928182" MODIFIED="1586326266517" TEXT="&#x4f8b;&#x5b50;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">Person</font><font color="#ffffff">(</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">name</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">age</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#9cdcfe">LEGS_NUM</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#9cdcfe">ARMS_NUM</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">hi</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">age</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">walk</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;is&#160;walking&#160;...&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">Student</font><font color="#ffffff">(</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">className</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">Person</font><font color="#ffffff">.</font><font color="#dcdcaa">call</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">className</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">className</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#4ec9b0">Student</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">create</font><font color="#ffffff">(</font><font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#4ec9b0">Student</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">hi</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">age</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;class:&quot;</font><font color="#ffffff">,&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">className</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#4ec9b0">Student</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">learn</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;is&#160;learning&#160;...&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586250704377" ID="ID_1014933757" MODIFIED="1586313943311" TEXT="Person">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">Person</font><font color="#ffffff">(</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">name</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">age</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586250817875" ID="ID_1522788529" MODIFIED="1586316065194" TEXT="Person.prototype">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <br />
+      
+
+      <div>
+        <font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font>
+      </div>
+      <div>
+        <font color="#ffffff">{</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;constructor:&#160;</font><font color="#9cdcfe">&#402;</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">Person</font><font color="#ffffff">(</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">)</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;__proto__:&#160;</font><font color="#4ec9b0">Object</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586250940246" ID="ID_716161215" MODIFIED="1586250941125" TEXT="Person.prototype.__proto__ === Object.prototype;"/>
+<node CREATED="1586315087849" ID="ID_1713731584" MODIFIED="1586315300798" TEXT="&#x6dfb;&#x52a0;&#x5176;&#x4ed6;prototype&#x5c5e;&#x6027;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#9cdcfe">LEGS_NUM</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#9cdcfe">ARMS_NUM</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">;</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">hi</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">age</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#4ec9b0">Person</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">walk</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;is&#160;walking&#160;...&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1586250962662" ID="ID_1886675853" MODIFIED="1586251635357" TEXT="var p = new Person(&quot;Tom&quot;, 5);">
+<node CREATED="1586250965777" ID="ID_1718174385" MODIFIED="1586250975314" TEXT="p.__proto__ === Person.prototype // true"/>
+<node CREATED="1586252201199" ID="ID_1700966122" MODIFIED="1586252263220" TEXT="p.__proto__ === (new Person()).__proto__ // true"/>
+</node>
+</node>
+<node CREATED="1586315381265" ID="ID_52241731" MODIFIED="1586316162572" TEXT="Student">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">Student</font><font color="#ffffff">(</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">className</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">Person</font><font color="#ffffff">.</font><font color="#dcdcaa">call</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">className</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">className</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">s</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Student</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Tom&quot;</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">5</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;kindergarten&#160;2&quot;</font><font color="#ffffff">);</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586316202519" ID="ID_1180517994" MODIFIED="1586316220513" TEXT="Student.prototype">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#4ec9b0">Student</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font>
+      </div>
+      <div>
+        <font color="#ffffff">{</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;constructor:&#160;</font><font color="#9cdcfe">&#402;</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">Student</font><font color="#ffffff">(</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">age</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">className</font><font color="#ffffff">)</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;__proto__:&#160;</font><font color="#4ec9b0">Object</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1586316831793" ID="ID_840498008" MODIFIED="1586317003075" TEXT="&#x6dfb;&#x52a0;&#x5176;&#x4ed6;prototype&#x5c5e;&#x6027;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#4ec9b0">Student</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">hi</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">age</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;class:&quot;</font><font color="#ffffff">,&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">className</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#4ec9b0">Student</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">learn</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">name</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;is&#160;learning&#160;...&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1586316166137" ID="ID_378362047" MODIFIED="1586329537605" TEXT="&#x5b9e;&#x73b0;&#x7ee7;&#x627f;&#x7684;&#x65b9;&#x5f0f;">
+<node CREATED="1586316536204" ID="ID_1448090221" MODIFIED="1586329720973" TEXT="Student.prototype = Object.create(Person.prototype); ES5"/>
+<node CREATED="1586316289667" ID="ID_520092681" MODIFIED="1586316355651" TEXT="Student.prototype.__proto__ = Person.prototype"/>
+<node CREATED="1586329083574" ID="ID_991953581" MODIFIED="1586329685935" TEXT="Student.prototype = new Person(); Student.prototype.constructor = Student;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      new&#160;&#160;Person() // &#26377;&#21442;&#25968;&#21021;&#22987;&#21270;&#27604;&#36739;&#22855;&#24618;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1586318151325" ID="ID_400102678" MODIFIED="1586325133628" TEXT="&#x539f;&#x578b;&#x94fe;&#x7ee7;&#x627f;">
+<node CREATED="1586318324889" ID="ID_1844383925" MODIFIED="1586318327771" TEXT="s.__proto__ === s.constructor.prototype"/>
+<node CREATED="1586318221072" ID="ID_925084774" MODIFIED="1586318238381" TEXT="s.__proto__ === Student.prototype"/>
+<node CREATED="1586318245736" ID="ID_76237404" MODIFIED="1586318246886" TEXT="Student.prototype.__proto__ === Person.prototype"/>
+<node CREATED="1586318258192" ID="ID_1922547275" MODIFIED="1586318259382" TEXT="Person.prototype.__proto__ === Object.prototype"/>
+<node CREATED="1586318288282" ID="ID_1619986919" MODIFIED="1586318289232" TEXT="Object.prototype.__proto__ === null"/>
+</node>
+</node>
+<node CREATED="1586326006969" ID="ID_1811327988" MODIFIED="1586326611175" TEXT="&#x6539;&#x53d8;prototype">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#4ec9b0">Student</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#9cdcfe">x</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#b5cea8">10</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">s</font><font color="#ffffff">.</font><font color="#9cdcfe">x</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;10</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#4ec9b0">Student</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;{</font><font color="#9cdcfe">y:</font><font color="#ffffff">&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">};</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">s</font><font color="#ffffff">.</font><font color="#9cdcfe">x</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;10</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">s</font><font color="#ffffff">.</font><font color="#9cdcfe">y</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;undefined</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">s1</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Student</font><font color="#ffffff">();</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">s1</font><font color="#ffffff">.</font><font color="#9cdcfe">x</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;undefined</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">s1</font><font color="#ffffff">.</font><font color="#9cdcfe">y</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;2</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1586329883979" ID="ID_1639749413" MODIFIED="1586329908286" TEXT="&#x91cd;&#x8f7d;, &#x591a;&#x6001;">
+<node CREATED="1586330204488" ID="ID_117937549" MODIFIED="1586330358325" TEXT="&#x53c2;&#x6570;&#x5f31;&#x7c7b;&#x578b;&#xff0c;&#x5224;&#x65ad;argments&#xff0c;&#x5b9e;&#x73b0;&#x591a;&#x6001;"/>
+<node CREATED="1586330157673" ID="ID_1844093545" MODIFIED="1586330400000" TEXT="&#x521b;&#x5efa;&#x5b50;&#x7c7b;Student&#x65f6;&#xff0c;&#x8c03;&#x7528;&#x7236;&#x7c7b;Person.call(); &#x5b9e;&#x73b0;&#x91cd;&#x8f7d;"/>
+<node CREATED="1586330269870" ID="ID_1938765613" MODIFIED="1586330422167" TEXT="&#x5b9a;&#x4e49;&#x5b50;&#x7c7b;&#x65b9;&#x6cd5;&#x65f6;&#xff0c;Person.prototype.init.apply(this, argments); &#x5b9e;&#x73b0;&#x91cd;&#x8f7d;"/>
+</node>
+<node CREATED="1586330462506" ID="ID_1362217676" MODIFIED="1586330984626" TEXT="&#x94fe;&#x5f0f;&#x8c03;&#x7528; return this;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">ChainManager</font><font color="#ffffff">(){};</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#4ec9b0">ChainManager</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">addChain</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">str</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Add&quot;</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">str</font><font color="#ffffff">,&#160;</font><font color="#569cd6">this</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#569cd6">this</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;&#36820;&#22238;&#23545;&#35937;&#30340;&#23454;&#20363;</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">manager</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">ChainManager</font><font color="#ffffff">();</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">manager</font><font color="#ffffff">.</font><font color="#dcdcaa">addChain</font><font color="#ffffff">(</font><font color="#ce9178">&quot;1&quot;</font><font color="#ffffff">).</font><font color="#dcdcaa">addChain</font><font color="#ffffff">(</font><font color="#ce9178">&quot;2&quot;</font><font color="#ffffff">).</font><font color="#dcdcaa">addChain</font><font color="#ffffff">(</font><font color="#ce9178">&quot;3&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#9cdcfe">Add</font><font color="#ffffff">&#160;</font><font color="#b5cea8">1</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">ChainManager</font><font color="#ffffff">&#160;{}</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">Add</font><font color="#ffffff">&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">ChainManager</font><font color="#ffffff">&#160;{}</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">Add</font><font color="#ffffff">&#160;</font><font color="#b5cea8">3</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">ChainManager</font><font color="#ffffff">&#160;{}</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586331021065" ID="ID_1659815693" MODIFIED="1586331059187" TEXT="&#x62bd;&#x8c61;&#x7c7b; // &#x6ca1;&#x6709;&#x673a;&#x5236;&#x63d0;&#x4f9b;&#x62bd;&#x8c61;&#x7c7b;"/>
+<node CREATED="1586333939591" ID="ID_526091592" MODIFIED="1586333942134" TEXT="&#x6a21;&#x5757;&#x5316;"/>
+<node CREATED="1586337555836" ID="ID_883750438" MODIFIED="1586337563606" TEXT="&#x4f8b;&#x5b50;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#d4d4d4">!</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">global</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">DetectorBase</font><font color="#ffffff">(</font><font color="#9cdcfe">configs</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#c586c0">if</font><font color="#ffffff">(</font><font color="#d4d4d4">!</font><font color="#569cd6">this</font><font color="#ffffff">&#160;</font><font color="#569cd6">instanceof</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">DetectorBase</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#c586c0">throw</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Error</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Invoke&#160;with&#160;new&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">configs</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">configs</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#dcdcaa">analyze</font><font color="#ffffff">();</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#7ca668">//&#160;&#38656;&#35201;&#23454;&#29616;&#29238;&#31867;&#30340;&#25277;&#35937;&#31867;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">DetectorBase</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">detect</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#c586c0">throw</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Error</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Abstract&#160;method&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">DetectorBase</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">analyze</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#ce9178">&quot;analyzing&#160;...&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">data</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#ce9178">&quot;###data###&quot;</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">LinkDetector</font><font color="#ffffff">(</font><font color="#9cdcfe">links</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#c586c0">if</font><font color="#ffffff">(</font><font color="#d4d4d4">!</font><font color="#569cd6">this</font><font color="#ffffff">&#160;</font><font color="#569cd6">instanceof</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">LinkDetector</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#c586c0">throw</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Error</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Invoke&#160;with&#160;new&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">links</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">links</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">DetectorBase</font><font color="#ffffff">.</font><font color="#dcdcaa">apply</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">arguments</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">ContainerDetector</font><font color="#ffffff">(</font><font color="#9cdcfe">containers</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#c586c0">if</font><font color="#ffffff">(</font><font color="#d4d4d4">!</font><font color="#569cd6">this</font><font color="#ffffff">&#160;</font><font color="#569cd6">instanceof</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">ContainerDetector</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#c586c0">throw</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Error</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Invoke&#160;with&#160;new&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">containers</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">containers</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">DetectorBase</font><font color="#ffffff">.</font><font color="#dcdcaa">apply</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">arguments</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#dcdcaa">inherit</font><font color="#ffffff">(</font><font color="#9cdcfe">LinkDetector</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">DetectorBase</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#dcdcaa">inherit</font><font color="#ffffff">(</font><font color="#9cdcfe">ContainerDetector</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">DetectorBase</font><font color="#ffffff">);</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">LinkDetector</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">detect</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Link&#160;loading&#160;data&quot;</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">+</font><font color="#ffffff">&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">data</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">links</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">ContainerDetector</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#dcdcaa">detect</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">function</font><font color="#ffffff">(){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Container&#160;loading&#160;data&quot;</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">+</font><font color="#ffffff">&#160;</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">data</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#569cd6">this</font><font color="#ffffff">.</font><font color="#9cdcfe">containers</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#7ca668">//&#160;prevent,&#160;do&#160;not&#160;alter</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">freeze</font><font color="#ffffff">(</font><font color="#9cdcfe">DetectorBase</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">freeze</font><font color="#ffffff">(</font><font color="#4ec9b0">DetectorBase</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">freeze</font><font color="#ffffff">(</font><font color="#9cdcfe">LinkDetector</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">freeze</font><font color="#ffffff">(</font><font color="#4ec9b0">LinkDetector</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">freeze</font><font color="#ffffff">(</font><font color="#9cdcfe">ContainerDetector</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">freeze</font><font color="#ffffff">(</font><font color="#4ec9b0">ContainerDetector</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">);</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#7ca668">//&#160;&#20869;&#37096;&#26041;&#27861;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">inherit</font><font color="#ffffff">(</font><font color="#9cdcfe">subClass</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">superClass</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">subClass</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">create</font><font color="#ffffff">(</font><font color="#4ec9b0">superClass</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">subClass</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#9cdcfe">constructor</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;&#160;</font><font color="#9cdcfe">subClass</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#7ca668">//&#160;export&#160;to&#160;global&#160;object</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">Object</font><font color="#ffffff">.</font><font color="#dcdcaa">defineProperties</font><font color="#ffffff">(</font><font color="#9cdcfe">global</font><font color="#ffffff">,&#160;{</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">DetectorBase:</font><font color="#ffffff">&#160;{</font><font color="#9cdcfe">value:</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">DetectorBase</font><font color="#ffffff">},</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">LinkDetector:</font><font color="#ffffff">&#160;{</font><font color="#9cdcfe">value:</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">LinkDetector</font><font color="#ffffff">},</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">ContainerDetector:</font><font color="#ffffff">&#160;{</font><font color="#9cdcfe">value:</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">ContainerDetector</font><font color="#ffffff">}</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;});</font>
+      </div>
+      <div>
+        <font color="#ffffff">}(</font><font color="#569cd6">this</font><font color="#ffffff">);</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">ld</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">LinkDetector</font><font color="#ffffff">(</font><font color="#ce9178">&quot;http://www.baidu.com;&#160;http://www.qq.com&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">cd</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">ContainerDetector</font><font color="#ffffff">(</font><font color="#ce9178">&quot;aws;&#160;aliyun&quot;</font><font color="#ffffff">);</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#9cdcfe">ld</font><font color="#ffffff">.</font><font color="#dcdcaa">detect</font><font color="#ffffff">();</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">cd</font><font color="#ffffff">.</font><font color="#dcdcaa">detect</font><font color="#ffffff">();</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1584944114316" ID="ID_1789933874" MODIFIED="1584944132882" TEXT="Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript"/>
