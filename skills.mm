@@ -1860,7 +1860,11 @@
 </node>
 </node>
 </node>
+<<<<<<< HEAD
 <node CREATED="1553236621445" FOLDED="true" ID="ID_755254586" MODIFIED="1586337954658" POSITION="right" TEXT="java">
+=======
+<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1584511355858" POSITION="right" TEXT="java">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <richcontent TYPE="NOTE"><html>
   <head>
     
