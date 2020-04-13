@@ -1753,6 +1753,7 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1586338260495" ID="ID_1269279541" MODIFIED="1586338267772" TEXT="$ git config -l "/>
 </node>
 </node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1583935572017" TEXT="github">
@@ -1859,7 +1860,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1584511355858" POSITION="right" TEXT="java">
+<node CREATED="1553236621445" FOLDED="true" ID="ID_755254586" MODIFIED="1586337954658" POSITION="right" TEXT="java">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6127,7 +6128,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1559014427843" ID="ID_56563147" MODIFIED="1584507564426" POSITION="right" TEXT="tech">
+<node CREATED="1559014427843" FOLDED="true" ID="ID_56563147" MODIFIED="1586337959789" POSITION="right" TEXT="tech">
 <node CREATED="1559014436369" FOLDED="true" ID="ID_150121026" MODIFIED="1564557778115" TEXT="OAuth 2.0">
 <richcontent TYPE="NOTE"><html>
   <head>
