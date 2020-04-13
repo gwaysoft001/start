@@ -1870,7 +1870,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1553236624064" FOLDED="true" ID="ID_1449402957" MODIFIED="1586743515292" TEXT="Spring">
+<node CREATED="1553236624064" FOLDED="true" ID="ID_1449402957" MODIFIED="1586744223493" TEXT="Spring">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1898,7 +1898,8 @@
       https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1553237818125" ID="ID_1081399870" MODIFIED="1563158667642" TEXT="Spring Boot">
 <richcontent TYPE="NOTE"><html>
   <head>
