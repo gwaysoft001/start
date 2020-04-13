@@ -1870,7 +1870,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1569404012110" TEXT="Spring">
+<node CREATED="1553236624064" FOLDED="true" ID="ID_1449402957" MODIFIED="1586743515292" TEXT="Spring">
 <richcontent TYPE="NOTE"><html>
   <head>
     

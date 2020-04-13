@@ -12,8 +12,7 @@
       https://www.google.cn/chrome/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1584415865464" FOLDED="true" ID="ID_1067673793" MODIFIED="1586568859703" TEXT="DevTools">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -24,8 +23,7 @@
       <a href="https://developers.google.com/web/tools/chrome-devtools/">https://developers.google.com/web/tools/chrome-devtools/</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1584416603678" ID="ID_1042827938" MODIFIED="1584417637640" TEXT="Panel">
 <node CREATED="1584416622616" FOLDED="true" ID="ID_581948077" MODIFIED="1584511402925" TEXT="Elements">
 <node CREATED="1584416699549" ID="ID_600761156" MODIFIED="1584423030192" TEXT="Edit HTML: select + F12"/>
@@ -358,8 +356,7 @@
       <a href="https://www.imooc.com/video/5673">https://www.imooc.com/video/5673</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586239061775" FOLDED="true" ID="ID_1308931031" MODIFIED="1586567682414" TEXT="Basic">
 <node CREATED="1584945246312" ID="ID_883073737" MODIFIED="1586238885406" TEXT="&#x6570;&#x636e;&#x7c7b;&#x578b;">
 <node CREATED="1584944371553" FOLDED="true" ID="ID_838305588" MODIFIED="1586238885407" TEXT="type 6">
@@ -2474,7 +2471,7 @@
 <node CREATED="1586325558240" ID="ID_1751733463" MODIFIED="1586326715188" TEXT="Object.defineProperty(o,&quot;y&quot;,{value:100}); // ES5"/>
 </node>
 </node>
-<node CREATED="1586567663617" ID="ID_1063229754" MODIFIED="1586567671575" TEXT="Array">
+<node CREATED="1586567663617" FOLDED="true" ID="ID_1063229754" MODIFIED="1586743435221" TEXT="Array">
 <node CREATED="1586568414001" ID="ID_1173953361" MODIFIED="1586568867758" TEXT="&#x6570;&#x7ec4;&#x6982;&#x8ff0;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2525,8 +2522,7 @@
       
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586568695392" ID="ID_1335308457" MODIFIED="1586571534426" TEXT="&#x6570;&#x7ec4;&#x521b;&#x5efa;">
 <node CREATED="1586568711850" ID="ID_1847698612" MODIFIED="1586568723856" TEXT="&#x81ea;&#x53d8;&#x91cf; []"/>
@@ -2567,8 +2563,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586570543084" ID="ID_1972622108" MODIFIED="1586571432791" TEXT="&#x6570;&#x7ec4;&#x5143;&#x7d20;&#x589e;&#x5220;">
 <richcontent TYPE="NOTE"><html>
@@ -2627,8 +2622,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586571536577" ID="ID_627968548" MODIFIED="1586572133928" TEXT="&#x6570;&#x7ec4;&#x8fed;&#x4ee3;">
 <richcontent TYPE="NOTE"><html>
@@ -2765,8 +2759,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586572413270" ID="ID_1919117600" MODIFIED="1586572428897" TEXT="&#x7a00;&#x758f;&#x6570;&#x7ec4;">
 <richcontent TYPE="NOTE"><html>
@@ -2795,8 +2788,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
