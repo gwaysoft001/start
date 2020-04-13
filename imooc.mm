@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1584415818354" ID="ID_1551822725" MODIFIED="1584929619736" TEXT="imooc.com">
 <node CREATED="1584415853896" ID="ID_1247640474" MODIFIED="1584415856544" POSITION="left" TEXT="tools">
-<node CREATED="1584415857422" ID="ID_797150199" MODIFIED="1585279720733" TEXT="Chrome">
+<node CREATED="1584415857422" FOLDED="true" ID="ID_797150199" MODIFIED="1586507467774" TEXT="Chrome">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,8 +12,14 @@
       https://www.google.cn/chrome/
     </p>
   </body>
+<<<<<<< HEAD
 </html></richcontent>
-<node CREATED="1584415865464" FOLDED="true" ID="ID_1067673793" MODIFIED="1586337585688" TEXT="DevTools">
+<node CREATED="1584415865464" ID="ID_1067673793" MODIFIED="1586400085816" TEXT="DevTools">
+=======
+</html>
+</richcontent>
+<node CREATED="1584415865464" FOLDED="true" ID="ID_1067673793" MODIFIED="1586568859703" TEXT="DevTools">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -23,7 +29,8 @@
       <a href="https://developers.google.com/web/tools/chrome-devtools/">https://developers.google.com/web/tools/chrome-devtools/</a>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1584416603678" ID="ID_1042827938" MODIFIED="1584417637640" TEXT="Panel">
 <node CREATED="1584416622616" FOLDED="true" ID="ID_581948077" MODIFIED="1584511402925" TEXT="Elements">
 <node CREATED="1584416699549" ID="ID_600761156" MODIFIED="1584423030192" TEXT="Edit HTML: select + F12"/>
@@ -68,7 +75,11 @@
 <node CREATED="1584512125943" ID="ID_1276860388" MODIFIED="1584512152115" TEXT="Ctrl + Shift + R: clear catch"/>
 <node CREATED="1584516326205" ID="ID_789669693" MODIFIED="1584516334494" TEXT="disable catch"/>
 </node>
+<<<<<<< HEAD
+<node CREATED="1584416936805" ID="ID_454837066" MODIFIED="1586400085832" TEXT="Console">
+=======
 <node CREATED="1584416936805" FOLDED="true" ID="ID_454837066" MODIFIED="1585279720729" TEXT="Console">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -107,7 +118,11 @@
 <node CREATED="1584424256739" ID="ID_921689071" MODIFIED="1584424259344" TEXT="$0"/>
 <node CREATED="1584424556115" ID="ID_727907765" MODIFIED="1584425370696" TEXT="Copy JS path"/>
 </node>
+<<<<<<< HEAD
+<node CREATED="1584434632686" ID="ID_469227623" MODIFIED="1586400085854" TEXT="console">
+=======
 <node CREATED="1584434632686" FOLDED="true" ID="ID_469227623" MODIFIED="1586238885386" TEXT="console">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <node CREATED="1584434662007" ID="ID_77893094" MODIFIED="1584434949992" TEXT="console.log(&quot;1&quot;, &quot;2&quot;);">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -207,7 +222,11 @@
 </html></richcontent>
 </node>
 <node CREATED="1584436492160" ID="ID_1759174347" MODIFIED="1584436493979" TEXT="console.assert(false,&quot;failed&quot;);"/>
+<<<<<<< HEAD
+<node CREATED="1584436623010" ID="ID_1197999736" MODIFIED="1586400085979" TEXT="console.time();">
+=======
 <node CREATED="1584436623010" ID="ID_1197999736" MODIFIED="1584436631813" TEXT="console.time();">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -234,12 +253,21 @@
       </div>
     </div>
   </body>
+<<<<<<< HEAD
+</html>
+</richcontent>
+=======
 </html></richcontent>
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 </node>
 </node>
 <node CREATED="1584436820185" ID="ID_1435689787" MODIFIED="1584436829141" TEXT="console sidebar"/>
 </node>
+<<<<<<< HEAD
+<node CREATED="1584416992138" FOLDED="true" ID="ID_677765570" MODIFIED="1586507450356" TEXT="Sources">
+=======
 <node CREATED="1584416992138" FOLDED="true" ID="ID_677765570" MODIFIED="1584511409940" TEXT="Sources">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <node CREATED="1584416995347" FOLDED="true" ID="ID_985394122" MODIFIED="1586238885387" TEXT="debug javascript">
 <node CREATED="1584503578343" FOLDED="true" ID="ID_1156734939" MODIFIED="1586238885386" TEXT="debug">
 <node CREATED="1584499517255" ID="ID_1722680086" MODIFIED="1584499537295" TEXT="console.log(); or alert();"/>
@@ -343,10 +371,18 @@
 </node>
 </node>
 </node>
+<<<<<<< HEAD
+<node CREATED="1586507454701" ID="ID_948528156" MODIFIED="1586507461765" TEXT="VS Code"/>
 </node>
 <node CREATED="1584929620951" ID="ID_1553774550" MODIFIED="1584929628863" POSITION="right" TEXT="front end">
 <node CREATED="1584929695453" ID="ID_1305313691" MODIFIED="1584929698144" TEXT="javascript">
-<node CREATED="1584943937587" FOLDED="true" ID="ID_1477034044" MODIFIED="1586337571079" TEXT="JavaScript&#x6df1;&#x5165;&#x6d45;&#x51fa;">
+<node CREATED="1584943937587" ID="ID_1477034044" MODIFIED="1586508334531" TEXT="JavaScript&#x6df1;&#x5165;&#x6d45;&#x51fa;">
+=======
+</node>
+<node CREATED="1584929620951" ID="ID_1553774550" MODIFIED="1584929628863" POSITION="right" TEXT="front end">
+<node CREATED="1584929695453" ID="ID_1305313691" MODIFIED="1584929698144" TEXT="javascript">
+<node CREATED="1584943937587" ID="ID_1477034044" MODIFIED="1586568859723" TEXT="JavaScript&#x6df1;&#x5165;&#x6d45;&#x51fa;">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -356,8 +392,14 @@
       <a href="https://www.imooc.com/video/5673">https://www.imooc.com/video/5673</a>
     </p>
   </body>
+<<<<<<< HEAD
 </html></richcontent>
-<node CREATED="1586239061775" ID="ID_1308931031" MODIFIED="1586328562316" TEXT="basic">
+<node CREATED="1586239061775" FOLDED="true" ID="ID_1308931031" MODIFIED="1586508087694" TEXT="basic">
+=======
+</html>
+</richcontent>
+<node CREATED="1586239061775" FOLDED="true" ID="ID_1308931031" MODIFIED="1586567682414" TEXT="Basic">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <node CREATED="1584945246312" ID="ID_883073737" MODIFIED="1586238885406" TEXT="&#x6570;&#x636e;&#x7c7b;&#x578b;">
 <node CREATED="1584944371553" FOLDED="true" ID="ID_838305588" MODIFIED="1586238885407" TEXT="type 6">
 <node CREATED="1584944235840" FOLDED="true" ID="ID_573419116" MODIFIED="1586238885407" TEXT="primary">
@@ -588,7 +630,11 @@
 <node CREATED="1584949356125" ID="ID_165443920" MODIFIED="1584949360174" TEXT="duck type"/>
 </node>
 </node>
+<<<<<<< HEAD
 <node CREATED="1584949524938" ID="ID_257703445" MODIFIED="1586239079813" TEXT="Expression">
+=======
+<node CREATED="1584949524938" FOLDED="true" ID="ID_257703445" MODIFIED="1586567651903" TEXT="Expression">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -798,8 +844,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586328767157" ID="ID_831551026" MODIFIED="1586328787125" TEXT="typeof">
 <richcontent TYPE="NOTE"><html>
@@ -811,8 +856,7 @@
       typeof 100 === 'number'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1585188200745" ID="ID_866990312" MODIFIED="1585188362358" TEXT="new">
 <richcontent TYPE="NOTE"><html>
@@ -872,8 +916,7 @@
       &#160;{func: &#402;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1585188488956" ID="ID_944639742" MODIFIED="1586328785641" TEXT="void: return undefined">
 <richcontent TYPE="NOTE"><html>
@@ -894,8 +937,7 @@
       &#160;undefined
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1585188527987" ID="ID_653520552" MODIFIED="1585188535291" TEXT="&#x4f18;&#x5148;&#x7ea7;"/>
@@ -1363,7 +1405,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1585194563793" ID="ID_23938414" MODIFIED="1586325284885" TEXT="Object">
+<<<<<<< HEAD
+<node CREATED="1585194563793" FOLDED="true" ID="ID_23938414" MODIFIED="1586508082669" TEXT="Object">
+=======
+<node CREATED="1585194563793" FOLDED="true" ID="ID_23938414" MODIFIED="1586567656791" TEXT="Object">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <node CREATED="1585194919052" ID="ID_1468446712" MODIFIED="1585194932757" TEXT="&#x5bf9;&#x8c61;&#x6982;&#x8ff0;">
 <richcontent TYPE="NOTE">&lt;html&gt;
   &lt;head&gt;
@@ -1623,8 +1669,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1585283311987" FOLDED="true" ID="ID_521339164" MODIFIED="1585536095860" TEXT="&#x5c5e;&#x6027;&#x64cd;&#x4f5c;">
@@ -2476,7 +2521,338 @@
 <node CREATED="1586325558240" ID="ID_1751733463" MODIFIED="1586326715188" TEXT="Object.defineProperty(o,&quot;y&quot;,{value:100}); // ES5"/>
 </node>
 </node>
+<<<<<<< HEAD
+<node CREATED="1586508335740" ID="ID_577688039" MODIFIED="1586508340788" TEXT="Array"/>
 <node CREATED="1586239002993" FOLDED="true" ID="ID_1770845449" MODIFIED="1586328557875" TEXT="&#x51fd;&#x6570;&#x4e0e;&#x4f5c;&#x7528;&#x57df;&#xff08;&#x91cd;&#x70b9;&#xff09;">
+=======
+<node CREATED="1586567663617" ID="ID_1063229754" MODIFIED="1586567671575" TEXT="Array">
+<node CREATED="1586568414001" ID="ID_1173953361" MODIFIED="1586568867758" TEXT="&#x6570;&#x7ec4;&#x6982;&#x8ff0;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;=&#160;[</font><font color="#b5cea8">2</font><font color="#d4d4d4">,&#160;</font><font color="#ce9178">&quot;demo&quot;</font><font color="#d4d4d4">,&#160;</font><font color="#569cd6">null</font><font color="#d4d4d4">,&#160;</font><font color="#569cd6">undefined</font><font color="#d4d4d4">,&#160;[</font><font color="#b5cea8">1</font><font color="#d4d4d4">,</font><font color="#b5cea8">2</font><font color="#d4d4d4">],{</font><font color="#9cdcfe">x:</font><font color="#b5cea8">1</font><font color="#d4d4d4">},,];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#dcdcaa">forEach</font><font color="#d4d4d4">(</font><font color="#9cdcfe">element</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">=&gt;</font><font color="#d4d4d4">{</font><font color="#9cdcfe">console</font><font color="#d4d4d4">.</font><font color="#dcdcaa">log</font><font color="#d4d4d4">(</font><font color="#9cdcfe">element</font><font color="#d4d4d4">)});</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#6a9955">/**</font>
+      </div>
+      <div>
+        <font color="#6a9955">&#160;*&#160;result</font>
+      </div>
+      <div>
+        <font color="#6a9955">&#160;2</font>
+      </div>
+      <div>
+        <font color="#6a9955">demo</font>
+      </div>
+      <div>
+        <font color="#6a9955">null</font>
+      </div>
+      <div>
+        <font color="#6a9955">undefined</font>
+      </div>
+      <div>
+        <font color="#6a9955">(2)&#160;[1,&#160;2]</font>
+      </div>
+      <div>
+        <font color="#6a9955">{x:&#160;1}</font>
+      </div>
+      <div>
+        <font color="#6a9955">undefined</font>
+      </div>
+      <div>
+        <font color="#6a9955">&#160;*/</font>
+      </div>
+      <br />
+      
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586568695392" ID="ID_1335308457" MODIFIED="1586571534426" TEXT="&#x6570;&#x7ec4;&#x521b;&#x5efa;">
+<node CREATED="1586568711850" ID="ID_1847698612" MODIFIED="1586568723856" TEXT="&#x81ea;&#x53d8;&#x91cf; []"/>
+<node CREATED="1586568918815" ID="ID_1420913037" MODIFIED="1586568951673" TEXT="new Array() === []">
+<node CREATED="1586568969768" ID="ID_420962081" MODIFIED="1586569087055" TEXT="var arrWithLength = new Array(100);"/>
+<node CREATED="1586569088499" ID="ID_730583137" MODIFIED="1586569096641" TEXT="var arrLikesLiteral = new Array(18, &quot;demo&quot;, {x:2});"/>
+</node>
+<node CREATED="1586569583350" ID="ID_814604747" MODIFIED="1586569672358" TEXT="&#x6570;&#x7ec4;&#x5143;&#x7d20;&#x8bfb;&#x5199;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;=&#160;[</font><font color="#b5cea8">1</font><font color="#d4d4d4">,</font><font color="#b5cea8">2</font><font color="#d4d4d4">,</font><font color="#b5cea8">3</font><font color="#d4d4d4">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#b5cea8">1</font><font color="#d4d4d4">];&#160;</font><font color="#6a9955">//&#160;2</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#9cdcfe">length</font><font color="#d4d4d4">;&#160;</font><font color="#6a9955">//&#160;3</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#b5cea8">4</font><font color="#d4d4d4">]&#160;=&#160;</font><font color="#b5cea8">5</font><font color="#d4d4d4">;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#9cdcfe">length</font><font color="#d4d4d4">&#160;</font><font color="#6a9955">//&#160;5</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#b5cea8">3</font><font color="#d4d4d4">];&#160;</font><font color="#6a9955">//&#160;undefined</font>
+      </div>
+      <div>
+        <font color="#569cd6">delete</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#b5cea8">1</font><font color="#d4d4d4">]</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#b5cea8">1</font><font color="#d4d4d4">]&#160;</font><font color="#6a9955">//&#160;undefined</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586570543084" ID="ID_1972622108" MODIFIED="1586571432791" TEXT="&#x6570;&#x7ec4;&#x5143;&#x7d20;&#x589e;&#x5220;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;=&#160;[];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#b5cea8">0</font><font color="#d4d4d4">]&#160;=&#160;</font><font color="#b5cea8">1</font><font color="#d4d4d4">;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#b5cea8">1</font><font color="#d4d4d4">]&#160;=&#160;</font><font color="#b5cea8">2</font><font color="#d4d4d4">;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#dcdcaa">push</font><font color="#d4d4d4">(</font><font color="#b5cea8">3</font><font color="#d4d4d4">);</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;</font><font color="#6a9955">//&#160;(3)&#160;[1,&#160;2,&#160;3]</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#9cdcfe">length</font><font color="#d4d4d4">]&#160;=&#160;</font><font color="#b5cea8">4</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#dcdcaa">unshift</font><font color="#d4d4d4">(</font><font color="#b5cea8">0</font><font color="#d4d4d4">)</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;</font><font color="#6a9955">//&#160;(5)&#160;[0,&#160;1,&#160;2,&#160;3,&#160;4]</font>
+      </div>
+      <div>
+        <font color="#569cd6">delete</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#b5cea8">2</font><font color="#d4d4d4">]</font>
+      </div>
+      <div>
+        <font color="#b5cea8">2</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;</font><font color="#6a9955">//&#160;false</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#9cdcfe">length</font><font color="#d4d4d4">&#160;-=&#160;</font><font color="#b5cea8">1</font><font color="#d4d4d4">;&#160;</font><font color="#6a9955">//&#160;4</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;</font><font color="#6a9955">//&#160;(4)&#160;[0,&#160;1,&#160;empty,&#160;3]</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#dcdcaa">pop</font><font color="#d4d4d4">();&#160;</font><font color="#6a9955">//&#160;3</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;</font><font color="#6a9955">//&#160;(3)&#160;[0,&#160;1,&#160;empty]</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#dcdcaa">shift</font><font color="#d4d4d4">()&#160;</font><font color="#6a9955">//&#160;0</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;</font><font color="#6a9955">//&#160;(2)&#160;[1,&#160;empty]&#160;</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586571536577" ID="ID_627968548" MODIFIED="1586572133928" TEXT="&#x6570;&#x7ec4;&#x8fed;&#x4ee3;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;=&#160;[</font><font color="#b5cea8">1</font><font color="#d4d4d4">,&#160;</font><font color="#b5cea8">2</font><font color="#d4d4d4">,&#160;</font><font color="#569cd6">undefined</font><font color="#d4d4d4">,&#160;</font><font color="#b5cea8">4</font><font color="#d4d4d4">];</font>
+      </div>
+      <div>
+        <font color="#c586c0">for</font><font color="#d4d4d4">(</font><font color="#569cd6">var</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">i</font><font color="#d4d4d4">&#160;=&#160;</font><font color="#b5cea8">0</font><font color="#d4d4d4">;&#160;</font><font color="#9cdcfe">i</font><font color="#d4d4d4">&#160;&lt;&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#9cdcfe">length</font><font color="#d4d4d4">;&#160;</font><font color="#9cdcfe">i</font><font color="#d4d4d4">++){</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">console</font><font color="#d4d4d4">.</font><font color="#dcdcaa">log</font><font color="#d4d4d4">(</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#9cdcfe">i</font><font color="#d4d4d4">]);</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#6a9955">//&#160;result:&#160;1,&#160;2,&#160;undefined,&#160;4</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#c586c0">for</font><font color="#d4d4d4">(</font><font color="#9cdcfe">i</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">){</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">console</font><font color="#d4d4d4">.</font><font color="#dcdcaa">log</font><font color="#d4d4d4">(</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#9cdcfe">i</font><font color="#d4d4d4">]);</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#6a9955">//&#160;result:&#160;1,&#160;2,&#160;undefined,&#160;4</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#569cd6">delete</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#b5cea8">2</font><font color="#d4d4d4">];</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#c586c0">for</font><font color="#d4d4d4">(</font><font color="#9cdcfe">i</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">){</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">console</font><font color="#d4d4d4">.</font><font color="#dcdcaa">log</font><font color="#d4d4d4">(</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#9cdcfe">i</font><font color="#d4d4d4">]);</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#6a9955">//&#160;result:&#160;1,&#160;2,&#160;4</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#569cd6">typeof</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">&#160;</font><font color="#6a9955">//&#160;&quot;object&quot;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#9cdcfe">x</font><font color="#d4d4d4">&#160;=&#160;</font><font color="#b5cea8">5</font><font color="#d4d4d4">;&#160;</font><font color="#6a9955">//&#160;</font>
+      </div>
+      <div>
+        <font color="#c586c0">for</font><font color="#d4d4d4">(</font><font color="#9cdcfe">i</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">){</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">console</font><font color="#d4d4d4">.</font><font color="#dcdcaa">log</font><font color="#d4d4d4">(</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#9cdcfe">i</font><font color="#d4d4d4">]);</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#6a9955">//&#160;result:&#160;1,&#160;2,&#160;4,&#160;5</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#9cdcfe">Array</font><font color="#d4d4d4">.</font><font color="#9cdcfe">prototype</font><font color="#d4d4d4">.</font><font color="#9cdcfe">y</font><font color="#d4d4d4">&#160;=&#160;</font><font color="#b5cea8">6</font><font color="#d4d4d4">;</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#c586c0">for</font><font color="#d4d4d4">(</font><font color="#9cdcfe">i</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">){</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">console</font><font color="#d4d4d4">.</font><font color="#dcdcaa">log</font><font color="#d4d4d4">(</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#9cdcfe">i</font><font color="#d4d4d4">]);</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">}</font>
+      </div>
+      <div>
+        <font color="#6a9955">//&#160;result:&#160;1,&#160;2,&#160;4,&#160;5,&#160;6</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#c586c0">for</font><font color="#d4d4d4">(</font><font color="#9cdcfe">i</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">){</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">&#160;&#160;&#160;&#160;</font><font color="#c586c0">if</font><font color="#d4d4d4">(</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">.</font><font color="#dcdcaa">hasOwnProperty</font><font color="#d4d4d4">(</font><font color="#9cdcfe">i</font><font color="#d4d4d4">)){</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#9cdcfe">console</font><font color="#d4d4d4">.</font><font color="#dcdcaa">log</font><font color="#d4d4d4">(</font><font color="#9cdcfe">arr</font><font color="#d4d4d4">[</font><font color="#9cdcfe">i</font><font color="#d4d4d4">]);</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">&#160;&#160;&#160;&#160;}</font>
+      </div>
+      <div>
+        <font color="#d4d4d4">}</font>
+      </div>
+      <div>
+        <font color="#6a9955">//&#160;result:&#160;1,&#160;2,&#160;4,&#160;5</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586572413270" ID="ID_1919117600" MODIFIED="1586572428897" TEXT="&#x7a00;&#x758f;&#x6570;&#x7ec4;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr1</font><font color="#d4d4d4">&#160;=&#160;[,,];</font>
+      </div>
+      <div>
+        <font color="#b5cea8">0</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr1</font><font color="#d4d4d4">;&#160;</font><font color="#6a9955">//&#160;false</font>
+      </div>
+      <div>
+        <font color="#569cd6">var</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr2</font><font color="#d4d4d4">&#160;=&#160;[</font><font color="#569cd6">undefined</font><font color="#d4d4d4">];</font>
+      </div>
+      <div>
+        <font color="#b5cea8">0</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr2</font><font color="#d4d4d4">;&#160;</font><font color="#6a9955">//&#160;true</font>
+      </div>
+      <div>
+        <font color="#569cd6">var</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr3</font><font color="#d4d4d4">&#160;=&#160;</font><font color="#569cd6">new</font><font color="#d4d4d4">&#160;</font><font color="#4ec9b0">Array</font><font color="#d4d4d4">(</font><font color="#b5cea8">1</font><font color="#d4d4d4">);</font>
+      </div>
+      <div>
+        <font color="#b5cea8">0</font><font color="#d4d4d4">&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;</font><font color="#9cdcfe">arr3</font><font color="#d4d4d4">;&#160;</font><font color="#6a9955">//&#160;false</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1586239002993" FOLDED="true" ID="ID_1770845449" MODIFIED="1586567659193" TEXT="&#x51fd;&#x6570;&#x4e0e;&#x4f5c;&#x7528;&#x57df;&#xff08;&#x91cd;&#x70b9;&#xff09;">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <node CREATED="1585539667131" ID="ID_1224977526" MODIFIED="1586237636946" TEXT="Function">
 <node CREATED="1585540342485" FOLDED="true" ID="ID_92160376" MODIFIED="1585645016908" TEXT="&#x6982;&#x5ff5;">
 <richcontent TYPE="NOTE"><html>
@@ -4432,7 +4808,11 @@
 <node CREATED="1586237598060" ID="ID_1431954074" MODIFIED="1586237607533" TEXT="&#x603b;&#x7ed3;"/>
 </node>
 </node>
-<node CREATED="1586239095161" ID="ID_451370333" MODIFIED="1586310675750" TEXT="OOP">
+<<<<<<< HEAD
+<node CREATED="1586239095161" FOLDED="true" ID="ID_451370333" MODIFIED="1586508081046" TEXT="OOP">
+=======
+<node CREATED="1586239095161" FOLDED="true" ID="ID_451370333" MODIFIED="1586567649256" TEXT="OOP">
+>>>>>>> 0ebaf65616853f198f54c59bc225ad207ffe56e9
 <node CREATED="1586310550319" ID="ID_1864943922" MODIFIED="1586310741350" TEXT="&#x6982;&#x5ff5;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4452,8 +4832,7 @@
       JS&#26159;&#24590;&#26679;&#23454;&#29616;&#26041;&#27861;&#35770;&#30340;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586311028995" ID="ID_1112000079" MODIFIED="1586311050819" TEXT="&#x7ee7;&#x627f;">
 <node CREATED="1586240707677" ID="ID_383556150" MODIFIED="1586240740621" TEXT="&#x57fa;&#x4e8e;&#x539f;&#x578b;&#x7684;&#x7ee7;&#x627f;">
@@ -4523,8 +4902,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586311622025" ID="ID_325070263" MODIFIED="1586312779765" TEXT="new &#x6784;&#x9020;&#x5668;">
 <richcontent TYPE="NOTE"><html>
@@ -4541,8 +4919,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586312761939" ID="ID_714254208" MODIFIED="1586313680645" TEXT="Object.create(); ">
 <richcontent TYPE="NOTE"><html>
@@ -4583,8 +4960,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586313529433" ID="ID_568706458" MODIFIED="1586313927992" TEXT="var foo = o;">
 <richcontent TYPE="NOTE"><html>
@@ -4634,8 +5010,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586249945790" FOLDED="true" ID="ID_1613031421" MODIFIED="1586316055758" TEXT="Object">
 <richcontent TYPE="NOTE"><html>
@@ -4768,8 +5143,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586250704377" ID="ID_1014933757" MODIFIED="1586313943311" TEXT="Person">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4791,8 +5165,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586250817875" ID="ID_1522788529" MODIFIED="1586316065194" TEXT="Person.prototype">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4820,8 +5193,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586250940246" ID="ID_716161215" MODIFIED="1586250941125" TEXT="Person.prototype.__proto__ === Object.prototype;"/>
 <node CREATED="1586315087849" ID="ID_1713731584" MODIFIED="1586315300798" TEXT="&#x6dfb;&#x52a0;&#x5176;&#x4ed6;prototype&#x5c5e;&#x6027;">
 <richcontent TYPE="NOTE"><html>
@@ -4862,8 +5234,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1586250962662" ID="ID_1886675853" MODIFIED="1586251635357" TEXT="var p = new Person(&quot;Tom&quot;, 5);">
@@ -4898,8 +5269,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586316202519" ID="ID_1180517994" MODIFIED="1586316220513" TEXT="Student.prototype">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4924,8 +5294,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1586316831793" ID="ID_840498008" MODIFIED="1586317003075" TEXT="&#x6dfb;&#x52a0;&#x5176;&#x4ed6;prototype&#x5c5e;&#x6027;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4956,8 +5325,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -4974,8 +5342,7 @@
       new&#160;&#160;Person() // &#26377;&#21442;&#25968;&#21021;&#22987;&#21270;&#27604;&#36739;&#22855;&#24618;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1586318151325" ID="ID_400102678" MODIFIED="1586325133628" TEXT="&#x539f;&#x578b;&#x94fe;&#x7ee7;&#x627f;">
@@ -5025,8 +5392,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1586329883979" ID="ID_1639749413" MODIFIED="1586329908286" TEXT="&#x91cd;&#x8f7d;, &#x591a;&#x6001;">
@@ -5082,8 +5448,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586331021065" ID="ID_1659815693" MODIFIED="1586331059187" TEXT="&#x62bd;&#x8c61;&#x7c7b; // &#x6ca1;&#x6709;&#x673a;&#x5236;&#x63d0;&#x4f9b;&#x62bd;&#x8c61;&#x7c7b;"/>
 <node CREATED="1586333939591" ID="ID_526091592" MODIFIED="1586333942134" TEXT="&#x6a21;&#x5757;&#x5316;"/>
@@ -5321,8 +5686,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
