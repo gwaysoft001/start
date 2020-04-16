@@ -2791,7 +2791,382 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1586744085566" ID="ID_783900745" MODIFIED="1586744147002" TEXT="&#x6570;&#x7ec4;&#x65b9;&#x6cd5;"/>
+<node CREATED="1586744085566" ID="ID_783900745" MODIFIED="1586744147002" TEXT="&#x6570;&#x7ec4;&#x65b9;&#x6cd5;">
+<node CREATED="1586759670556" ID="ID_1895597421" MODIFIED="1586759681256" TEXT="Array.prototype">
+<node CREATED="1586746691705" ID="ID_976260948" MODIFIED="1586760234947" TEXT="Array.prototype.join">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">function</font><font color="#ffffff">&#160;</font><font color="#dcdcaa">repeatString</font><font color="#ffffff">(</font><font color="#9cdcfe">str</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">n</font><font color="#ffffff">)&#160;{</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#569cd6">new</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Array</font><font color="#ffffff">(</font><font color="#9cdcfe">n</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">+</font><font color="#ffffff">&#160;</font><font color="#b5cea8">1</font><font color="#ffffff">).</font><font color="#dcdcaa">join</font><font color="#ffffff">(</font><font color="#9cdcfe">str</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">}</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#dcdcaa">repeatString</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Ha&quot;</font><font color="#ffffff">);&#160;</font><font color="#7ca668">//&#160;HaHaHa </font>
+      </div>
+    </div>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#4ec9b0">Array</font><font color="#ffffff">.</font><font color="#9cdcfe">prototype</font><font color="#ffffff">.</font><font color="#9cdcfe">join</font><font color="#ffffff">.</font><font color="#dcdcaa">call</font><font color="#ffffff">(</font><font color="#ce9178">&quot;sss&quot;</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;_&quot;</font><font color="#ffffff">);&#160;</font><font color="#7ca668">//&#160;&quot;s_s_s&quot;</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1586756257187" ID="ID_1962111611" MODIFIED="1586756341316" TEXT="Array.prototype.reverse">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">3</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">reverse</font><font color="#ffffff">();&#160;</font><font color="#7ca668">//&#160;(3)&#160;[3,&#160;2,&#160;1]</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#7ca668">//&#160;(3)&#160;[3,&#160;2,&#160;1]</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586757246647" ID="ID_736944078" MODIFIED="1586757258295" TEXT="Array.prototype.sort">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#ce9178">&quot;a&quot;</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;c&quot;</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;b&quot;</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">sort</font><font color="#ffffff">()&#160;</font><font color="#7ca668">//&#160;(3)&#160;[&quot;a&quot;,&#160;&quot;b&quot;,&#160;&quot;c&quot;]</font>
+      </div>
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#b5cea8">22</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">3</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">42</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">15</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">sort</font><font color="#ffffff">();&#160;</font><font color="#7ca668">//&#160;(4)&#160;[15,&#160;22,&#160;3,&#160;42];&#160;defaul&#160;sort&#160;is&#160;alphabeta</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">sort</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">a</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">b</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">a</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">-</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">b</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">});</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">sort</font><font color="#ffffff">();&#160;</font><font color="#7ca668">//&#160;(4)&#160;[3,&#160;15,&#160;22,&#160;42]</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[{</font><font color="#9cdcfe">age:</font><font color="#ffffff">&#160;</font><font color="#b5cea8">12</font><font color="#ffffff">},&#160;{</font><font color="#9cdcfe">age:</font><font color="#ffffff">&#160;</font><font color="#b5cea8">5</font><font color="#ffffff">},&#160;{</font><font color="#9cdcfe">age:</font><font color="#ffffff">&#160;</font><font color="#b5cea8">78</font><font color="#ffffff">}]</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">forEach</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">item</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">index</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#ce9178">&quot;age:&quot;</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">item</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;index:&quot;</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">index</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">});</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">sort</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">a</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">b</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">a</font><font color="#ffffff">.</font><font color="#9cdcfe">age</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">-</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">b</font><font color="#ffffff">.</font><font color="#9cdcfe">age</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">});</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">forEach</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">item</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">index</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#ce9178">&quot;age:&quot;</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">item</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;index:&quot;</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">index</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">});</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586757514846" ID="ID_448525401" MODIFIED="1586757534025" TEXT="Array.prototype.concat">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">3</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">concat</font><font color="#ffffff">(</font><font color="#b5cea8">4</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">5</font><font color="#ffffff">);&#160;</font><font color="#7ca668">//&#160;(5)&#160;[1,&#160;2,&#160;3,&#160;4,&#160;5]</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;(3)&#160;[1,&#160;2,&#160;3]</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586757593838" ID="ID_843464479" MODIFIED="1586757606507" TEXT="Array.prototype.slice"/>
+<node CREATED="1586757755331" ID="ID_231807486" MODIFIED="1586757770331" TEXT="Array.prototype.splice">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">&#160;,</font><font color="#b5cea8">3</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">splice</font><font color="#ffffff">(</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;a&quot;</font><font color="#ffffff">,&#160;</font><font color="#ce9178">&quot;b&quot;</font><font color="#ffffff">);&#160;</font><font color="#7ca668">//&#160;[2]</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;(4)&#160;[1,&#160;&quot;a&quot;,&#160;&quot;b&quot;,&#160;3]</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586758014350" ID="ID_1945757225" MODIFIED="1586758016989" TEXT="ES5">
+<node CREATED="1586758018951" ID="ID_1274612220" MODIFIED="1586758631440" TEXT="Array.prototype.forEach">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">&#160;,</font><font color="#b5cea8">3</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">forEach</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">item</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">index</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">a</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#4ec9b0">console</font><font color="#ffffff">.</font><font color="#dcdcaa">log</font><font color="#ffffff">(</font><font color="#9cdcfe">item</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">index</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">a</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">);</font>
+      </div>
+      <div>
+        <font color="#ffffff">})</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#7ca668">/**&#160;</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*&#160;result:&#160;</font>
+      </div>
+      <div>
+        <font color="#7ca668">1&#160;0&#160;true</font>
+      </div>
+      <div>
+        <font color="#7ca668">2&#160;1&#160;true</font>
+      </div>
+      <div>
+        <font color="#7ca668">3&#160;2&#160;true</font>
+      </div>
+      <div>
+        <font color="#7ca668">&#160;*/</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586758744083" ID="ID_704691640" MODIFIED="1586758754026" TEXT="Array.prototype.map">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">&#160;,</font><font color="#b5cea8">3</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">map</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">item</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">item</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">+</font><font color="#ffffff">&#160;</font><font color="#b5cea8">10</font>
+      </div>
+      <div>
+        <font color="#ffffff">});&#160;</font><font color="#7ca668">//&#160;(3)&#160;[11,&#160;12,&#160;13]</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;(3)&#160;[1,&#160;2,&#160;3]</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586758875016" ID="ID_209757624" MODIFIED="1586758887208" TEXT="Array.prototype.filter">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">&#160;,</font><font color="#b5cea8">3</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">filter</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">item</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">index</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">item</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">==</font><font color="#ffffff">&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">});&#160;</font><font color="#7ca668">//&#160;[2]</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;(3)&#160;[1,&#160;2,&#160;3]</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586759107900" ID="ID_945861580" MODIFIED="1586759145822" TEXT="Array.prototype.every &amp; some">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">&#160;,</font><font color="#b5cea8">3</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">every</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">item</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">item</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">&lt;=</font><font color="#ffffff">&#160;</font><font color="#b5cea8">1</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">});&#160;</font><font color="#7ca668">//&#160;false</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">some</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">item</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">item</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">&lt;=</font><font color="#ffffff">&#160;</font><font color="#b5cea8">1</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">});&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586759448542" ID="ID_98524651" MODIFIED="1586759508842" TEXT="Array.prototype.reduce &amp; reduceRight">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">var</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">arr</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">&#160;,</font><font color="#b5cea8">3</font><font color="#ffffff">];</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">reduce</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">x</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">y</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">x</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">+</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">y</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">});&#160;</font><font color="#7ca668">//&#160;6</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">;&#160;(</font><font color="#b5cea8">3</font><font color="#ffffff">)&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">3</font><font color="#ffffff">]</font>
+      </div>
+      <br />
+      
+
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">.</font><font color="#dcdcaa">reduceRight</font><font color="#ffffff">(</font><font color="#569cd6">function</font><font color="#ffffff">(</font><font color="#9cdcfe">x</font><font color="#ffffff">,&#160;</font><font color="#9cdcfe">y</font><font color="#ffffff">){</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#c586c0">return</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">x</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">&gt;=</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">y</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">?</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">x</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">:</font><font color="#ffffff">&#160;</font><font color="#9cdcfe">y</font><font color="#ffffff">;</font>
+      </div>
+      <div>
+        <font color="#ffffff">});&#160;</font><font color="#7ca668">//&#160;3</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">arr</font><font color="#ffffff">;&#160;(</font><font color="#b5cea8">3</font><font color="#ffffff">)&#160;[</font><font color="#b5cea8">1</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">2</font><font color="#ffffff">,&#160;</font><font color="#b5cea8">3</font><font color="#ffffff">]</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1586759617619" ID="ID_1165729332" MODIFIED="1586759643054" TEXT="Array.prototye.indexOf &amp; lastIndexOf"/>
+</node>
+</node>
+<node CREATED="1586759706628" ID="ID_848443437" MODIFIED="1586759922527" TEXT="Array.isArray">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#4ec9b0">Array</font><font color="#ffffff">.</font><font color="#dcdcaa">isArray</font><font color="#ffffff">([]);&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+      <div>
+        <font color="#ffffff">[]&#160;</font><font color="#569cd6">instanceof</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Array</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+      <div>
+        <font color="#ffffff">({}).</font><font color="#9cdcfe">toString</font><font color="#ffffff">.</font><font color="#dcdcaa">apply</font><font color="#ffffff">([])&#160;</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#ce9178">&quot;[object&#160;Array]&quot;</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+      <div>
+        <font color="#ffffff">[].</font><font color="#9cdcfe">constructor</font><font color="#ffffff">&#160;</font><font color="#d4d4d4">===</font><font color="#ffffff">&#160;</font><font color="#4ec9b0">Array</font><font color="#ffffff">;&#160;</font><font color="#7ca668">//&#160;true</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1586239002993" FOLDED="true" ID="ID_1770845449" MODIFIED="1586567659193" TEXT="&#x51fd;&#x6570;&#x4e0e;&#x4f5c;&#x7528;&#x57df;&#xff08;&#x91cd;&#x70b9;&#xff09;">
 <node CREATED="1585539667131" ID="ID_1224977526" MODIFIED="1586237636946" TEXT="Function">
