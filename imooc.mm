@@ -344,7 +344,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1584929620951" ID="ID_1553774550" MODIFIED="1584929628863" POSITION="right" TEXT="front end">
+<node CREATED="1584929620951" FOLDED="true" ID="ID_1553774550" MODIFIED="1587625054091" POSITION="right" TEXT="front end">
 <node CREATED="1584929695453" ID="ID_1305313691" MODIFIED="1584929698144" TEXT="javascript">
 <node CREATED="1584943937587" ID="ID_1477034044" MODIFIED="1586568859723" TEXT="JavaScript&#x6df1;&#x5165;&#x6d45;&#x51fa;">
 <richcontent TYPE="NOTE"><html>
@@ -2822,8 +2822,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1586756257187" ID="ID_1962111611" MODIFIED="1586756341316" TEXT="Array.prototype.reverse">
 <richcontent TYPE="NOTE"><html>
@@ -3163,8 +3162,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
