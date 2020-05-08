@@ -13,8 +13,7 @@
       <a href="https://www.imooc.com/learn/853">https://www.imooc.com/learn/853</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587872807782" FOLDED="true" ID="ID_763671798" MODIFIED="1588132139993" TEXT="Ansible&#x7b80;&#x4ecb;">
 <node CREATED="1587873632676" ID="ID_1452230681" MODIFIED="1588132127939" TEXT="&#x7528;python&#x7f16;&#x5199;"/>
 <node CREATED="1587872822120" FOLDED="true" ID="ID_996013657" MODIFIED="1588128008945" TEXT="Ansible&#x662f;&#x4e00;&#x4e2a;&#x81ea;&#x52a8;&#x5316;&#x7ba1;&#x7406;IT&#x8d44;&#x6e90;&#x7684;&#x5de5;&#x5177;">
@@ -365,8 +364,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588259905360" ID="ID_1708550350" MODIFIED="1588260011846" TEXT="vi /usr/share/ansible/plugins/modules/my_test.py ">
 <richcontent TYPE="NOTE"><html>
@@ -404,8 +402,7 @@
       })
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588260014022" ID="ID_709677558" MODIFIED="1588260031602" TEXT="ansible all -m my_test.py"/>
 </node>
@@ -413,7 +410,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588257853670" ID="ID_543560580" MODIFIED="1588257855901" TEXT="youku"/>
+<node CREATED="1588257853670" ID="ID_543560580" MODIFIED="1588822944119" TEXT="bilibili"/>
 </node>
 <node CREATED="1588253103282" ID="ID_120770030" MODIFIED="1588253107639" POSITION="left" TEXT="install">
 <node CREATED="1588253111804" ID="ID_878773243" MODIFIED="1588253118146" TEXT="CentOS7">

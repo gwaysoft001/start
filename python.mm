@@ -33,8 +33,7 @@
       edu.aliyun.com/course/154/learn#lesson/1940
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587632149661" FOLDED="true" ID="ID_276975771" MODIFIED="1587696926295" TEXT="Introduction">
 <node CREATED="1587632834998" ID="ID_314480183" MODIFIED="1587632848649" TEXT="version 3.5+"/>
 <node CREATED="1587632856667" ID="ID_1818890715" MODIFIED="1587632866040" TEXT="features">
@@ -701,8 +700,7 @@
       <a href="https://edu.aliyun.com/course/2018/learn#lesson/18487">https://edu.aliyun.com/course/2018/learn#lesson/18487</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587890667400" ID="ID_1585694929" MODIFIED="1587890692404" TEXT="7 tuple dir coll"/>
 <node CREATED="1587890110306" ID="ID_1227500718" MODIFIED="1587890118158" TEXT="10 module &amp; package">
 <node CREATED="1587890119216" ID="ID_292127378" MODIFIED="1587890124904" TEXT="__name__"/>
@@ -721,8 +719,7 @@
       <a href="https://www.imooc.com/learn/853">https://www.imooc.com/learn/853</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587863988428" FOLDED="true" ID="ID_313684647" MODIFIED="1588127867547" TEXT="&#x81ea;&#x52a8;&#x5316;&#x8fd0;&#x7ef4;&#x6982;&#x5ff5;">
 <node CREATED="1587866515734" ID="ID_60203141" MODIFIED="1587866526508" TEXT="&#x8fd0;&#x7ef4;&#x53d1;&#x5c55;&#x9636;&#x6bb5;">
 <node CREATED="1587866527977" FOLDED="true" ID="ID_612426863" MODIFIED="1587866873162" TEXT="&#x4f20;&#x7edf;&#x8fd0;&#x7ef4;">
@@ -1012,6 +1009,21 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1588909625396" ID="ID_1449770963" MODIFIED="1588909628733" TEXT="bilibili">
+<node CREATED="1588909630276" ID="ID_1962827521" MODIFIED="1588909641410" TEXT="2020&#x5e74;Python&#x81ea;&#x52a8;&#x5316;&#x8fd0;&#x7ef4;&#x7cfb;&#x7edf;&#x6027;20&#x8bb2;-&#x7b2c;&#x4e8c;&#x6b21;&#x4f18;&#x5316;&#x7248;">
+<node CREATED="1588909642463" ID="ID_1483687071" MODIFIED="1588909648220" TEXT="https://www.bilibili.com/video/BV1J7411j7JN"/>
+<node CREATED="1588909649080" ID="ID_111342821" MODIFIED="1588909664083" TEXT="1 day">
+<node CREATED="1588909665063" ID="ID_1521473968" MODIFIED="1588909672326" TEXT="psutil"/>
+<node CREATED="1588918052716" ID="ID_236140637" MODIFIED="1588918058905" TEXT="IPy"/>
+<node CREATED="1588922116402" ID="ID_1067271890" MODIFIED="1588922126880" TEXT="dnspython"/>
+</node>
+<node CREATED="1588926777212" ID="ID_1230518042" MODIFIED="1588926779577" TEXT="2 day">
+<node CREATED="1588926782075" ID="ID_56811154" MODIFIED="1588926785064" TEXT="difflib"/>
+<node CREATED="1588930436215" ID="ID_1291251600" MODIFIED="1588930441388" TEXT="filecmp"/>
+</node>
+<node CREATED="1588931307831" ID="ID_453442417" MODIFIED="1588931310532" TEXT="3 day"/>
+</node>
+</node>
 </node>
 <node CREATED="1587635474072" ID="ID_356180196" MODIFIED="1587635483245" POSITION="left" TEXT="reference">
 <node CREATED="1587635506382" ID="ID_444725226" MODIFIED="1588129916883" TEXT="python.org">
@@ -1019,7 +1031,7 @@
 <node CREATED="1587635485087" FOLDED="true" ID="ID_664505517" MODIFIED="1588256367183" TEXT="tutorial">
 <node CREATED="1587635495416" ID="ID_1967656544" MODIFIED="1587635497171" TEXT="https://docs.python.org/3.8/tutorial/index.html"/>
 </node>
-<node CREATED="1587970992590" FOLDED="true" ID="ID_223903130" MODIFIED="1588256361798" TEXT="The Python Standard Libaray">
+<node CREATED="1587970992590" ID="ID_223903130" MODIFIED="1588924856151" TEXT="The Python Standard Libaray">
 <node CREATED="1588129000990" ID="ID_809572698" MODIFIED="1588129002988" TEXT="https://docs.python.org/3/library/"/>
 <node CREATED="1587971105217" ID="ID_496488779" MODIFIED="1587971109010" TEXT="File Format">
 <node CREATED="1587971109917" ID="ID_1517400177" MODIFIED="1587971131883" TEXT="configparser">
@@ -2065,6 +2077,469 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1588909678230" FOLDED="true" ID="ID_511686845" MODIFIED="1588918181454" TEXT="psutil">
+<node CREATED="1588910257634" ID="ID_1587867136" MODIFIED="1588910262088" TEXT="https://pypi.org/project/psutil/"/>
+<node CREATED="1588910107017" ID="ID_328539083" MODIFIED="1588910107958" TEXT="int(psutil.virtual_memory().total/1024/1024/1024)"/>
+<node CREATED="1588910888096" ID="ID_817754744" MODIFIED="1588910946521">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt;&gt;&gt; psutil.Process(6834).connections()
+    </p>
+    <p>
+      [pconn(fd=4, family=2, type=1, laddr=addr(ip='0.0.0.0', port=10050), raddr=(), status='LISTEN'), pconn(fd=5, family=10, type=1, laddr=addr(ip='::', port=10050), raddr=(), status='LISTEN')]
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588910935023" ID="ID_1630486175" MODIFIED="1588910941407">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt;&gt;&gt; psutil.Process(7130).exe()
+    </p>
+    <p>
+      '/usr/bin/python2.7'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588917999412" ID="ID_1590619051" MODIFIED="1588918019206">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      from subprocess import PIPE
+    </p>
+    <p>
+      p = psutil.Popen([&quot;D:/program/Python38/python.exe&quot;,&quot;-c&quot;,&quot;print('hello')&quot;],stdout=PIPE)
+    </p>
+    <p>
+      p.name()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1588918183544" FOLDED="true" ID="ID_1510966894" MODIFIED="1588923981760" TEXT="IPy">
+<node CREATED="1588918188328" ID="ID_1478255232" MODIFIED="1588918190317" TEXT="pip install IPy "/>
+<node CREATED="1588918202664" ID="ID_685942486" MODIFIED="1588918203565" TEXT="https://pypi.org/project/IPy/"/>
+<node CREATED="1588918685856" FOLDED="true" ID="ID_38381307" MODIFIED="1588922091399" TEXT="IP">
+<node CREATED="1588918386605" ID="ID_1088124426" MODIFIED="1588918390872">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt;&gt;&gt; from IPy import IP
+    </p>
+    <p>
+      &gt;&gt;&gt; IP(&quot;10.0.0.0/8&quot;).version()
+    </p>
+    <p>
+      4
+    </p>
+    <p>
+      &gt;&gt;&gt; IP(&quot;::1&quot;).version()
+    </p>
+    <p>
+      6
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1588918692102" ID="ID_852229746" MODIFIED="1588918704112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt;&gt;&gt; import IPy
+    </p>
+    <p>
+      &gt;&gt;&gt; IPy.IP(&quot;10.0.0.0/8&quot;).version()
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1588918921598" ID="ID_229024302" MODIFIED="1588918951949">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;ips = IP(&quot;10.0.0.0/30&quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(ips.len())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;for ip in ips:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;print(ip)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588919084514" ID="ID_1436267091" MODIFIED="1588919088918">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt;&gt;&gt; &quot;192.168.2.1&quot; in IP(&quot;192.168.0.0/16&quot;)
+    </p>
+    <p>
+      True
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588919914940" ID="ID_511412010" MODIFIED="1588919940329">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      from IPy import IP
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ip_s = input(&quot;Input IP address:&quot;)
+    </p>
+    <p>
+      ips = IP(ip_s)
+    </p>
+    <p>
+      if len(ips) &gt; 1:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;print(ips.net())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;print(ips.broadcast())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;print(ips.netmask())
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;print(len(ips))
+    </p>
+    <p>
+      else:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(ips)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(ips.strBin())
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      '''
+    </p>
+    <p>
+      Input IP address:192.168.2.0/24
+    </p>
+    <p>
+      192.168.2.0
+    </p>
+    <p>
+      192.168.2.255
+    </p>
+    <p>
+      255.255.255.0
+    </p>
+    <p>
+      256
+    </p>
+    <p>
+      '''
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588921235036" ID="ID_1764324172" MODIFIED="1588921571287">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      while True:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ip = input(&quot;input ip address: &quot;)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;if ip == &quot;exit&quot;:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;break
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(IP(ip).iptype()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1588922094650" FOLDED="true" ID="ID_1144479083" MODIFIED="1588926774151" TEXT="dnspython">
+<node CREATED="1588922105216" ID="ID_460101562" MODIFIED="1588922106062" TEXT="http://www.dnspython.org/examples.html"/>
+<node CREATED="1588922366511" ID="ID_1232842169" MODIFIED="1588922367571" TEXT="pip install dnspython"/>
+<node CREATED="1588922490859" ID="ID_167928549" MODIFIED="1588922511696" TEXT="A: host -&gt; ip">
+<node CREATED="1588923402908" ID="ID_585618423" MODIFIED="1588923499846">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import dns.resolver
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      A = dns.resolver.query(&quot;baidu.com&quot;, &quot;A&quot;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      for i in A.response.answer:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(i)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      '''
+    </p>
+    <p>
+      baidu.com. 171 IN A 39.156.69.79
+    </p>
+    <p>
+      baidu.com. 171 IN A 220.181.38.148
+    </p>
+    <p>
+      '''
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588924087707" ID="ID_215222503" MODIFIED="1588924091128">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import dns.resolver
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      answers = dns.resolver.query(&quot;oa.ebaotech.com&quot;, &quot;A&quot;)
+    </p>
+    <p>
+      for d in answers:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(d)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588926702111" ID="ID_1970375444" MODIFIED="1588926708885">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import dns.resolver
+    </p>
+    <p>
+      import http.client
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      A = dns.resolver.query(&quot;dnspython.org&quot;, &quot;A&quot;)
+    </p>
+    <p>
+      for d in A.response.answer:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(d)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;ip = d.items[0].address
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(ip)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      conn = http.client.HTTPConnection(&quot;127.0.0.1&quot;,8080)
+    </p>
+    <p>
+      conn.request(&quot;GET&quot;, &quot;/index.html&quot;);
+    </p>
+    <p>
+      response = conn.getresponse()
+    </p>
+    <p>
+      print(response.status, response.reason)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1588922514522" ID="ID_1143744332" MODIFIED="1588922528688" TEXT="MX">
+<node CREATED="1588923264703" ID="ID_1071454546" MODIFIED="1588923271083">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import dns.resolver
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      answers = dns.resolver.query(&quot;baidu.com&quot;, &quot;MX&quot;)
+    </p>
+    <p>
+      for d in answers:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(d.exchange, d.preference)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      '''
+    </p>
+    <p>
+      mx50.baidu.com. 20
+    </p>
+    <p>
+      mx.maillb.baidu.com. 10
+    </p>
+    <p>
+      mx1.baidu.com. 20
+    </p>
+    <p>
+      jpmx.baidu.com. 20
+    </p>
+    <p>
+      mx.n.shifen.com. 15
+    </p>
+    <p>
+      '''
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1588922583572" ID="ID_1351491776" MODIFIED="1588922585409" TEXT="NS"/>
+<node CREATED="1588922587045" FOLDED="true" ID="ID_113229586" MODIFIED="1588923811647" TEXT="CNAME">
+<node CREATED="1588923582937" ID="ID_722542924" MODIFIED="1588923592158" TEXT="&#x522b;&#x540d;"/>
+<node CREATED="1588923784297" ID="ID_681630366" MODIFIED="1588923809071">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;import dns.resolver
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      answers = dns.resolver.query(&quot;www.baidu.com&quot;, &quot;CNAME&quot;)
+    </p>
+    <p>
+      for d in answers:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(d)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      '''
+    </p>
+    <p>
+      www.a.shifen.com.
+    </p>
+    <p>
+      '''
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1587635001754" ID="ID_1691166028" MODIFIED="1587976530516" POSITION="left" TEXT="tools">
 <node CREATED="1587635004594" ID="ID_1719581009" MODIFIED="1587699915601" TEXT="IDLE (&#x81ea;&#x5e26;)">
@@ -2076,6 +2551,134 @@
 <node CREATED="1587635566584" ID="ID_647164855" MODIFIED="1587635590759" TEXT="Ctrl + O: open a file"/>
 </node>
 <node CREATED="1587635184111" ID="ID_580224494" MODIFIED="1587635193660" TEXT="VS Code"/>
+</node>
+<node CREATED="1588910731442" ID="ID_1336411237" MODIFIED="1588910737928" POSITION="right" TEXT="functions">
+<node CREATED="1588910738874" ID="ID_1929523918" MODIFIED="1588910742520" TEXT="list()"/>
+<node CREATED="1588910743844" ID="ID_1639707376" MODIFIED="1588910749736" TEXT="int()"/>
+<node CREATED="1588910751211" ID="ID_25322801" MODIFIED="1588910754208" TEXT="float()"/>
+<node CREATED="1588910755538" ID="ID_689317114" MODIFIED="1588910757968" TEXT="len()"/>
+</node>
+<node CREATED="1588924875336" ID="ID_130872179" MODIFIED="1588924893969" POSITION="right" TEXT="default package">
+<node CREATED="1588926464222" ID="ID_438706406" MODIFIED="1588926466586" TEXT="3">
+<node CREATED="1588924893970" ID="ID_248413037" MODIFIED="1588924915894" TEXT="http.client">
+<node CREATED="1588924906136" ID="ID_272877195" MODIFIED="1588924906957" TEXT="https://docs.python.org/3/library/http.client.html"/>
+</node>
+<node CREATED="1588926470431" ID="ID_1304238300" MODIFIED="1588926471378" TEXT="python -m http.server"/>
+</node>
+<node CREATED="1588927054421" ID="ID_1760233297" MODIFIED="1588927066848" TEXT="2 &amp; 3">
+<node CREATED="1588927067748" FOLDED="true" ID="ID_599144103" MODIFIED="1588928927605" TEXT="difflib">
+<node CREATED="1588928918079" ID="ID_507184057" MODIFIED="1588928923331">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import difflib
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      test1 = &quot;&quot;&quot;1111,
+    </p>
+    <p>
+      2222,
+    </p>
+    <p>
+      3333&quot;&quot;&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      test2 = &quot;1111&quot;\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;deee&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      test1_line = test1.splitlines();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      test2_line = test2.splitlines();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      d = difflib.Differ()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      diff = d.compare(test1_line, test2_line)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      print(&quot;\n&quot;.join(list(diff)))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1588930378080" ID="ID_1549200366" MODIFIED="1588930383033" TEXT="filecmp">
+<node CREATED="1588930642508" ID="ID_653834885" MODIFIED="1588930660622">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      result&#160;=&#160;filecmp.cmp(fileName1,&#160;fileName2)
+    </p>
+    <p>
+      True or False
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1588930952868" ID="ID_248724788" MODIFIED="1588930957772">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      import filecmp
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      result = filecmp.dircmp(&quot;d:/temp&quot;, &quot;d:/tmp&quot;)
+    </p>
+    <p>
+      print(result.report())
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1588931128514" ID="ID_1679673006" MODIFIED="1588931130155" TEXT="result.left_list"/>
+<node CREATED="1588931276135" ID="ID_1918169544" MODIFIED="1588931280736" TEXT="result.common_files"/>
+</node>
+</node>
+<node CREATED="1588931383746" ID="ID_1597240870" MODIFIED="1588931389718" TEXT="smtplib"/>
+</node>
 </node>
 </node>
 </map>

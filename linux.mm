@@ -14,8 +14,7 @@
       current version: CentOS-7-x86_64-DVD-1810.iso
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1551771854883" ID="ID_1892302707" MODIFIED="1561109475547" TEXT="command">
 <node CREATED="1551771830995" ID="ID_1190437359" MODIFIED="1551772221556" TEXT="network">
 <node CREATED="1551771868059" ID="ID_825215649" MODIFIED="1562555406785" TEXT="ifconfig">
@@ -1076,6 +1075,7 @@
 <node CREATED="1584410945205" ID="ID_274731653" MODIFIED="1584414903577" TEXT="remove file or directory: $ rm -f -r &lt;file&gt; &lt;file&gt;"/>
 <node CREATED="1584411051625" ID="ID_1326025018" MODIFIED="1584411072496" TEXT="rename: $ mv &lt;file&gt; &lt;file&gt;"/>
 </node>
+<node CREATED="1588909751156" ID="ID_760455603" MODIFIED="1588909752489" TEXT="free -m | grep Mem | awk &apos;{print $2}&apos; "/>
 </node>
 <node CREATED="1551948235253" ID="ID_428878726" MODIFIED="1552550435130" TEXT="service">
 <node CREATED="1551945820801" ID="ID_408963751" MODIFIED="1562555407338" TEXT="bind">
@@ -1177,6 +1177,42 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1588824626465" ID="ID_1083909237" MODIFIED="1588824633239" TEXT="telnet">
+<node CREATED="1588824633240" ID="ID_405333242" MODIFIED="1588824637794" TEXT="install">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      yum install xinetd
+    </p>
+    <p>
+      yum install telnet
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [root@localhost ~]# systemctl status xinetd.service
+    </p>
+    <p>
+      &#9679; xinetd.service - Xinetd A Powerful Replacement For Inetd
+    </p>
+    <p>
+      &#160;&#160;&#160;Loaded: loaded (/usr/lib/systemd/system/xinetd.service; enabled; vendor preset: enabled)
+    </p>
+    <p>
+      &#160;&#160;&#160;Active: inactive (dead)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1588824643642" ID="ID_622193034" MODIFIED="1588824648475" TEXT="wget">
+<node CREATED="1588824664943" ID="ID_1525528917" MODIFIED="1588824667791" TEXT="yum -y install wget"/>
+<node CREATED="1588824690150" ID="ID_1376236172" MODIFIED="1588824691260" TEXT="wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo"/>
+</node>
 </node>
 <node CREATED="1552291370894" ID="ID_1976790810" MODIFIED="1562555407426" TEXT="shell">
 <richcontent TYPE="NOTE"><html>
@@ -1219,8 +1255,7 @@
       <font color="rgb(51, 51, 51)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif">vi /etc/sysconfig/network-scripts/ifcfg-ens33</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1588044326226" ID="ID_150044474" MODIFIED="1588044836324" TEXT="vi /etc/sysconfig/network-scripts/ifcfg-ens33">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1240,8 +1275,7 @@
       NETMASK=255.255.255.0
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588044761799" ID="ID_1390723828" MODIFIED="1588044769148" TEXT="cd |grep 33"/>
 <node CREATED="1588044871565" ID="ID_1549429165" MODIFIED="1588044892998" TEXT="service network restart | reboot"/>
@@ -1264,8 +1298,7 @@
       <font face="Source Code Pro, DejaVu Sans Mono, Ubuntu Mono, Anonymous Pro, Droid Sans Mono, Menlo, Monaco, Consolas, Inconsolata, Courier, monospace, PingFang SC, Microsoft YaHei, sans-serif" size="14px" color="rgb(51, 51, 51)">export&#160;PATH=&quot;$PATH:/temp/hello&quot;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1302,6 +1335,9 @@
 <node CREATED="1588213510448" MODIFIED="1588213510448" TEXT="Hostname 192.168.2.101"/>
 </node>
 <node CREATED="1588213575155" ID="ID_681704388" MODIFIED="1588213583361" TEXT="ssh 101"/>
+</node>
+<node CREATED="1588825821854" ID="ID_1737132193" MODIFIED="1588825891781" TEXT="add .ssh directory at ~/">
+<node CREATED="1588825844895" ID="ID_326139362" MODIFIED="1588825883365" TEXT="execute one time: ssh root@192.168.2.101"/>
 </node>
 </node>
 <node CREATED="1588214565168" ID="ID_1308850805" MODIFIED="1588214575170" TEXT="set hostname">
@@ -1358,8 +1394,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1588063262772" ID="ID_1815968532" MODIFIED="1588064550391" TEXT="https://blog.csdn.net/GHHCNGC/article/details/101061796?utm_source=distribute.pc_relevant.none-task-blog-baidujs-4">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1400,8 +1435,7 @@
       Settings -&gt; Network Adaptor -&gt; Network connection -&gt; Custom: VMnet8(NAT)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588068940434" ID="ID_353490415" MODIFIED="1588068943997" TEXT="https://blog.csdn.net/CHASEWORLD/article/details/81257702"/>
 </node>
@@ -1495,8 +1529,7 @@
       -------------
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588143594092" ID="ID_239327854" MODIFIED="1588143607914" TEXT="init configuration">
@@ -1519,8 +1552,7 @@
       &#160;&#160;&#160;&#160;yum -y install net-tools.x86_64
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588143633722" ID="ID_947710317" MODIFIED="1588143646794" TEXT="remove Last log">
 <richcontent TYPE="NOTE"><html>
@@ -1541,8 +1573,7 @@
       &#160;&#160;&#160;&#160;reboot
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1595,8 +1626,7 @@
       pscp source user@host:target
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1551778264292" ID="ID_130182963" MODIFIED="1588136484114" TEXT="psftp">
 <node CREATED="1588136476108" ID="ID_1812634054" MODIFIED="1588136483032" TEXT="put">
@@ -1633,8 +1663,7 @@
       command: https://blog.csdn.net/lawliet233/article/details/79430975
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1588141309391" ID="ID_744446793" MODIFIED="1588141334459">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1648,8 +1677,7 @@
       psftp&gt; put d:\tmp\fping-4.2.tar.gz
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588136484115" ID="ID_895646392" MODIFIED="1588141294745" TEXT="get">
@@ -1666,8 +1694,7 @@
       get xxx.txt
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1684,22 +1711,14 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1588824893326" ID="ID_1594494427" MODIFIED="1588824927140" TEXT="configure key pair to login mv">
+<node CREATED="1588824928737" MODIFIED="1588824928737" TEXT="Tools -&gt; New User Key Wizard"/>
+<node CREATED="1588824928739" MODIFIED="1588824928739" TEXT="save xxx.pub to VM"/>
+</node>
 </node>
 </node>
 <node CREATED="1588054133093" ID="ID_968282315" MODIFIED="1588054136452" TEXT="monitor">
-<node CREATED="1588054136453" ID="ID_336030557" MODIFIED="1588054153240" TEXT="http://172.16.30.233/zabbix/zabbix.php?action=dashboard.view">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p class="MsoNormal">
-      <font color="#1F497D">David\D@vid2020<o p="#DEFAULT"></o></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
+<node CREATED="1588054136453" ID="ID_336030557" MODIFIED="1588824758870" TEXT="zabbix.mm"/>
 </node>
 </node>
 </node>
