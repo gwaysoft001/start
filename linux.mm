@@ -209,6 +209,9 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1589268154762" ID="ID_141705518" MODIFIED="1589268163900" TEXT="netstat">
+<node CREATED="1589268157666" ID="ID_60612503" MODIFIED="1589268159171" TEXT="netstat -lnp|grep 18000"/>
+</node>
 </node>
 <node CREATED="1551776347099" ID="ID_1963052222" MODIFIED="1551776357504" TEXT="install">
 <node CREATED="1551773629156" ID="ID_371840669" MODIFIED="1552271539776" TEXT="yum">
@@ -1129,7 +1132,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1552550437039" ID="ID_328495785" MODIFIED="1562555407395" TEXT="iptables">
+<node CREATED="1552550437039" ID="ID_328495785" MODIFIED="1589267345449" TEXT="iptables (centos7 is firewall)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1142,7 +1145,11 @@
       A: /sbin/iptables -I INPUT -p tcp --dport 6379 -j ACCEPT
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+<node CREATED="1589267331050" ID="ID_1668888538" MODIFIED="1589267348253" TEXT="firewall">
+<node CREATED="1589267661881" ID="ID_79381175" MODIFIED="1589267663663" TEXT="https://blog.csdn.net/tanyyinyu/article/details/101569250"/>
+</node>
 </node>
 <node CREATED="1552631885388" ID="ID_940041888" MODIFIED="1562555407404" TEXT="gcc">
 <richcontent TYPE="NOTE"><html>
@@ -1212,6 +1219,80 @@
 <node CREATED="1588824643642" ID="ID_622193034" MODIFIED="1588824648475" TEXT="wget">
 <node CREATED="1588824664943" ID="ID_1525528917" MODIFIED="1588824667791" TEXT="yum -y install wget"/>
 <node CREATED="1588824690150" ID="ID_1376236172" MODIFIED="1588824691260" TEXT="wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo"/>
+</node>
+<node CREATED="1589011507861" FOLDED="true" ID="ID_835406990" MODIFIED="1589165001005" TEXT="tshark">
+<node CREATED="1589011561286" ID="ID_1226532183" MODIFIED="1589011565939">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # step 1 backup
+    </p>
+    <p>
+      mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # step 2 CentOS 7
+    </p>
+    <p>
+      wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # step
+    </p>
+    <p>
+      yum clean all
+    </p>
+    <p>
+      yum makecache
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      tshark -i ens33 | grep ICMP
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1589011896497" ID="ID_1084768457" MODIFIED="1589268137786" TEXT="route">
+<node CREATED="1589011899865" ID="ID_1132452720" MODIFIED="1589011904573">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [root@localhost ~]# route -nee
+    </p>
+    <p>
+      Kernel IP routing table
+    </p>
+    <p>
+      Destination&#160;&#160;&#160;&#160;&#160;Gateway&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Genmask&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Flags Metric Ref&#160;&#160;&#160;&#160;Use Iface&#160;&#160;&#160;&#160;MSS&#160;&#160;&#160;Window irtt
+    </p>
+    <p>
+      0.0.0.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;192.168.2.2&#160;&#160;&#160;&#160;&#160;0.0.0.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;UG&#160;&#160;&#160;&#160;100&#160;&#160;&#160;&#160;0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0 ens33&#160;&#160;&#160;&#160;0&#160;&#160;&#160;&#160;&#160;0&#160;&#160;&#160;&#160;&#160;&#160;0
+    </p>
+    <p>
+      192.168.2.0&#160;&#160;&#160;&#160;&#160;0.0.0.0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;255.255.255.0&#160;&#160;&#160;U&#160;&#160;&#160;&#160;&#160;100&#160;&#160;&#160;&#160;0&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0 ens33&#160;&#160;&#160;&#160;0&#160;&#160;&#160;&#160;&#160;0&#160;&#160;&#160;&#160;&#160;&#160;0
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1589165006923" ID="ID_1295278337" MODIFIED="1589165010892" TEXT="nmap">
+<node CREATED="1589165075352" ID="ID_1274183583" MODIFIED="1589165076616" TEXT="https://nmap.org/"/>
+<node CREATED="1589165559868" ID="ID_419191924" MODIFIED="1589165572498" TEXT="yum install nmap"/>
 </node>
 </node>
 <node CREATED="1552291370894" ID="ID_1976790810" MODIFIED="1562555407426" TEXT="shell">

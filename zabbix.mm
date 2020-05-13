@@ -4,7 +4,7 @@
 <node CREATED="1588824118680" ID="ID_983386440" MODIFIED="1588824120717" POSITION="left" TEXT="install">
 <node CREATED="1588824125273" ID="ID_1828713041" MODIFIED="1588824126214" TEXT="https://github.com/findsec-cn/zabbix"/>
 <node CREATED="1588824182890" ID="ID_1721433746" MODIFIED="1588824419067" TEXT="process">
-<node CREATED="1588824194448" ID="ID_1304661786" MODIFIED="1588824323842" TEXT="prerequisite">
+<node CREATED="1588824194448" ID="ID_1304661786" MODIFIED="1589011726711" TEXT="prerequisite">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -104,8 +104,7 @@
       reboot
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588824325029" ID="ID_809212409" MODIFIED="1588824354897" TEXT="&#x5b89;&#x88c5;Zabbix Server&#x548c;Frontend">
 <richcontent TYPE="NOTE"><html>
@@ -123,8 +122,7 @@
       yum install zabbix-web-mysql
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588824419067" ID="ID_497348473" MODIFIED="1588824444898" TEXT="mysql">
 <richcontent TYPE="NOTE"><html>
@@ -274,10 +272,9 @@
       | acknowledges&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1588824445993" ID="ID_132541779" MODIFIED="1588824505096" TEXT="zabbix server and frontend">
+<node CREATED="1588824445993" ID="ID_132541779" MODIFIED="1589271352327" TEXT="zabbix server and frontend">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -468,8 +465,7 @@
       yum -y install wget
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588824544886" ID="ID_48960108" MODIFIED="1588824562233" TEXT="install agant at CentOS7">
@@ -623,8 +619,7 @@
       [root@localhost ~]# tailf /var/log/zabbix/zabbix_agentd.log
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588824723268" ID="ID_475201880" MODIFIED="1588824725879" POSITION="right" TEXT="ebaotech">
@@ -638,8 +633,7 @@
       <font color="#1F497D">David\D@vid2020</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1587626958014" ID="ID_1316099753" MODIFIED="1587635550587" TEXT="python">
+<node CREATED="1587626958014" ID="ID_1316099753" MODIFIED="1589007029408" TEXT="python">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -12,7 +12,7 @@
   </body>
 </html></richcontent>
 <node CREATED="1587626992106" ID="ID_1188324159" MODIFIED="1587627002101" POSITION="right" TEXT="training">
-<node CREATED="1587627002104" FOLDED="true" ID="ID_475897903" MODIFIED="1588257848951" TEXT="aliyun">
+<node CREATED="1587627002104" FOLDED="true" ID="ID_475897903" MODIFIED="1589007029418" TEXT="aliyun">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -709,7 +709,7 @@
 <node CREATED="1587976626067" ID="ID_1893926429" MODIFIED="1587976627364" TEXT="&#x81ea;&#x52a8;&#x5316;&#x8fd0;&#x7ef4;&#x5de5;&#x5177;Ansible&#x5b9e;&#x6218;"/>
 </node>
 <node CREATED="1587625043900" ID="ID_147320819" MODIFIED="1587976534486" TEXT="imooc">
-<node CREATED="1587863980695" ID="ID_1793009585" MODIFIED="1588253011768" TEXT="python&#x81ea;&#x52a8;&#x5316;&#x8fd0;&#x7ef4;&#x7bc7;">
+<node CREATED="1587863980695" ID="ID_1793009585" MODIFIED="1589007029428" TEXT="python&#x81ea;&#x52a8;&#x5316;&#x8fd0;&#x7ef4;&#x7bc7;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -996,7 +996,7 @@
 <node CREATED="1588253050846" ID="ID_1965433377" MODIFIED="1588253070909" TEXT="Ansible -&gt; ansible.mm"/>
 <node CREATED="1587893775046" ID="ID_1321236323" MODIFIED="1587893787514" TEXT="SaltStack"/>
 </node>
-<node CREATED="1587626439398" ID="ID_132474630" MODIFIED="1587864008301" TEXT="Python&#x6587;&#x4ef6;&#x5904;&#x7406;">
+<node CREATED="1587626439398" ID="ID_132474630" MODIFIED="1589007029438" TEXT="Python&#x6587;&#x4ef6;&#x5904;&#x7406;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1021,12 +1021,30 @@
 <node CREATED="1588926782075" ID="ID_56811154" MODIFIED="1588926785064" TEXT="difflib"/>
 <node CREATED="1588930436215" ID="ID_1291251600" MODIFIED="1588930441388" TEXT="filecmp"/>
 </node>
-<node CREATED="1588931307831" ID="ID_453442417" MODIFIED="1588931310532" TEXT="3 day"/>
+<node CREATED="1588931307831" ID="ID_453442417" MODIFIED="1588931310532" TEXT="3 day">
+<node CREATED="1588995501485" ID="ID_445181846" MODIFIED="1588995505289" TEXT="smtplib"/>
+</node>
+<node CREATED="1588995507637" ID="ID_956143073" MODIFIED="1588995511025" TEXT="4 day">
+<node CREATED="1589007102200" ID="ID_1851614933" MODIFIED="1589007110039" TEXT="pycurl"/>
+<node CREATED="1589007111302" ID="ID_64925860" MODIFIED="1589007121868" TEXT="scapy"/>
+</node>
+<node CREATED="1589016836035" ID="ID_994638641" MODIFIED="1589016839391" TEXT="5 day">
+<node CREATED="1589016839392" ID="ID_509066903" MODIFIED="1589016842065" TEXT="scapy"/>
+<node CREATED="1589164643821" ID="ID_1236127764" MODIFIED="1589164657406" TEXT="pyclamav"/>
+<node CREATED="1589164769023" ID="ID_237512356" MODIFIED="1589164772053" TEXT="nmap"/>
+</node>
+<node CREATED="1589167557545" ID="ID_1743936576" MODIFIED="1589167562900" TEXT="6 day">
+<node CREATED="1589167562913" ID="ID_838124120" MODIFIED="1589167572566" TEXT="paramiko"/>
+</node>
+<node CREATED="1589184833430" ID="ID_174928188" MODIFIED="1589184835772" TEXT="7 day">
+<node CREATED="1589184836671" ID="ID_450781699" MODIFIED="1589184846156" TEXT="fabric"/>
+</node>
 </node>
 </node>
 </node>
 <node CREATED="1587635474072" ID="ID_356180196" MODIFIED="1587635483245" POSITION="left" TEXT="reference">
-<node CREATED="1587635506382" ID="ID_444725226" MODIFIED="1588129916883" TEXT="python.org">
+<node CREATED="1588995321135" ID="ID_1836758198" MODIFIED="1588995322764" TEXT="https://www.runoob.com/python3/python3-tutorial.html"/>
+<node CREATED="1587635506382" ID="ID_444725226" MODIFIED="1588995333603" TEXT="python.org">
 <node CREATED="1587635514209" ID="ID_1103071576" MODIFIED="1587635515468" TEXT="https://docs.python.org/3.8/index.html"/>
 <node CREATED="1587635485087" FOLDED="true" ID="ID_664505517" MODIFIED="1588256367183" TEXT="tutorial">
 <node CREATED="1587635495416" ID="ID_1967656544" MODIFIED="1587635497171" TEXT="https://docs.python.org/3.8/tutorial/index.html"/>
@@ -1035,7 +1053,7 @@
 <node CREATED="1588129000990" ID="ID_809572698" MODIFIED="1588129002988" TEXT="https://docs.python.org/3/library/"/>
 <node CREATED="1587971105217" ID="ID_496488779" MODIFIED="1587971109010" TEXT="File Format">
 <node CREATED="1587971109917" ID="ID_1517400177" MODIFIED="1587971131883" TEXT="configparser">
-<node CREATED="1587975438960" ID="ID_1792579100" MODIFIED="1587975452194" TEXT="*.conf">
+<node CREATED="1587975438960" ID="ID_1792579100" MODIFIED="1589007029463" TEXT="*.conf">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1073,7 +1091,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1587975474025" ID="ID_1625582306" MODIFIED="1587975486871" TEXT="code">
+<node CREATED="1587975474025" ID="ID_1625582306" MODIFIED="1589007029484" TEXT="code">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1454,7 +1472,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1587628517672" FOLDED="true" ID="ID_614081963" MODIFIED="1588257495076" TEXT="python-hpilo">
+<node CREATED="1587628517672" FOLDED="true" ID="ID_614081963" MODIFIED="1589007029508" TEXT="python-hpilo">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2093,8 +2111,7 @@
       [pconn(fd=4, family=2, type=1, laddr=addr(ip='0.0.0.0', port=10050), raddr=(), status='LISTEN'), pconn(fd=5, family=10, type=1, laddr=addr(ip='::', port=10050), raddr=(), status='LISTEN')]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588910935023" ID="ID_1630486175" MODIFIED="1588910941407">
 <richcontent TYPE="NODE"><html>
@@ -2109,8 +2126,7 @@
       '/usr/bin/python2.7'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588917999412" ID="ID_1590619051" MODIFIED="1588918019206">
 <richcontent TYPE="NODE"><html>
@@ -2128,8 +2144,7 @@
       p.name()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588918183544" FOLDED="true" ID="ID_1510966894" MODIFIED="1588923981760" TEXT="IPy">
@@ -2194,8 +2209,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;print(ip)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588919084514" ID="ID_1436267091" MODIFIED="1588919088918">
 <richcontent TYPE="NODE"><html>
@@ -2210,8 +2224,7 @@
       True
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588919914940" ID="ID_511412010" MODIFIED="1588919940329">
 <richcontent TYPE="NODE"><html>
@@ -2286,8 +2299,7 @@
       '''
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588921235036" ID="ID_1764324172" MODIFIED="1588921571287">
 <richcontent TYPE="NODE"><html>
@@ -2311,8 +2323,7 @@
       &#160;&#160;&#160;&#160;print(IP(ip).iptype()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2363,8 +2374,7 @@
       '''
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588924087707" ID="ID_215222503" MODIFIED="1588924091128">
 <richcontent TYPE="NODE"><html>
@@ -2388,8 +2398,7 @@
       &#160;&#160;&#160;&#160;print(d)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588926702111" ID="ID_1970375444" MODIFIED="1588926708885">
 <richcontent TYPE="NODE"><html>
@@ -2437,8 +2446,7 @@
       print(response.status, response.reason)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588922514522" ID="ID_1143744332" MODIFIED="1588922528688" TEXT="MX">
@@ -2491,8 +2499,7 @@
       '''
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588922583572" ID="ID_1351491776" MODIFIED="1588922585409" TEXT="NS"/>
@@ -2535,8 +2542,7 @@
       '''
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -2631,8 +2637,7 @@
       print(&quot;\n&quot;.join(list(diff)))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1588930378080" ID="ID_1549200366" MODIFIED="1588930383033" TEXT="filecmp">
@@ -2649,8 +2654,7 @@
       True or False
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1588930952868" ID="ID_248724788" MODIFIED="1588930957772">
 <richcontent TYPE="NODE"><html>
@@ -2671,13 +2675,559 @@
       print(result.report())
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1588931128514" ID="ID_1679673006" MODIFIED="1588931130155" TEXT="result.left_list"/>
 <node CREATED="1588931276135" ID="ID_1918169544" MODIFIED="1588931280736" TEXT="result.common_files"/>
 </node>
 </node>
-<node CREATED="1588931383746" ID="ID_1597240870" MODIFIED="1588931389718" TEXT="smtplib"/>
+<node CREATED="1588931383746" ID="ID_1597240870" MODIFIED="1588990170271" TEXT="smtplib">
+<node CREATED="1588995218548" ID="ID_181606471" MODIFIED="1588995530351" TEXT="https://www.runoob.com/python/python-email.html">
+<node CREATED="1588995157242" ID="ID_908166085" MODIFIED="1589007029596" TEXT="">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #ffffff; background-color: #000000; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#7ca668">#!/usr/bin/python</font>
+      </div>
+      <div>
+        <font color="#7ca668">#&#160;-*-&#160;coding:&#160;UTF-8&#160;-*-</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#c586c0">import</font><font color="#ffffff">&#160;smtplib</font>
+      </div>
+      <div>
+        <font color="#c586c0">from</font><font color="#ffffff">&#160;email.mime.text&#160;</font><font color="#c586c0">import</font><font color="#ffffff">&#160;MIMEText</font>
+      </div>
+      <div>
+        <font color="#c586c0">from</font><font color="#ffffff">&#160;email.header&#160;</font><font color="#c586c0">import</font><font color="#ffffff">&#160;Header</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#7ca668">#&#160;&#31532;&#19977;&#26041;&#160;SMTP&#160;&#26381;&#21153;</font>
+      </div>
+      <div>
+        <font color="#ffffff">mail_host</font><font color="#d4d4d4">=</font><font color="#ce9178">&quot;smtp.ebaotech.com&quot;</font><font color="#ffffff">&#160;&#160;</font><font color="#7ca668">#&#35774;&#32622;&#26381;&#21153;&#22120;</font>
+      </div>
+      <div>
+        <font color="#ffffff">mail_user</font><font color="#d4d4d4">=</font><font color="#ce9178">&quot;MISAD&quot;</font><font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#7ca668">#&#29992;&#25143;&#21517;</font>
+      </div>
+      <div>
+        <font color="#ffffff">mail_pass</font><font color="#d4d4d4">=</font><font color="#ce9178">&quot;dt_P6NbY&quot;</font><font color="#ffffff">&#160;&#160;&#160;</font><font color="#7ca668">#&#21475;&#20196;&#160;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#ffffff">sender&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#ce9178">'oa@ebaotech.com'</font>
+      </div>
+      <div>
+        <font color="#ffffff">receivers&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;[</font><font color="#ce9178">'oa@ebaotech.com'</font><font color="#ffffff">,&#160;</font><font color="#ce9178">'david.wei@ebaotech.com'</font><font color="#ffffff">]&#160;&#160;</font><font color="#7ca668">#&#160;&#25509;&#25910;&#37038;&#20214;&#65292;&#21487;&#35774;&#32622;&#20026;&#20320;&#30340;QQ&#37038;&#31665;&#25110;&#32773;&#20854;&#20182;&#37038;&#31665;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#ffffff">message&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;MIMEText(</font><font color="#ce9178">'Python&#160;&#37038;&#20214;&#21457;&#36865;&#27979;&#35797;...'</font><font color="#ffffff">,&#160;</font><font color="#ce9178">'plain'</font><font color="#ffffff">,&#160;</font><font color="#ce9178">'utf-8'</font><font color="#ffffff">)</font>
+      </div>
+      <div>
+        <font color="#ffffff">message[</font><font color="#ce9178">'From'</font><font color="#ffffff">]&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;Header(</font><font color="#ce9178">&quot;&#33756;&#40479;&#25945;&#31243;&quot;</font><font color="#ffffff">,&#160;</font><font color="#ce9178">'utf-8'</font><font color="#ffffff">)</font>
+      </div>
+      <div>
+        <font color="#ffffff">message[</font><font color="#ce9178">'To'</font><font color="#ffffff">]&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;&#160;Header(</font><font color="#ce9178">&quot;&#27979;&#35797;&quot;</font><font color="#ffffff">,&#160;</font><font color="#ce9178">'utf-8'</font><font color="#ffffff">)</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#ffffff">subject&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;</font><font color="#ce9178">'Python&#160;SMTP&#160;&#37038;&#20214;&#27979;&#35797;'</font>
+      </div>
+      <div>
+        <font color="#ffffff">message[</font><font color="#ce9178">'Subject'</font><font color="#ffffff">]&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;Header(subject,&#160;</font><font color="#ce9178">'utf-8'</font><font color="#ffffff">)</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;</font>
+      </div>
+      <div>
+        <font color="#c586c0">try</font><font color="#ffffff">:</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;smtpObj&#160;</font><font color="#d4d4d4">=</font><font color="#ffffff">&#160;smtplib.SMTP()&#160;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;smtpObj.connect(mail_host,&#160;</font><font color="#b5cea8">25</font><font color="#ffffff">)&#160;&#160;&#160;&#160;</font><font color="#7ca668">#&#160;25&#160;&#20026;&#160;SMTP&#160;&#31471;&#21475;&#21495;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;smtpObj.login(mail_user,mail_pass)&#160;&#160;</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;smtpObj.sendmail(sender,&#160;receivers,&#160;message.as_string())</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#dcdcaa">print</font><font color="#ffffff">(</font><font color="#ce9178">&quot;&#37038;&#20214;&#21457;&#36865;&#25104;&#21151;&quot;</font><font color="#ffffff">)</font>
+      </div>
+      <div>
+        <font color="#c586c0">except</font><font color="#ffffff">&#160;smtplib.SMTPException:</font>
+      </div>
+      <div>
+        <font color="#ffffff">&#160;&#160;&#160;&#160;</font><font color="#dcdcaa">print</font><font color="#ffffff">(</font><font color="#ce9178">&quot;Error:&#160;&#26080;&#27861;&#21457;&#36865;&#37038;&#20214;&quot;</font><font color="#ffffff">)</font>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1588990159677" ID="ID_501730624" MODIFIED="1588990390735" TEXT="smtplib is SMTP client"/>
+<node CREATED="1588990505562" ID="ID_1975781728" MODIFIED="1588990512596" TEXT="only send email"/>
+<node CREATED="1588990225054" ID="ID_1266550608" MODIFIED="1588990524953" TEXT="https://docs.python.org/3/library/smtplib.html"/>
+</node>
+<node CREATED="1588996038340" ID="ID_6355891" MODIFIED="1588996046085" TEXT="pycurl">
+<node CREATED="1588996046089" ID="ID_1247677304" MODIFIED="1588996065247" TEXT=" $ pip install pycurl "/>
+<node CREATED="1588996074042" ID="ID_301179255" MODIFIED="1588996074799" TEXT="http://pycurl.io/docs/latest/index.html"/>
+<node CREATED="1588997367414" ID="ID_1644179307" MODIFIED="1589007068099" TEXT="./python/pycurl_demo.py"/>
+</node>
+<node CREATED="1589007371998" ID="ID_1412464927" MODIFIED="1589007377285" TEXT="scapy">
+<node CREATED="1589007382390" ID="ID_184320305" MODIFIED="1589007390786" TEXT="pip install scapy"/>
+<node CREATED="1589007377286" ID="ID_993579858" MODIFIED="1589007378483" TEXT="https://scapy.readthedocs.io/en/latest/introduction.html"/>
+<node CREATED="1589007962686" FOLDED="true" ID="ID_112631334" MODIFIED="1589164556197" TEXT="practice">
+<node CREATED="1589013076286" ID="ID_105488636" MODIFIED="1589013079266" TEXT="ICMP">
+<node CREATED="1589012898994" ID="ID_301155737" MODIFIED="1589163871600" TEXT="1">
+<node CREATED="1589008017510" ID="ID_126700412" MODIFIED="1589012096639">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # src vm
+    </p>
+    <p>
+      $ scapy
+    </p>
+    <p>
+      &gt;&gt;&gt; p=IP()
+    </p>
+    <p>
+      &gt;&gt;&gt; p.show()
+    </p>
+    <p>
+      &gt;&gt;&gt; p.dst=&quot;172.18.29.84&quot;
+    </p>
+    <p>
+      &gt;&gt;&gt; send(p/ICMP())
+    </p>
+    <p>
+      .
+    </p>
+    <p>
+      Sent 1 packets.
+    </p>
+    <p>
+      &gt;&gt;&gt; print(&quot;dd&quot;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589011647980" ID="ID_1655411082" MODIFIED="1589012539014">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      dst vm: tshark -i ens33 | grep ICMP
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1177 1162 318.086696621 192.168.2.100 -&gt; 192.168.2.101 ICMP 60 Echo (ping) request&#160;&#160;id=0x0000, seq=0/0, ttl=64
+    </p>
+    <p>
+      1163 318.086746409 192.168.2.101 -&gt; 192.168.2.100 ICMP 42 Echo (ping) <b><font color="#ff0033">reply</font></b>&#160; &#160;&#160;&#160;id=0x0000, seq=0/0, ttl=64 (request in 1162)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1589012910874" FOLDED="true" ID="ID_1300465592" MODIFIED="1589013086846" TEXT="2">
+<node CREATED="1589012303586" ID="ID_693576034" MODIFIED="1589012320678">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # at 192.168.1.100 &#20266;&#36896;ip
+    </p>
+    <p>
+      &gt;&gt;&gt; p.src=&quot;192.168.2.211&quot;
+    </p>
+    <p>
+      &gt;&gt;&gt; send(p/ICMP())
+    </p>
+    <p>
+      .
+    </p>
+    <p>
+      Sent 1 packets.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [root@localhost ~]# tshark -i ens33 | grep ICMP
+    </p>
+    <p>
+      Running as user &quot;root&quot; and group &quot;root&quot;. This could be dangerous.
+    </p>
+    <p>
+      Capturing on 'ens33'
+    </p>
+    <p>
+      525 506 64.485201207 192.168.2.211 -&gt; 192.168.2.101 ICMP 60 Echo (ping) request&#160;&#160;id=0x0000, seq=0/0, ttl=64
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1589012921737" FOLDED="true" ID="ID_22608909" MODIFIED="1589013085492" TEXT="3">
+<node CREATED="1589012886197" ID="ID_558353056" MODIFIED="1589012892312">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt;&gt;&gt; ack, noack=sr(p/ICMP(), timeout=10)
+    </p>
+    <p>
+      Begin emission:
+    </p>
+    <p>
+      Finished sending 1 packets.
+    </p>
+    <p>
+      .*
+    </p>
+    <p>
+      Received 2 packets, got 1 answers, remaining 0 packets
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589013016361" ID="ID_396936645" MODIFIED="1589013020245">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt;&gt;&gt; ack
+    </p>
+    <p>
+      &lt;Results: TCP:0 UDP:0 ICMP:1 Other:0&gt;
+    </p>
+    <p>
+      &gt;&gt;&gt; ack.summary()
+    </p>
+    <p>
+      IP / ICMP 192.168.2.100 &gt; 192.168.2.101 echo-request 0 ==&gt; IP / ICMP 192.168.2.101 &gt; 192.168.2.100 echo-reply 0 / Padding
+    </p>
+    <p>
+      &gt;&gt;&gt; noack.summary()
+    </p>
+    <p>
+      &gt;&gt;&gt; noack
+    </p>
+    <p>
+      &lt;Unanswered: TCP:0 UDP:0 ICMP:0 Other:0&gt;
+    </p>
+    <p>
+      &gt;&gt;&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1589013109292" ID="ID_414220476" MODIFIED="1589013111337" TEXT="TCP">
+<node CREATED="1589014607048" ID="ID_1075406622" MODIFIED="1589014918405" TEXT="1">
+<node CREATED="1589014610113" ID="ID_475958388" MODIFIED="1589014927791">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &gt;&gt;&gt; ack, noack=sr(p/TCP(sport=4000,dport=[18080,18081,18082]))
+    </p>
+    <p>
+      Begin emission:
+    </p>
+    <p>
+      Finished sending 3 packets.
+    </p>
+    <p>
+      *.**
+    </p>
+    <p>
+      Received 4 packets, got 3 answers, remaining 0 packets
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [root@localhost ~]# systemctl stop firewalld
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [root@localhost ~]# tshark -i ens33 | grep 180
+    </p>
+    <p>
+      Running as user &quot;root&quot; and group &quot;root&quot;. This could be dangerous.
+    </p>
+    <p>
+      Capturing on 'ens33'
+    </p>
+    <p>
+      43&#160;&#160;&#160;7 1.618017712 192.168.2.154 -&gt; 192.168.2.100 SSH 106 Encrypted request packet len=52
+    </p>
+    <p>
+      &#160;10 1.637047999 192.168.2.100 -&gt; 192.168.2.101 TCP 60 terabase &gt; 18080 [SYN] Seq=0 Win=8192 Len=0
+    </p>
+    <p>
+      &#160;11 1.637154860 192.168.2.101 -&gt; 192.168.2.100 TCP 54 18080 &gt; terabase [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+    </p>
+    <p>
+      &#160;12 1.642719961 192.168.2.100 -&gt; 192.168.2.101 TCP 60 terabase &gt; 18081 [SYN] Seq=0 Win=8192 Len=0
+    </p>
+    <p>
+      &#160;13 1.642746096 192.168.2.101 -&gt; 192.168.2.100 TCP 54 18081 &gt; terabase [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+    </p>
+    <p>
+      &#160;16 1.649884982 192.168.2.100 -&gt; 192.168.2.101 TCP 60 terabase &gt; 18082 [SYN] Seq=0 Win=8192 Len=0
+    </p>
+    <p>
+      &#160;17 1.649912864 192.168.2.101 -&gt; 192.168.2.100 TCP 54 18082 &gt; terabase [RST, ACK] Seq=1 Ack=1 Win=0 Len=
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1589015849638" ID="ID_1514417037" MODIFIED="1589015850937" TEXT="&gt;&gt;&gt; ack, noack=sr(IP(dst=&quot;172.16.31.1-254&quot;)/ICMP(), timeout=2)"/>
+</node>
+<node CREATED="1589016771245" ID="ID_854160542" MODIFIED="1589016784983" TEXT="traceroute(&quot;www.baiduc.com&quot;)">
+<node CREATED="1589016785770" ID="ID_1873915845" MODIFIED="1589016786967" TEXT="Scapy_Exception: tcpdump is not available. Cannot use filter ! ">
+<node CREATED="1589016788147" ID="ID_87237528" MODIFIED="1589016796504" TEXT="yum install tcpdump"/>
+</node>
+</node>
+</node>
+<node CREATED="1589164568357" ID="ID_983813855" MODIFIED="1589164581523" TEXT="pyclamav">
+<node CREATED="1589164604011" ID="ID_1226252757" MODIFIED="1589164617329" TEXT="&#x626b;&#x63cf;">
+<node CREATED="1589164581524" ID="ID_1728211825" MODIFIED="1589164589480" TEXT="&#x6728;&#x9a6c;"/>
+<node CREATED="1589164590893" ID="ID_431226478" MODIFIED="1589164595440" TEXT="&#x75c5;&#x6bd2;"/>
+<node CREATED="1589164596835" ID="ID_1300690812" MODIFIED="1589164602560" TEXT="&#x6076;&#x610f;&#x8f6f;&#x4ef6;"/>
+</node>
+<node CREATED="1589164670350" ID="ID_1760103383" MODIFIED="1589164674896" TEXT="ClamAV"/>
+</node>
+<node CREATED="1589164751904" ID="ID_720148500" MODIFIED="1589164765332" TEXT="Nmap">
+<node CREATED="1589164886719" ID="ID_49948555" MODIFIED="1589164898110" TEXT="Network Mapper">
+<node CREATED="1589164924925" ID="ID_1919481171" MODIFIED="1589164929183" TEXT="fingerprinting"/>
+</node>
+<node CREATED="1589164947886" ID="ID_1363871849" MODIFIED="1589164971434" TEXT="python&#x64cd;&#x4f5c;nmap"/>
+<node CREATED="1589165843669" ID="ID_510286232" MODIFIED="1589165852817" TEXT="install nmap">
+<node CREATED="1589164976045" ID="ID_996469001" MODIFIED="1589165584026" TEXT="yum install nmap "/>
+<node CREATED="1589165860324" ID="ID_954768917" MODIFIED="1589165867274" TEXT="install in windows"/>
+</node>
+<node CREATED="1589165534776" ID="ID_1915937003" MODIFIED="1589166849117" TEXT="pip install python-nmap"/>
+<node CREATED="1589166911799" ID="ID_1633435493" MODIFIED="1589166912508" TEXT="https://pypi.org/project/python-nmap/"/>
+</node>
+<node CREATED="1589167592131" ID="ID_1022228440" MODIFIED="1589167596414" TEXT="paramiko">
+<node CREATED="1589168405319" ID="ID_1191737419" MODIFIED="1589168409189" TEXT="ssh">
+<node CREATED="1589168410207" ID="ID_342043149" MODIFIED="1589168413148" TEXT="openssh">
+<node CREATED="1589168416079" ID="ID_1039502471" MODIFIED="1589168448141" TEXT="old: telnet"/>
+</node>
+<node CREATED="1589168478169" ID="ID_380016714" MODIFIED="1589168483031" TEXT="SSHv2"/>
+</node>
+<node CREATED="1589168512555" ID="ID_1287952814" MODIFIED="1589168524944" TEXT="python &#x7248;&#x7684;SSH"/>
+<node CREATED="1589168586636" ID="ID_537589529" MODIFIED="1589168587418" TEXT="$ pip install paramiko "/>
+<node CREATED="1589176294834" ID="ID_1244406755" MODIFIED="1589185040690" TEXT="./python/paramiko"/>
+</node>
+<node CREATED="1589184824760" ID="ID_359733137" MODIFIED="1589268701611" TEXT="fabric">
+<node CREATED="1589184939602" ID="ID_56832242" MODIFIED="1589184947936" TEXT="install paramiko first">
+<node CREATED="1589187199197" ID="ID_1410130643" MODIFIED="1589187200546" TEXT="pip install fabric==1.14.0"/>
+</node>
+<node CREATED="1589184963090" ID="ID_710129770" MODIFIED="1589184967407" TEXT="feature">
+<node CREATED="1589184968522" ID="ID_1521740998" MODIFIED="1589184970288" TEXT="run"/>
+<node CREATED="1589184971739" ID="ID_743768746" MODIFIED="1589184974473" TEXT="task"/>
+<node CREATED="1589184976888" ID="ID_862730186" MODIFIED="1589184979697" TEXT="env"/>
+</node>
+<node CREATED="1589176294834" ID="ID_269008634" MODIFIED="1589185052327" TEXT="./python/fabric"/>
+<node CREATED="1589187455932" ID="ID_1850842554" MODIFIED="1589187466697" TEXT="practic">
+<node CREATED="1589187473692" ID="ID_1647205950" MODIFIED="1589187475148" TEXT="1">
+<node CREATED="1589187476267" ID="ID_1661211800" MODIFIED="1589187477901" TEXT="fab -H localhost,192.168.2.101 -- &quot;uname -s&quot; "/>
+</node>
+<node CREATED="1589187480020" ID="ID_598727737" MODIFIED="1589187481035" TEXT="2">
+<node CREATED="1589187212060" ID="ID_79130977" MODIFIED="1589187510832" TEXT="fab -H localhost -f ./fabric_demo.py type_name "/>
+<node CREATED="1589187241158" ID="ID_1632452574" MODIFIED="1589187513521">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [root@localhost fabric]# cat fabric_demo.py
+    </p>
+    <p>
+      from fabric.api import run
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      def type_name():
+    </p>
+    <p>
+      run(&quot;uname -s&quot;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589187374915" ID="ID_786980885" MODIFIED="1589187378645">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [root@localhost fabric]# fab -H localhost,192.168.2.101,192.168.2.129 -f ./fabric_demo.py type_name
+    </p>
+    <p>
+      [localhost] Executing task 'type_name'
+    </p>
+    <p>
+      [localhost] run: uname -s
+    </p>
+    <p>
+      [localhost] out: Linux
+    </p>
+    <p>
+      [localhost] out:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [192.168.2.101] Executing task 'type_name'
+    </p>
+    <p>
+      [192.168.2.101] run: uname -s
+    </p>
+    <p>
+      [192.168.2.101] out: Linux
+    </p>
+    <p>
+      [192.168.2.101] out:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [192.168.2.129] Executing task 'type_name'
+    </p>
+    <p>
+      [192.168.2.129] run: uname -s
+    </p>
+    <p>
+      [192.168.2.129] Login password for 'root':
+    </p>
+    <p>
+      [192.168.2.129] out: Linux
+    </p>
+    <p>
+      [192.168.2.129] out:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Done.
+    </p>
+    <p>
+      Disconnecting from 192.168.2.129... done.
+    </p>
+    <p>
+      Disconnecting from 192.168.2.101... done.
+    </p>
+    <p>
+      Disconnecting from localhost... done.
+    </p>
+    <p>
+      [root@localhost fabric]#
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1589188443334" ID="ID_230435097" MODIFIED="1589188447110" TEXT="3">
+<node CREATED="1589188447110" ID="ID_1736437332" MODIFIED="1589188468625">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # fab -f ./fabric_demo01.py --list
+    </p>
+    <p>
+      # fab -f ./fabric_demo01.py hostname
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1589252171646" ID="ID_248647185" MODIFIED="1589268609611" TEXT="gunicorn">
+<node CREATED="1589252672918" ID="ID_1614022325" MODIFIED="1589252692186" TEXT="not support windows"/>
+<node CREATED="1589252715134" ID="ID_808716976" MODIFIED="1589252716757" TEXT="https://gunicorn.org/#deployment">
+<node CREATED="1589267216942" ID="ID_1591100967" MODIFIED="1589267231126" TEXT="install pip gunicorn"/>
+</node>
+<node CREATED="1589267572272" ID="ID_791065207" MODIFIED="1589267573653" TEXT="gunicorn -w 4 -c config_demo.py myapp:app "/>
+<node CREATED="1589267577031" ID="ID_1182034033" MODIFIED="1589267583012" TEXT="practice">
+<node CREATED="1589267583983" ID="ID_724985485" MODIFIED="1589267604624" TEXT="./python/gunicorn/"/>
+<node CREATED="1589267607111" ID="ID_204858492" MODIFIED="1589267609230" TEXT="gunicorn -w 4 -c config_demo.py myapp:app "/>
+<node CREATED="1589268457895" ID="ID_1763044360" MODIFIED="1589268460065" TEXT="gunicorn -b 192.168.2.100:8000 myapp:app "/>
+<node CREATED="1589268612278" ID="ID_422098264" MODIFIED="1589268615872" TEXT="gunicorn -b 0.0.0.0:8000 myapp:app"/>
+</node>
+</node>
+<node CREATED="1589267851861" ID="ID_588040494" MODIFIED="1589267856799" TEXT="flask">
+<node CREATED="1589267856800" ID="ID_1722157651" MODIFIED="1589267866619" TEXT="pip install flask"/>
+</node>
 </node>
 </node>
 </node>
