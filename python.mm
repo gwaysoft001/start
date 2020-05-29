@@ -1283,7 +1283,7 @@
 <node CREATED="1588255315669" ID="ID_957250202" MODIFIED="1588260627721" TEXT="python -V"/>
 </node>
 <node CREATED="1588253955623" ID="ID_980763013" MODIFIED="1588255712484" POSITION="right" TEXT="packages">
-<node CREATED="1588253964762" FOLDED="true" ID="ID_1956256509" MODIFIED="1588260527195" TEXT="pip">
+<node CREATED="1588253964762" ID="ID_1956256509" MODIFIED="1590738086961" TEXT="pip">
 <node CREATED="1588255626040" ID="ID_1431388667" MODIFIED="1588255646953" TEXT="reference">
 <node CREATED="1588255633108" ID="ID_292142337" MODIFIED="1588255638707" TEXT="https://pip.pypa.io/en/stable/#"/>
 </node>
@@ -1343,7 +1343,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1588255568737" FOLDED="true" ID="ID_108550406" MODIFIED="1588255967925" TEXT="command">
+<node CREATED="1588255568737" ID="ID_108550406" MODIFIED="1590737926091" TEXT="command">
 <node CREATED="1588255726874" ID="ID_1242361400" MODIFIED="1588255964959">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1367,6 +1367,27 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1590748725995" ID="ID_568893595" MODIFIED="1590748727480" TEXT="update">
+<node CREATED="1590737930073" ID="ID_1165843128" MODIFIED="1590748741521">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ python -m pip install --upgrade pip
+    </p>
+    <p>
+      or
+    </p>
+    <p>
+      $ pip install --upgrade pip
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -3073,7 +3094,7 @@
 <node CREATED="1589168586636" ID="ID_537589529" MODIFIED="1589168587418" TEXT="$ pip install paramiko "/>
 <node CREATED="1589176294834" ID="ID_1244406755" MODIFIED="1589185040690" TEXT="./python/paramiko"/>
 </node>
-<node CREATED="1589184824760" ID="ID_359733137" MODIFIED="1589268701611" TEXT="fabric">
+<node CREATED="1589184824760" FOLDED="true" ID="ID_359733137" MODIFIED="1590570888249" TEXT="fabric">
 <node CREATED="1589184939602" ID="ID_56832242" MODIFIED="1589184947936" TEXT="install paramiko first">
 <node CREATED="1589187199197" ID="ID_1410130643" MODIFIED="1589187200546" TEXT="pip install fabric==1.14.0"/>
 </node>
@@ -3206,13 +3227,12 @@
       # fab -f ./fabric_demo01.py hostname
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1589252171646" ID="ID_248647185" MODIFIED="1589268609611" TEXT="gunicorn">
+<node CREATED="1589252171646" FOLDED="true" ID="ID_248647185" MODIFIED="1590570890472" TEXT="gunicorn">
 <node CREATED="1589252672918" ID="ID_1614022325" MODIFIED="1589252692186" TEXT="not support windows"/>
 <node CREATED="1589252715134" ID="ID_808716976" MODIFIED="1589252716757" TEXT="https://gunicorn.org/#deployment">
 <node CREATED="1589267216942" ID="ID_1591100967" MODIFIED="1589267231126" TEXT="install pip gunicorn"/>
@@ -3227,6 +3247,32 @@
 </node>
 <node CREATED="1589267851861" ID="ID_588040494" MODIFIED="1589267856799" TEXT="flask">
 <node CREATED="1589267856800" ID="ID_1722157651" MODIFIED="1589267866619" TEXT="pip install flask"/>
+</node>
+<node CREATED="1590570893851" ID="ID_65372571" MODIFIED="1590570898104" TEXT="boto3">
+<node CREATED="1590737663285" ID="ID_927127136" MODIFIED="1590737666610" TEXT="https://aws.amazon.com/sdk-for-python/"/>
+<node CREATED="1590570880213" ID="ID_1957017394" MODIFIED="1590570884652" TEXT="https://boto3.amazonaws.com/v1/documentation/api/latest/index.html"/>
+<node CREATED="1590738091557" ID="ID_198823756" MODIFIED="1590738093198" TEXT="pip install boto3">
+<node CREATED="1590738122230" ID="ID_288913928" MODIFIED="1590738129246">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td xbackground="">
+          <div id="vt100">
+            <pre>$ pip list | grep boto3                                                         
+boto3           1.13.19                                                         </pre>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>

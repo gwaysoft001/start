@@ -5,7 +5,7 @@
 <node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1588039872892" TEXT="linux.mm"/>
 <node CREATED="1589165962427" ID="ID_542373984" MODIFIED="1589165965436" TEXT="window"/>
 </node>
-<node CREATED="1551771009292" ID="ID_664772960" MODIFIED="1588046045314" POSITION="left" TEXT="linux.mm">
+<node CREATED="1551771009292" ID="ID_664772960" MODIFIED="1590371408562" POSITION="left" TEXT="linux.mm">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -15,7 +15,8 @@
       website: https://www.vmware.com/products/workstation-pro.html
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1551775055923" ID="ID_1618162390" MODIFIED="1551775061544" POSITION="left" TEXT="tools">
 <node CREATED="1551775063659" ID="ID_1384244475" MODIFIED="1583927938474" TEXT="freemind">
@@ -4924,7 +4925,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1564976244023" FOLDED="true" ID="ID_1349072004" MODIFIED="1587627219121" TEXT="network">
+<node CREATED="1564976244023" ID="ID_1349072004" MODIFIED="1590725289702" TEXT="network">
 <node CREATED="1559801702535" ID="ID_369667712" MODIFIED="1562555408059" TEXT="HTTP">
 <richcontent TYPE="NOTE"><html>
   <head>
