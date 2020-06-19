@@ -1,405 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1587627251312" ID="ID_1379027597" MODIFIED="1590055126552" TEXT="Amazon Web Service">
-<node CREATED="1562555992229" ID="ID_1578502825" MODIFIED="1587627338731" POSITION="left" TEXT="registry">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      china: only for enterprise
-    </p>
-    <p>
-      international: personal (email and credit card) and enterprise, and choose Japan
-    </p>
-    <p>
-      Region
-    </p>
-    <p>
-      AZ: availability zone
-    </p>
-    <p>
-      CLi: command line interface
-    </p>
-    <p>
-      TLS: transport layer security
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      https://aws.amazon.com/ec2/getting-started/#tutorials
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1563957868017" ID="ID_11286202" MODIFIED="1587627321027" POSITION="left" TEXT="aws marketplace">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <a href="https://aws.amazon.com/marketplace/">https://aws.amazon.com/marketplace/</a>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1564540295711" FOLDED="true" ID="ID_888946428" MODIFIED="1590738153589" POSITION="left" TEXT="Solutions">
-<node CREATED="1564540373905" ID="ID_1556785972" MODIFIED="1564632094519" TEXT="By Use Case">
-<node CREATED="1564731683273" ID="ID_924719683" MODIFIED="1564733572184" TEXT="Containers">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Fully managed services for every workload
-    </p>
-    <p>
-      AWS deploy containers cluster
-    </p>
-    <ol>
-      <li>
-        AWS ECS
-      </li>
-      <li>
-        AWS Fargate
-      </li>
-      <li>
-        AWS EKS
-      </li>
-      <li>
-        use Kops
-      </li>
-    </ol>
-    <p>
-      
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1564732359306" ID="ID_883890137" MODIFIED="1564732368856" TEXT="ECS"/>
-<node CREATED="1564732370366" ID="ID_556202143" MODIFIED="1564732373556" TEXT="Fargate"/>
-<node CREATED="1564732375936" ID="ID_1495574950" MODIFIED="1564732628264" TEXT="Kops">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      setup Kops -&gt; demain (Route 53 or local zone) -&gt; synchronize status (create S3 bucket, store kubernetes cluster status information) -&gt; configure parameters (export ...)
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1564732383876" ID="ID_276498824" MODIFIED="1564732386606" TEXT="EKS"/>
-</node>
-<node CREATED="1564540381697" ID="ID_1757294746" MODIFIED="1564632003124" TEXT="Serverless Computing">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <a href="https://aws.amazon.com/serverless/?nc2=h_m2">https://aws.amazon.com/serverless/?nc2=h_m2</a>
-    </p>
-    <p>
-      Build and run application without thinking about servers
-    </p>
-    <p>
-      flexible, high availability, CI/CD
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1564542503036" ID="ID_605932627" MODIFIED="1564542508488" TEXT="Compute">
-<node CREATED="1564542508503" ID="ID_913294283" MODIFIED="1564542517037" TEXT="AWS Lambda"/>
-<node CREATED="1564542853342" ID="ID_1346179417" MODIFIED="1564542865994" TEXT="Lambda@Edge"/>
-<node CREATED="1564543002685" ID="ID_617578050" MODIFIED="1564543010812" TEXT="AWS Fargate"/>
-</node>
-<node CREATED="1564543052035" ID="ID_1919519397" MODIFIED="1564543079919" TEXT="Storage">
-<node CREATED="1564543080894" ID="ID_725522471" MODIFIED="1564543102188" TEXT="Amazon Simple Storage Service (S3)"/>
-<node CREATED="1564543203491" ID="ID_1371073295" MODIFIED="1564543217905" TEXT="Amazon Elastic File System (EFS)"/>
-</node>
-<node CREATED="1564543226259" ID="ID_768190049" MODIFIED="1564543231578" TEXT="Data Stores">
-<node CREATED="1564543232787" ID="ID_1192661907" MODIFIED="1564543260508" TEXT="Amazon DynamoDB"/>
-<node CREATED="1564543361733" ID="ID_546911537" MODIFIED="1564543374350" TEXT="Amazon Aurora Serverless"/>
-</node>
-<node CREATED="1564543639352" ID="ID_1941878573" MODIFIED="1564543651020" TEXT="API Proxy">
-<node CREATED="1564543658469" ID="ID_356330179" MODIFIED="1564543711236" TEXT="Amazon API Gateway"/>
-</node>
-<node CREATED="1564543848860" ID="ID_87705880" MODIFIED="1564543862027" TEXT="Application Integration">
-<node CREATED="1564543863314" ID="ID_613359108" MODIFIED="1564543924808" TEXT="Amazon SNS"/>
-<node CREATED="1564555067764" ID="ID_210192654" MODIFIED="1564555075673" TEXT="Amazon SQS"/>
-<node CREATED="1564555077257" ID="ID_1769697734" MODIFIED="1564555083528" TEXT="AWS AppSync"/>
-<node CREATED="1564555213349" ID="ID_1359625265" MODIFIED="1564555224939" TEXT="Amazon EventBridge"/>
-</node>
-<node CREATED="1564555244665" ID="ID_1591187761" MODIFIED="1564555251404" TEXT="Orchestration">
-<node CREATED="1564555252535" ID="ID_508715718" MODIFIED="1564555263939" TEXT="AWS Step Functions"/>
-</node>
-<node CREATED="1564555350211" ID="ID_484149212" MODIFIED="1564555355761" TEXT="Analytics">
-<node CREATED="1564555357851" ID="ID_1653144144" MODIFIED="1564555369111" TEXT="Amazon Kinesis"/>
-<node CREATED="1564555388011" ID="ID_268906227" MODIFIED="1564555398581" TEXT="Amazon Athena"/>
-</node>
-<node CREATED="1564555445885" ID="ID_8924554" MODIFIED="1564555459983" TEXT="Developer tooling"/>
-</node>
-<node CREATED="1564725535286" ID="ID_1604849942" MODIFIED="1569314449730" TEXT="DevOpe">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <a href="https://aws.amazon.com/devops/?nc2=h_m2">https://aws.amazon.com/devops/?nc2=h_m2 </a>
-    </p>
-    <p>
-      <a href="https://www.imooc.com/video/18217">https://www.imooc.com/video/18217</a>
-    </p>
-    <p>
-      Rapidly and reliably build and deliver products using DevOps practices
-    </p>
-    <p>
-      ----------------------
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; Infrastructure Provisioning -&gt; Container Cluster
-    </p>
-    <p>
-      Developers -&gt;Version Control Repository -&gt; Test &amp; Deployment Manager&#160;&#160;&#160;&#160; &#160;&#160;|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;^
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;| &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/|\
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt;Image Build Service -&gt; Image Repository
-    </p>
-    <p>
-      ------------------
-    </p>
-    <p>
-      use AWS Service to CI/CD pipeline
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS CloudFormation -&gt; Amazon ECS
-    </p>
-    <p>
-      Developers -&gt; AWS CodeCommit -&gt; AWS Pipeline
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS CodeBuild (image) -&gt; Amazon ECR
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS Lambda -&gt; Kubernetes
-    </p>
-    <p>
-      Developers -&gt; AWS CodeCommit -&gt; AWS Pipeline
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS CodeBuild (image) -&gt; Amazon ECR
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      ------------------
-    </p>
-    <p>
-      use Jenkins to CI/CD pipeline
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; Infrastructure Provisioning -&gt; Container Cluster (Amazon ECS or Kubernetes)
-    </p>
-    <p>
-      Developers -&gt; Github -&gt; Jenkins server
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; Image Build Service -&gt; Jenkins Slaves
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1564725967281" ID="ID_1123956298" MODIFIED="1564726017241" TEXT="Continuous Integration and Continuous Delivery">
-<node CREATED="1564726032831" ID="ID_1799781827" MODIFIED="1564726310238" TEXT="Software Release Workflows - AWS CodePipeline">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      CodePipeline builds, tests, and deploys your code every time there is a code change, based on the release process models you define.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1564726312888" ID="ID_1832010470" MODIFIED="1564726466171" TEXT="Build and Test Code - AWS CodeBuild">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      AWS CodeBuild is&#160;&#160;a fully managed build service that compiled source code, runs tests, and produces software packages that are ready to deploy.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1564726479821" ID="ID_101993645" MODIFIED="1564726625480" TEXT="Deployment Automation- AWS CodeDeploy">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      AWS CodeDeploy automates code deployments to any instance, including Amazon EC2 instances and on-premises servers.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1564728162076" ID="ID_1483986338" MODIFIED="1564728187146" TEXT="Unified CI/CD Projects - AWS CodeStar"/>
-</node>
-<node CREATED="1564728234796" ID="ID_572996170" MODIFIED="1564728357994" TEXT="Microservices">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Build and deploy a microservices architecture using containers and serverless computing
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1564728344615" ID="ID_1737792476" MODIFIED="1564728403294" TEXT="Production Docker Platform - Amazon Elastic Container Service"/>
-<node CREATED="1564728476773" ID="ID_1175119942" MODIFIED="1564728497583" TEXT="Serverless Computing - AWS Lambda"/>
-</node>
-<node CREATED="1564728538193" ID="ID_132955525" MODIFIED="1564730135866" TEXT="Infrastructure as Code">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Provision, configure, and manage your AWS infrastructure resources using code and template. Monitor and enforce infrastructure compliance.
-    </p>
-    <p>
-      Provision infrastructure from AWS CloudFormation templates, invoke AWS Systems Manager to track your software inventory or to configure your instances, and auto-remediate any configuration drifts with AWS Config.
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1564728725551" ID="ID_313839376" MODIFIED="1564728776850" TEXT="Templated Infrastructure Provisioning - AWS CloudFormation"/>
-<node CREATED="1564728846198" ID="ID_1269440371" MODIFIED="1564728868412" TEXT="Chef Configuration Management - AWS OpsWorks"/>
-<node CREATED="1564729239483" ID="ID_1180845963" MODIFIED="1564729261861" TEXT="Configuration Management - AWS Systems Manager"/>
-<node CREATED="1564729345855" ID="ID_1816169654" MODIFIED="1564729360245" TEXT="Policy as Code - AWS Config"/>
-</node>
-<node CREATED="1564730140257" ID="ID_1655736322" MODIFIED="1564730455950" TEXT="Monitoring and Logging">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Record logs and monitor application and infrastructure performance in near real-time
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1564730457315" ID="ID_944408910" MODIFIED="1564730485434" TEXT="Cloud and Network Monitoring - AWS CouldWatch"/>
-<node CREATED="1564730519886" ID="ID_572133957" MODIFIED="1564730539058" TEXT="Distributed Tracing - AWS X-Ray"/>
-<node CREATED="1564730595974" ID="ID_1467696262" MODIFIED="1564730735906" TEXT="Activity @ API Usage Tracking - AWS CloudTrail">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      AWS CloudTrail is a web service that records AWS API Calls for your account and delivers log files to you.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1564730764916" ID="ID_970719831" MODIFIED="1564730855925" TEXT="Platform as a Service">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Deploy web applications without needing to provision and manage the infrastructure and application stack.
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1564730952634" ID="ID_397190095" MODIFIED="1564730984363" TEXT="Run and Manage Web Apps - AWS Elastic Beanstalk"/>
-</node>
-<node CREATED="1564731179006" ID="ID_224104426" MODIFIED="1564731223256" TEXT="Version Control">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Host secure, highly scalable Git repositories in the cloud
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1564731226136" ID="ID_204397386" MODIFIED="1564731343274" TEXT="Private Git Hosting - AWS CodeCommit">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories.
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1569314437944" ID="ID_1576854417" MODIFIED="1569314511138" TEXT="Internet of Things">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Easily scale to billions of devices and trillions of messages
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1564632094519" ID="ID_1482328457" MODIFIED="1569314448435" TEXT="Website">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Reliable, high scalable, and low cost website and web application hosting
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1564628987331" ID="ID_1932327890" MODIFIED="1564629010482" TEXT="By Industry">
-<node CREATED="1564629018601" ID="ID_1569069674" MODIFIED="1564629746488" TEXT="Automotive">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <a href="https://aws.amazon.com/automotive/?nc2=h_m2">https://aws.amazon.com/automotive/?nc2=h_m2</a>
-    </p>
-    <p>
-      Build intelligent connected experiences and accelerate time to market for every touchpoint of the consumer journey
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1562556957133" FOLDED="true" ID="ID_1244450542" MODIFIED="1590738164010" POSITION="right" TEXT="Products">
+<node CREATED="1562556957133" FOLDED="true" ID="ID_1244450542" MODIFIED="1592208026037" POSITION="right" TEXT="Products">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -409,8 +11,7 @@
       infrastructure is code
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1562557102453" ID="ID_744551971" MODIFIED="1563872461759" TEXT="Feature Service">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -615,6 +216,47 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1591325120111" ID="ID_215908318" MODIFIED="1591325223360" TEXT="instances">
+<node CREATED="1591325131461" ID="ID_782848558" MODIFIED="1591326051438">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      connect
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1591325139206" ID="ID_1502509749" MODIFIED="1591325238167" TEXT="a standalone ssh client"/>
+<node CREATED="1591325148416" ID="ID_1560829509" MODIFIED="1591325156531" TEXT="session manager">
+<node CREATED="1591326053694" ID="ID_485650261" MODIFIED="1591326571098">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#ff0000"><b>must have a public ip, too</b></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591325466703" ID="ID_399618291" MODIFIED="1591325624999" TEXT="add the AmazonSSMManagedInstanceCore policy at least"/>
+<node CREATED="1591325996846" ID="ID_1413591012" MODIFIED="1591326177475" TEXT="without ssh keys and a bastion host"/>
+<node CREATED="1591326573667" ID="ID_614987265" MODIFIED="1591326589809" TEXT="system manager -&gt; session manager">
+<node CREATED="1591326593284" ID="ID_1902806200" MODIFIED="1591326601673" TEXT="to view"/>
+</node>
+</node>
+<node CREATED="1591325158286" ID="ID_306493217" MODIFIED="1591325278136" TEXT="Ec2 instance connect (browser-based ssh connection)"/>
+</node>
+<node CREATED="1591326271812" ID="ID_153532801" MODIFIED="1591326278481" TEXT="default user">
+<node CREATED="1591326258220" ID="ID_1654974995" MODIFIED="1591326262736" TEXT="ec2-user"/>
+<node CREATED="1591326310679" ID="ID_867405671" MODIFIED="1591326318163" TEXT="sudo -i">
+<node CREATED="1591326319149" ID="ID_379760739" MODIFIED="1591326320467" TEXT="root"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1562557031397" ID="ID_1840943853" MODIFIED="1562562201330" TEXT="Amazon EC2 Auto Scaling">
 <richcontent TYPE="NOTE"><html>
@@ -861,8 +503,7 @@
       MySQL and PostgreSQL-compatible relational database built for the cloud. Performance and availability of commercial-grade databases at 1/10th the cost.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1563873940534" ID="ID_167453441" MODIFIED="1565081653794" TEXT="Amazon DynamoDB">
 <richcontent TYPE="NOTE"><html>
@@ -1490,6 +1131,7 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1591154144986" ID="ID_381738404" MODIFIED="1591154145058" TEXT="https://docs.aws.amazon.com/cloudformation/index.html"/>
 </node>
 <node CREATED="1564371873086" ID="ID_573256663" MODIFIED="1570613959158" TEXT="AWS CloudTrail">
 <richcontent TYPE="NOTE"><html>
@@ -1956,7 +1598,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1565319771830" ID="ID_1832001003" MODIFIED="1570614614612" TEXT="AWS Web Application Firewall (WAF)">
+<node CREATED="1565319771830" ID="ID_1832001003" MODIFIED="1591154087252" TEXT="AWS Web Application Firewall (WAF)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1967,6 +1609,12 @@
     </p>
   </body>
 </html></richcontent>
+<node CREATED="1591154146869" ID="ID_1998582762" MODIFIED="1591154147011" TEXT="https://docs.aws.amazon.com/waf/index.html"/>
+<node CREATED="1591154146576" ID="ID_815341774" MODIFIED="1591154146647" TEXT="aws waf security automations">
+<node CREATED="1591082707311" ID="ID_19628909" MODIFIED="1591082763890" TEXT="https://aws.amazon.com/solutions/implementations/aws-waf-security-automations/"/>
+<node CREATED="1591082501842" ID="ID_380460690" MODIFIED="1591082502975" TEXT="https://docs.aws.amazon.com/solutions/latest/aws-waf-security-automations/welcome.html"/>
+<node CREATED="1591082685992" ID="ID_1052927641" MODIFIED="1591082687667" TEXT="https://github.com/awslabs/aws-waf-security-automations"/>
+</node>
 </node>
 <node CREATED="1571389630878" ID="ID_1353278018" MODIFIED="1571389661651" TEXT="Amazon Inspector">
 <richcontent TYPE="NOTE"><html>
@@ -2067,11 +1715,56 @@
 </node>
 </node>
 </node>
+<node CREATED="1562555992229" ID="ID_1578502825" MODIFIED="1587627338731" POSITION="left" TEXT="registry">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      china: only for enterprise
+    </p>
+    <p>
+      international: personal (email and credit card) and enterprise, and choose Japan
+    </p>
+    <p>
+      Region
+    </p>
+    <p>
+      AZ: availability zone
+    </p>
+    <p>
+      CLi: command line interface
+    </p>
+    <p>
+      TLS: transport layer security
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://aws.amazon.com/ec2/getting-started/#tutorials
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1563957868017" ID="ID_11286202" MODIFIED="1587627321027" POSITION="left" TEXT="aws marketplace">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://aws.amazon.com/marketplace/">https://aws.amazon.com/marketplace/</a>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1588731940973" ID="ID_1117454412" MODIFIED="1588731945528" POSITION="right" TEXT="training">
-<node CREATED="1588731946409" ID="ID_733175674" MODIFIED="1590720558698" TEXT="bilibili">
-<node CREATED="1588829979104" ID="ID_832804436" MODIFIED="1590747356624" TEXT="AWS &#x670d;&#x52a1;&#x64cd;&#x4f5c;&#x6307;&#x5357;">
+<node CREATED="1588731946409" ID="ID_733175674" MODIFIED="1591154161048" TEXT="bilibili">
+<node CREATED="1588829979104" ID="ID_832804436" MODIFIED="1592561693761" TEXT="AWS &#x670d;&#x52a1;&#x64cd;&#x4f5c;&#x6307;&#x5357;">
 <node CREATED="1588735361099" ID="ID_1494110648" MODIFIED="1588735382142" TEXT="https://www.bilibili.com/video/BV1ZJ41167LU"/>
-<node CREATED="1588734800352" FOLDED="true" ID="ID_1708444989" MODIFIED="1590747373074" TEXT="1. AWS account, IAM, EC2, S3, Billing alarm">
+<node CREATED="1588734800352" ID="ID_1708444989" MODIFIED="1592561701488" TEXT="1. AWS account, IAM, EC2, S3, Billing alarm">
 <node CREATED="1588734821531" ID="ID_1714851715" MODIFIED="1588825183324" TEXT="Create a new global account">
 <node CREATED="1588734838767" ID="ID_1295605835" MODIFIED="1588734855202" TEXT="http://aws.amazon.com">
 <node CREATED="1588737362390" ID="ID_1862658282" MODIFIED="1588737369296" TEXT="new">
@@ -2206,7 +1899,9 @@
 <node CREATED="1588833959063" ID="ID_1074456638" MODIFIED="1589274258823" TEXT="CLi">
 <node CREATED="1588833964189" ID="ID_1355600475" MODIFIED="1588833965641" TEXT="install">
 <node CREATED="1588833969806" ID="ID_60138005" MODIFIED="1588833971882" TEXT="windows">
-<node CREATED="1588833973412" ID="ID_144864911" MODIFIED="1588833975001" TEXT="https://docs.amazonaws.cn/en_us/cli/latest/userguide/install-cliv2-windows.html"/>
+<node CREATED="1588833973412" ID="ID_144864911" MODIFIED="1588833975001" TEXT="https://docs.amazonaws.cn/en_us/cli/latest/userguide/install-cliv2-windows.html">
+<node CREATED="1591240896151" ID="ID_862585309" MODIFIED="1591240899761" TEXT="msi"/>
+</node>
 <node CREATED="1588833978605" ID="ID_1181703759" MODIFIED="1588833983466" TEXT="aws --version"/>
 </node>
 </node>
@@ -2451,7 +2146,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1589349008439" ID="ID_1973139476" MODIFIED="1590391734973" TEXT="5. VPC">
+<node CREATED="1589349008439" FOLDED="true" ID="ID_1973139476" MODIFIED="1590982128899" TEXT="5. VPC">
 <node CREATED="1589352080282" ID="ID_1752757846" MODIFIED="1589352083535" TEXT="https://www.bilibili.com/video/BV1ZJ41167LU?p=28"/>
 <node CREATED="1589349056172" ID="ID_466469111" MODIFIED="1589351970491" TEXT="internet gateway &lt;=&gt; VPC &lt;=&gt; subnet (route table set internet gateway)"/>
 <node CREATED="1589349256764" ID="ID_414363857" MODIFIED="1589349259502" TEXT="type">
@@ -2781,12 +2476,12 @@
 </node>
 <node CREATED="1589960806604" ID="ID_75455654" MODIFIED="1589960835706" TEXT="19 TCO"/>
 </node>
-<node CREATED="1589964746845" FOLDED="true" ID="ID_610400560" MODIFIED="1590747347047" TEXT="scp-c01 2019">
+<node CREATED="1589964746845" FOLDED="true" ID="ID_610400560" MODIFIED="1591240645528" TEXT="scp-c01 2019">
 <node CREATED="1590551245501" ID="ID_1381597152" MODIFIED="1590551279934" TEXT="website">
 <node CREATED="1589963326423" ID="ID_1502305599" MODIFIED="1589963328076" TEXT="https://www.bilibili.com/video/BV1hJ411U7vd"/>
 <node CREATED="1590551260127" ID="ID_956598606" MODIFIED="1590551262493" TEXT="https://www.iloveaws.cn/"/>
 </node>
-<node CREATED="1590027830383" ID="ID_661874133" MODIFIED="1590733674271" TEXT="aws account">
+<node CREATED="1590027830383" FOLDED="true" ID="ID_661874133" MODIFIED="1591240642361" TEXT="aws account">
 <node CREATED="1590026214665" ID="ID_1546978571" MODIFIED="1590026303556" TEXT="multi aws account is best practice for company">
 <node CREATED="1590026343423" ID="ID_14979960" MODIFIED="1590026507739" TEXT="identity account architecture (cross account iam and federation)">
 <node CREATED="1590026429772" ID="ID_753354848" MODIFIED="1590026439655" TEXT="production account"/>
@@ -3275,8 +2970,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3350,8 +3044,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590573580480" ID="ID_1158170490" MODIFIED="1590573580480" TEXT=""/>
 </node>
@@ -3386,8 +3079,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3504,8 +3196,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       &#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -3630,153 +3321,9 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
 </node>
 <node CREATED="1590646886396" ID="ID_879086880" MODIFIED="1590646896800" TEXT="Elastic Beanstalk"/>
 </node>
-<node CREATED="1590648569557" ID="ID_1422542169" MODIFIED="1590648589980" TEXT="mini">
-<node CREATED="1590648551565" FOLDED="true" ID="ID_230515234" MODIFIED="1590720564706" TEXT="aws waf">
-<node CREATED="1590648597318" ID="ID_1606443789" MODIFIED="1590648597957" TEXT="https://www.bilibili.com/video/BV1t64y1M7Ea?from=search&amp;seid=18092131086904179432"/>
-<node CREATED="1590652890421" ID="ID_1647922765" MODIFIED="1590652917378" TEXT="awf core is web acl"/>
-<node CREATED="1590649557596" FOLDED="true" ID="ID_1075180426" MODIFIED="1590654060977" TEXT="attacked type">
-<node CREATED="1590649573375" ID="ID_1782381439" MODIFIED="1590649587201" TEXT="sql&#x6ce8;&#x5165;"/>
-<node CREATED="1590649590872" ID="ID_709056390" MODIFIED="1590649595104" TEXT="&#x547d;&#x4ee4;&#x6267;&#x884c;"/>
-<node CREATED="1590649596649" ID="ID_564155424" MODIFIED="1590649609934" TEXT="XSS&#x8de8;&#x7ad9;&#x811a;&#x672c;"/>
-<node CREATED="1590649614545" ID="ID_1626534651" MODIFIED="1590649626790" TEXT="WebShell&#x901a;&#x4fe1;"/>
-<node CREATED="1590649631907" ID="ID_156871799" MODIFIED="1590649645168" TEXT="&#x5176;&#x4ed6;"/>
-</node>
-<node CREATED="1590649732103" ID="ID_1173250542" MODIFIED="1590656795002" TEXT="aws CAF">
-<node CREATED="1590650232939" ID="ID_510292635" MODIFIED="1590650238238" TEXT="5 types">
-<node CREATED="1590649737678" FOLDED="true" ID="ID_1056774066" MODIFIED="1590650248570" TEXT="Identity &amp; Access Management">
-<node CREATED="1590649773478" ID="ID_1665676247" MODIFIED="1590649775983" TEXT="IAM"/>
-<node CREATED="1590649778901" ID="ID_1196467171" MODIFIED="1590649798667" TEXT="aws organization"/>
-<node CREATED="1590649800734" ID="ID_1304229560" MODIFIED="1590649806028" TEXT="aws sso"/>
-</node>
-<node CREATED="1590649808864" FOLDED="true" ID="ID_89656150" MODIFIED="1590650251034" TEXT="infrastructure protection">
-<node CREATED="1590649826671" ID="ID_783670850" MODIFIED="1590649832028" TEXT="aws systems manager"/>
-<node CREATED="1590649835319" ID="ID_1012640681" MODIFIED="1590649841886" TEXT="aws shield"/>
-<node CREATED="1590649843295" ID="ID_1948035749" MODIFIED="1590649865854" TEXT="aws waf - Wef Application Firewall"/>
-<node CREATED="1590649870088" ID="ID_929613689" MODIFIED="1590649880181" TEXT="aws firewall manager"/>
-<node CREATED="1590649886344" ID="ID_1903121735" MODIFIED="1590649889149" TEXT="aws vpc"/>
-</node>
-<node CREATED="1590649891336" FOLDED="true" ID="ID_1068193186" MODIFIED="1590650253048" TEXT="data protection">
-<node CREATED="1590649900354" ID="ID_1562852690" MODIFIED="1590649905222" TEXT="aws kms"/>
-</node>
-<node CREATED="1590649913073" FOLDED="true" ID="ID_1211784217" MODIFIED="1590650256276" TEXT="detective control">
-<node CREATED="1590649940961" ID="ID_1615723166" MODIFIED="1590649947757" TEXT="aws security hub"/>
-<node CREATED="1590649949273" ID="ID_897832093" MODIFIED="1590649952675" TEXT="aws config"/>
-<node CREATED="1590649953841" ID="ID_364563210" MODIFIED="1590649961222" TEXT="aws cloudtrail"/>
-<node CREATED="1590649962981" ID="ID_1312450196" MODIFIED="1590649971519" TEXT="amazon cloudwatch"/>
-<node CREATED="1590649973090" ID="ID_772219773" MODIFIED="1590649979440" TEXT="VPC flow logs"/>
-</node>
-<node CREATED="1590649984768" ID="ID_1577910853" MODIFIED="1590649992200" TEXT="incident response"/>
-</node>
-<node CREATED="1590650300460" ID="ID_980472766" MODIFIED="1590650338427" TEXT="&#x8bc6;&#x522b; -&gt; &#x4fdd;&#x62a4; -&gt; &#x68c0;&#x6d4b; -&gt; &#x54cd;&#x5e94; -&gt; &#x6062;&#x590d;">
-<node CREATED="1590650441133" ID="ID_103105172" MODIFIED="1590650448642" TEXT="&#x4e3b;&#x52a8;">
-<node CREATED="1590650448650" ID="ID_356437052" MODIFIED="1590650466572" TEXT="&#x4fdd;&#x62a4; | &#x68c0;&#x6d4b;">
-<node CREATED="1590650377856" ID="ID_625080002" MODIFIED="1590650387943" TEXT="awf awf">
-<node CREATED="1590650695696" ID="ID_989382337" MODIFIED="1590650705142" TEXT="layer 7"/>
-<node CREATED="1590650816059" ID="ID_1892871975" MODIFIED="1590650850979" TEXT="waf policy&#x53ef;&#x4ee5;&#x901a;&#x8fc7; firewall manager&#x5feb;&#x901f;&#x90e8;&#x7f72;"/>
-</node>
-<node CREATED="1590650387944" ID="ID_356071493" MODIFIED="1590650733462" TEXT="aws shield advanced">
-<node CREATED="1590650734246" ID="ID_1300706641" MODIFIED="1590650736293" TEXT="layer 3/"/>
-</node>
-<node CREATED="1590650401182" ID="ID_323176265" MODIFIED="1590650409318" TEXT="aws firewall manager"/>
-</node>
-</node>
-<node CREATED="1590650472395" ID="ID_336619840" MODIFIED="1590651490259" TEXT="&#x88ab;&#x52a8;">
-<node CREATED="1590650477272" ID="ID_1543916702" MODIFIED="1590650491022" TEXT="&#x54cd;&#x5e94; | &#x6062;&#x590d;">
-<node CREATED="1590650492176" ID="ID_1628348148" MODIFIED="1590650575184" TEXT="&#x65e5;&#x5fd7;&#x7684; cloudwatch"/>
-<node CREATED="1590650575915" ID="ID_1459229388" MODIFIED="1590650585229" TEXT="&#x51fa;&#x53d1;&#x7684; lambda">
-<node CREATED="1590650585230" ID="ID_1565893025" MODIFIED="1590650585230" TEXT=""/>
-</node>
-<node CREATED="1590650600326" ID="ID_596594394" MODIFIED="1590650612945" TEXT="&#x68c0;&#x6d4b;&#x7684; inspector"/>
-<node CREATED="1590650623148" ID="ID_421666013" MODIFIED="1590656812778" TEXT="&#x7ba1;&#x7406;&#x7684;&#xff0c;&#x8865;&#x4e01;&#x81ea;&#x52a8;&#x5316; system manager"/>
-<node CREATED="1590650637468" ID="ID_1549565634" MODIFIED="1590650647618" TEXT="&#x81ea;&#x52a8;&#x5316;&#x6a21;&#x677f;&#x7684; cloudformation"/>
-<node CREATED="1590650654372" ID="ID_1001385069" MODIFIED="1590650663202" TEXT="aws config"/>
-</node>
-<node CREATED="1590651490259" ID="ID_623439053" MODIFIED="1590651580532" TEXT="shield advanced IoT button -&gt;  aws shield engagement lambda -&gt; notification topic"/>
-</node>
-</node>
-</node>
-<node CREATED="1590651051234" FOLDED="true" ID="ID_640307199" MODIFIED="1590656793232" TEXT="waf &#x90e8;&#x7f72;&#x65b9;&#x5f0f;">
-<node CREATED="1590651061327" ID="ID_794446076" MODIFIED="1590651069391" TEXT="alb"/>
-<node CREATED="1590651071440" ID="ID_1807761785" MODIFIED="1590651078929" TEXT="api gateway"/>
-<node CREATED="1590651081696" ID="ID_202596439" MODIFIED="1590651089107" TEXT="cloudfront">
-<node CREATED="1590651174243" ID="ID_1224308245" MODIFIED="1590651189244" TEXT="public website best practice"/>
-</node>
-</node>
-<node CREATED="1590651923383" FOLDED="true" ID="ID_1769164179" MODIFIED="1590656790529" TEXT="ipset">
-<node CREATED="1590652055299" ID="ID_652143638" MODIFIED="1590652338746" TEXT="update ipset type">
-<node CREATED="1590652340234" ID="ID_1858412387" MODIFIED="1590652358761" TEXT="http flood, scanner, probes">
-<node CREATED="1590651815742" ID="ID_452426568" MODIFIED="1590655229514" TEXT="trigger: writh log to s3 -&gt; lambda analyse log with athena "/>
-<node CREATED="1590651945451" ID="ID_1013642497" MODIFIED="1590652222674" TEXT="trigger: cloudwatch (rule schedule 5 minutes) -&gt; athena search lambda (http flood, scanner, probes) -&gt; waf ipset"/>
-</node>
-<node CREATED="1590652382084" ID="ID_1363353942" MODIFIED="1590652425707" TEXT="honeypot for bad bots, scrapers ">
-<node CREATED="1590652490686" ID="ID_539362585" MODIFIED="1590652525229" TEXT="trigger inspect -&gt; lambda -&gt; update waf upset"/>
-</node>
-<node CREATED="1590652583787" ID="ID_17097557" MODIFIED="1590652960626" TEXT="ip reputation lists (&#x540c;&#x7b2c;&#x4e09;&#x65b9;ip&#x4fe1;&#x7528;&#x5217;&#x8868;&#x8fc7;&#x6ee4;&#x6076;&#x610f;&#x6d4f;&#x89c8;)">
-<node CREATED="1590652628084" ID="ID_1287026677" MODIFIED="1590652712067">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      trigger: cloud watch every hour -&gt; lambda read IP reputation list&#160;-&gt; update waf ipset
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1590653192332" ID="ID_328490436" MODIFIED="1590653266191" TEXT="cloudformation&#x81ea;&#x52a8;&#x5316;waf&#x6a21;&#x677f;&#xff0c;&#x53ef;&#x4ee5;&#x7075;&#x6d3b;&#x914d;&#x7f6e;8&#x79cd;&#x9632;&#x62a4;&#x529f;&#x80fd;"/>
-</node>
-</node>
-<node CREATED="1590653343391" FOLDED="true" ID="ID_527511402" MODIFIED="1590654063711" TEXT="management">
-<node CREATED="1590653353534" ID="ID_1989064740" MODIFIED="1590653360914" TEXT="security team">
-<node CREATED="1590653360917" ID="ID_1344195226" MODIFIED="1590653694171" TEXT="through aws firewall manager">
-<node CREATED="1590653406800" ID="ID_763380965" MODIFIED="1590653441741" TEXT="cross account at organization"/>
-<node CREATED="1590653443096" ID="ID_626471260" MODIFIED="1590653454095" TEXT="shared rules (rule group)"/>
-<node CREATED="1590653629294" ID="ID_1214319981" MODIFIED="1590653686159" TEXT="check rule compliance"/>
-</node>
-<node CREATED="1590653485123" ID="ID_144960827" MODIFIED="1590653531423" TEXT="aws config setting response fire manager automatically"/>
-<node CREATED="1590653865397" ID="ID_26484435" MODIFIED="1590653946469" TEXT="integrate security hub + firewall manager">
-<node CREATED="1590653955513" ID="ID_634583373" MODIFIED="1590653999501" TEXT="check rule implementation"/>
-</node>
-</node>
-</node>
-<node CREATED="1590654065517" FOLDED="true" ID="ID_827636724" MODIFIED="1590655394923" TEXT="aws waf v2 &#x6258;&#x7ba1;&#x7b56;&#x7565;">
-<node CREATED="1590654171222" ID="ID_338385325" MODIFIED="1590654184050" TEXT="&#x4ece; aws marketplace&#x8ba2;&#x9605;"/>
-<node CREATED="1590654680502" ID="ID_1452447095" MODIFIED="1590654693130" TEXT="sql injection"/>
-</node>
-<node CREATED="1590654858323" FOLDED="true" ID="ID_1044933850" MODIFIED="1590655389037" TEXT="waf &#x914d;&#x7f6e;&#x7b56;&#x7565;">
-<node CREATED="1590654873960" ID="ID_202970198" MODIFIED="1590655334655" TEXT="rule type -&gt; rule builder">
-<node CREATED="1590655266713" ID="ID_1606360811" MODIFIED="1590655291135" TEXT=" a-matchsqli"/>
-<node CREATED="1590655292490" ID="ID_416526042" MODIFIED="1590655299984" TEXT="a-matchxss"/>
-<node CREATED="1590655313501" ID="ID_704501436" MODIFIED="1590655320441" TEXT="a-matchtraversal"/>
-<node CREATED="1590655334655" ID="ID_1423266240" MODIFIED="1590655342922" TEXT="a-matchcsrf"/>
-<node CREATED="1590655355957" ID="ID_933621327" MODIFIED="1590655369578" TEXT="a-matchcontryarealip"/>
-</node>
-</node>
-<node CREATED="1590655398071" FOLDED="true" ID="ID_999404777" MODIFIED="1590656195030" TEXT="aws waf &#x751f;&#x4ea7;&#x90e8;&#x7f72;, &#x76d1;&#x63a7;&#x548c;&#x53ef;&#x89c6;&#x5316;">
-<node CREATED="1590655504946" ID="ID_284048941" MODIFIED="1590655584160" TEXT="solution 1: cloudwatch &#x663e;&#x793a;web acl, &#x9884;&#x5b9a;&#x4e49;&#x9600;&#x503c;&#x8bbe;&#x7f6e;&#x62a5;&#x8b66;"/>
-<node CREATED="1590655836156" ID="ID_1565395639" MODIFIED="1590655854981" TEXT="solution 2: waf console vew waf log">
-<node CREATED="1590656063824" ID="ID_498569514" MODIFIED="1590656103699" TEXT="json&#x65e5;&#x5fd7;&#x5bfc;&#x5165;&#x5230;&#x5176;&#x4ed6;&#x65e5;&#x5fd7;&#x5e73;&#x53f0;"/>
-</node>
-<node CREATED="1590656106537" ID="ID_1135639966" MODIFIED="1590656133875" TEXT="solution 3: &#x4f7f;&#x7528;&#x7b2c;&#x4e09;&#x65b9;&#x76d1;&#x89c6;&#x670d;&#x52a1;">
-<node CREATED="1590656135306" ID="ID_1679534383" MODIFIED="1590656141679" TEXT="splunk"/>
-<node CREATED="1590656145700" ID="ID_1362130916" MODIFIED="1590656150256" TEXT="datadog"/>
-<node CREATED="1590656153368" ID="ID_106714115" MODIFIED="1590656157650" TEXT="sumologic"/>
-</node>
-</node>
-<node CREATED="1590656197156" ID="ID_1766823079" MODIFIED="1590656215473" TEXT="price">
-<node CREATED="1590656216780" ID="ID_468484427" MODIFIED="1590656245867" TEXT="waf &#x6839;&#x636e;web acl&#x4f7f;&#x7528;&#x548c;&#x68c0;&#x67e5;&#x6536;&#x8d39;"/>
-<node CREATED="1590656247457" ID="ID_572224093" MODIFIED="1590656279284" TEXT="log &#x6839;&#x636e;kinesis data firehose&#x6536;&#x8d39;"/>
-<node CREATED="1590656307879" ID="ID_793643966" MODIFIED="1590656416200" TEXT="&#x4f7f;&#x7528;web acl rule,&#x8ba2;&#x9605;&#x89c4;&#x5219; &#x5728;marketplace&#x5c06;&#x6839;&#x636e;&#x8ba2;&#x9605;&#x6536;&#x8d39;&#xff0c;&#x6309;&#x5c0f;&#x65f6;"/>
-<node CREATED="1590656444619" ID="ID_878247286" MODIFIED="1590656525860" TEXT="&#x5982;&#x679c;&#x4f7f;&#x7528;aws shield advanced, waf&#x548c;firewall manager&#x4e0d;&#x6536;&#x8d39;"/>
-</node>
-</node>
-</node>
-<node CREATED="1590721358727" FOLDED="true" ID="ID_173382479" MODIFIED="1590747338327" TEXT="pahub.dev">
+<node CREATED="1590721358727" FOLDED="true" ID="ID_173382479" MODIFIED="1591582139714" TEXT="pahub.dev">
 <node CREATED="1590720746192" ID="ID_460054161" MODIFIED="1590720749139" TEXT="https://www.bilibili.com/video/BV1Uk4y1d7Hh"/>
-<node CREATED="1590720566788" ID="ID_334736366" MODIFIED="1590721404716" TEXT="aws cdk">
+<node CREATED="1590720566788" FOLDED="true" ID="ID_334736366" MODIFIED="1591240635110" TEXT="aws cdk">
 <node CREATED="1590720571563" ID="ID_211949809" MODIFIED="1590721566306" TEXT="infrastructure as code (provision)">
 <node CREATED="1590721834318" ID="ID_902979264" MODIFIED="1590721991246" TEXT="declarative programming (write template, care result)">
 <node CREATED="1590720652167" ID="ID_171551969" MODIFIED="1590721419110" TEXT="cloudformation 2011"/>
@@ -3801,16 +3348,14 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
 <node CREATED="1590722810245" ID="ID_813646243" MODIFIED="1590722818050" TEXT="$ npm --version"/>
 </node>
 <node CREATED="1590722845966" ID="ID_1664446521" MODIFIED="1590722871637" TEXT="install aws-cdk">
-<node CREATED="1590722872695" ID="ID_796071154" MODIFIED="1590722900820" TEXT="$ npm i -g aws-cdk"/>
-<node CREATED="1590722931144" ID="ID_1814754025" MODIFIED="1590722940556" TEXT="-g --global"/>
-<node CREATED="1590731733945" ID="ID_1144889838" MODIFIED="1590731746171">
+<node CREATED="1590731733945" ID="ID_1144889838" MODIFIED="1591240567327">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      D:\tmp\code&gt;npm i -g aws-cdk
+      $ npm i -g aws-cdk
     </p>
     <p>
       D:\program\node-v12.17.0-win-x64\cdk -&gt; D:\program\node-v12.17.0-win-x64\node_modules\aws-cdk\bin\cdk
@@ -3822,9 +3367,9 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       added 211 packages from 186 contributors in 24.467s
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1590722931144" ID="ID_1814754025" MODIFIED="1591240588975" TEXT="-g --global"/>
 </node>
 </node>
 <node CREATED="1590722583705" ID="ID_476758110" MODIFIED="1590732162931" TEXT="create directory code as workspace"/>
@@ -3881,8 +3426,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       &#160;* `cdk synth`&#160;&#160;&#160;&#160;&#160;&#160;&#160;emits the synthesized CloudFormation template
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590732894285" ID="ID_1381195067" MODIFIED="1590732923025" TEXT="$ cdk bootstrap">
@@ -3926,8 +3470,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       &#160;&#9989;&#160;&#160;Environment aws://937435482317/us-east-2 bootstrapped.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590733766177" ID="ID_1912694527" MODIFIED="1590733779598" TEXT="create s3 "/>
 </node>
@@ -3963,13 +3506,629 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       &#160;&#160;&#160;&#160;&#160;&#160;aws:cdk:path: CodeStack/CodeQueue/Resource
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1590734579273" ID="ID_1252745745" MODIFIED="1590734595763" TEXT="$ cdk deploy"/>
 <node CREATED="1590734597894" ID="ID_367368082" MODIFIED="1590734602628" TEXT="$ cdk diff"/>
 <node CREATED="1590734604392" ID="ID_237232325" MODIFIED="1590734614037" TEXT="$ cdk destroy"/>
+</node>
+</node>
+<node CREATED="1591154189229" ID="ID_1662588786" MODIFIED="1591154210778" TEXT="@aws-cdk/aws-ec2">
+<node CREATED="1591154212685" ID="ID_1756251532" MODIFIED="1591154232754" TEXT="developement environment">
+<node CREATED="1591154233797" ID="ID_43743044" MODIFIED="1591154252091" TEXT="mkdir aws-ec2"/>
+<node CREATED="1591154253438" ID="ID_535295409" MODIFIED="1591154259407" TEXT="cd aws-ec2"/>
+<node CREATED="1591154260959" ID="ID_511572279" MODIFIED="1591154273907" TEXT="cdk init -l typescript"/>
+<node CREATED="1591154275085" ID="ID_418482663" MODIFIED="1591238793182">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      npm i @aws-cdk/aws-ec2@1.42.0
+    </p>
+    <p>
+      <font color="#ff0000"><b>as same as @aws-cdk/aws-xxx@1.42.0</b></font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1591322060525" ID="ID_332065389" MODIFIED="1591344310513" TEXT="&#x4e7e;&#x9890;&#x5802;">
+<node CREATED="1591598089561" ID="ID_66017727" MODIFIED="1591674015903" TEXT="aws lambda">
+<node CREATED="1591598745153" ID="ID_876050379" MODIFIED="1591598754302" TEXT="serverless"/>
+<node CREATED="1591599163089" ID="ID_984678376" MODIFIED="1591599166761" TEXT="faas"/>
+<node CREATED="1591608075676" ID="ID_1365502597" MODIFIED="1591608079695" TEXT="practice">
+<node CREATED="1591608080699" ID="ID_809244249" MODIFIED="1591608121441" TEXT="restful -&gt; api gateway -&gt; lambda -&gt; dynamodb"/>
+</node>
+</node>
+<node CREATED="1591322109678" FOLDED="true" ID="ID_1946278616" MODIFIED="1592193729104" TEXT="aws system manager">
+<node CREATED="1591323031783" ID="ID_542653619" MODIFIED="1591323034413" TEXT="https://www.bilibili.com/video/BV1DJ411E7UF?from=search&amp;seid=8422703019452812318"/>
+<node CREATED="1591322122694" ID="ID_528720483" MODIFIED="1591344354445" TEXT="functions">
+<node CREATED="1591323088072" ID="ID_240958961" MODIFIED="1591323096524" TEXT="document"/>
+<node CREATED="1591322135095" ID="ID_417322075" MODIFIED="1591322994038" TEXT="run command">
+<node CREATED="1591322186354" ID="ID_1632877107" MODIFIED="1591323011754" TEXT="let system manager execute command with document"/>
+</node>
+<node CREATED="1591322224538" ID="ID_1153444846" MODIFIED="1591322236188" TEXT="state manager">
+<node CREATED="1591322236188" ID="ID_610858505" MODIFIED="1591327737326" TEXT="duration to run command (default 30 minutes) with document">
+<node CREATED="1591322255770" ID="ID_405476817" MODIFIED="1591322284517" TEXT="e.g. keep the ssm agent is latest"/>
+</node>
+<node CREATED="1591326905783" ID="ID_1010649884" MODIFIED="1591327068486" TEXT="default associations (document list)">
+<node CREATED="1591326952119" ID="ID_1341942777" MODIFIED="1591326976363" TEXT="aws-updateSSMAgent"/>
+<node CREATED="1591326977870" ID="ID_638560334" MODIFIED="1591326997748" TEXT="aws-attachIAMToInstance"/>
+<node CREATED="1591326999359" ID="ID_413569957" MODIFIED="1591327017469" TEXT="aws-gathersoftwareinventory"/>
+<node CREATED="1591327019121" ID="ID_827659325" MODIFIED="1591327029901" TEXT="aws-runPatchBaseline"/>
+</node>
+</node>
+<node CREATED="1591322529905" ID="ID_1767512694" MODIFIED="1591322534082" TEXT="inventory">
+<node CREATED="1591322535962" ID="ID_401538113" MODIFIED="1591322616721" TEXT="storge the configuration information for vm"/>
+</node>
+<node CREATED="1591322620693" ID="ID_1175188500" MODIFIED="1591323890313" TEXT="maintenance windows">
+<node CREATED="1591322641373" ID="ID_1756477948" MODIFIED="1591322668778" TEXT="duration 30 to execute run command"/>
+<node CREATED="1591322709215" ID="ID_924916120" MODIFIED="1591323914662" TEXT="define the schedule (time window) to execute run command">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(84, 91, 100)" face="Amazon Ember, Helvetica Neue, Roboto, Arial, sans-serif" size="17.5px">Automatically perform tasks in defined windows of time.</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1591322688831" ID="ID_306949514" MODIFIED="1591322692386" TEXT="patch manager">
+<node CREATED="1591322814226" ID="ID_288856349" MODIFIED="1591323967981" TEXT="set patch to maintain with state manager"/>
+</node>
+<node CREATED="1591322697078" ID="ID_1583112238" MODIFIED="1591322702450" TEXT="automation">
+<node CREATED="1591322915828" ID="ID_1522966130" MODIFIED="1591322928498" TEXT="like ansible playbook"/>
+</node>
+<node CREATED="1591322933079" ID="ID_1280312016" MODIFIED="1591322942649" TEXT="parameter store">
+<node CREATED="1591322952852" ID="ID_528505482" MODIFIED="1591322986914" TEXT="encryption"/>
+</node>
+<node CREATED="1591326695158" ID="ID_1749389400" MODIFIED="1591326700033" TEXT="session manager">
+<node CREATED="1591326700034" ID="ID_1569517694" MODIFIED="1591326706900" TEXT="connect instance"/>
+</node>
+<node CREATED="1591326862740" ID="ID_145614328" MODIFIED="1591326869585" TEXT="managed instances">
+<node CREATED="1591326870731" ID="ID_829508192" MODIFIED="1591326889634" TEXT="add the stated instance automatically"/>
+<node CREATED="1591328156251" ID="ID_225809541" MODIFIED="1591329582007" TEXT="click instance id -&gt; inventory">
+<node CREATED="1591328184774" ID="ID_1915256100" MODIFIED="1591328208443" TEXT="view the relevant information"/>
+</node>
+<node CREATED="1591329584842" ID="ID_919934752" MODIFIED="1591329603088" TEXT="click aws config at instance list">
+<node CREATED="1591329659589" ID="ID_476917469" MODIFIED="1591329699419" TEXT="view instance configuration"/>
+</node>
+</node>
+</node>
+<node CREATED="1591337020460" ID="ID_1606892970" MODIFIED="1591344369441" TEXT="process">
+<node CREATED="1591337024740" ID="ID_1192088034" MODIFIED="1591343038797" TEXT="documents -&gt; run command (once a time) or state manager (duration, create association), or automation"/>
+</node>
+<node CREATED="1591337613427" ID="ID_190956907" MODIFIED="1591344349387" TEXT="documents">
+<node CREATED="1591337619933" ID="ID_1099517203" MODIFIED="1591337628889" TEXT="like ansible playbook"/>
+</node>
+<node CREATED="1591323245756" ID="ID_736949575" MODIFIED="1591344362563" TEXT="practice">
+<node CREATED="1591337598607" ID="ID_1226977077" MODIFIED="1591337604358" TEXT="session manager">
+<node CREATED="1591323256004" ID="ID_900896615" MODIFIED="1591323309379" TEXT="C &lt;-&gt; S, install ssm agent for managed instance">
+<node CREATED="1591323469811" ID="ID_1698226552" MODIFIED="1591323492511" TEXT="if not ssm agent, you need to install it"/>
+</node>
+</node>
+<node CREATED="1591341545382" ID="ID_128222804" MODIFIED="1591341548867" TEXT="run command">
+<node CREATED="1591341550046" ID="ID_95287849" MODIFIED="1591341579372" TEXT="document: AWS-RunShellScript"/>
+<node CREATED="1591341582032" ID="ID_1909693891" MODIFIED="1591341587666">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      yum install -y python36 python36-virtualenv python36-pip git
+    </p>
+    <p>
+      sudo ln -sf /usr/bin/pip-3.6 /usr/bin/pip3
+    </p>
+    <p>
+      sudo ln -sf /usr/bin/pip-2.7 /usr/bin/pip27
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591341592951" ID="ID_597186173" MODIFIED="1591341600261" TEXT="troubleshooting">
+<node CREATED="1591341636448" ID="ID_1717482960" MODIFIED="1591341658680" TEXT="command support ami">
+<node CREATED="1591341600282" ID="ID_350242692" MODIFIED="1591341631511" TEXT="Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type"/>
+<node CREATED="1591341675842" ID="ID_1286429726" MODIFIED="1591341679431" TEXT="not support">
+<node CREATED="1591341680545" ID="ID_1477029542" MODIFIED="1591341689182" TEXT="Amazon Linux 2 AMI (HVM), SSD Volume Type "/>
+</node>
+</node>
+</node>
+<node CREATED="1591341761764" ID="ID_1644270277" MODIFIED="1591341796067" TEXT="run state manger -&gt; AWS-GatherSoftwareInventory"/>
+</node>
+<node CREATED="1591343079929" ID="ID_433527207" MODIFIED="1591343090876" TEXT="parameter storge">
+<node CREATED="1591343091944" ID="ID_1217131863" MODIFIED="1591343119854" TEXT="create parameter">
+<node CREATED="1591343120864" ID="ID_1629625362" MODIFIED="1591343144413" TEXT="vid: add a volume id"/>
+</node>
+</node>
+<node CREATED="1591343149641" ID="ID_1167248603" MODIFIED="1591343157189" TEXT="automation">
+<node CREATED="1591343161769" ID="ID_403176209" MODIFIED="1591343200079" TEXT="choose document">
+<node CREATED="1591343200906" ID="ID_640086142" MODIFIED="1591343202207" TEXT="Data backup -&gt; AWS-CreateSnapshot"/>
+</node>
+<node CREATED="1591343171194" ID="ID_845335608" MODIFIED="1591343185315" TEXT="add volume id: ">
+<node CREATED="1591343185316" ID="ID_51876558" MODIFIED="1591343190325" TEXT="{{ssm:vid}}"/>
+</node>
+<node CREATED="1591343209363" ID="ID_719181246" MODIFIED="1591343213439" TEXT="execute"/>
+</node>
+<node CREATED="1591343625829" ID="ID_515686338" MODIFIED="1591343647787" TEXT="maintenance windows">
+<node CREATED="1591343648831" ID="ID_602911694" MODIFIED="1591343670964" TEXT="create maintenance windows">
+<node CREATED="1591343671838" ID="ID_1795496434" MODIFIED="1591343676059" TEXT="schedule"/>
+</node>
+<node CREATED="1591343678359" ID="ID_1236757201" MODIFIED="1591343683861" TEXT="action">
+<node CREATED="1591343684839" ID="ID_783273300" MODIFIED="1591343814288" TEXT="register run command task"/>
+<node CREATED="1591343695615" ID="ID_192212866" MODIFIED="1591343818264" TEXT="register automation task"/>
+<node CREATED="1591343820212" ID="ID_1144432310" MODIFIED="1591343826832" TEXT="register lambda task"/>
+</node>
+</node>
+</node>
+<node CREATED="1591344316608" ID="ID_379124210" MODIFIED="1591344341117" TEXT="snapshot">
+<node CREATED="1591344374601" ID="ID_1171716194" MODIFIED="1591344397992" TEXT="vm&apos; soul is snapshot"/>
+<node CREATED="1591346352999" ID="ID_580883699" MODIFIED="1591346365052" TEXT="snapshot lifecycle policy"/>
+<node CREATED="1591346381087" ID="ID_1740462850" MODIFIED="1591346386076" TEXT="process">
+<node CREATED="1591346503507" ID="ID_548003501" MODIFIED="1591346656492" TEXT="detach current volume from instance at snapshot menu">
+<node CREATED="1591346591389" ID="ID_443489648" MODIFIED="1591346619839" TEXT="attachment information">
+<node CREATED="1591346606342" ID="ID_1496761127" MODIFIED="1591346609374" TEXT="/dev/xvda"/>
+</node>
+</node>
+<node CREATED="1591346414824" ID="ID_1002356940" MODIFIED="1591346678910" TEXT="create volume with selected snapshot at snapshot menu"/>
+<node CREATED="1591346389225" ID="ID_1673856414" MODIFIED="1591346699896" TEXT="attach volume new created volume">
+<node CREATED="1591346591389" ID="ID_1594264247" MODIFIED="1591346619839" TEXT="attachment information">
+<node CREATED="1591346606342" ID="ID_1447645263" MODIFIED="1591346609374" TEXT="/dev/xvda"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1591608131853" FOLDED="true" ID="ID_40292427" MODIFIED="1592193722262" TEXT="aws elastic beanstalk">
+<node CREATED="1591683995119" ID="ID_1701863856" MODIFIED="1591754284775">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      yum install git
+    </p>
+    <p>
+      git clone https://gitee.com/qytang/qytang-eb-flask.git
+    </p>
+    <p>
+      cd qytang-eb-flask
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # create virt (current directory) and pip flask and requests
+    </p>
+    <p>
+      # install virtual environment
+    </p>
+    <p>
+      pip3 install virtualenv
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      virtualenv virt
+    </p>
+    <p>
+      # $deactivate (exit virtualenv)
+    </p>
+    <p>
+      source ./virt/bin/activate
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [virt] pip install flask
+    </p>
+    <p>
+      [virt] pip install requests
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # aws beanstalk will read the file to configure
+    </p>
+    <p>
+      [virt] pip freeze
+    </p>
+    <p>
+      [virt] pip freeze &gt; requirements.txt
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # start and test app
+    </p>
+    <p>
+      [virt] python application.py
+    </p>
+    <p>
+      curl http://127.0.0.1:5000
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1591684005952" ID="ID_453530591" MODIFIED="1591684084198">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pip3 install awsebcli
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      $ eb init -p python-3.6 qytang-eb-flask --region us-east-2
+    </p>
+    <p>
+      $ eb init
+    </p>
+    <p>
+      Do you wish to continue with CodeCommit? (y/N) (default is n): n
+    </p>
+    <p>
+      Do you want to set up SSH for your instances?
+    </p>
+    <p>
+      (Y/n): n
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      $ eb create qytang-eb-flask
+    </p>
+    <p>
+      Creating application version archive &quot;app-560e-200609_014900&quot;.
+    </p>
+    <p>
+      Uploading qytang-eb-flask/app-560e-200609_014900.zip to S3. This may take a while.
+    </p>
+    <p>
+      Upload Complete.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # revise code and redeploy
+    </p>
+    <p>
+      $ eb cdeploy
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1592208029071" ID="ID_53571287" MODIFIED="1592208062852" TEXT="aws codeCommit, code deploy, code pipeline">
+<node CREATED="1592208228892" ID="ID_89435061" MODIFIED="1592208234825" TEXT="codeCommit">
+<node CREATED="1592208306568" ID="ID_1097613171" MODIFIED="1592208332357" TEXT="codeCommit-&gt;codeBuild-&gt;codePipeline"/>
+<node CREATED="1592209061883" ID="ID_826255872" MODIFIED="1592209088072" TEXT="create policy for relevant get codeCommit"/>
+<node CREATED="1592209626650" ID="ID_920903566" MODIFIED="1592209649671" TEXT="IAM User HTTP Git credentials"/>
+</node>
+<node CREATED="1592209676402" ID="ID_1863800587" MODIFIED="1592209681800" TEXT="codeDeploy">
+<node CREATED="1592209771845" ID="ID_1479131985" MODIFIED="1592209780354" TEXT="appspec.yml"/>
+<node CREATED="1592210715086" ID="ID_1386321969" MODIFIED="1592210722403" TEXT="create ec2 instance">
+<node CREATED="1592210652188" ID="ID_821143071" MODIFIED="1592210676684" TEXT="install codeDeploy agent at EC2 with user data"/>
+<node CREATED="1592210685622" ID="ID_1618771679" MODIFIED="1592210710157" TEXT="tag important"/>
+</node>
+<node CREATED="1592211293920" ID="ID_332421768" MODIFIED="1592211310467" TEXT="create codeDeploy"/>
+</node>
+<node CREATED="1592211313272" ID="ID_1222014440" MODIFIED="1592211319636" TEXT="codePipeline">
+<node CREATED="1592211395066" ID="ID_514057799" MODIFIED="1592211407605" TEXT="source: codeCommit"/>
+<node CREATED="1592211410586" ID="ID_775714920" MODIFIED="1592211424207" TEXT="deploy: codeDeploy"/>
+</node>
+</node>
+</node>
+<node CREATED="1590648569557" ID="ID_1422542169" MODIFIED="1591582390884" TEXT="mini">
+<node CREATED="1590648551565" FOLDED="true" ID="ID_230515234" MODIFIED="1590996167336" TEXT="aws waf">
+<node CREATED="1590648597318" ID="ID_1606443789" MODIFIED="1590648597957" TEXT="https://www.bilibili.com/video/BV1t64y1M7Ea?from=search&amp;seid=18092131086904179432"/>
+<node CREATED="1590652890421" ID="ID_1647922765" MODIFIED="1590652917378" TEXT="awf core is web acl"/>
+<node CREATED="1590649557596" ID="ID_1075180426" MODIFIED="1590982522170" TEXT="attacked type">
+<node CREATED="1590649573375" ID="ID_1782381439" MODIFIED="1590649587201" TEXT="sql&#x6ce8;&#x5165;"/>
+<node CREATED="1590649590872" ID="ID_709056390" MODIFIED="1590649595104" TEXT="&#x547d;&#x4ee4;&#x6267;&#x884c;"/>
+<node CREATED="1590649596649" ID="ID_564155424" MODIFIED="1590649609934" TEXT="XSS&#x8de8;&#x7ad9;&#x811a;&#x672c;"/>
+<node CREATED="1590649614545" ID="ID_1626534651" MODIFIED="1590649626790" TEXT="WebShell&#x901a;&#x4fe1;"/>
+<node CREATED="1590649631907" ID="ID_156871799" MODIFIED="1590649645168" TEXT="&#x5176;&#x4ed6;"/>
+</node>
+<node CREATED="1590649732103" ID="ID_1173250542" MODIFIED="1590656795002" TEXT="aws CAF">
+<node CREATED="1590650232939" ID="ID_510292635" MODIFIED="1590650238238" TEXT="5 types">
+<node CREATED="1590649737678" FOLDED="true" ID="ID_1056774066" MODIFIED="1590982534259" TEXT="Identity &amp; Access Management">
+<node CREATED="1590649773478" ID="ID_1665676247" MODIFIED="1590649775983" TEXT="IAM"/>
+<node CREATED="1590649778901" ID="ID_1196467171" MODIFIED="1590649798667" TEXT="aws organization"/>
+<node CREATED="1590649800734" ID="ID_1304229560" MODIFIED="1590649806028" TEXT="aws sso"/>
+</node>
+<node CREATED="1590649808864" FOLDED="true" ID="ID_89656150" MODIFIED="1590982542106" TEXT="infrastructure protection">
+<node CREATED="1590649826671" ID="ID_783670850" MODIFIED="1590649832028" TEXT="aws systems manager"/>
+<node CREATED="1590649835319" ID="ID_1012640681" MODIFIED="1590649841886" TEXT="aws shield"/>
+<node CREATED="1590649843295" ID="ID_1948035749" MODIFIED="1590649865854" TEXT="aws waf - Wef Application Firewall"/>
+<node CREATED="1590649870088" ID="ID_929613689" MODIFIED="1590649880181" TEXT="aws firewall manager"/>
+<node CREATED="1590649886344" ID="ID_1903121735" MODIFIED="1590649889149" TEXT="aws vpc"/>
+</node>
+<node CREATED="1590649891336" FOLDED="true" ID="ID_1068193186" MODIFIED="1590994106917" TEXT="data protection">
+<node CREATED="1590649900354" ID="ID_1562852690" MODIFIED="1590649905222" TEXT="aws kms"/>
+</node>
+<node CREATED="1590649913073" FOLDED="true" ID="ID_1211784217" MODIFIED="1590994108277" TEXT="detective control">
+<node CREATED="1590649940961" ID="ID_1615723166" MODIFIED="1590649947757" TEXT="aws security hub"/>
+<node CREATED="1590649949273" ID="ID_897832093" MODIFIED="1590649952675" TEXT="aws config"/>
+<node CREATED="1590649953841" ID="ID_364563210" MODIFIED="1590649961222" TEXT="aws cloudtrail"/>
+<node CREATED="1590649962981" ID="ID_1312450196" MODIFIED="1590649971519" TEXT="amazon cloudwatch"/>
+<node CREATED="1590649973090" ID="ID_772219773" MODIFIED="1590649979440" TEXT="VPC flow logs"/>
+</node>
+<node CREATED="1590649984768" ID="ID_1577910853" MODIFIED="1590649992200" TEXT="incident response"/>
+</node>
+<node CREATED="1590650300460" FOLDED="true" ID="ID_980472766" MODIFIED="1590982140009" TEXT="&#x8bc6;&#x522b; -&gt; &#x4fdd;&#x62a4; -&gt; &#x68c0;&#x6d4b; -&gt; &#x54cd;&#x5e94; -&gt; &#x6062;&#x590d;">
+<node CREATED="1590650441133" ID="ID_103105172" MODIFIED="1590650448642" TEXT="&#x4e3b;&#x52a8;">
+<node CREATED="1590650448650" ID="ID_356437052" MODIFIED="1590650466572" TEXT="&#x4fdd;&#x62a4; | &#x68c0;&#x6d4b;">
+<node CREATED="1590650377856" ID="ID_625080002" MODIFIED="1590650387943" TEXT="awf awf">
+<node CREATED="1590650695696" ID="ID_989382337" MODIFIED="1590650705142" TEXT="layer 7"/>
+<node CREATED="1590650816059" ID="ID_1892871975" MODIFIED="1590650850979" TEXT="waf policy&#x53ef;&#x4ee5;&#x901a;&#x8fc7; firewall manager&#x5feb;&#x901f;&#x90e8;&#x7f72;"/>
+</node>
+<node CREATED="1590650387944" ID="ID_356071493" MODIFIED="1590650733462" TEXT="aws shield advanced">
+<node CREATED="1590650734246" ID="ID_1300706641" MODIFIED="1590650736293" TEXT="layer 3/"/>
+</node>
+<node CREATED="1590650401182" ID="ID_323176265" MODIFIED="1590650409318" TEXT="aws firewall manager"/>
+</node>
+</node>
+<node CREATED="1590650472395" ID="ID_336619840" MODIFIED="1590651490259" TEXT="&#x88ab;&#x52a8;">
+<node CREATED="1590650477272" ID="ID_1543916702" MODIFIED="1590650491022" TEXT="&#x54cd;&#x5e94; | &#x6062;&#x590d;">
+<node CREATED="1590650492176" ID="ID_1628348148" MODIFIED="1590650575184" TEXT="&#x65e5;&#x5fd7;&#x7684; cloudwatch"/>
+<node CREATED="1590650575915" ID="ID_1459229388" MODIFIED="1590650585229" TEXT="&#x51fa;&#x53d1;&#x7684; lambda">
+<node CREATED="1590650585230" ID="ID_1565893025" MODIFIED="1590650585230" TEXT=""/>
+</node>
+<node CREATED="1590650600326" ID="ID_596594394" MODIFIED="1590650612945" TEXT="&#x68c0;&#x6d4b;&#x7684; inspector"/>
+<node CREATED="1590650623148" ID="ID_421666013" MODIFIED="1590656812778" TEXT="&#x7ba1;&#x7406;&#x7684;&#xff0c;&#x8865;&#x4e01;&#x81ea;&#x52a8;&#x5316; system manager"/>
+<node CREATED="1590650637468" ID="ID_1549565634" MODIFIED="1590650647618" TEXT="&#x81ea;&#x52a8;&#x5316;&#x6a21;&#x677f;&#x7684; cloudformation"/>
+<node CREATED="1590650654372" ID="ID_1001385069" MODIFIED="1590650663202" TEXT="aws config"/>
+</node>
+<node CREATED="1590651490259" ID="ID_623439053" MODIFIED="1590651580532" TEXT="shield advanced IoT button -&gt;  aws shield engagement lambda -&gt; notification topic"/>
+</node>
+</node>
+</node>
+<node CREATED="1590651051234" ID="ID_640307199" MODIFIED="1590982554568" TEXT="waf &#x90e8;&#x7f72;&#x65b9;&#x5f0f;">
+<node CREATED="1590651061327" ID="ID_794446076" MODIFIED="1590651069391" TEXT="alb"/>
+<node CREATED="1590651071440" ID="ID_1807761785" MODIFIED="1590651078929" TEXT="api gateway"/>
+<node CREATED="1590651081696" ID="ID_202596439" MODIFIED="1590651089107" TEXT="cloudfront">
+<node CREATED="1590651174243" ID="ID_1224308245" MODIFIED="1590651189244" TEXT="public website best practice"/>
+</node>
+</node>
+<node CREATED="1590651923383" ID="ID_1769164179" MODIFIED="1590982563839" TEXT="ipset">
+<node CREATED="1590652055299" ID="ID_652143638" MODIFIED="1590652338746" TEXT="update ipset type">
+<node CREATED="1590652340234" ID="ID_1858412387" MODIFIED="1590652358761" TEXT="http flood, scanner, probes">
+<node CREATED="1590651815742" ID="ID_452426568" MODIFIED="1590655229514" TEXT="trigger: writh log to s3 -&gt; lambda analyse log with athena "/>
+<node CREATED="1590651945451" ID="ID_1013642497" MODIFIED="1590652222674" TEXT="trigger: cloudwatch (rule schedule 5 minutes) -&gt; athena search lambda (http flood, scanner, probes) -&gt; waf ipset"/>
+</node>
+<node CREATED="1590652382084" ID="ID_1363353942" MODIFIED="1590652425707" TEXT="honeypot for bad bots, scrapers ">
+<node CREATED="1590652490686" ID="ID_539362585" MODIFIED="1590652525229" TEXT="trigger inspect -&gt; lambda -&gt; update waf upset"/>
+</node>
+<node CREATED="1590652583787" ID="ID_17097557" MODIFIED="1590652960626" TEXT="ip reputation lists (&#x540c;&#x7b2c;&#x4e09;&#x65b9;ip&#x4fe1;&#x7528;&#x5217;&#x8868;&#x8fc7;&#x6ee4;&#x6076;&#x610f;&#x6d4f;&#x89c8;)">
+<node CREATED="1590652628084" ID="ID_1287026677" MODIFIED="1590652712067">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      trigger: cloud watch every hour -&gt; lambda read IP reputation list&#160;-&gt; update waf ipset
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1590653192332" ID="ID_328490436" MODIFIED="1590653266191" TEXT="cloudformation&#x81ea;&#x52a8;&#x5316;waf&#x6a21;&#x677f;&#xff0c;&#x53ef;&#x4ee5;&#x7075;&#x6d3b;&#x914d;&#x7f6e;8&#x79cd;&#x9632;&#x62a4;&#x529f;&#x80fd;"/>
+</node>
+</node>
+<node CREATED="1590653343391" ID="ID_527511402" MODIFIED="1590982616896" TEXT="management">
+<node CREATED="1590653353534" ID="ID_1989064740" MODIFIED="1590653360914" TEXT="security team">
+<node CREATED="1590653360917" ID="ID_1344195226" MODIFIED="1590653694171" TEXT="through aws firewall manager">
+<node CREATED="1590653406800" ID="ID_763380965" MODIFIED="1590653441741" TEXT="cross account at organization"/>
+<node CREATED="1590653443096" ID="ID_626471260" MODIFIED="1590653454095" TEXT="shared rules (rule group)"/>
+<node CREATED="1590653629294" ID="ID_1214319981" MODIFIED="1590653686159" TEXT="check rule compliance"/>
+</node>
+<node CREATED="1590653485123" ID="ID_144960827" MODIFIED="1590653531423" TEXT="aws config setting response fire manager automatically"/>
+<node CREATED="1590653865397" ID="ID_26484435" MODIFIED="1590653946469" TEXT="integrate security hub + firewall manager">
+<node CREATED="1590653955513" ID="ID_634583373" MODIFIED="1590653999501" TEXT="check rule implementation"/>
+</node>
+</node>
+</node>
+<node CREATED="1590654065517" ID="ID_827636724" MODIFIED="1590982646420" TEXT="aws waf v2 &#x6258;&#x7ba1;&#x7b56;&#x7565;">
+<node CREATED="1590654171222" ID="ID_338385325" MODIFIED="1590654184050" TEXT="&#x4ece; aws marketplace&#x8ba2;&#x9605;"/>
+<node CREATED="1590654680502" ID="ID_1452447095" MODIFIED="1590654693130" TEXT="sql injection"/>
+</node>
+<node CREATED="1590654858323" ID="ID_1044933850" MODIFIED="1590982654302" TEXT="waf &#x914d;&#x7f6e;&#x7b56;&#x7565;">
+<node CREATED="1590654873960" ID="ID_202970198" MODIFIED="1590655334655" TEXT="rule type -&gt; rule builder">
+<node CREATED="1590655266713" ID="ID_1606360811" MODIFIED="1590655291135" TEXT=" a-matchsqli"/>
+<node CREATED="1590655292490" ID="ID_416526042" MODIFIED="1590655299984" TEXT="a-matchxss"/>
+<node CREATED="1590655313501" ID="ID_704501436" MODIFIED="1590655320441" TEXT="a-matchtraversal"/>
+<node CREATED="1590655334655" ID="ID_1423266240" MODIFIED="1590655342922" TEXT="a-matchcsrf"/>
+<node CREATED="1590655355957" ID="ID_933621327" MODIFIED="1590655369578" TEXT="a-matchcontryarealip"/>
+</node>
+</node>
+<node CREATED="1590655398071" ID="ID_999404777" MODIFIED="1590982661833" TEXT="aws waf &#x751f;&#x4ea7;&#x90e8;&#x7f72;, &#x76d1;&#x63a7;&#x548c;&#x53ef;&#x89c6;&#x5316;">
+<node CREATED="1590655504946" ID="ID_284048941" MODIFIED="1590655584160" TEXT="solution 1: cloudwatch &#x663e;&#x793a;web acl, &#x9884;&#x5b9a;&#x4e49;&#x9600;&#x503c;&#x8bbe;&#x7f6e;&#x62a5;&#x8b66;"/>
+<node CREATED="1590655836156" ID="ID_1565395639" MODIFIED="1590982688533" TEXT="solution 2: waf console view waf log">
+<node CREATED="1590656063824" ID="ID_498569514" MODIFIED="1590656103699" TEXT="json&#x65e5;&#x5fd7;&#x5bfc;&#x5165;&#x5230;&#x5176;&#x4ed6;&#x65e5;&#x5fd7;&#x5e73;&#x53f0;"/>
+</node>
+<node CREATED="1590656106537" ID="ID_1135639966" MODIFIED="1590656133875" TEXT="solution 3: &#x4f7f;&#x7528;&#x7b2c;&#x4e09;&#x65b9;&#x76d1;&#x89c6;&#x670d;&#x52a1;">
+<node CREATED="1590656135306" ID="ID_1679534383" MODIFIED="1590656141679" TEXT="splunk"/>
+<node CREATED="1590656145700" ID="ID_1362130916" MODIFIED="1590656150256" TEXT="datadog"/>
+<node CREATED="1590656153368" ID="ID_106714115" MODIFIED="1590656157650" TEXT="sumologic"/>
+</node>
+</node>
+<node CREATED="1590656197156" ID="ID_1766823079" MODIFIED="1590656215473" TEXT="price">
+<node CREATED="1590656216780" ID="ID_468484427" MODIFIED="1590656245867" TEXT="waf &#x6839;&#x636e;web acl&#x4f7f;&#x7528;&#x548c;&#x68c0;&#x67e5;&#x6536;&#x8d39;"/>
+<node CREATED="1590656247457" ID="ID_572224093" MODIFIED="1590656279284" TEXT="log &#x6839;&#x636e;kinesis data firehose&#x6536;&#x8d39;"/>
+<node CREATED="1590656307879" ID="ID_793643966" MODIFIED="1590656416200" TEXT="&#x4f7f;&#x7528;web acl rule,&#x8ba2;&#x9605;&#x89c4;&#x5219; &#x5728;marketplace&#x5c06;&#x6839;&#x636e;&#x8ba2;&#x9605;&#x6536;&#x8d39;&#xff0c;&#x6309;&#x5c0f;&#x65f6;"/>
+<node CREATED="1590656444619" ID="ID_878247286" MODIFIED="1590656525860" TEXT="&#x5982;&#x679c;&#x4f7f;&#x7528;aws shield advanced, waf&#x548c;firewall manager&#x4e0d;&#x6536;&#x8d39;"/>
+</node>
+</node>
+<node CREATED="1590996182090" FOLDED="true" ID="ID_1386928692" MODIFIED="1591582386553" TEXT="aws kineses firehose and aws redshift">
+<node CREATED="1591000358533" ID="ID_1725820572" MODIFIED="1591000361196" TEXT="https://www.bilibili.com/video/BV1WJ411K7GY?p=2"/>
+<node CREATED="1590996239051" FOLDED="true" ID="ID_882775813" MODIFIED="1590997223016" TEXT="big data">
+<node CREATED="1590996251558" ID="ID_1155389664" MODIFIED="1590996257929" TEXT="collection">
+<node CREATED="1590996258859" ID="ID_317466207" MODIFIED="1590996277250" TEXT="near real-time">
+<node CREATED="1590996278165" ID="ID_1318521081" MODIFIED="1590996300592" TEXT="Amazon kinesis firehose"/>
+</node>
+<node CREATED="1590996309485" ID="ID_1840446686" MODIFIED="1590996313327" TEXT="data import">
+<node CREATED="1590996317221" ID="ID_570760960" MODIFIED="1590996346660" TEXT="amazon import/outport snowball"/>
+</node>
+<node CREATED="1590996353207" ID="ID_1765093631" MODIFIED="1590996358622" TEXT="message queue">
+<node CREATED="1590996359759" ID="ID_1246470844" MODIFIED="1590996365172" TEXT="aws sqs"/>
+</node>
+<node CREATED="1590996373342" ID="ID_1111379021" MODIFIED="1590996391013" TEXT="web/app servers">
+<node CREATED="1590996379105" ID="ID_997232672" MODIFIED="1590996382524" TEXT="aws ec2"/>
+</node>
+</node>
+<node CREATED="1590996447715" ID="ID_1942624845" MODIFIED="1590996455151" TEXT="storage">
+<node CREATED="1590996496979" ID="ID_884868907" MODIFIED="1590996529921" TEXT="near real-time">
+<node CREATED="1590996508251" ID="ID_788059662" MODIFIED="1590996523267" TEXT="amazon kinesis stream">
+<node CREATED="1590996758986" ID="ID_1436819882" MODIFIED="1590996774759" TEXT="24 hours ~ 7 days"/>
+</node>
+</node>
+<node CREATED="1590996463993" ID="ID_938006374" MODIFIED="1590996471510" TEXT="object storage">
+<node CREATED="1590996472392" ID="ID_1314553026" MODIFIED="1590996479389" TEXT="s3"/>
+<node CREATED="1590996481505" ID="ID_1589882444" MODIFIED="1590996493687" TEXT="s3 glacier"/>
+</node>
+<node CREATED="1590996534475" ID="ID_1938902984" MODIFIED="1590996537265" TEXT="rdbms">
+<node CREATED="1590996538195" ID="ID_1991514352" MODIFIED="1590996543797" TEXT="amazon ads"/>
+</node>
+<node CREATED="1590996546780" ID="ID_270868770" MODIFIED="1590996550749" TEXT="nosql">
+<node CREATED="1590996550750" ID="ID_1754067062" MODIFIED="1590996557257" TEXT="dymanodb"/>
+</node>
+<node CREATED="1590996560619" ID="ID_1297512541" MODIFIED="1590996570721" TEXT="search">
+<node CREATED="1590996572859" ID="ID_705443558" MODIFIED="1590996582001" TEXT="amazon cloudsearch"/>
+</node>
+<node CREATED="1590996585463" ID="ID_101361382" MODIFIED="1590996594819" TEXT="IoT">
+<node CREATED="1590996596013" ID="ID_947262042" MODIFIED="1590996600282" TEXT="amazon IoT"/>
+</node>
+</node>
+<node CREATED="1590996779339" ID="ID_977516126" MODIFIED="1590996786327" TEXT="analysis">
+<node CREATED="1590996787283" ID="ID_1000907043" MODIFIED="1590996799617" TEXT="near real-time">
+<node CREATED="1590996800793" ID="ID_1096316822" MODIFIED="1590996806739" TEXT="aws lambda"/>
+<node CREATED="1590996808218" ID="ID_1091270851" MODIFIED="1590996927538" TEXT="kinesis analytics"/>
+</node>
+<node CREATED="1590996975614" ID="ID_694265194" MODIFIED="1590997011582" TEXT="hodoop ecosystem">
+<node CREATED="1590997001143" ID="ID_715433853" MODIFIED="1590997007533" TEXT="amazon emr"/>
+</node>
+<node CREATED="1590996822954" ID="ID_1129963708" MODIFIED="1590996835480" TEXT="data warehousing">
+<node CREATED="1590996836676" ID="ID_1344429994" MODIFIED="1590996842928" TEXT="amazon redshift"/>
+</node>
+<node CREATED="1590996847955" ID="ID_687953790" MODIFIED="1590996886697" TEXT="machine learning">
+<node CREATED="1590996888708" ID="ID_1038914515" MODIFIED="1590996897779" TEXT="amazon machine learning"/>
+</node>
+<node CREATED="1590996902941" ID="ID_289490463" MODIFIED="1590996920186" TEXT="elastic search analytics">
+<node CREATED="1590996944205" ID="ID_336976723" MODIFIED="1590996960517" TEXT="amazon elasticsearch service"/>
+</node>
+<node CREATED="1590997013391" ID="ID_1569053015" MODIFIED="1590997022284" TEXT="process and move data">
+<node CREATED="1590997023583" ID="ID_1134284102" MODIFIED="1590997031848" TEXT="aws data pipeline"/>
+</node>
+<node CREATED="1590997037424" ID="ID_843648752" MODIFIED="1590997052919" TEXT="Ad Hoc analytics">
+<node CREATED="1590997054096" ID="ID_455200468" MODIFIED="1590997064213" TEXT="amazon athena"/>
+</node>
+</node>
+<node CREATED="1590997134651" ID="ID_420625565" MODIFIED="1590997139831" TEXT="presention">
+<node CREATED="1590997145755" ID="ID_1660656129" MODIFIED="1590997155729" TEXT="BI and data visualization">
+<node CREATED="1590997156867" ID="ID_1292067861" MODIFIED="1590997166225" TEXT="amazon quicksight"/>
+</node>
+</node>
+</node>
+<node CREATED="1590997354882" ID="ID_596904856" MODIFIED="1590997364430" TEXT="data process type">
+<node CREATED="1590997366114" ID="ID_1898247049" MODIFIED="1590997369439" TEXT="batch"/>
+<node CREATED="1590997370904" ID="ID_543076433" MODIFIED="1590997374350" TEXT="stream"/>
+</node>
+<node CREATED="1590997460431" ID="ID_1284463082" MODIFIED="1590997474538" TEXT="amazon kinesis">
+<node CREATED="1590997558960" ID="ID_508157559" MODIFIED="1590997561972" TEXT="streams">
+<node CREATED="1590997574327" ID="ID_855147860" MODIFIED="1590997631002" TEXT="&#x6784;&#x5efa;&#x81ea;&#x5df1;&#x81ea;&#x5b9a;&#x4e49;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#xff0c;&#x63a5;&#x53d7;stream&#x6570;&#x636e;"/>
+<node CREATED="1590998783784" ID="ID_1404803601" MODIFIED="1590998798885" TEXT="beat practice">
+<node CREATED="1590998800087" ID="ID_487929709" MODIFIED="1590998830301" TEXT="send clickstream data to kinesis streams"/>
+<node CREATED="1590998832376" ID="ID_606836589" MODIFIED="1590998869831" TEXT="kinesis streams stores and exposes clickstream data for processing"/>
+<node CREATED="1590998871569" ID="ID_1165131833" MODIFIED="1590999050899" TEXT="custom application (Spark, Storm, or aws lambda) built on KCL (kinesis client library) makes real-time content recommendations "/>
+<node CREATED="1590998944379" ID="ID_1421869355" MODIFIED="1590998974724" TEXT="readers see personalized content suggestions"/>
+</node>
+<node CREATED="1590999071998" ID="ID_234667129" MODIFIED="1590999084477" TEXT="framework">
+<node CREATED="1590999085743" ID="ID_1368394867" MODIFIED="1590999271702" TEXT="data source (producer) -&gt; aws endpoint -&gt; kinesis shard1 - n -&gt; kinesis firehose (consumer) -&gt; s3, rds, redshift, dynamodb"/>
+</node>
+</node>
+<node CREATED="1590997633506" ID="ID_1379573751" MODIFIED="1590997657171" TEXT="firehose">
+<node CREATED="1590997657172" ID="ID_1642636310" MODIFIED="1590997697329" TEXT="&#x6258;&#x7ba1;&#x5e94;&#x7528;&#xff0c;&#x5c06;&#x6570;&#x636e;&#x96c6;&#x52a0;&#x8f7d;&#x5230;s3&#xff0c;redshift"/>
+<node CREATED="1590999274662" ID="ID_499454857" MODIFIED="1590999285154" TEXT="concept">
+<node CREATED="1590999313197" ID="ID_312075367" MODIFIED="1590999331676" TEXT="delivery stream">
+<node CREATED="1590999387311" ID="ID_360309394" MODIFIED="1590999492366" TEXT="create delivery stream to send data, and use the kinesis firehose"/>
+</node>
+<node CREATED="1590999333400" ID="ID_388903083" MODIFIED="1590999446605" TEXT="record">
+<node CREATED="1590999364641" ID="ID_1849125084" MODIFIED="1590999375972" TEXT="data of producer send delivery steam"/>
+</node>
+<node CREATED="1590999507132" ID="ID_779108646" MODIFIED="1590999519223" TEXT="buffer size and buffer interval"/>
+</node>
+<node CREATED="1590999650502" ID="ID_1069074088" MODIFIED="1590999690776" TEXT="data stream from data source to redshift">
+<node CREATED="1590999691809" ID="ID_654931503" MODIFIED="1590999781106" TEXT="data source -&gt; data records -&gt; firehose delivery stream -&gt; transformed records -&gt; intermediate s3 bucket -&gt; transformed records -&gt; redshift cluster"/>
+</node>
+<node CREATED="1591000043627" ID="ID_1029619746" MODIFIED="1591000065708" TEXT="import data source type">
+<node CREATED="1591000065709" ID="ID_1430477285" MODIFIED="1591000076274" TEXT="aws sdk">
+<node CREATED="1591000077371" ID="ID_233254920" MODIFIED="1591000083943" TEXT="PutRecord()"/>
+<node CREATED="1591000085186" ID="ID_140495098" MODIFIED="1591000093128" TEXT="PutRecordBatch()"/>
+</node>
+<node CREATED="1591000095045" ID="ID_1460624711" MODIFIED="1591000229354" TEXT="kinesis agent (java)">
+<node CREATED="1591000110930" ID="ID_1786494434" MODIFIED="1591000155513" TEXT="monitor file, and send new data to firehose delivery stream"/>
+<node CREATED="1591000256424" ID="ID_1537206073" MODIFIED="1591000264771" TEXT="preoperation"/>
+<node CREATED="1591000266663" ID="ID_1839758659" MODIFIED="1591000278385" TEXT="send cloudwatch metics"/>
+</node>
+</node>
+<node CREATED="1591000297457" ID="ID_1065813279" MODIFIED="1591000306019" TEXT="data transformation">
+<node CREATED="1591000306020" ID="ID_1171880273" MODIFIED="1591000312989" TEXT="aws lambda"/>
+</node>
+</node>
+<node CREATED="1590997698506" ID="ID_1173116408" MODIFIED="1590997702960" TEXT="analytics">
+<node CREATED="1590997714822" ID="ID_1417609330" MODIFIED="1590997728393" TEXT="standard sql&#xff0c;ad hoc"/>
+<node CREATED="1590997751227" ID="ID_1732133453" MODIFIED="1590997761785" TEXT="&#x4ea4;&#x4e92;&#x67e5;&#x8be2;"/>
+</node>
+</node>
+<node CREATED="1591000329272" ID="ID_660399920" MODIFIED="1591000336262" TEXT="amazon redshift">
+<node CREATED="1591002839675" ID="ID_40035556" MODIFIED="1591002849592" TEXT="framework">
+<node CREATED="1591002850643" ID="ID_992337317" MODIFIED="1591002855944" TEXT="leader node">
+<node CREATED="1591002911180" ID="ID_1740936426" MODIFIED="1591002917059" TEXT="sql &#x63a5;&#x5165;"/>
+<node CREATED="1591002918380" ID="ID_1132476662" MODIFIED="1591002946533" TEXT="&#x5b58;&#x50a8;&#x6570;&#x636e;&#x5e93;&#x5143;&#x6570;&#x636e;"/>
+</node>
+<node CREATED="1591002858770" ID="ID_1975321908" MODIFIED="1591002866626" TEXT="compute nodes">
+<node CREATED="1591002952182" ID="ID_12682344" MODIFIED="1591002969172" TEXT="&#x672c;&#x5730;&#x5316;&#x5217;&#x5f0f;&#x5b58;&#x50a8;"/>
+<node CREATED="1591002970966" ID="ID_43093150" MODIFIED="1591002975861" TEXT="&#x67e5;&#x8be2;"/>
+</node>
+<node CREATED="1591002867859" ID="ID_210970103" MODIFIED="1591002884451" TEXT="node slices">
+<node CREATED="1591002986529" ID="ID_351887009" MODIFIED="1591003000133" TEXT="&#x8ba1;&#x7b97;&#x8282;&#x70b9;&#x7684;&#x5206;&#x533a;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1591582390899" ID="ID_1196948185" MODIFIED="1591582402265" TEXT="aws cloudformation">
+<node CREATED="1591582402267" ID="ID_167745525" MODIFIED="1591582404529" TEXT="https://www.bilibili.com/video/BV1x4411V7NX?from=search&amp;seid=16925637109222692672"/>
+<node CREATED="1591582810815" ID="ID_1508591592" MODIFIED="1591582827802" TEXT="outcomes">
+<node CREATED="1591582829045" ID="ID_992280287" MODIFIED="1591582850003" TEXT="understand aws cloudformation and stack"/>
+<node CREATED="1591582851470" ID="ID_337906629" MODIFIED="1591582877804" TEXT="learn how to automate tasks using cloudformation"/>
+<node CREATED="1591582882455" ID="ID_1977060761" MODIFIED="1591582948169" TEXT="learn the anatomy of a cloudformation template"/>
+<node CREATED="1591582990770" ID="ID_1923238322" MODIFIED="1591583012473" TEXT="learn how to work with cloudformation designer"/>
 </node>
 </node>
 </node>
@@ -3978,40 +4137,106 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
 <node CREATED="1589965764118" ID="ID_1240054792" MODIFIED="1589966044585" TEXT="https://www.aws.training/LearningLibrary"/>
 </node>
 </node>
-<node CREATED="1589962888950" ID="ID_1319906450" MODIFIED="1589963483858" POSITION="right" TEXT="AWS Certified">
-<node CREATED="1589966070479" ID="ID_906485726" MODIFIED="1589966103291" TEXT="preparation">
-<node CREATED="1589962917243" ID="ID_1526034435" MODIFIED="1589967801690" TEXT="https://aws.amazon.com/certification/?nc2=sb_ce_co"/>
-<node CREATED="1589965313324" ID="ID_76703620" MODIFIED="1589967916125" TEXT="https://aws.amazon.com/certification/certification-prep/?nc2=sb_ce_ep"/>
-</node>
-<node CREATED="1589963106369" ID="ID_1523041607" MODIFIED="1589963230617" TEXT="solution architect">
-<node CREATED="1589963114612" ID="ID_1346457239" MODIFIED="1589963250025" TEXT="professional (sap-c01)">
-<node CREATED="1589963252268" ID="ID_1639668365" MODIFIED="1589963271530" TEXT="https://amazonaws-china.com/certification/certified-solutions-architect-professional/"/>
-</node>
-</node>
-<node CREATED="1589963461172" ID="ID_963741180" MODIFIED="1589963500020" TEXT="developer">
-<node CREATED="1589963501513" ID="ID_1646186408" MODIFIED="1589963535887" TEXT="associate (dva-c01)">
-<node CREATED="1589965228469" ID="ID_455051456" MODIFIED="1589967850376" TEXT="https://amazonaws-china.com/certification/certified-developer-associate/"/>
-<node CREATED="1589967857552" ID="ID_1703211791" MODIFIED="1589967859933" TEXT="https://aws.amazon.com/training/path-developing/?nc2=sb_lp_dev"/>
-<node CREATED="1589965888859" ID="ID_296888434" MODIFIED="1589965905176" TEXT="free official training">
-<node CREATED="1589965906210" ID="ID_982653671" MODIFIED="1589965907045" TEXT="https://www.aws.training/Details/Curriculum?id=19185"/>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1590571953988" ID="ID_1379297875" MODIFIED="1590572095556" POSITION="right" TEXT="aws management">
+<node CREATED="1590571953988" ID="ID_1379297875" MODIFIED="1592193764883" POSITION="right" TEXT="aws management">
 <node CREATED="1590571975503" ID="ID_1961660795" MODIFIED="1590572106669" TEXT="system manager console"/>
-<node CREATED="1590572108164" ID="ID_1444683709" MODIFIED="1590572120126" TEXT="aws commend line tools">
+<node CREATED="1590572108164" FOLDED="true" ID="ID_1444683709" MODIFIED="1591683987632" TEXT="aws commend line tools">
 <node CREATED="1590572416606" ID="ID_1203982289" MODIFIED="1590572428600" TEXT="aws command line interface">
 <node CREATED="1590572429582" ID="ID_1151369522" MODIFIED="1590572435678" TEXT="https://aws.amazon.com/cli/"/>
 <node CREATED="1590748458995" ID="ID_1227697535" MODIFIED="1590748464550" TEXT="windows">
 <node CREATED="1590748464550" ID="ID_391819807" MODIFIED="1590748465706" TEXT="$ aws ec2 describe-instances | findstr &quot;Instance&quot; "/>
+</node>
+<node CREATED="1591238842336" ID="ID_167825060" MODIFIED="1591238846223" TEXT="command">
+<node CREATED="1591238869664" ID="ID_316375080" MODIFIED="1591238873276">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ aws sts get-caller-identity
+    </p>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;UserId&quot;: &quot;AIDA5UQ4CJDG75GIU66QT&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;Account&quot;: &quot;937435482317&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;Arn&quot;: &quot;arn:aws:iam::937435482317:user/demouser&quot;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591238884161" ID="ID_1262542751" MODIFIED="1591238887587">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ aws configure get region
+    </p>
+    <p>
+      us-east-2
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1591671587096" ID="ID_1772941963" MODIFIED="1591671974540" TEXT="linux">
+<node CREATED="1591671975515" ID="ID_56738692" MODIFIED="1591672015451">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      curl &quot;https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip&quot; -o &quot;awscliv2.zip&quot;
+    </p>
+    <p>
+      unzip awscliv2.zip
+    </p>
+    <p>
+      sudo ./aws/install
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591674554910" ID="ID_1345811645" MODIFIED="1591675033299" TEXT="aws configure or ">
+<node CREATED="1591675033314" ID="ID_1559571247" MODIFIED="1591675038018">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mkdir&#160;&#160;~/.aws
+    </p>
+    <p>
+      vi ~/.aws/credentials
+    </p>
+    <p>
+      vi ~/.aws/config
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1591675091744" ID="ID_1649751742" MODIFIED="1591675095379" TEXT="https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html"/>
+</node>
+<node CREATED="1591675042643" ID="ID_1584424686" MODIFIED="1591675062611" TEXT="aws configure get region --profile default"/>
 </node>
 </node>
 <node CREATED="1590572456636" ID="ID_1464718569" MODIFIED="1590572466063" TEXT="aws tools for powershell">
 <node CREATED="1590572467271" ID="ID_1258593062" MODIFIED="1590572474045" TEXT="https://aws.amazon.com/powershell/"/>
 </node>
 </node>
-<node CREATED="1590572121495" ID="ID_80731891" MODIFIED="1590740673546" TEXT="aws sdks">
+<node CREATED="1590572121495" FOLDED="true" ID="ID_80731891" MODIFIED="1592193768853" TEXT="aws sdks">
 <node CREATED="1590740678335" ID="ID_1613042156" MODIFIED="1590740962732" TEXT="ide">
 <node CREATED="1590740694249" ID="ID_1316697122" MODIFIED="1590740698080" TEXT="vs code">
 <node CREATED="1590747947369" ID="ID_1301236512" MODIFIED="1590747949456" TEXT="install">
@@ -4027,6 +4252,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
 </node>
 <node CREATED="1590747653714" ID="ID_1068829471" MODIFIED="1590747692929" TEXT="extensions -&gt; aws toolkit"/>
 <node CREATED="1590747941982" ID="ID_1649140390" MODIFIED="1590747943466" TEXT="https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/setup-toolkit.html"/>
+<node CREATED="1591154145218" ID="ID_1816410536" MODIFIED="1591154145289" TEXT="https://aws.amazon.com/visualstudiocode/"/>
 </node>
 </node>
 <node CREATED="1590740699505" ID="ID_591061167" MODIFIED="1590740718122" TEXT="aws cloud9 2017">
@@ -4056,8 +4282,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1590749413950" ID="ID_674312444" MODIFIED="1590749438668" TEXT="set full iam role for cloud9"/>
 </node>
@@ -4066,41 +4291,472 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
 <node CREATED="1590572129731" ID="ID_61238133" MODIFIED="1590738178490" TEXT="python">
 <node CREATED="1590572221844" ID="ID_809860037" MODIFIED="1590572223757" TEXT="https://aws.amazon.com/sdk-for-python/"/>
 <node CREATED="1590738190751" ID="ID_1503495362" MODIFIED="1590738192409" TEXT="https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html"/>
-<node CREATED="1590740634128" FOLDED="true" ID="ID_779537299" MODIFIED="1590740668456" TEXT="add code at vs code">
-<node CREATED="1590740654542" ID="ID_1514986304" MODIFIED="1590740659341">
+<node CREATED="1590740634128" ID="ID_779537299" MODIFIED="1590995609291" TEXT="add code at vs code">
+<node CREATED="1591238966092" ID="ID_1497636382" MODIFIED="1591238969896">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
-    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
-      <div>
-        <font color="#c586c0">import</font><font color="#d4d4d4">&#160;boto3</font>
-      </div>
-      <br />
-      
-
-      <div>
-        <font color="#d4d4d4">s3&#160;=&#160;boto3.resource(</font><font color="#ce9178">&quot;s3&quot;</font><font color="#d4d4d4">)</font>
-      </div>
-      <br />
-      
-
-      <div>
-        <font color="#d4d4d4">data&#160;=&#160;</font><font color="#dcdcaa">open</font><font color="#d4d4d4">(</font><font color="#ce9178">&quot;./we.jpg&quot;</font><font color="#d4d4d4">,</font><font color="#ce9178">&quot;rb&quot;</font><font color="#d4d4d4">)</font>
-      </div>
-      <div>
-        <font color="#c586c0">for</font><font color="#d4d4d4">&#160;bucket&#160;</font><font color="#569cd6">in</font><font color="#d4d4d4">&#160;s3.buckets.all():</font>
-      </div>
-      <div>
-        <font color="#d4d4d4">&#160;&#160;&#160;&#160;</font><font color="#dcdcaa">print</font><font color="#d4d4d4">(</font><font color="#ce9178">&quot;bucket&#160;name:&#160;</font><font color="#569cd6">%s</font><font color="#ce9178">&quot;</font><font color="#d4d4d4">&#160;%&#160;(bucket.name))</font>
-      </div>
-    </div>
+    <p>
+      import&#160;boto3
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      s3&#160;=&#160;boto3.resource(&quot;s3&quot;)
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      data&#160;=&#160;open(&quot;./we.jpg&quot;,&quot;rb&quot;)
+    </p>
+    <p>
+      for&#160;bucket&#160;in&#160;s3.buckets.all():
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;print(&quot;bucket&#160;name:&#160;%s&quot;&#160;%&#160;(bucket.name))
+    </p>
   </body>
 </html></richcontent>
 </node>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1591066203345" FOLDED="true" ID="ID_975126975" MODIFIED="1592193770710" TEXT="aws cdk">
+<node CREATED="1591236604235" ID="ID_1272527365" MODIFIED="1591236608705" TEXT="reference">
+<node CREATED="1591078029482" ID="ID_176258871" MODIFIED="1591078044931" TEXT="introduction">
+<node CREATED="1591066270619" FOLDED="true" ID="ID_1829150867" MODIFIED="1591154147081" TEXT="https://aws.amazon.com/cdk/?nc2=h_ql_prod_dt_cdk">
+<node CREATED="1591066972296" ID="ID_1501464272" MODIFIED="1591067027347" TEXT="Define cloud infrastructure using familiar programming"/>
+</node>
+<node CREATED="1591078197470" ID="ID_1596017821" MODIFIED="1591154105379" TEXT="TypeScript was the first language supported for developing AWS CDK applications"/>
+</node>
+<node CREATED="1591078017931" ID="ID_1423150172" MODIFIED="1591078027064" TEXT="document">
+<node CREATED="1591069674390" ID="ID_1538811509" MODIFIED="1591069676635" TEXT="https://docs.aws.amazon.com/cdk/index.html"/>
+</node>
+<node CREATED="1591077990903" ID="ID_184894914" MODIFIED="1591078009826" TEXT="example">
+<node CREATED="1591078010771" ID="ID_1864012416" MODIFIED="1591078011870" TEXT="https://docs.aws.amazon.com/cdk/latest/guide/about_examples.html"/>
+</node>
+<node CREATED="1591154147151" ID="ID_604565634" MODIFIED="1591154147399" TEXT="open source">
+<node CREATED="1591154147469" ID="ID_681795812" MODIFIED="1591154147611" TEXT="https://github.com/aws/aws-cdk"/>
+</node>
+</node>
+<node CREATED="1591238383270" ID="ID_1770398305" MODIFIED="1591238390167" TEXT="typescript">
+<node CREATED="1591238390168" ID="ID_49432647" MODIFIED="1591238392050" TEXT="https://github.com/aws/aws-cdk/tree/master/packages/%40aws-cdk"/>
+<node CREATED="1591238455704" ID="ID_147077607" MODIFIED="1591238462508" TEXT="aws-ec2">
+<node CREATED="1591238479832" ID="ID_265209201" MODIFIED="1591238481628" TEXT="https://github.com/aws/aws-cdk/tree/master/packages/%40aws-cdk/aws-ec2"/>
+</node>
+<node CREATED="1591239110792" ID="ID_1251673452" MODIFIED="1591239120385" TEXT="others">
+<node CREATED="1591239120387" ID="ID_290214966" MODIFIED="1591239123005" TEXT="lib">
+<node CREATED="1591239123440" ID="ID_1109238010" MODIFIED="1591239159920" TEXT="Xxx, Vpc level 2"/>
+<node CREATED="1591239161657" ID="ID_98332521" MODIFIED="1591239198727" TEXT="Cfnxxx, CfnVPC level 1"/>
+</node>
+</node>
+</node>
+<node CREATED="1591238909369" ID="ID_269831592" MODIFIED="1591238912010" TEXT="command">
+<node CREATED="1591238912938" ID="ID_1070646182" MODIFIED="1591238922436" TEXT="cdk synth CdkEc2ExistStack&#xa;&#xa;[+] Output instanceId instanceId: {&quot;Value&quot;:{&quot;Fn::Join&quot;:[&quot;&quot;,[&quot;CdkEc2ExistStack/i-047b47d4ab63e4622 &quot;,{&quot;Ref&quot;:&quot;i047b47d4ab63e46221F0D016E&quot;}]]}}"/>
+</node>
+</node>
+</node>
+<node CREATED="1592193775534" ID="ID_390342602" MODIFIED="1592193802504" POSITION="right" TEXT="practice">
+<node CREATED="1592193866161" ID="ID_649079330" MODIFIED="1592193871458" TEXT="waf">
+<node CREATED="1592193871458" ID="ID_1284146544" MODIFIED="1592193878782" TEXT="account">
+<node CREATED="1592193879753" ID="ID_1049923657" MODIFIED="1592193881974" TEXT="https://cloudmgmt.ebaotech.com/adfs/ls/idpinitiatedsignon.htm"/>
+<node CREATED="1592193894961" ID="ID_812697130" MODIFIED="1592193930422" TEXT="ebaotech\david.wei"/>
+<node CREATED="1592193908395" ID="ID_1596058911" MODIFIED="1592193918767" TEXT="demain password"/>
+<node CREATED="1592193951379" ID="ID_1521514032" MODIFIED="1592193964545">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      <font size="10.5pt" face="Roboto" color="#444444">AKIA4PJQO7FPG53BZEMV<o p="#DEFAULT"></o></font>
+    </p>
+    <p class="MsoNormal">
+      <font size="10.5pt" face="Roboto" color="#444444">2vScx2iX+VdgTkRiuQGo9ybIxomN8C1XC38GRoTi<o p="#DEFAULT"></o></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1592194359438" ID="ID_1382343993" MODIFIED="1592194361121" TEXT="AWS WAF web access control list (web ACL)"/>
+</node>
+</node>
+<node CREATED="1589962888950" FOLDED="true" ID="ID_1319906450" MODIFIED="1592193798109" POSITION="left" TEXT="AWS Certified">
+<node CREATED="1589966070479" ID="ID_906485726" MODIFIED="1589966103291" TEXT="preparation">
+<node CREATED="1589962917243" ID="ID_1526034435" MODIFIED="1589967801690" TEXT="https://aws.amazon.com/certification/?nc2=sb_ce_co"/>
+<node CREATED="1589965313324" ID="ID_76703620" MODIFIED="1589967916125" TEXT="https://aws.amazon.com/certification/certification-prep/?nc2=sb_ce_ep"/>
+</node>
+<node CREATED="1589963106369" ID="ID_1523041607" MODIFIED="1589963230617" TEXT="solution architect">
+<node CREATED="1589963114612" ID="ID_1346457239" MODIFIED="1589963250025" TEXT="professional (sap-c01)">
+<node CREATED="1589963252268" ID="ID_1639668365" MODIFIED="1589963271530" TEXT="https://amazonaws-china.com/certification/certified-solutions-architect-professional/"/>
+</node>
+</node>
+<node CREATED="1589963461172" ID="ID_963741180" MODIFIED="1589963500020" TEXT="developer">
+<node CREATED="1589963501513" ID="ID_1646186408" MODIFIED="1589963535887" TEXT="associate (dva-c01)">
+<node CREATED="1589965228469" ID="ID_455051456" MODIFIED="1589967850376" TEXT="https://amazonaws-china.com/certification/certified-developer-associate/"/>
+<node CREATED="1589967857552" ID="ID_1703211791" MODIFIED="1589967859933" TEXT="https://aws.amazon.com/training/path-developing/?nc2=sb_lp_dev"/>
+<node CREATED="1589965888859" ID="ID_296888434" MODIFIED="1589965905176" TEXT="free official training">
+<node CREATED="1589965906210" ID="ID_982653671" MODIFIED="1589965907045" TEXT="https://www.aws.training/Details/Curriculum?id=19185"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1564540295711" FOLDED="true" ID="ID_888946428" MODIFIED="1592193806133" POSITION="left" TEXT="Solutions">
+<node CREATED="1564540373905" ID="ID_1556785972" MODIFIED="1564632094519" TEXT="By Use Case">
+<node CREATED="1564731683273" ID="ID_924719683" MODIFIED="1564733572184" TEXT="Containers">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fully managed services for every workload
+    </p>
+    <p>
+      AWS deploy containers cluster
+    </p>
+    <ol>
+      <li>
+        AWS ECS
+      </li>
+      <li>
+        AWS Fargate
+      </li>
+      <li>
+        AWS EKS
+      </li>
+      <li>
+        use Kops
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564732359306" ID="ID_883890137" MODIFIED="1564732368856" TEXT="ECS"/>
+<node CREATED="1564732370366" ID="ID_556202143" MODIFIED="1564732373556" TEXT="Fargate"/>
+<node CREATED="1564732375936" ID="ID_1495574950" MODIFIED="1564732628264" TEXT="Kops">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      setup Kops -&gt; demain (Route 53 or local zone) -&gt; synchronize status (create S3 bucket, store kubernetes cluster status information) -&gt; configure parameters (export ...)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564732383876" ID="ID_276498824" MODIFIED="1564732386606" TEXT="EKS"/>
+</node>
+<node CREATED="1564540381697" ID="ID_1757294746" MODIFIED="1564632003124" TEXT="Serverless Computing">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://aws.amazon.com/serverless/?nc2=h_m2">https://aws.amazon.com/serverless/?nc2=h_m2</a>
+    </p>
+    <p>
+      Build and run application without thinking about servers
+    </p>
+    <p>
+      flexible, high availability, CI/CD
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564542503036" ID="ID_605932627" MODIFIED="1564542508488" TEXT="Compute">
+<node CREATED="1564542508503" ID="ID_913294283" MODIFIED="1564542517037" TEXT="AWS Lambda"/>
+<node CREATED="1564542853342" ID="ID_1346179417" MODIFIED="1564542865994" TEXT="Lambda@Edge"/>
+<node CREATED="1564543002685" ID="ID_617578050" MODIFIED="1564543010812" TEXT="AWS Fargate"/>
+</node>
+<node CREATED="1564543052035" ID="ID_1919519397" MODIFIED="1564543079919" TEXT="Storage">
+<node CREATED="1564543080894" ID="ID_725522471" MODIFIED="1564543102188" TEXT="Amazon Simple Storage Service (S3)"/>
+<node CREATED="1564543203491" ID="ID_1371073295" MODIFIED="1564543217905" TEXT="Amazon Elastic File System (EFS)"/>
+</node>
+<node CREATED="1564543226259" ID="ID_768190049" MODIFIED="1564543231578" TEXT="Data Stores">
+<node CREATED="1564543232787" ID="ID_1192661907" MODIFIED="1564543260508" TEXT="Amazon DynamoDB"/>
+<node CREATED="1564543361733" ID="ID_546911537" MODIFIED="1564543374350" TEXT="Amazon Aurora Serverless"/>
+</node>
+<node CREATED="1564543639352" ID="ID_1941878573" MODIFIED="1564543651020" TEXT="API Proxy">
+<node CREATED="1564543658469" ID="ID_356330179" MODIFIED="1564543711236" TEXT="Amazon API Gateway"/>
+</node>
+<node CREATED="1564543848860" ID="ID_87705880" MODIFIED="1564543862027" TEXT="Application Integration">
+<node CREATED="1564543863314" ID="ID_613359108" MODIFIED="1564543924808" TEXT="Amazon SNS"/>
+<node CREATED="1564555067764" ID="ID_210192654" MODIFIED="1564555075673" TEXT="Amazon SQS"/>
+<node CREATED="1564555077257" ID="ID_1769697734" MODIFIED="1564555083528" TEXT="AWS AppSync"/>
+<node CREATED="1564555213349" ID="ID_1359625265" MODIFIED="1564555224939" TEXT="Amazon EventBridge"/>
+</node>
+<node CREATED="1564555244665" ID="ID_1591187761" MODIFIED="1564555251404" TEXT="Orchestration">
+<node CREATED="1564555252535" ID="ID_508715718" MODIFIED="1564555263939" TEXT="AWS Step Functions"/>
+</node>
+<node CREATED="1564555350211" ID="ID_484149212" MODIFIED="1564555355761" TEXT="Analytics">
+<node CREATED="1564555357851" ID="ID_1653144144" MODIFIED="1564555369111" TEXT="Amazon Kinesis"/>
+<node CREATED="1564555388011" ID="ID_268906227" MODIFIED="1564555398581" TEXT="Amazon Athena"/>
+</node>
+<node CREATED="1564555445885" ID="ID_8924554" MODIFIED="1564555459983" TEXT="Developer tooling"/>
+</node>
+<node CREATED="1564725535286" ID="ID_1604849942" MODIFIED="1569314449730" TEXT="DevOpe">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://aws.amazon.com/devops/?nc2=h_m2">https://aws.amazon.com/devops/?nc2=h_m2 </a>
+    </p>
+    <p>
+      <a href="https://www.imooc.com/video/18217">https://www.imooc.com/video/18217</a>
+    </p>
+    <p>
+      Rapidly and reliably build and deliver products using DevOps practices
+    </p>
+    <p>
+      ----------------------
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; Infrastructure Provisioning -&gt; Container Cluster
+    </p>
+    <p>
+      Developers -&gt;Version Control Repository -&gt; Test &amp; Deployment Manager&#160;&#160;&#160;&#160; &#160;&#160;|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;^
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;| &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/|\
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt;Image Build Service -&gt; Image Repository
+    </p>
+    <p>
+      ------------------
+    </p>
+    <p>
+      use AWS Service to CI/CD pipeline
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS CloudFormation -&gt; Amazon ECS
+    </p>
+    <p>
+      Developers -&gt; AWS CodeCommit -&gt; AWS Pipeline
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS CodeBuild (image) -&gt; Amazon ECR
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS Lambda -&gt; Kubernetes
+    </p>
+    <p>
+      Developers -&gt; AWS CodeCommit -&gt; AWS Pipeline
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; AWS CodeBuild (image) -&gt; Amazon ECR
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ------------------
+    </p>
+    <p>
+      use Jenkins to CI/CD pipeline
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; Infrastructure Provisioning -&gt; Container Cluster (Amazon ECS or Kubernetes)
+    </p>
+    <p>
+      Developers -&gt; Github -&gt; Jenkins server
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|-&gt; Image Build Service -&gt; Jenkins Slaves
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564725967281" ID="ID_1123956298" MODIFIED="1564726017241" TEXT="Continuous Integration and Continuous Delivery">
+<node CREATED="1564726032831" ID="ID_1799781827" MODIFIED="1564726310238" TEXT="Software Release Workflows - AWS CodePipeline">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CodePipeline builds, tests, and deploys your code every time there is a code change, based on the release process models you define.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564726312888" ID="ID_1832010470" MODIFIED="1564726466171" TEXT="Build and Test Code - AWS CodeBuild">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS CodeBuild is&#160;&#160;a fully managed build service that compiled source code, runs tests, and produces software packages that are ready to deploy.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564726479821" ID="ID_101993645" MODIFIED="1564726625480" TEXT="Deployment Automation- AWS CodeDeploy">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS CodeDeploy automates code deployments to any instance, including Amazon EC2 instances and on-premises servers.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564728162076" ID="ID_1483986338" MODIFIED="1564728187146" TEXT="Unified CI/CD Projects - AWS CodeStar"/>
+</node>
+<node CREATED="1564728234796" ID="ID_572996170" MODIFIED="1564728357994" TEXT="Microservices">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Build and deploy a microservices architecture using containers and serverless computing
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564728344615" ID="ID_1737792476" MODIFIED="1564728403294" TEXT="Production Docker Platform - Amazon Elastic Container Service"/>
+<node CREATED="1564728476773" ID="ID_1175119942" MODIFIED="1564728497583" TEXT="Serverless Computing - AWS Lambda"/>
+</node>
+<node CREATED="1564728538193" ID="ID_132955525" MODIFIED="1564730135866" TEXT="Infrastructure as Code">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Provision, configure, and manage your AWS infrastructure resources using code and template. Monitor and enforce infrastructure compliance.
+    </p>
+    <p>
+      Provision infrastructure from AWS CloudFormation templates, invoke AWS Systems Manager to track your software inventory or to configure your instances, and auto-remediate any configuration drifts with AWS Config.
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564728725551" ID="ID_313839376" MODIFIED="1564728776850" TEXT="Templated Infrastructure Provisioning - AWS CloudFormation"/>
+<node CREATED="1564728846198" ID="ID_1269440371" MODIFIED="1564728868412" TEXT="Chef Configuration Management - AWS OpsWorks"/>
+<node CREATED="1564729239483" ID="ID_1180845963" MODIFIED="1564729261861" TEXT="Configuration Management - AWS Systems Manager"/>
+<node CREATED="1564729345855" ID="ID_1816169654" MODIFIED="1564729360245" TEXT="Policy as Code - AWS Config"/>
+</node>
+<node CREATED="1564730140257" ID="ID_1655736322" MODIFIED="1564730455950" TEXT="Monitoring and Logging">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Record logs and monitor application and infrastructure performance in near real-time
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564730457315" ID="ID_944408910" MODIFIED="1564730485434" TEXT="Cloud and Network Monitoring - AWS CouldWatch"/>
+<node CREATED="1564730519886" ID="ID_572133957" MODIFIED="1564730539058" TEXT="Distributed Tracing - AWS X-Ray"/>
+<node CREATED="1564730595974" ID="ID_1467696262" MODIFIED="1564730735906" TEXT="Activity @ API Usage Tracking - AWS CloudTrail">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS CloudTrail is a web service that records AWS API Calls for your account and delivers log files to you.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564730764916" ID="ID_970719831" MODIFIED="1564730855925" TEXT="Platform as a Service">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Deploy web applications without needing to provision and manage the infrastructure and application stack.
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564730952634" ID="ID_397190095" MODIFIED="1564730984363" TEXT="Run and Manage Web Apps - AWS Elastic Beanstalk"/>
+</node>
+<node CREATED="1564731179006" ID="ID_224104426" MODIFIED="1564731223256" TEXT="Version Control">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Host secure, highly scalable Git repositories in the cloud
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1564731226136" ID="ID_204397386" MODIFIED="1564731343274" TEXT="Private Git Hosting - AWS CodeCommit">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1569314437944" ID="ID_1576854417" MODIFIED="1569314511138" TEXT="Internet of Things">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Easily scale to billions of devices and trillions of messages
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1564632094519" ID="ID_1482328457" MODIFIED="1569314448435" TEXT="Website">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Reliable, high scalable, and low cost website and web application hosting
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1564628987331" ID="ID_1932327890" MODIFIED="1564629010482" TEXT="By Industry">
+<node CREATED="1564629018601" ID="ID_1569069674" MODIFIED="1564629746488" TEXT="Automotive">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://aws.amazon.com/automotive/?nc2=h_m2">https://aws.amazon.com/automotive/?nc2=h_m2</a>
+    </p>
+    <p>
+      Build intelligent connected experiences and accelerate time to market for every touchpoint of the consumer journey
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>

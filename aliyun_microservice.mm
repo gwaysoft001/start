@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1578635358550" ID="ID_946098943" MODIFIED="1580715309307" TEXT="microservice">
+<node CREATED="1578635358550" ID="ID_946098943" MODIFIED="1591752673284" TEXT="microservice">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -13,7 +13,8 @@
       free course: http://www.gulixueyuan.com/course/explore
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1580187045504" ID="ID_964551493" MODIFIED="1580187052506" POSITION="left" TEXT="Spring.io">
 <node CREATED="1580187111264" FOLDED="true" ID="ID_793482807" MODIFIED="1587626931718" TEXT="Spring Boot&#x5feb;&#x901f;&#x638c;&#x63e1;">
 <node CREATED="1578635496681" ID="ID_234243941" MODIFIED="1580808494023" TEXT="&#x6838;&#x5fc3;&#x6280;&#x672f;">

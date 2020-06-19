@@ -1300,6 +1300,9 @@
 <node CREATED="1590657997711" ID="ID_1232190998" MODIFIED="1590657999618" TEXT="sudo grep &quot;failed&quot; secure | wc -l "/>
 </node>
 </node>
+<node CREATED="1591671799134" ID="ID_285159126" MODIFIED="1591671805814" TEXT="zip unzip">
+<node CREATED="1591671805815" ID="ID_436658444" MODIFIED="1591671807751" TEXT="yum install -y unzip zip"/>
+</node>
 </node>
 <node CREATED="1552291370894" ID="ID_1976790810" MODIFIED="1562555407426" TEXT="shell">
 <richcontent TYPE="NOTE"><html>
@@ -1661,6 +1664,27 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1591756975076" ID="ID_315684970" MODIFIED="1591757005939" TEXT="share folder">
+<node CREATED="1591757006978" ID="ID_1322255335" MODIFIED="1591757051326" TEXT="setting -&gt; options -&gt; share folders"/>
+<node CREATED="1591757076923" ID="ID_99407705" MODIFIED="1591757084281" TEXT="instance">
+<node CREATED="1591757085158" ID="ID_821488774" MODIFIED="1591757148307">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      # mkdir /mnt/share
+    </p>
+    <p>
+      # /usr/bin/vmhgfs-fuse .host:/ /mnt/share -o subtype=vmhgfs-fuse,allow_other
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>

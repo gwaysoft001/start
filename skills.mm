@@ -2,10 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1583935560794" TEXT="skills">
 <node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1587627183889" POSITION="right" TEXT="Operating System">
-<node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1588039872892" TEXT="linux.mm"/>
-<node CREATED="1589165962427" ID="ID_542373984" MODIFIED="1589165965436" TEXT="window"/>
-</node>
-<node CREATED="1551771009292" ID="ID_664772960" MODIFIED="1590371408562" POSITION="left" TEXT="linux.mm">
+<node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1591236730707" TEXT="linux.mm">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -15,170 +12,16 @@
       website: https://www.vmware.com/products/workstation-pro.html
     </p>
   </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1551775055923" ID="ID_1618162390" MODIFIED="1551775061544" POSITION="left" TEXT="tools">
-<node CREATED="1551775063659" ID="ID_1384244475" MODIFIED="1583927938474" TEXT="freemind">
-<node CREATED="1583927842675" ID="ID_136939698" MODIFIED="1583927941735" TEXT="prerequisite">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      website: freemind.sourceforge.net/wiki/index.php/Main_Page
-    </p>
-    <p>
-      download: freemind.sourceforge.net/wiki/index.php/Download
-    </p>
-    <p>
-      current version: FreeMind-Windows-Installer-1.0.1-max.exe
-    </p>
-    <p>
-      system requirement: Java Runtime Environment 1.6 or later.
-    </p>
-  </body>
 </html></richcontent>
 </node>
-<node CREATED="1583927600610" ID="ID_1434703448" MODIFIED="1583927760643" TEXT="setup">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      regedit
-    </p>
-    <p>
-      HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8
-    </p>
-    <p>
-      javahome=E:\project\java\jdk-8u201
-    </p>
-  </body>
-</html></richcontent>
+<node CREATED="1589165962427" ID="ID_542373984" MODIFIED="1591236711725" TEXT="windows">
+<node CREATED="1591236696294" ID="ID_808952444" MODIFIED="1591236700371" TEXT="cmd">
+<node CREATED="1591236701374" ID="ID_1225545458" MODIFIED="1591236703011" TEXT="cls"/>
+<node CREATED="1591236704181" ID="ID_860491598" MODIFIED="1591236707027" TEXT="findstr"/>
 </node>
 </node>
-<node CREATED="1552883796637" ID="ID_411135537" MODIFIED="1562555407496" TEXT="Visual Studio code">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://code.visualstudio.com/
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1552883803322" ID="ID_353621243" MODIFIED="1585195073675" TEXT="Shortcut">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Ctrl + Shift + X -- Extensions
-    </p>
-    <p>
-      Ctrl + Shift + E -- Explorer window
-    </p>
-    <p>
-      F11 -- All Screen
-    </p>
-    <p>
-      Ctrl + P --Quick Open
-    </p>
-    <p>
-      Ctrl + B -- Toggle Sidebar
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Editing hacks
-    </p>
-    <p>
-      Shift + Alt + Cursor -- Select Column
-    </p>
-    <p>
-      Alt + Up/Down -- Move Current line up/down
-    </p>
-    <p>
-      Shift + Alt + Up/Down -- Copy line up/down
-    </p>
-    <p>
-      Shift&#160;&#160;+ Left/Right/Up/Down -- Select
-    </p>
-    <p>
-      Ctrl + Up/Down -- Move up/down
-    </p>
-    <p>
-      Ctrl + H -- Replace $\n (find \n)
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Start Bar
-    </p>
-    <p>
-      Ctrl + Shift + M -- PROBLEMS
-    </p>
-    <p>
-      Ctrl + ` -- TERMINAL
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1583981807374" ID="ID_1013040154" MODIFIED="1583981875200" TEXT="Show All Commands: Ctrl + Shift + P">
-<node CREATED="1583981881597" ID="ID_761932736" MODIFIED="1583982043386" TEXT="Color Theme: High Contrast"/>
 </node>
-<node CREATED="1583982071522" ID="ID_1974436939" MODIFIED="1583982075462" TEXT="File">
-<node CREATED="1583982076689" ID="ID_687817725" MODIFIED="1583982089646" TEXT="Close Window: Ctrl + w"/>
-</node>
-<node CREATED="1583982194084" ID="ID_946154541" MODIFIED="1583982197154" TEXT="Selection"/>
-</node>
-<node CREATED="1552883942833" ID="ID_1403373899" MODIFIED="1562555407522" TEXT="Fix">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Q
-    </p>
-    <p>
-      Chinese mess code
-    </p>
-    <p>
-      A
-    </p>
-    <p>
-      Click [UTF-8] at bottom right
-    </p>
-    <p>
-      Select [Reopen with encoding], select relevant encoding
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1584434434345" ID="ID_1452032690" MODIFIED="1584434532832" TEXT="Extensions">
-<node CREATED="1584434441065" ID="ID_277771903" MODIFIED="1584434451766" TEXT="Live Server"/>
-</node>
-</node>
-<node CREATED="1553246255453" ID="ID_1015784503" MODIFIED="1562555407531" TEXT="postman">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      download: https://www.getpostman.com/downloads/
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
+<node CREATED="1551775055923" ID="ID_1618162390" MODIFIED="1591236911040" POSITION="left" TEXT="tools.mm"/>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
 <node CREATED="1551779826500" FOLDED="true" ID="ID_770893256" MODIFIED="1587627178784" TEXT="git">
 <richcontent TYPE="NOTE"><html>
@@ -7205,7 +7048,7 @@ configure { bind(My).to(MyImpl); }</pre>
 <node CREATED="1564975440114" ID="ID_1832704200" MODIFIED="1564975447399" TEXT="GraphQL"/>
 </node>
 </node>
-<node CREATED="1563960155384" FOLDED="true" ID="ID_757443178" MODIFIED="1584507567387" TEXT="other">
+<node CREATED="1563960155384" ID="ID_757443178" MODIFIED="1591240389407" TEXT="other">
 <node CREATED="1563959128594" ID="ID_1128198440" MODIFIED="1564370123619" TEXT="DevOps">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -7653,7 +7496,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1563955926720" FOLDED="true" ID="ID_1513707389" MODIFIED="1574153789884" POSITION="right" TEXT="company">
+<node CREATED="1563955926720" ID="ID_1513707389" MODIFIED="1591690210712" POSITION="right" TEXT="company">
 <node CREATED="1563955938928" ID="ID_1971597608" MODIFIED="1565318608489" TEXT="Tableau">
 <richcontent TYPE="NOTE"><html>
   <head>
