@@ -361,6 +361,28 @@
 </node>
 <node CREATED="1588042136319" ID="ID_149225600" MODIFIED="1588042139363" TEXT="reboot"/>
 <node CREATED="1590464941320" ID="ID_1282292729" MODIFIED="1590464989544" TEXT="connected users: $ w"/>
+<node CREATED="1593397687904" ID="ID_1746396047" MODIFIED="1593397756052" TEXT="view system information">
+<node CREATED="1593397823587" ID="ID_588223172" MODIFIED="1593397826100" TEXT="https://www.cnblogs.com/yanans/p/11196347.html"/>
+<node CREATED="1593397760168" ID="ID_397131155" MODIFIED="1593397771417">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      lsb_release -a
+    </p>
+    <p>
+      cat /etc/redhat-release
+    </p>
+    <p>
+      cat /etc/issue
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1552275206507" ID="ID_575303073" MODIFIED="1588055946287" TEXT="tools">
 <node CREATED="1552275209844" ID="ID_744986189" MODIFIED="1562555407068" TEXT="vi &amp; vim">
@@ -1220,7 +1242,7 @@
 <node CREATED="1588824664943" ID="ID_1525528917" MODIFIED="1588824667791" TEXT="yum -y install wget"/>
 <node CREATED="1588824690150" ID="ID_1376236172" MODIFIED="1588824691260" TEXT="wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo"/>
 </node>
-<node CREATED="1589011507861" FOLDED="true" ID="ID_835406990" MODIFIED="1589165001005" TEXT="tshark">
+<node CREATED="1589011507861" ID="ID_835406990" MODIFIED="1593397500840" TEXT="tshark">
 <node CREATED="1589011561286" ID="ID_1226532183" MODIFIED="1589011565939">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1398,7 +1420,7 @@
 <node CREATED="1588212938400" ID="ID_1101149218" MODIFIED="1588212949003" TEXT="public key login">
 <node CREATED="1588213594318" ID="ID_1954382613" MODIFIED="1588213610711" TEXT="https://blog.csdn.net/b108074013/article/details/48252809"/>
 <node CREATED="1588213269559" ID="ID_1800034460" MODIFIED="1588213302056" TEXT="local">
-<node CREATED="1588212950558" FOLDED="true" ID="ID_1190998984" MODIFIED="1588213133425" TEXT="vi /etc/ssh/sshd-config">
+<node CREATED="1588212950558" ID="ID_1190998984" MODIFIED="1593397444832" TEXT="vi /etc/ssh/sshd-config">
 <node CREATED="1588213124270" MODIFIED="1588213124270" TEXT="# CentOS7.4&#x5f03;&#x7528;RSAAuthentication&#x652f;&#x6301;, &#x4f7f;&#x7528;PubkeyAuthentication yes"/>
 <node CREATED="1588213124273" MODIFIED="1588213124273" TEXT="# RSAAuthentication &#x627e;&#x4e0d;&#x5230;"/>
 <node CREATED="1588213124276" MODIFIED="1588213124276" TEXT="RSAAuthentication yes"/>
@@ -1682,8 +1704,7 @@
       # /usr/bin/vmhgfs-fuse .host:/ /mnt/share -o subtype=vmhgfs-fuse,allow_other
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

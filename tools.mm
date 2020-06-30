@@ -18,6 +18,10 @@
 <node CREATED="1591164269941" ID="ID_448296309" MODIFIED="1591164275853" TEXT="ctrl + ,">
 <node CREATED="1591164275854" ID="ID_1943782385" MODIFIED="1591164280778" TEXT="settings"/>
 </node>
+<node CREATED="1592890882957" ID="ID_100896649" MODIFIED="1592890926329" TEXT="code prompt">
+<node CREATED="1592890927502" ID="ID_1411775166" MODIFIED="1592891153956" TEXT="settings -&gt; search &quot;prevent&quot; -&gt; don&apos;t mark [Controls whether an active ...]"/>
+<node CREATED="1592891154901" ID="ID_1080013276" MODIFIED="1592891155617" TEXT="https://blog.csdn.net/qq_37162688/article/details/90517963"/>
+</node>
 </node>
 </node>
 <node CREATED="1552883796637" ID="ID_411135537" MODIFIED="1591236830507" TEXT="Visual Studio code">

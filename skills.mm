@@ -23,7 +23,7 @@
 </node>
 <node CREATED="1551775055923" ID="ID_1618162390" MODIFIED="1591236911040" POSITION="left" TEXT="tools.mm"/>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
-<node CREATED="1551779826500" FOLDED="true" ID="ID_770893256" MODIFIED="1587627178784" TEXT="git">
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1592532282556" TEXT="git">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -136,7 +136,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1579234314029" ID="ID_321079830" MODIFIED="1583377652708" TEXT="git remote | git push">
+<node CREATED="1579234314029" ID="ID_321079830" MODIFIED="1592537394273" TEXT="git remote | git push">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -224,7 +224,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1584001135991" ID="ID_54180637" MODIFIED="1584001194311" TEXT="$ git config --system -e">
+<node CREATED="1584001135991" ID="ID_54180637" MODIFIED="1592795647798" TEXT="$ git config --system -e">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -237,7 +237,8 @@
       %GIT-HOME%/etc/gitconfig
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -346,7 +347,7 @@
 </node>
 <node CREATED="1587625001543" ID="ID_1805245833" MODIFIED="1587627161983" TEXT="python.mm"/>
 </node>
-<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1584511355858" POSITION="right" TEXT="java">
+<node CREATED="1553236621445" FOLDED="true" ID="ID_755254586" MODIFIED="1592532054897" POSITION="right" TEXT="java">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4614,7 +4615,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1559014427843" ID="ID_56563147" MODIFIED="1584507564426" POSITION="right" TEXT="tech">
+<node CREATED="1559014427843" FOLDED="true" ID="ID_56563147" MODIFIED="1592532049222" POSITION="right" TEXT="tech">
 <node CREATED="1559014436369" FOLDED="true" ID="ID_150121026" MODIFIED="1564557778115" TEXT="OAuth 2.0">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -7496,7 +7497,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1563955926720" ID="ID_1513707389" MODIFIED="1591690210712" POSITION="right" TEXT="company">
+<node CREATED="1563955926720" FOLDED="true" ID="ID_1513707389" MODIFIED="1592532051669" POSITION="right" TEXT="company">
 <node CREATED="1563955938928" ID="ID_1971597608" MODIFIED="1565318608489" TEXT="Tableau">
 <richcontent TYPE="NOTE"><html>
   <head>
