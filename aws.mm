@@ -1773,7 +1773,7 @@
 <node CREATED="1588750615699" ID="ID_1543095758" MODIFIED="1588750830086" TEXT="Your services may take up to 24 hours to fully activate"/>
 </node>
 <node CREATED="1588737374696" ID="ID_1634354263" MODIFIED="1588737377629" TEXT="old">
-<node CREATED="1588737391075" ID="ID_161392968" MODIFIED="1588737402368" TEXT="gwaysoft@icloud.com">
+<node CREATED="1588737391075" ID="ID_161392968" MODIFIED="1596093144451" TEXT="gwaysoft@icloud.com">
 <node CREATED="1590031276627" ID="ID_1925162183" MODIFIED="1590031279011" TEXT="224837422659"/>
 </node>
 <node CREATED="1588735442980" ID="ID_1228860560" MODIFIED="1588735455577" TEXT="1*****Say"/>
@@ -1903,6 +1903,9 @@
 <node CREATED="1591240896151" ID="ID_862585309" MODIFIED="1591240899761" TEXT="msi"/>
 </node>
 <node CREATED="1588833978605" ID="ID_1181703759" MODIFIED="1588833983466" TEXT="aws --version"/>
+</node>
+<node CREATED="1595829087225" ID="ID_1459875601" MODIFIED="1595829093144" TEXT="linux">
+<node CREATED="1595829093145" ID="ID_1419958720" MODIFIED="1595829096197" TEXT="https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html#cliv2-linux-install"/>
 </node>
 </node>
 <node CREATED="1588835682110" ID="ID_580145522" MODIFIED="1588835689376" TEXT="configure">
@@ -3765,8 +3768,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       curl http://127.0.0.1:5000
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1591684005952" ID="ID_453530591" MODIFIED="1591684084198">
 <richcontent TYPE="NODE"><html>
@@ -4380,8 +4382,7 @@ dKh1KPbSnvYFMi0coJ3CY3M9XtnHH9jF/xtJqO4qbWZ1A71PpL7C1TjaUdSq640Hf/kyLEsoHhs=
       <font size="10.5pt" face="Roboto" color="#444444">2vScx2iX+VdgTkRiuQGo9ybIxomN8C1XC38GRoTi<o p="#DEFAULT"></o></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1592194359438" ID="ID_1382343993" MODIFIED="1592194361121" TEXT="AWS WAF web access control list (web ACL)"/>

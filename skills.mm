@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1583935560794" TEXT="skills">
+<node CREATED="1551770828392" ID="ID_691206819" MODIFIED="1596515454077" TEXT="skills">
 <node CREATED="1551770960822" ID="ID_1189609215" MODIFIED="1587627183889" POSITION="right" TEXT="Operating System">
 <node CREATED="1551771390235" ID="ID_1954920768" MODIFIED="1591236730707" TEXT="linux.mm">
 <richcontent TYPE="NOTE"><html>
@@ -224,7 +224,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1584001135991" ID="ID_54180637" MODIFIED="1595038774159" TEXT="$ git config --system -e">
+<node CREATED="1584001135991" ID="ID_54180637" MODIFIED="1598263546490" TEXT="$ git config --system -e">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -347,7 +347,7 @@
 </node>
 <node CREATED="1587625001543" ID="ID_1805245833" MODIFIED="1587627161983" TEXT="python.mm"/>
 </node>
-<node CREATED="1553236621445" FOLDED="true" ID="ID_755254586" MODIFIED="1592532054897" POSITION="right" TEXT="java">
+<node CREATED="1553236621445" ID="ID_755254586" MODIFIED="1595584684602" POSITION="right" TEXT="java">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -358,7 +358,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1553236624064" FOLDED="true" ID="ID_1449402957" MODIFIED="1587622036323" TEXT="Spring">
+<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1595584684710" TEXT="Spring">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -520,7 +520,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1559286118666" ID="ID_869208342" MODIFIED="1582618952703" TEXT="spring-boot-devtools">
+<node CREATED="1559286118666" FOLDED="true" ID="ID_869208342" MODIFIED="1595584684711" TEXT="spring-boot-devtools">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -946,7 +946,7 @@ pom.xml
 </node>
 </node>
 </node>
-<node CREATED="1554951127203" FOLDED="true" ID="ID_386250949" MODIFIED="1574232507961" TEXT="Spring Framework">
+<node CREATED="1554951127203" ID="ID_386250949" MODIFIED="1595584684793" TEXT="Spring Framework">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -971,7 +971,7 @@ pom.xml
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1555055809245" ID="ID_1105476186" MODIFIED="1557734521112" TEXT="Transaction">
+<node CREATED="1555055809245" FOLDED="true" ID="ID_1105476186" MODIFIED="1595584684795" TEXT="Transaction">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1106,7 +1106,7 @@ pom.xml
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1555925002936" ID="ID_1698331923" MODIFIED="1555926026934" TEXT="TransactionDefinition">
+<node CREATED="1555925002936" FOLDED="true" ID="ID_1698331923" MODIFIED="1595584684793" TEXT="TransactionDefinition">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1343,8 +1343,8 @@ pom.xml
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1556092400598" ID="ID_387381645" MODIFIED="1556092584644" TEXT="Transaction Management">
-<node CREATED="1556092590919" ID="ID_583678447" MODIFIED="1556095021374" TEXT="Declarative Transaction Management">
+<node CREATED="1556092400598" FOLDED="true" ID="ID_387381645" MODIFIED="1595584684795" TEXT="Transaction Management">
+<node CREATED="1556092590919" FOLDED="true" ID="ID_583678447" MODIFIED="1595584684794" TEXT="Declarative Transaction Management">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1453,7 +1453,7 @@ pom.xml
 </node>
 </node>
 <node CREATED="1557734490619" ID="ID_864965124" MODIFIED="1559196684806" TEXT="Core">
-<node CREATED="1557127197690" ID="ID_1096254824" MODIFIED="1557734504618" TEXT="IoC Container">
+<node CREATED="1557127197690" FOLDED="true" ID="ID_1096254824" MODIFIED="1595584684798" TEXT="IoC Container">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1485,11 +1485,11 @@ pom.xml
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1557736979799" ID="ID_216351843" MODIFIED="1557736985916" TEXT="my IoC">
+<node CREATED="1557736979799" FOLDED="true" ID="ID_216351843" MODIFIED="1595584684796" TEXT="my IoC">
 <node CREATED="1557736999832" ID="ID_1736016738" MODIFIED="1557737004547" TEXT="interface"/>
 <node CREATED="1557737005855" ID="ID_669931106" MODIFIED="1557737032274" TEXT="container"/>
 </node>
-<node CREATED="1557390214707" ID="ID_444387931" MODIFIED="1557390218248" TEXT="features">
+<node CREATED="1557390214707" FOLDED="true" ID="ID_444387931" MODIFIED="1595584684796" TEXT="features">
 <node CREATED="1557201919589" ID="ID_504441380" MODIFIED="1557202135638" TEXT="What is the IoC">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1655,8 +1655,8 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1557390232501" ID="ID_960356065" MODIFIED="1557800269152" TEXT="usage">
-<node CREATED="1557390246665" ID="ID_1377936210" MODIFIED="1557800281015" TEXT="XML configuration">
+<node CREATED="1557390232501" FOLDED="true" ID="ID_960356065" MODIFIED="1595584684797" TEXT="usage">
+<node CREATED="1557390246665" FOLDED="true" ID="ID_1377936210" MODIFIED="1595584684796" TEXT="XML configuration">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1842,7 +1842,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1557390249465" ID="ID_664457119" MODIFIED="1557904424678" TEXT="annotation">
+<node CREATED="1557390249465" FOLDED="true" ID="ID_664457119" MODIFIED="1595584684797" TEXT="annotation">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1976,7 +1976,7 @@ pom.xml
 </node>
 </node>
 </node>
-<node CREATED="1556433804352" ID="ID_200647266" MODIFIED="1557733882810" TEXT="Spring AOP">
+<node CREATED="1556433804352" FOLDED="true" ID="ID_200647266" MODIFIED="1595584684801" TEXT="Spring AOP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1990,7 +1990,7 @@ pom.xml
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1556439675093" ID="ID_291262858" MODIFIED="1557999868500" TEXT="AspectJ">
+<node CREATED="1556439675093" FOLDED="true" ID="ID_291262858" MODIFIED="1595584684799" TEXT="AspectJ">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2055,7 +2055,7 @@ pom.xml
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1557980879158" ID="ID_1426930018" MODIFIED="1557980883497" TEXT="annotation">
+<node CREATED="1557980879158" FOLDED="true" ID="ID_1426930018" MODIFIED="1595584684799" TEXT="annotation">
 <node CREATED="1556442323652" ID="ID_313652875" MODIFIED="1556442338247" TEXT="@Aspect"/>
 <node CREATED="1556442341850" ID="ID_1030205092" MODIFIED="1557980886515" TEXT="@Pointcut">
 <richcontent TYPE="NOTE"><html>
@@ -2098,7 +2098,7 @@ pom.xml
 </node>
 </node>
 </node>
-<node CREATED="1556531048545" ID="ID_1005421313" MODIFIED="1556531129795" TEXT="principle">
+<node CREATED="1556531048545" FOLDED="true" ID="ID_1005421313" MODIFIED="1595584684800" TEXT="principle">
 <node CREATED="1556531131172" ID="ID_151416468" MODIFIED="1556531180716" TEXT="pattern">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2111,7 +2111,7 @@ pom.xml
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1556531188173" ID="ID_165254900" MODIFIED="1557909540881" TEXT="dynamic">
+<node CREATED="1556531188173" FOLDED="true" ID="ID_165254900" MODIFIED="1595584684800" TEXT="dynamic">
 <node CREATED="1556531193876" ID="ID_1338392050" MODIFIED="1556531340197" TEXT="jdk">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2240,7 +2240,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1556598944747" ID="ID_549846102" MODIFIED="1556598951567" TEXT="apply">
+<node CREATED="1556598944747" FOLDED="true" ID="ID_549846102" MODIFIED="1595584684801" TEXT="apply">
 <node CREATED="1556598952890" ID="ID_922120197" MODIFIED="1556613823884" TEXT="@Transactional">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2431,7 +2431,7 @@ pom.xml
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1558331889723" ID="ID_1053487161" MODIFIED="1558333037105" TEXT="Spring MVC">
+<node CREATED="1558331889723" FOLDED="true" ID="ID_1053487161" MODIFIED="1595584684802" TEXT="Spring MVC">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2625,7 +2625,7 @@ pom.xml
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1560485809597" ID="ID_993303078" MODIFIED="1560485886937" TEXT="messy code">
+<node CREATED="1560485809597" FOLDED="true" ID="ID_993303078" MODIFIED="1595584684801" TEXT="messy code">
 <node CREATED="1560485827430" ID="ID_709951931" MODIFIED="1560485853555" TEXT="response">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2820,7 +2820,7 @@ pom.xml
 </node>
 <node CREATED="1559553013894" ID="ID_482343757" MODIFIED="1559553355329" TEXT="mybatis"/>
 </node>
-<node CREATED="1555054148638" FOLDED="true" ID="ID_910700905" MODIFIED="1569404112433" TEXT="Spring Cloud">
+<node CREATED="1555054148638" ID="ID_910700905" MODIFIED="1595584684813" TEXT="Spring Cloud">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2910,7 +2910,7 @@ pom.xml
   </body>
 </html></richcontent>
 <node CREATED="1561107637430" ID="ID_1724981175" MODIFIED="1561350756625" TEXT="Spring Cloud Netflix">
-<node CREATED="1561107669324" ID="ID_1573750623" MODIFIED="1561350800199" TEXT="Service Discovery (Eureka)">
+<node CREATED="1561107669324" FOLDED="true" ID="ID_1573750623" MODIFIED="1595584684814" TEXT="Service Discovery (Eureka)">
 <node CREATED="1561107702236" ID="ID_1644134909" MODIFIED="1561108215198" TEXT="Eureka Server">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2997,7 +2997,7 @@ pom.xml
 <node CREATED="1557734883159" ID="ID_938651377" MODIFIED="1557734893813" TEXT="Spring Web Flow"/>
 <node CREATED="1557734900279" ID="ID_627403957" MODIFIED="1557734910901" TEXT="Spring Security"/>
 </node>
-<node CREATED="1553242419797" FOLDED="true" ID="ID_1934962445" MODIFIED="1561972805186" TEXT="project management">
+<node CREATED="1553242419797" ID="ID_1934962445" MODIFIED="1595584684823" TEXT="project management">
 <node CREATED="1553242432550" ID="ID_382062370" MODIFIED="1558511107206" TEXT="Maven">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3481,7 +3481,7 @@ pom.xml
 </node>
 </node>
 </node>
-<node CREATED="1553245155456" FOLDED="true" ID="ID_266897878" MODIFIED="1584511358241" TEXT="java SE">
+<node CREATED="1553245155456" ID="ID_266897878" MODIFIED="1595584684826" TEXT="java SE">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3535,7 +3535,7 @@ pom.xml
 </node>
 </node>
 </node>
-<node CREATED="1554364223097" FOLDED="true" ID="ID_932147726" MODIFIED="1584511361475" TEXT="repository">
+<node CREATED="1554364223097" ID="ID_932147726" MODIFIED="1595584684843" TEXT="repository">
 <node CREATED="1554364233230" ID="ID_1348659729" MODIFIED="1554364411765" TEXT="logback">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3873,7 +3873,7 @@ pom.xml
 <node CREATED="1560925855208" ID="ID_533509382" MODIFIED="1560925864873" TEXT="jbpm"/>
 </node>
 </node>
-<node CREATED="1554967927582" FOLDED="true" ID="ID_1040337483" MODIFIED="1584511366089" TEXT="IDE">
+<node CREATED="1554967927582" ID="ID_1040337483" MODIFIED="1595584684857" TEXT="IDE">
 <node CREATED="1554967937943" ID="ID_1913973629" MODIFIED="1582618624598" TEXT="IDEA">
 <node CREATED="1554967949036" ID="ID_1457863723" MODIFIED="1562555407662" TEXT="shortcut">
 <richcontent TYPE="NOTE"><html>
@@ -4117,7 +4117,7 @@ pom.xml
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1555483933059" ID="ID_1622066198" MODIFIED="1562555407721" TEXT="Edit">
+<node CREATED="1555483933059" ID="ID_1622066198" MODIFIED="1596515756407" TEXT="Edit">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4140,6 +4140,9 @@ pom.xml
     </p>
     <p>
       Ctrl + y -- delete line
+    </p>
+    <p>
+      Ctrl + d -- copy line
     </p>
     <p>
       Alt + Shift + up/down -- move line
@@ -4615,8 +4618,8 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1559014427843" FOLDED="true" ID="ID_56563147" MODIFIED="1592532049222" POSITION="right" TEXT="tech">
-<node CREATED="1559014436369" FOLDED="true" ID="ID_150121026" MODIFIED="1564557778115" TEXT="OAuth 2.0">
+<node CREATED="1559014427843" ID="ID_56563147" MODIFIED="1595582066608" POSITION="right" TEXT="tech">
+<node CREATED="1559014436369" ID="ID_150121026" MODIFIED="1595584684860" TEXT="OAuth 2.0">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4821,7 +4824,7 @@ pom.xml
 <node CREATED="1564976266375" ID="ID_1722480150" MODIFIED="1564976268643" TEXT="ngrok"/>
 </node>
 </node>
-<node CREATED="1561011669045" FOLDED="true" ID="ID_1840559842" MODIFIED="1587627214994" TEXT="Microservices">
+<node CREATED="1561011669045" ID="ID_1840559842" MODIFIED="1595584684870" TEXT="Microservices">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5129,7 +5132,7 @@ pom.xml
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1561347494088" FOLDED="true" ID="ID_532413174" MODIFIED="1564976247437" TEXT="Message Broker">
+<node CREATED="1561347494088" ID="ID_532413174" MODIFIED="1595584684877" TEXT="Message Broker">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5462,8 +5465,8 @@ pom.xml
 </node>
 <node CREATED="1561347540993" ID="ID_108234001" MODIFIED="1561365694139" TEXT="Kafka"/>
 </node>
-<node CREATED="1561969817758" FOLDED="true" ID="ID_627938863" MODIFIED="1564557783513" TEXT="dependency injection">
-<node CREATED="1561969833571" FOLDED="true" ID="ID_936147457" MODIFIED="1564557781375" TEXT="google guice">
+<node CREATED="1561969817758" ID="ID_627938863" MODIFIED="1595584684879" TEXT="dependency injection">
+<node CREATED="1561969833571" ID="ID_936147457" MODIFIED="1595584684896" TEXT="google guice">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5812,7 +5815,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </node>
 </node>
 <node CREATED="1562295784129" ID="ID_438054348" MODIFIED="1562297470553" TEXT="module">
-<node CREATED="1562297448606" ID="ID_1954577180" MODIFIED="1562297459465" TEXT="relationship">
+<node CREATED="1562297448606" FOLDED="true" ID="ID_1954577180" MODIFIED="1595584684897" TEXT="relationship">
 <node CREATED="1562296014012" ID="ID_256960292" MODIFIED="1562555408659" TEXT="parallel">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5989,7 +5992,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1561351414434" FOLDED="true" ID="ID_1933963380" MODIFIED="1565318596659" TEXT="Container Orchestration">
+<node CREATED="1561351414434" ID="ID_1933963380" MODIFIED="1595584684916" TEXT="Container Orchestration">
 <node CREATED="1562567573433" ID="ID_1086079662" MODIFIED="1562569125635" TEXT="application deployment history">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6136,7 +6139,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1562571196993" ID="ID_171818616" MODIFIED="1562575584174" TEXT="concepts">
+<node CREATED="1562571196993" FOLDED="true" ID="ID_171818616" MODIFIED="1595584684916" TEXT="concepts">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6236,7 +6239,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1562575464480" ID="ID_928431815" MODIFIED="1564972617968" TEXT="kubernetes architecture">
+<node CREATED="1562575464480" FOLDED="true" ID="ID_928431815" MODIFIED="1595584684917" TEXT="kubernetes architecture">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6262,7 +6265,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1562576260088" ID="ID_1311478561" MODIFIED="1562576419573" TEXT="master">
+<node CREATED="1562576260088" FOLDED="true" ID="ID_1311478561" MODIFIED="1595584684916" TEXT="master">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6331,7 +6334,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1562576751304" ID="ID_1034119988" MODIFIED="1564972172688" TEXT="node">
+<node CREATED="1562576751304" FOLDED="true" ID="ID_1034119988" MODIFIED="1595584684917" TEXT="node">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6467,7 +6470,7 @@ configure { bind(My).to(MyImpl); }</pre>
 <node CREATED="1561351590451" ID="ID_909102625" MODIFIED="1561351604191" TEXT="Apache Mesos"/>
 <node CREATED="1561351666322" ID="ID_1039970426" MODIFIED="1561351696607" TEXT="Amazon Elastic Container Service (ECS)"/>
 </node>
-<node CREATED="1565318802555" FOLDED="true" ID="ID_359112863" MODIFIED="1568014644852" TEXT="private cloud">
+<node CREATED="1565318802555" ID="ID_359112863" MODIFIED="1595584684937" TEXT="private cloud">
 <node CREATED="1565318855396" ID="ID_97260758" MODIFIED="1565331682222" TEXT="OpenStack">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6491,7 +6494,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1565331547104" ID="ID_1506363572" MODIFIED="1565580479689" STYLE="fork" TEXT="architecture">
+<node CREATED="1565331547104" FOLDED="true" ID="ID_1506363572" MODIFIED="1595584684938" STYLE="fork" TEXT="architecture">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6608,7 +6611,7 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1565582631395" ID="ID_1269611610" MODIFIED="1565582638375" TEXT="catalog">
+<node CREATED="1565582631395" FOLDED="true" ID="ID_1269611610" MODIFIED="1595584684938" TEXT="catalog">
 <node CREATED="1565582358181" ID="ID_1388876121" MODIFIED="1566464316394" TEXT="Full virtualization / Software-based virtualization">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6669,7 +6672,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1566462272203" ID="ID_1198287672" MODIFIED="1566467302808" TEXT="x86 cpu">
+<node CREATED="1566462272203" FOLDED="true" ID="ID_1198287672" MODIFIED="1595584684938" TEXT="x86 cpu">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6741,7 +6744,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </node>
 </node>
 </node>
-<node CREATED="1564389751365" FOLDED="true" ID="ID_1223734200" MODIFIED="1579919949602" TEXT="Big Data">
+<node CREATED="1564389751365" ID="ID_1223734200" MODIFIED="1595582121727" TEXT="Big Data">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6898,7 +6901,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </node>
 </node>
 <node CREATED="1565075846324" ID="ID_759479613" MODIFIED="1565075873364" TEXT="NoSQL">
-<node CREATED="1557050221982" ID="ID_1515019759" MODIFIED="1565075841224" TEXT="mongodb">
+<node CREATED="1557050221982" FOLDED="true" ID="ID_1515019759" MODIFIED="1595584684939" TEXT="mongodb">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -7042,6 +7045,14 @@ configure { bind(My).to(MyImpl); }</pre>
     </p>
   </body>
 </html></richcontent>
+</node>
+</node>
+<node CREATED="1595582125469" ID="ID_87589284" MODIFIED="1595582135504" TEXT="sqlite3">
+<node CREATED="1595582135506" ID="ID_191108424" MODIFIED="1595582137285" TEXT="https://www.runoob.com/sqlite/sqlite-create-database.html"/>
+<node CREATED="1595584137089" FOLDED="true" ID="ID_1270215295" MODIFIED="1595584684939" TEXT="install">
+<node CREATED="1595584140740" ID="ID_159467885" MODIFIED="1595584142047" TEXT="https://www.sqlite.org/download.html"/>
+<node CREATED="1595584143488" ID="ID_507427101" MODIFIED="1595584208401" TEXT="extract sqlite-tools-win32-*.zip and sqlite-dll-win32-*.zip into C:\sqlite3"/>
+<node CREATED="1595584211780" ID="ID_974189039" MODIFIED="1595584218071" TEXT="set PATH"/>
 </node>
 </node>
 </node>
@@ -7497,7 +7508,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1563955926720" FOLDED="true" ID="ID_1513707389" MODIFIED="1592532051669" POSITION="right" TEXT="company">
+<node CREATED="1563955926720" ID="ID_1513707389" MODIFIED="1595584684969" POSITION="right" TEXT="company">
 <node CREATED="1563955938928" ID="ID_1971597608" MODIFIED="1565318608489" TEXT="Tableau">
 <richcontent TYPE="NOTE"><html>
   <head>
