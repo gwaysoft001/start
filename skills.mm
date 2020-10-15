@@ -224,7 +224,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1584001135991" ID="ID_54180637" MODIFIED="1598263546490" TEXT="$ git config --system -e">
+<node CREATED="1584001135991" ID="ID_54180637" MODIFIED="1599217284299" TEXT="$ git config --system -e">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -272,7 +272,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1551774176363" ID="ID_1696620606" MODIFIED="1551777014450" TEXT="Java SE 8">
+<node CREATED="1551774176363" ID="ID_1696620606" MODIFIED="1599217349300" TEXT="Java SE 8">
 <node CREATED="1551774224683" ID="ID_590944319" MODIFIED="1574153945840" TEXT="install by exe">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -358,7 +358,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1595584684710" TEXT="Spring">
+<node CREATED="1553236624064" ID="ID_1449402957" MODIFIED="1599705878971" TEXT="Spring">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2820,7 +2820,7 @@ pom.xml
 </node>
 <node CREATED="1559553013894" ID="ID_482343757" MODIFIED="1559553355329" TEXT="mybatis"/>
 </node>
-<node CREATED="1555054148638" ID="ID_910700905" MODIFIED="1595584684813" TEXT="Spring Cloud">
+<node CREATED="1555054148638" ID="ID_910700905" MODIFIED="1599705879112" TEXT="Spring Cloud">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2908,7 +2908,8 @@ pom.xml
       |-document: swagger
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1561107637430" ID="ID_1724981175" MODIFIED="1561350756625" TEXT="Spring Cloud Netflix">
 <node CREATED="1561107669324" FOLDED="true" ID="ID_1573750623" MODIFIED="1595584684814" TEXT="Service Discovery (Eureka)">
 <node CREATED="1561107702236" ID="ID_1644134909" MODIFIED="1561108215198" TEXT="Eureka Server">
@@ -6901,7 +6902,7 @@ configure { bind(My).to(MyImpl); }</pre>
 </node>
 </node>
 <node CREATED="1565075846324" ID="ID_759479613" MODIFIED="1565075873364" TEXT="NoSQL">
-<node CREATED="1557050221982" FOLDED="true" ID="ID_1515019759" MODIFIED="1595584684939" TEXT="mongodb">
+<node CREATED="1557050221982" ID="ID_1515019759" MODIFIED="1600069581107" TEXT="mongodb">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -6953,7 +6954,8 @@ configure { bind(My).to(MyImpl); }</pre>
       mongod --dbpath &quot;D:\tmp\mongodb\db&quot;
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1569310397504" ID="ID_1819387154" MODIFIED="1569310455909" TEXT="MongDB Atlas">
 <richcontent TYPE="NOTE"><html>
   <head>
