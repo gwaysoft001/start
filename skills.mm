@@ -23,7 +23,7 @@
 </node>
 <node CREATED="1551775055923" ID="ID_1618162390" MODIFIED="1591236911040" POSITION="left" TEXT="tools.mm"/>
 <node CREATED="1551779584418" ID="ID_62586131" MODIFIED="1554963866918" POSITION="right" TEXT="collaboration">
-<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1592532282556" TEXT="git">
+<node CREATED="1551779826500" ID="ID_770893256" MODIFIED="1602735757459" TEXT="devops/git.mm">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -87,160 +87,8 @@
       A: git pull --rebase origin master
     </p>
   </body>
-</html></richcontent>
-<node CREATED="1579234270162" ID="ID_1055318134" MODIFIED="1579234279265" TEXT="git clean">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <div class="line number1 index0 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash comments" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 130, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 130, 0) !important">#&#160;&#21024;&#38500;&#160;untracked&#160;files</font></code>
-    </div>
-    <div class="line number2 index1 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-f</font></code>
-    </div>
-    <div class="line number3 index2 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      &#160;
-    </div>
-    <div class="line number4 index3 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash comments" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 130, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 130, 0) !important">#&#160;&#36830;&#160;untracked&#160;&#30340;&#30446;&#24405;&#20063;&#19968;&#36215;&#21024;&#25481;</font></code>
-    </div>
-    <div class="line number5 index4 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-fd</font></code>
-    </div>
-    <div class="line number6 index5 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      &#160;
-    </div>
-    <div class="line number7 index6 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash comments" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 130, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 130, 0) !important">#&#160;&#36830;&#160;gitignore&#160;&#30340;untrack&#160;&#25991;&#20214;/&#30446;&#24405;&#20063;&#19968;&#36215;&#21024;&#25481;&#160;&#65288;&#24910;&#29992;&#65292;&#19968;&#33324;&#36825;&#20010;&#26159;&#29992;&#26469;&#21024;&#25481;&#32534;&#35793;&#20986;&#26469;&#30340;&#160;.o&#20043;&#31867;&#30340;&#25991;&#20214;&#29992;&#30340;&#65289;</font></code>
-    </div>
-    <div class="line number8 index7 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-xfd</font></code>
-    </div>
-    <div class="line number9 index8 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      &#160;
-    </div>
-    <div class="line number10 index9 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash comments" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 130, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 130, 0) !important">#&#160;&#22312;&#29992;&#19978;&#36848;&#160;git&#160;clean&#160;&#21069;&#65292;&#22681;&#35010;&#24314;&#35758;&#21152;&#19978;&#160;-n&#160;&#21442;&#25968;&#26469;&#20808;&#30475;&#30475;&#20250;&#21024;&#25481;&#21738;&#20123;&#25991;&#20214;&#65292;&#38450;&#27490;&#37325;&#35201;&#25991;&#20214;&#34987;&#35823;&#21024;</font></code>
-    </div>
-    <div class="line number11 index10 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-nxfd</font></code>
-    </div>
-    <div class="line number12 index11 alt1" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-nf</font></code>
-    </div>
-    <div class="line number13 index12 alt2" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: none !important; background-position: initial !important; background-repeat: repeat; background-attachment: scroll; background-color: rgb(245, 245, 245); float: none !important; line-height: 1.1em !important; text-align: left; vertical-align: baseline !important; font-weight: 400; font-style: normal; font-size: 13px; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 0; color: rgb(51, 51, 51); letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      <code class="bash plain" style="font-family: Monaco, Menlo, Consolas, Courier New, monospace; background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; float: none !important; line-height: 1.1em !important; text-align: left !important; vertical-align: baseline !important; font-weight: normal; font-style: normal !important; font-size: 13px !important; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; color: rgb(0, 0, 0) !important"><font face="Monaco, Menlo, Consolas, Courier New, monospace" size="13px !important" color="rgb(0, 0, 0) !important">git&#160;clean&#160;-nfd</font></code>
-    </div>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1579234314029" ID="ID_321079830" MODIFIED="1592537394273" TEXT="git remote | git push">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      --------push an existing repository from the command line at local folder--------------
-    </p>
-    <p>
-      git remote add origin git@github.com:gwaysoft/ev3.git
-    </p>
-    <p>
-      git push -u origin master
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1584000375912" ID="ID_1555484916" MODIFIED="1584000383474" TEXT="$ git config">
-<node CREATED="1584000385066" ID="ID_1844338847" MODIFIED="1584000510238" TEXT="$ git config --system credential.helper store (~/.git-credentials(default) | --file ~/.my-credentials )">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # auto push
-    </p>
-    <p>
-      $ cat ~/.git-credentials
-    </p>
-    <p>
-      https://gwaysoft001:111111Say@github.com
-    </p>
-    <p>
-      
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1584000468678" ID="ID_1049121041" MODIFIED="1584000557532" TEXT="$ git config user.name &apos;xxxxx&apos;">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # configure username
-    </p>
-    <p>
-      $ git config user.name 'xxxxx'
-    </p>
-    <p>
-      # show username
-    </p>
-    <p>
-      $ git config user.name
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1584000560647" ID="ID_463835181" MODIFIED="1584000611696" TEXT="$ git config user.email &apos;xxxx&apos;">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # the same as $ git config user.name
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1584000613216" ID="ID_833703063" MODIFIED="1584000946466" TEXT="$ git config --config -e">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # file
-    </p>
-    <p>
-      cat ~/.gitconfig
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1584001135991" ID="ID_54180637" MODIFIED="1599217284299" TEXT="$ git config --system -e">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      # file
-    </p>
-    <p>
-      %GIT-HOME%/etc/gitconfig
-    </p>
-  </body>
 </html>
 </richcontent>
-</node>
-</node>
 </node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1583935572017" TEXT="github">
 <richcontent TYPE="NOTE"><html>
@@ -2908,8 +2756,7 @@ pom.xml
       |-document: swagger
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1561107637430" ID="ID_1724981175" MODIFIED="1561350756625" TEXT="Spring Cloud Netflix">
 <node CREATED="1561107669324" FOLDED="true" ID="ID_1573750623" MODIFIED="1595584684814" TEXT="Service Discovery (Eureka)">
 <node CREATED="1561107702236" ID="ID_1644134909" MODIFIED="1561108215198" TEXT="Eureka Server">
@@ -6954,8 +6801,7 @@ configure { bind(My).to(MyImpl); }</pre>
       mongod --dbpath &quot;D:\tmp\mongodb\db&quot;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1569310397504" ID="ID_1819387154" MODIFIED="1569310455909" TEXT="MongDB Atlas">
 <richcontent TYPE="NOTE"><html>
   <head>
