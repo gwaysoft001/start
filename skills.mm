@@ -87,8 +87,7 @@
       A: git pull --rebase origin master
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1551779836100" ID="ID_910725282" MODIFIED="1583935572017" TEXT="github">
 <richcontent TYPE="NOTE"><html>
@@ -7161,7 +7160,7 @@ configure { bind(My).to(MyImpl); }</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1566800135075" ID="ID_1347957668" MODIFIED="1566805070971" TEXT="Transaction">
+<node CREATED="1566800135075" ID="ID_1347957668" MODIFIED="1603680745245" TEXT="Transaction">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -7198,7 +7197,8 @@ configure { bind(My).to(MyImpl); }</pre>
       DRDS/TDDL
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1566800658864" ID="ID_1807854823" MODIFIED="1566800674364" TEXT="Lock and Concurrency"/>
 <node CREATED="1566800640734" ID="ID_730953013" MODIFIED="1566893834669" TEXT="ACID">
 <richcontent TYPE="NOTE">&lt;html&gt;

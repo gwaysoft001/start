@@ -33,7 +33,7 @@
 <node CREATED="1591085142308" ID="ID_1554957047" MODIFIED="1591085152827" TEXT="npm install"/>
 <node CREATED="1591085387123" ID="ID_1982676902" MODIFIED="1591085397882" TEXT="npm config list">
 <node CREATED="1591085399179" ID="ID_1577683306" MODIFIED="1591085407207" TEXT="npm config get registry"/>
-<node CREATED="1591085277575" ID="ID_730342615" MODIFIED="1591085407211" TEXT="npm config set registry https://registry.npm.taobao.org">
+<node CREATED="1591085277575" ID="ID_730342615" MODIFIED="1603680719907" TEXT="npm config set registry https://registry.npm.taobao.org">
 <richcontent TYPE="NOTE"><html>
   <head>
     

@@ -274,7 +274,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1588824445993" ID="ID_132541779" MODIFIED="1589271352327" TEXT="zabbix server and frontend">
+<node CREATED="1588824445993" ID="ID_132541779" MODIFIED="1606816639714" TEXT="zabbix server and frontend">
 <richcontent TYPE="NOTE"><html>
   <head>
     
